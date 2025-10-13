@@ -92,3 +92,20 @@ Este documento continua o registro de tarefas após a ocorrência de erros de AP
 3.  **Exemplo de Consulta:** Foi fornecida uma consulta de exemplo para visualizar a Constituição Federal e suas relações vizinhas: `MATCH path = (a:AtoNormativo {urn_lexml: 'br;federal;constituicao;1988-10-05'})-[*1..2]-() RETURN path`.
 
 **Conclusão da Tarefa:** A tarefa 4.8 está concluída. O projeto dispõe de uma ferramenta de visualização robusta e funcional, que atende plenamente às necessidades de exploração e auditoria do grafo de conhecimento. O Bloco 4 está finalizado.
+
+---
+
+### Data: 2025-10-13
+
+**Tarefa:** Implementar Catálogo de Fontes e Crawler de Emendas
+
+**Detalhes:**
+
+1.  **Decisão Arquitetural:** Atendendo a uma sugestão, foi decidido substituir o sistema de manifestos em arquivos `.json` por uma tabela `fonte_documento` no PostgreSQL, para servir como um catálogo de fontes centralizado e auditável.
+2.  **Schema do Catálogo:** O arquivo `schema_postgres.sql` foi atualizado com a `CREATE TABLE` para `fonte_documento`, incluindo colunas para URN, URL, status (`PENDENTE`, `COLETADO`, `PROCESSADO`, `FALHA`), hash e metadados. O schema foi aplicado com sucesso ao banco de dados.
+3.  **Desenvolvimento do Crawler:** Um novo módulo `crawler/` foi criado. O script `crawler/main.py` foi desenvolvido com duas funções principais:
+    *   `--populate`: Consome a API de dados abertos da legislação de Goiás para popular a tabela `fonte_documento` com todas as Emendas Constitucionais, marcando-as como `PENDENTE`.
+    *   `--process`: Busca por registros `PENDENTE`, baixa os PDFs correspondentes, calcula o hash SHA-256 e atualiza o status para `COLETADO`, salvando o caminho do arquivo local.
+4.  **Execução e Validação:** O crawler foi executado com sucesso. A fase `--populate` inseriu **86 fontes** no catálogo. A fase `--process` baixou com sucesso **39 PDFs** e atualizou seus status, ignorando os itens que não possuíam link para download.
+
+**Conclusão da Tarefa:** O sistema de ingestão foi significativamente aprimorado com a criação de um catálogo de fontes persistente e um crawler robusto. O projeto agora tem a capacidade de descobrir e coletar novas fontes de forma sistemática e auditável.

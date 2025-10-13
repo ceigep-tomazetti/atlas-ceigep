@@ -87,3 +87,20 @@ CREATE INDEX idx_relacao_normativa_destino ON relacao_normativa(ato_destino_id);
 
 -- Índice HNSW para busca vetorial eficiente (pgvector)
 CREATE INDEX idx_versao_textual_embedding ON versao_textual USING hnsw (embedding vector_l2_ops);
+
+-- Enum para controlar o status do processamento de uma fonte
+CREATE TYPE status_processamento AS ENUM ('PENDENTE', 'COLETADO', 'PROCESSADO', 'FALHA');
+
+-- Tabela para servir como catálogo central de fontes de documentos
+CREATE TABLE fonte_documento (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    urn_lexml VARCHAR(255) UNIQUE NOT NULL,
+    url_fonte TEXT NOT NULL,
+    status status_processamento NOT NULL DEFAULT 'PENDENTE',
+    data_coleta TIMESTAMP WITH TIME ZONE,
+    hash_conteudo_bruto VARCHAR(64),
+    caminho_arquivo_local TEXT,
+    metadados_fonte JSONB,
+    data_criacao TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    data_atualizacao TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
