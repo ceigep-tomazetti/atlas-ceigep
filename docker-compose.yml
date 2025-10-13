@@ -1,0 +1,105 @@
+# Versão do Docker Compose
+version: '3.8'
+
+# ==============================================================================
+# 🐳 ARQUIVO DE CONFIGURAÇÃO DOCKER COMPOSE – PROJETO ATLAS
+#
+# Este arquivo define os serviços, redes e volumes para o ambiente de
+# desenvolvimento local do Atlas.
+#
+# Para iniciar todos os serviços:
+# $ docker-compose up -d
+#
+# Para parar todos os serviços:
+# $ docker-compose down
+# ==============================================================================
+
+services:
+  # --- BANCO DE DADOS RELACIONAL E VETORIAL ---
+  postgres:
+    image: ankane/pgvector:v0.5.1 # Imagem do Postgres com a extensão pgvector
+    container_name: atlas_postgres
+    restart: unless-stopped
+    environment:
+      - POSTGRES_DB=atlas_db
+      - POSTGRES_USER=atlas_user
+      - POSTGRES_PASSWORD=atlas_password
+    ports:
+      - "5432:5432" # Expõe a porta padrão do Postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data # Volume para persistência dos dados
+    networks:
+      - atlas_net
+
+  # --- BANCO DE DADOS DE GRAFO ---
+  neo4j:
+    image: neo4j:5.13 # Imagem oficial do Neo4j
+    container_name: atlas_neo4j
+    restart: unless-stopped
+    environment:
+      - NEO4J_AUTH=neo4j/atlas_password # Usuário/senha
+    ports:
+      - "7474:7474" # Interface HTTP
+      - "7687:7687" # Porta Bolt para conexão de drivers
+    volumes:
+      - neo4j_data:/data
+    networks:
+      - atlas_net
+
+  # --- ARMAZENAMENTO DE OBJETOS (FONTES) ---
+  minio:
+    image: minio/minio:latest
+    container_name: atlas_minio
+    restart: unless-stopped
+    command: server /data --console-address ":9001"
+    environment:
+      - MINIO_ROOT_USER=minio_admin
+      - MINIO_ROOT_PASSWORD=minio_password
+    ports:
+      - "9000:9000" # Porta da API
+      - "9001:9001" # Porta do Console Web
+    volumes:
+      - minio_data:/data
+    networks:
+      - atlas_net
+
+  # --- API DE CONSULTA (PLACEHOLDER) ---
+  # api:
+  #   build:
+  #     context: ./api
+  #   container_name: atlas_api
+  #   restart: unless-stopped
+  #   ports:
+  #     - "8000:8000"
+  #   depends_on:
+  #     - postgres
+  #     - neo4j
+  #   networks:
+  #     - atlas_net
+
+  # --- WORKER DE INGESTÃO/ETL (PLACEHOLDER) ---
+  # worker:
+  #   build:
+  #     context: ./worker
+  #   container_name: atlas_worker
+  #   restart: unless-stopped
+  #   depends_on:
+  #     - postgres
+  #     - neo4j
+  #     - minio
+  #   networks:
+  #     - atlas_net
+
+# --- VOLUMES PARA PERSISTÊNCIA DE DADOS ---
+volumes:
+  postgres_data:
+    driver: local
+  neo4j_data:
+    driver: local
+  minio_data:
+    driver: local
+
+# --- REDE PARA COMUNICAÇÃO ENTRE SERVIÇOS ---
+networks:
+  atlas_net:
+    driver: bridge
