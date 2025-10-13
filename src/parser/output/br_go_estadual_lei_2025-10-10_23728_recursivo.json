@@ -1,0 +1,93 @@
+{
+  "ato_normativo": {
+    "urn_lexml": "br;go;estadual;lei;2025-10-10;23728",
+    "tipo_ato": "lei",
+    "titulo": "Reconhece como Patrimônio Cultural Imaterial do Estado de Goiás a Festa de Folia de Reis, realizada no Povoado de Nova Fátima, no Município de Hidrolândia/GO, e a inclui no Calendário Cívico, Cultural e Turístico do Estado de Goiás.",
+    "ementa": "",
+    "entidade_federativa": "Estadual",
+    "orgao_publicador": "Assembleia Legislativa de Goiás",
+    "data_publicacao": "2025-10-10",
+    "fonte_oficial": "",
+    "situacao_vigencia": "vigente"
+  },
+  "dispositivos": [
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-1",
+      "ordem": 1,
+      "versoes": [
+        {
+          "vigencia_inicio": "2025-10-10",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º A Festa de Folia de Reis, realizada, anualmente, na segunda semana de\njaneiro, no Distrito de Nova Fátima, Município de Hidrolândia/GO:",
+          "hash_texto": "3521759f947cb6ad2721a41ea819cbb6d837d93a894f8d5d00aaf3d326749d43",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-1/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "I – fica reconhecida como patrimônio cultural imaterial goiano;",
+              "hash_texto": "22b28b3b6ddf6dc0f5dccc35060842f5764b008f442f7e6e6b97fedeead323cf",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-1/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "II – fica incluída no Calendário Cívico, Cultural e Turístico do Estado de Goiás.",
+              "hash_texto": "66edf4b41cbde860417cfdde3258e507c4f8e398865b1ce743a62c9934b1e8c2",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-2",
+      "ordem": 2,
+      "versoes": [
+        {
+          "vigencia_inicio": "2025-10-10",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 10 de outubro de 2025; 137º da República.\n \nRONALDO CAIADO\nGovernador do Estado\nVIRMONDES CRUVINEL\nDeputado Estadual\nEste texto não substitui o publicado no Suplemento do D.O de 10/10/2025\nAutor\nDeputado Virmondes Cruvinel\nLegislação Relacionada\nConstituição Estadual / 1989\nÓrgãos Relacionados\nAssembleia Legislativa do Estado de Goiás - ALEGO\nPoder Legislativo\nSecretaria de Estado de Cultura - SECULT\nCategorias\nCultura\nReconhecimento de bem imaterial",
+          "hash_texto": "0d86328e59d44061cf7cad9d2e8f988d3aea1d664eef5679f9215a42849b4ac3",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    }
+  ],
+  "auditoria": {
+    "run_id": "8d3af4a2-24e1-496a-98c4-219ad3d9befc",
+    "parser_versao": "2.0",
+    "gerado_em": "2025-10-13T21:31:56.287639Z"
+  }
+}

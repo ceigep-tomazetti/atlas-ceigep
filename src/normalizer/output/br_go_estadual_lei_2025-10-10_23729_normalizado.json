@@ -1,0 +1,937 @@
+{
+  "ato_normativo": {
+    "urn_lexml": "br;go;estadual;lei;2025-10-10;23729",
+    "tipo_ato": "lei",
+    "titulo": "Institui a Política Estadual de Incentivo à Agricultura e à Economia Regenerativas em Goiás.",
+    "ementa": "",
+    "entidade_federativa": "Estadual",
+    "orgao_publicador": "Assembleia Legislativa de Goiás",
+    "data_publicacao": "2025-10-10",
+    "fonte_oficial": "",
+    "situacao_vigencia": "vigente"
+  },
+  "dispositivos": [
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-1",
+      "ordem": 1,
+      "versoes": [
+        {
+          "vigencia_inicio": "2025-10-10",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica instituída a Política Estadual de Incentivo à Agricultura e à Economia Regenerativas, que tem por objetivos promover:",
+          "hash_texto": "9e02aac81b1c81bf381f9524a747cf744eac59b573d3e424dacee5e8cd734f02",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 1º Fica instituída a Política Estadual de Incentivo à Agricultura e à Economia\nRegenerativas, que tem por objetivos promover:",
+          "hash_texto_normalizado": "781d2173b75d479606a085ddd29845a6a9c29b194b2a6a4dd9224f71182e684c",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-1/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "I – a recuperação e a sustentabilidade dos ecossistemas agrícolas;",
+              "hash_texto": "41b7e783d5e4b24dc3ee47c59753bdbf8ce5dcdfe92f9abab68b931dd3f7c92f",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "I – a recuperação e a sustentabilidade dos ecossistemas agrícolas;",
+              "hash_texto_normalizado": "41b7e783d5e4b24dc3ee47c59753bdbf8ce5dcdfe92f9abab68b931dd3f7c92f",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-1/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "II – a redução da emissão de gases de efeito estufa;",
+              "hash_texto": "0c5d87043aeadcca3afe3ffd35ef8e784b09f85bb3d275bc92a7fd220e9de843",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "II – a redução da emissão de gases de efeito estufa;",
+              "hash_texto_normalizado": "0c5d87043aeadcca3afe3ffd35ef8e784b09f85bb3d275bc92a7fd220e9de843",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "III",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-1/inc-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "III – o aumento da biodiversidade;",
+              "hash_texto": "c5252e3bf02eb654b168d9c826816bf951e1d530e90127caadcadeaf9a4560ff",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "III – o aumento da biodiversidade;",
+              "hash_texto_normalizado": "c5252e3bf02eb654b168d9c826816bf951e1d530e90127caadcadeaf9a4560ff",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "IV",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-1/inc-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "IV – a melhoria do solo;",
+              "hash_texto": "ccecd98ae4203fe115b3749875c85c332fc8b485b1a766b345b596ee8019bc65",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "IV – a melhoria do solo;",
+              "hash_texto_normalizado": "ccecd98ae4203fe115b3749875c85c332fc8b485b1a766b345b596ee8019bc65",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "V",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-1/inc-5",
+          "ordem": 5,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "V – a saúde humana;",
+              "hash_texto": "bbd9f6616fd804d299d36053f8ecd258f5b6fce176e0cfb9e7f52cb5ca92efe8",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "V – a saúde humana;",
+              "hash_texto_normalizado": "bbd9f6616fd804d299d36053f8ecd258f5b6fce176e0cfb9e7f52cb5ca92efe8",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "VI",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-1/inc-6",
+          "ordem": 6,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "VI – a qualidade de vida dos agricultores;",
+              "hash_texto": "e887089ddbbf720976413fc0fa7c8f3552d668c72bbadd0a7281df3b6902a970",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "VI – a qualidade de vida dos agricultores;",
+              "hash_texto_normalizado": "e887089ddbbf720976413fc0fa7c8f3552d668c72bbadd0a7281df3b6902a970",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "VII",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-1/inc-7",
+          "ordem": 7,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "VII – a produção agrícola diversificada e sustentável;",
+              "hash_texto": "978acbd5406a76bdfd9bfbc87f4b2173efbdcf2352131f390f43e86ef448b204",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "VII – a produção agrícola diversificada e sustentável;",
+              "hash_texto_normalizado": "978acbd5406a76bdfd9bfbc87f4b2173efbdcf2352131f390f43e86ef448b204",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "VIII",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-1/inc-8",
+          "ordem": 8,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "VIII – a transição para um modelo econômico sustentável, baseado:",
+              "hash_texto": "ad713fa83faf6ec9c7d029289f98b9cf8ff0b4a8326923e535f752e012fe613d",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "VIII – a transição para um modelo econômico sustentável, baseado:",
+              "hash_texto_normalizado": "ad713fa83faf6ec9c7d029289f98b9cf8ff0b4a8326923e535f752e012fe613d",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "a",
+              "tipo_dispositivo": "alinea",
+              "caminho_estrutural": "art-1/inc-8/ali-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "2025-10-10",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "a) na promoção de práticas agrícolas e industriais sustentáveis; e",
+                  "hash_texto": "0f40067ad5652bde16c90c2a7fcfc9e63fd2c6ac587087ba1894aba98b7c8a34",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null,
+                  "texto_original_parser": "a) na promoção de práticas agrícolas e industriais sustentáveis; e",
+                  "hash_texto_normalizado": "0f40067ad5652bde16c90c2a7fcfc9e63fd2c6ac587087ba1894aba98b7c8a34",
+                  "normalizacao": {
+                    "regras_aplicadas": [],
+                    "removido_total_chars": 0
+                  }
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "b",
+              "tipo_dispositivo": "alinea",
+              "caminho_estrutural": "art-1/inc-8/ali-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "2025-10-10",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "b) no estímulo à inovação social e tecnológica.",
+                  "hash_texto": "818cb2f8fd1e1dce670df17a8098fe2b01cfeb16ad6d90d72340b3052c64e567",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null,
+                  "texto_original_parser": "b) no estímulo à inovação social e tecnológica.",
+                  "hash_texto_normalizado": "818cb2f8fd1e1dce670df17a8098fe2b01cfeb16ad6d90d72340b3052c64e567",
+                  "normalizacao": {
+                    "regras_aplicadas": [],
+                    "removido_total_chars": 0
+                  }
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-2",
+      "ordem": 2,
+      "versoes": [
+        {
+          "vigencia_inicio": "2025-10-10",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º A Política Estadual instituída por esta Lei atenderá, especialmente, aos seguintes princípios:",
+          "hash_texto": "38e20649168a4f42ddab029ee0f47febf7b97c01073062466c1a2f0bf83b857e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 2º A Política Estadual instituída por esta Lei atenderá, especialmente, aos\nseguintes princípios:",
+          "hash_texto_normalizado": "22bf512fb66c26ce2d689fa58c5986caac719df1207bbf4788290c010708065c",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-2/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "I – a promoção da saúde do solo como base para a sustentabilidade agrícola;",
+              "hash_texto": "fb9223ada6c3778a4161632b4332b208842bc3f01efc8262a39a2844db744ad1",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "I – a promoção da saúde do solo como base para a sustentabilidade agrícola;",
+              "hash_texto_normalizado": "fb9223ada6c3778a4161632b4332b208842bc3f01efc8262a39a2844db744ad1",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-2/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "II – a regeneração dos ecossistemas agrícolas;",
+              "hash_texto": "8df5ffc6aeb9c57714404fce3d52d950783205505edddb2318b809c7e4d70604",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "II – a regeneração dos ecossistemas agrícolas;",
+              "hash_texto_normalizado": "8df5ffc6aeb9c57714404fce3d52d950783205505edddb2318b809c7e4d70604",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "III",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-2/inc-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "III – a conservação e o aumento da biodiversidade;",
+              "hash_texto": "4fdb03e832d6e9fc8a8ef35dc88beb774cf421e30bedf2a853279406ee0a2aa2",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "III – a conservação e o aumento da biodiversidade;",
+              "hash_texto_normalizado": "4fdb03e832d6e9fc8a8ef35dc88beb774cf421e30bedf2a853279406ee0a2aa2",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "IV",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-2/inc-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "IV – o estímulo à utilização de práticas agrícolas regenerativas; e",
+              "hash_texto": "709d6a5ad3931fe74840d95945700911e4fa1f092580b3169cf8fa79cf4a7cd3",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "IV – o estímulo à utilização de práticas agrícolas regenerativas; e",
+              "hash_texto_normalizado": "709d6a5ad3931fe74840d95945700911e4fa1f092580b3169cf8fa79cf4a7cd3",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "V",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-2/inc-5",
+          "ordem": 5,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "V – o respeito à autonomia do agricultor.",
+              "hash_texto": "cf1fbf30ff99ab6278a1a7760c681bfba2f690f087f9020b805430d1ca83dfa2",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "V – o respeito à autonomia do agricultor.",
+              "hash_texto_normalizado": "cf1fbf30ff99ab6278a1a7760c681bfba2f690f087f9020b805430d1ca83dfa2",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-3",
+      "ordem": 3,
+      "versoes": [
+        {
+          "vigencia_inicio": "2025-10-10",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º A Política Estadual instituída por esta Lei atenderá, especialmente, às seguintes diretrizes:",
+          "hash_texto": "c759111f1ac928798b8e0dec96f2b2f2e06a8c1347c2a3dba9e657e30b80675e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 3º A Política Estadual instituída por esta Lei atenderá, especialmente, às\nseguintes diretrizes:",
+          "hash_texto_normalizado": "b68e33357ef85b640de839277d71724c60cf8f4904a5744751614071a2250cf8",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-3/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "I – estímulo à criação de programas de assistência técnica para agricultores;",
+              "hash_texto": "de2bc66821e307caf880a4a8dbcafe09bbd16427323030cd4d81d1b335a0543e",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "I – estímulo à criação de programas de assistência técnica para agricultores;",
+              "hash_texto_normalizado": "de2bc66821e307caf880a4a8dbcafe09bbd16427323030cd4d81d1b335a0543e",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-3/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "II – estímulo à concessão de incentivos fiscais e financeiros para a adoção de práticas agrícolas regenerativas;",
+              "hash_texto": "f1f705c31ebad11af5bd65093e3446c1c0e1914c635f2a8025db8c1c6a43a83e",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "II – estímulo à concessão de incentivos fiscais e financeiros para a adoção de\npráticas agrícolas regenerativas;",
+              "hash_texto_normalizado": "10e72180eb4f6c90cce804a342c1d5a5506d7f1a2db35bd56ea43b4e35c0dca1",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "III",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-3/inc-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "III – estímulo à criação de programas educacionais em escolas e comunidades agrícolas;",
+              "hash_texto": "328fe4afc1a06715fbaa5a38a752d23df2cfb5c274f6de7cc34c5cd7868eed98",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "III – estímulo à criação de programas educacionais em escolas e comunidades\nagrícolas;",
+              "hash_texto_normalizado": "208ceba7cf86a4abde257a5b1542ff84573122f23df1b1cdfa86ba073a923ce3",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "IV",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-3/inc-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "IV – estímulo à celebração de parcerias com instituições de pesquisa para o desenvolvimento de novas tecnologias e práticas agrícolas regenerativas;",
+              "hash_texto": "9e8820e2b067e9f3b51135cd5a1519b207eab1f6b86b992544161d74b875d6e3",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "IV – estímulo à celebração de parcerias com instituições de pesquisa para o\ndesenvolvimento de novas tecnologias e práticas agrícolas regenerativas;",
+              "hash_texto_normalizado": "dcb24edd1c6b1b18832d2faac50ca83d78d340742075a345b060c67e9cbba205",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "V",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-3/inc-5",
+          "ordem": 5,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "V – estímulo e apoio ao agricultor na transição para a agricultura regenerativa;",
+              "hash_texto": "3b440f10e262937b2b8dbc2d6319072a3638b20166ceec738f7965622ff97b5c",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "V – estímulo e apoio ao agricultor na transição para a agricultura regenerativa;",
+              "hash_texto_normalizado": "3b440f10e262937b2b8dbc2d6319072a3638b20166ceec738f7965622ff97b5c",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "VI",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-3/inc-6",
+          "ordem": 6,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "VI – estímulo à capacitação de técnicos e agricultores para formar multiplicadores da agricultura regenerativa em todas as regiões do Estado;",
+              "hash_texto": "d1646a4775350a8c9b70d3acce5bcd15edb2a7267e16976f56dbacbadf49267a",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "VI – estímulo à capacitação de técnicos e agricultores para formar multiplicadores\nda agricultura regenerativa em todas as regiões do Estado;",
+              "hash_texto_normalizado": "ad6a232f33232c8cd8be3d13d607596503658e47fe21d9d6be397c43ac05b917",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "VII",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-3/inc-7",
+          "ordem": 7,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "VII – estímulo à criação de programas de certificação de produtos da agricultura regenerativa, que atestarão a adoção de práticas agrícolas regenerativas em sua produção e garantirão aos consumidores a possibilidade de escolha consciente;",
+              "hash_texto": "a515b03357e144b8ca2dc0c93aba8e57b0c4f2c5fc7dda5a1b70eca34251e607",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "VII – estímulo à criação de programas de certificação de produtos da agricultura\nregenerativa, que atestarão a adoção de práticas agrícolas regenerativas em sua produção e\ngarantirão aos consumidores a possibilidade de escolha consciente;",
+              "hash_texto_normalizado": "21478cfd88f94b4104ba7549c156c4f42f6ac24004ec830be6a14d713707ee12",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "VIII",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-3/inc-8",
+          "ordem": 8,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "VIII – estímulo à incorporação, na grade curricular, pelas escolas públicas e privadas, do tema “agricultura regenerativa”, com vistas à formação de profissionais capacitados e conscientes da importância dessa prática para a sustentabilidade do setor agropecuário e para a conservação do meio ambiente;",
+              "hash_texto": "fed3b7b956f457305daf725926d486e181678daca6c09098444ce7716b8f9789",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "VIII – estímulo à incorporação, na grade curricular, pelas escolas públicas e\nprivadas, do tema “agricultura regenerativa”, com vistas à formação de profissionais capacitados\ne conscientes da importância dessa prática para a sustentabilidade do setor agropecuário e para\na conservação do meio ambiente;",
+              "hash_texto_normalizado": "1917806c2998d519bb321344f721991471a7cd2bfc339e25e95d046a2b22e98e",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "IX",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-3/inc-9",
+          "ordem": 9,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "IX – estímulo à instituição de políticas públicas de crédito rural para incentivar a agricultura regenerativa, especialmente no que se refere aos pequenos produtores rurais e agricultura familiar;",
+              "hash_texto": "f73dc2b4e239955fe5bb64565c47d49a43b290565b9dc74bf21f14992ba1e0ab",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "IX – estímulo à instituição de políticas públicas de crédito rural para incentivar a\nagricultura regenerativa, especialmente no que se refere aos pequenos produtores rurais e\nagricultura familiar;",
+              "hash_texto_normalizado": "29d7753b17b12b592d15f061a8568cffa2370ebecda82923dbb7942f9f4d7add",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "X",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-3/inc-10",
+          "ordem": 10,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "X – estímulo à utilização de remineralizadores oriundos de rochas para recuperação de solos degradados, como parte das práticas de agricultura regenerativa;",
+              "hash_texto": "f1926fbdb48e9bbd04e02e01392fa2811dd14052955e02ae7c4014e6816e6bc0",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "X – estímulo à utilização de remineralizadores oriundos de rochas para\nrecuperação de solos degradados, como parte das práticas de agricultura regenerativa;",
+              "hash_texto_normalizado": "d2b76485c361293d8182d466d288dc6a332934871dd11a58150c8044cec206fb",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "XI",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-3/inc-11",
+          "ordem": 11,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "XI – estímulo à celebração de parcerias com empresas de mineração que tenham por objeto a capacitação de agricultores para a utilização de remineralizadores na agricultura regenerativa;",
+              "hash_texto": "63043c1a5a7f5021b686e903e9218423cdc0d30753a47c0c42e04868ef8e50d8",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "XI – estímulo à celebração de parcerias com empresas de mineração que tenham\npor objeto a capacitação de agricultores para a utilização de remineralizadores na agricultura\nregenerativa;",
+              "hash_texto_normalizado": "4addb30875ee5f12fa6b96aace7b0ddd999f2a937d2bd13ab2e88e253935e2c1",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "XII",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-3/inc-12",
+          "ordem": 12,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "XII – estímulo à inclusão de remineralizadores nos programas de assistência técnica e extensão rural, com vistas à recuperação de solos degradados e à promoção da agricultura regenerativa;",
+              "hash_texto": "bd66d9332230209067e9a9927c2ebad6d549536943ac4d3fb7ddafa5f259d837",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "XII – estímulo à inclusão de remineralizadores nos programas de assistência\ntécnica e extensão rural, com vistas à recuperação de solos degradados e à promoção da\nagricultura regenerativa;",
+              "hash_texto_normalizado": "214f076bb19d5578a2d4b2b785ef05fbe62e230f5ba6f3a12ea3fa9549a7bdea",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "XIII",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-3/inc-13",
+          "ordem": 13,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "XIII – estímulo à criação de campanhas de conscientização, destinadas aos produtores rurais e à população, sobre os benefícios ambientais, econômicos e sociais da agricultura regenerativa;",
+              "hash_texto": "eb77b66e59a6051bb7b06618e2012df3a26da0c402cd8299fa7d0c8cbf434b74",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "XIII – estímulo à criação de campanhas de conscientização, destinadas aos\nprodutores rurais e à população, sobre os benefícios ambientais, econômicos e sociais da\nagricultura regenerativa;",
+              "hash_texto_normalizado": "652947e9df2417d7b3c4e5a27b5985bcb58dba3f32246d80179b8f853bf35c8e",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "XIV",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-3/inc-14",
+          "ordem": 14,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "XIV – estímulo à integração das iniciativas de agricultura regenerativa às políticas de gestão de recursos hídricos, conservação da biodiversidade e combate às mudanças climáticas;",
+              "hash_texto": "7b9c81910d866cb2ab7e401f0af411d05d7410428149a8d2a2d3298953b1a044",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "XIV – estímulo à integração das iniciativas de agricultura regenerativa às políticas\nde gestão de recursos hídricos, conservação da biodiversidade e combate às mudanças\nclimáticas;",
+              "hash_texto_normalizado": "79933060cded248a27235f8e23486b5013e7cd8d6a9fc3c0fd3e2d7734ba1e3b",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "XV",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-3/inc-15",
+          "ordem": 15,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "XV – estímulo à integração e cooperação com os municípios para a efetiva implementação da Política Estadual instituída por esta Lei;",
+              "hash_texto": "056100646a0b335f5cbe1446984389b90bf33fc3c81e64b03e7ed08454c9dbd3",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "XV – estímulo à integração e cooperação com os municípios para a efetiva\nimplementação da Política Estadual instituída por esta Lei;",
+              "hash_texto_normalizado": "30bae4516945836878950ff741af83c47575254599b25d2fd1c8e4e1bad1951d",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "XVI",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-3/inc-16",
+          "ordem": 16,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "XVI – estímulo à reutilização, reciclagem e redução do consumo de recursos naturais, bem como à criação de cadeias produtivas fechadas e sustentáveis;",
+              "hash_texto": "7a8d9726cad80beca51c6a7da9e8d78993804d986ce133e7a84e68a58908e788",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "XVI – estímulo à reutilização, reciclagem e redução do consumo de recursos\nnaturais, bem como à criação de cadeias produtivas fechadas e sustentáveis;",
+              "hash_texto_normalizado": "7cd3b7b791bd4734b0ea95c01e69641fb83ef06aa18fc4a51c2a97ca2553426d",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "XVII",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-3/inc-17",
+          "ordem": 17,
+          "versoes": [
+            {
+              "vigencia_inicio": "2025-10-10",
+              "vigencia_fim": null,
+              "texto_normalizado": "XVII – estímulo à implementação de projetos de reflorestamento, recuperação de áreas degradadas, proteção de recursos hídricos e conservação da biodiversidade.",
+              "hash_texto": "d368c823513dbd85100a2f08aaf01621a4d9d0880a43e81bf5395fa98a1dd17d",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "XVII – estímulo à implementação de projetos de reflorestamento, recuperação de\náreas degradadas, proteção de recursos hídricos e conservação da biodiversidade.",
+              "hash_texto_normalizado": "5a752439b191b92f129cbf5a8e1a3e7c08f0c82aab408410dae2ba92403329f2",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art.  4º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-4",
+      "ordem": 4,
+      "versoes": [
+        {
+          "vigencia_inicio": "2025-10-10",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 4º As despesas porventura decorrentes desta Lei correrão à conta de dotações orçamentárias próprias, consignadas no orçamento vigente.",
+          "hash_texto": "584599469f1152e4a427fe3c59732d41fadbd749b4b92418833ec87c47cfe52a",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 4º As despesas porventura decorrentes desta Lei correrão à conta de\ndotações orçamentárias próprias, consignadas no orçamento vigente.",
+          "hash_texto_normalizado": "819f236e3cced09b7524180feac27ceea7362912a81724d5231fd6c44a5ad23b",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 5º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-5",
+      "ordem": 5,
+      "versoes": [
+        {
+          "vigencia_inicio": "2025-10-10",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 5º Esta Lei será regulamentada pelo Poder Executivo, que estabelecerá também a forma de monitoramento e avaliação da Política Estadual ora instituída.",
+          "hash_texto": "5c9ba39ed6a0c046ff68f1c581e240446cfa1c1f67e6e7f32742a358a6b25a0c",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 5º Esta Lei será regulamentada pelo Poder Executivo, que estabelecerá\ntambém a forma de monitoramento e avaliação da Política Estadual ora instituída.",
+          "hash_texto_normalizado": "b23f76c92efebd3a4a5334636211e7fdab087c01f36f82de50b4d87298e558ea",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 6º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-6",
+      "ordem": 6,
+      "versoes": [
+        {
+          "vigencia_inicio": "2025-10-10",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 6º Esta Lei entra em vigor na data de sua publicação. Goiânia, 10 de outubro de 2025; 137º da República. RONALDO CAIADO Governador do Estado VIRMONDES CRUVINEL Deputado Estadual BIA DE LIMA Deputada Estadual Este texto não substitui o publicado no Suplemento do D.O de 10/10/2025 Autores Deputada Bia de Lima Deputado Virmondes Cruvinel Legislação Relacionada Constituição Estadual / 1989 Órgãos Relacionados Assembleia Legislativa do Estado de Goiás - ALEGO Poder Executivo Poder Legislativo Secretaria de Estado de Desenvolvimento Social - SEDS Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável - SEMAD Categorias Proteção do meio ambiente Políticas Públicas Agricultura e Pecuária",
+          "hash_texto": "39def8bc94a56439b1f6007e1b12968271a648ed1628d26ce3258b3c3833f16d",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 6º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 10 de outubro de 2025; 137º da República.\n \nRONALDO CAIADO\nGovernador do Estado\nVIRMONDES CRUVINEL\nDeputado Estadual\nBIA DE LIMA\nDeputada Estadual\nEste texto não substitui o publicado no Suplemento do D.O de 10/10/2025\nAutores\nDeputada Bia de Lima\nDeputado Virmondes Cruvinel\nLegislação Relacionada\nConstituição Estadual / 1989\nÓrgãos Relacionados\nAssembleia Legislativa do Estado de Goiás - ALEGO\nPoder Executivo\nPoder Legislativo\nSecretaria de Estado de Desenvolvimento Social - SEDS\nSecretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável - SEMAD\nCategorias\nProteção do meio ambiente\nPolíticas Públicas\nAgricultura e Pecuária",
+          "hash_texto_normalizado": "0c5280c13447e4e9cb0e1cd1170e414494b3b581703cb25f0bc8dd5e854c12e2",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    }
+  ],
+  "auditoria": {
+    "run_id": "26c3c379-7d7d-4d76-a8a3-4cfcd81894c5",
+    "parser_versao": "1.0.0-normalizer",
+    "gerado_em": "2025-10-13T21:29:59.860747Z",
+    "normalizado_em": "2025-10-13T21:30:00.429981Z"
+  }
+}

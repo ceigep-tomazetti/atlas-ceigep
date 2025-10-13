@@ -1,0 +1,5 @@
+{"timestamp": "2025-10-13T21:33:07.820621Z", "caminho_estrutural": "art-1", "chars_antes": 95, "chars_depois": 95, "removido": 0, "regras_aplicadas": []}
+{"timestamp": "2025-10-13T21:33:07.821553Z", "caminho_estrutural": "art-2", "chars_antes": 233, "chars_depois": 233, "removido": 0, "regras_aplicadas": []}
+{"timestamp": "2025-10-13T21:33:07.822492Z", "caminho_estrutural": "art-2/inc-1", "chars_antes": 236, "chars_depois": 236, "removido": 0, "regras_aplicadas": []}
+{"timestamp": "2025-10-13T21:33:07.823234Z", "caminho_estrutural": "art-2/inc-1/ali-1", "chars_antes": 158, "chars_depois": 158, "removido": 0, "regras_aplicadas": []}
+{"timestamp": "2025-10-13T21:33:07.823467Z", "caminho_estrutural": "art-3", "chars_antes": 456, "chars_depois": 454, "removido": 2, "regras_aplicadas": []}

@@ -1,0 +1,2 @@
+{"timestamp": "2025-10-13T18:53:13.116552Z", "level": "INFO", "event": "START_PARSE", "urn": "br;go;lei;1991-12-26;11651"}
+{"timestamp": "2025-10-13T18:53:13.432370Z", "level": "ERROR", "event": "MINIO_DOWNLOAD_FAILED", "error": "An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist."}
