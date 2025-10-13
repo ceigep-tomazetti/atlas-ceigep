@@ -12,7 +12,7 @@ Este documento centraliza as fontes oficiais de dados para a ingestão da legisl
 
 | Ato Normativo | Fonte Oficial (URL) | Formato | Frequência de Atualização | Data da Última Verificação |
 | :--- | :--- | :--- | :--- | :--- |
-| Constituição do Estado de Goiás | http://www2.senado.leg.br/bdsf/bitstream/handle/id/70434/Constituicao_Estado_GO.pdf | PDF | Mensal | 2025-10-13 |
+| Constituição do Estado de Goiás | https://legisla.casacivil.go.gov.br/api/v1/arquivos/17142 | HTML | Mensal | 2025-10-13 |
 
 ## 3. Legislação Municipal (Aparecida de Goiânia)
 

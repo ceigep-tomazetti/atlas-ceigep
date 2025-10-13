@@ -301,4 +301,8 @@ if __name__ == "__main__":
     if args.source_file:
         config["source_file_path"] = args.source_file
 
-    run_parser(config, args.outdir, args.logs)
+    try:
+        run_parser(config, args.outdir, args.logs)
+    except Exception as e:
+        print(f"ERRO INESPERADO: {e}", file=sys.stderr)
+        sys.exit(1)

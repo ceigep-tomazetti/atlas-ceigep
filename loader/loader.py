@@ -49,9 +49,9 @@ def insert_postgres(conn, data):
 
             for versao in disp['versoes']:
                 cursor.execute(
-                    """INSERT INTO versao_textual (dispositivo_id, vigencia_inicio, vigencia_fim, texto_original, texto_normalizado, hash_texto_normalizado, status_vigencia) 
-                       VALUES (%s, %s, %s, %s, %s, %s, %s)""",
-                    (disp_id, versao['vigencia_inicio'], versao.get('vigencia_fim'), versao.get('texto_original_parser'), versao['texto_normalizado'], versao['hash_texto_normalizado'], versao['status_vigencia'])
+                    """INSERT INTO versao_textual (dispositivo_id, vigencia_inicio, vigencia_fim, texto_original, texto_normalizado, hash_texto_normalizado, status_vigencia, texto_normalizado_tsv) 
+                       VALUES (%s, %s, %s, %s, %s, %s, %s, to_tsvector('portuguese', %s))""",
+                    (disp_id, versao['vigencia_inicio'], versao.get('vigencia_fim'), versao.get('texto_original_parser'), versao['texto_normalizado'], versao['hash_texto_normalizado'], versao['status_vigencia'], versao['texto_normalizado'])
                 )
 
             if disp.get('filhos'):

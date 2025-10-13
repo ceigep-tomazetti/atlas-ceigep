@@ -64,18 +64,20 @@ services:
       - atlas_net
 
   # --- API DE CONSULTA (PLACEHOLDER) ---
-  # api:
-  #   build:
-  #     context: ./api
-  #   container_name: atlas_api
-  #   restart: unless-stopped
-  #   ports:
-  #     - "8000:8000"
-  #   depends_on:
-  #     - postgres
-  #     - neo4j
-  #   networks:
-  #     - atlas_net
+  api:
+    build:
+      context: ./api
+    container_name: atlas_api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - NEO4J_PASSWORD=atlas_password
+    depends_on:
+      - postgres
+      - neo4j
+    networks:
+      - atlas_net
 
   # --- WORKER DE INGESTÃO/ETL (PLACEHOLDER) ---
   # worker:

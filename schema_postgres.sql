@@ -49,20 +49,26 @@ CREATE TABLE dispositivo (
 -- É aqui que o conteúdo textual e os embeddings são armazenados
 CREATE TABLE versao_textual (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    dispositivo_id UUID NOT NULL REFERENCES dispositivo(id) ON DELETE CASCADE,
-    texto_original TEXT, -- Preserva o texto como veio do parser
+    dispositivo_id UUID REFERENCES dispositivo(id) ON DELETE CASCADE,
+    texto_original TEXT,
     texto_normalizado TEXT NOT NULL,
-    hash_texto_normalizado VARCHAR(64) NOT NULL, -- Hash do texto normalizado
+    hash_texto_normalizado VARCHAR(64) NOT NULL,
     vigencia_inicio DATE NOT NULL,
     vigencia_fim DATE,
-    origem_alteracao_urn VARCHAR(255), -- URN do ato que alterou este texto
-    status_vigencia VARCHAR(50) NOT NULL,
-    embedding vector(1536), -- Exemplo com 1536 dimensões (OpenAI Ada-002)
-    created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
-    updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
+    data_criacao TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    -- A dimensão (512) deve corresponder à saída do modelo de embedding
+    embedding vector(512),
+    -- Coluna para Full-Text Search (BM25)
+    texto_normalizado_tsv tsvector
 );
 
--- Tabela para armazenar as relações normativas entre atos
+-- Índice para busca vetorial (similaridade de cosseno)
+CREATE INDEX idx_versao_textual_embedding ON versao_textual USING hnsw (embedding vector_cosine_ops);
+
+-- Índice para busca textual (BM25)
+CREATE INDEX idx_versao_textual_tsv ON versao_textual USING gin(texto_normalizado_tsv);
+
+-- Tabela para armazenar as relações entre atos normativos (ex: revoga, altera)
 CREATE TABLE relacao_normativa (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     ato_origem_id UUID NOT NULL REFERENCES ato_normativo(id) ON DELETE CASCADE,
