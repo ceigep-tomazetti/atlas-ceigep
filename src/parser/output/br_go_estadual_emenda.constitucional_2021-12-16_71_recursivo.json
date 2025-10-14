@@ -1,0 +1,2850 @@
+{
+  "ato_normativo": {
+    "urn_lexml": "br;go;estadual;emenda.constitucional;2021-12-16;71",
+    "tipo_ato": "Emenda Constitucional",
+    "titulo": "Altera o disposto no § 4º-A do art. 101 da Constituição do Estado de Goiás.",
+    "ementa": "",
+    "entidade_federativa": "Estadual",
+    "orgao_publicador": "Deputado Lissauer Vieira",
+    "data_publicacao": "16/12/2021",
+    "fonte_oficial": "",
+    "situacao_vigencia": "vigente"
+  },
+  "dispositivos": [
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-1",
+      "ordem": 1,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Ficam introduzidas as seguintes modificações na estrutura organizacional da Secretaria de Estado de Indústria, Comércio\ne Serviços - SIC, constante da alínea “x” do inciso I do Anexo I da Lei nº 20.491, de 25 de junho de 2019:",
+          "hash_texto": "e561c4513a2dca4ed4cab72beeb724d61d9a63c3719a927c3a16e99ff7120bcc",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "a",
+          "tipo_dispositivo": "alinea",
+          "caminho_estrutural": "art-1/ali-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "a) a Gerência de Apoio ao Investidor, subordinada à Superintendência de Prospecção de Investimentos, passa a denominar-se\nGerência de Prospecção e Estímulo ao Investidor, e mantêm-se inalterados o cargo de provimento em comissão de Gerente, símbolo DAI-1, e a\nsua subordinação, sem prejuízo da investidura do atual ocupante;",
+              "hash_texto": "69a62a535376b4f8c4f0f0bbbef19ac0837fa8b8e6706329537079195364313f",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "b",
+          "tipo_dispositivo": "alinea",
+          "caminho_estrutural": "art-1/ali-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "b) a Gerência de Projetos de Investimentos, subordinada à Superintendência de Prospecção de Investimentos, passa a\ndenominar-se Gerência de Novos Negócios e Diversificação de Investimentos, e mantêm-se inalterados o cargo de provimento em comissão de\nGerente, símbolo DAI-1, e a sua subordinação, sem prejuízo da investidura do atual ocupante;",
+              "hash_texto": "3caecd0c444985685e2ee153f14e6ba230ceb712d0e98547c7425a010ca12f39",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "c",
+          "tipo_dispositivo": "alinea",
+          "caminho_estrutural": "art-1/ali-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "c) a Gerência de Integração Regional, subordinada à Superintendência de Desenvolvimento Regional, passa a denominar-se\nGerência de Potencialidades Regionais, e mantêm-se inalterados o cargo de provimento em comissão de Gerente, símbolo DAI-1, e a sua\nsubordinação, sem prejuízo da investidura do atual ocupante;",
+              "hash_texto": "e748b8d80d2e0df53b39b719b0404f17073c5574fbed5554faf3c79db1a04faa",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "d",
+          "tipo_dispositivo": "alinea",
+          "caminho_estrutural": "art-1/ali-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "d) a Gerência de Projetos de Concessões e Parcerias, subordinada à Superintendência de Desenvolvimento Regional, passa\na denominar-se Gerência de Integração, Projetos de Concessões e Parcerias, e mantêm-se inalterados o cargo de provimento em comissão de\nGerente, símbolo DAI-1, e a sua subordinação, sem prejuízo da investidura do atual ocupante;",
+              "hash_texto": "5d50ae9c7778ae74500b37c6be411eb9914bb318f2483b9c60dc4bae3c07d03c",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "e",
+          "tipo_dispositivo": "alinea",
+          "caminho_estrutural": "art-1/ali-5",
+          "ordem": 5,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "e) a Gerência de Políticas de Obras de Desenvolvimento Regional, subordinada à Superintendência de Desenvolvimento\nRegional, passa a denominar-se Gerência de Políticas de Desenvolvimento Regional, e mantêm-se inalterados o cargo de provimento em\ncomissão de Gerente, símbolo DAI-1, e a sua subordinação, sem prejuízo da investidura do atual ocupante;",
+              "hash_texto": "3f6eb4aaa42748681f423f279fdfb72eaefaf5d472e1610918d17c9f9f8c92ed",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "f",
+          "tipo_dispositivo": "alinea",
+          "caminho_estrutural": "art-1/ali-6",
+          "ordem": 6,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "f) a Superintendência de Atração de Investimentos Internacionais, vinculada à Subsecretaria de Atração de Investimentos e\nNegócios, passa a denominar-se Superintendência de Comércio Exterior e Atração de Investimentos Internacionais, e mantêm-se inalterados o\ncargo de provimento em comissão de Superintendente, símbolo DAS-4, e a sua subordinação, sem prejuízo da investidura do atual ocupante;",
+              "hash_texto": "6a755c4e69d9b31e774ab5c871900140147a9a1a6c94e2cefcc6a2e2987e2ad2",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "g",
+          "tipo_dispositivo": "alinea",
+          "caminho_estrutural": "art-1/ali-7",
+          "ordem": 7,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "g) a Gerência de Promoção do Estado de Goiás no Exterior, subordinada à Superintendência de Comércio Exterior e Atração de\nInvestimentos Internacionais, passa a denominar-se Gerência de Cooperação e Promoção do Estado de Goiás, e mantêm-se inalterados o cargo\nde provimento em comissão de Gerente, símbolo DAI-1, e a sua subordinação, sem prejuízo da investidura do atual ocupante;",
+              "hash_texto": "8559a1bb077c715bc2275ae9f87addac4a3956a6627b02a6dd8ded55cf013cac",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "h",
+          "tipo_dispositivo": "alinea",
+          "caminho_estrutural": "art-1/ali-8",
+          "ordem": 8,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "h) a Gerência de Intercâmbio e Acesso ao Mercado, subordinada à Superintendência de Comércio Exterior e Atração de\nInvestimentos Internacionais, passa a denominar-se Gerência de Intercâmbio Comercial e Acesso ao Mercado, e mantêm-se inalterados o cargo\nde provimento em comissão de Gerente, símbolo DAI-1, e a sua subordinação, sem prejuízo da investidura do atual ocupante;",
+              "hash_texto": "6a590afae1fbeaf45a3e5a6958e5101c633561a389d3103e0f8d4a5bca207111",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "i",
+          "tipo_dispositivo": "alinea",
+          "caminho_estrutural": "art-1/ali-9",
+          "ordem": 9,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "i) a Gerência de Apoio ao CDE/FCO, subordinada à Subsecretaria de Fomento e Competitividade, passa a denominar-se\nGerência de Apoio ao Fomento, e mantêm-se inalterados o cargo de provimento em comissão de Gerente, símbolo DAI-1, e a sua subordinação,\nsem prejuízo da investidura do atual ocupante;",
+              "hash_texto": "a629770d1306a44636c789fd917d67d853cacfd798d8e9a122d9b7b453afb410",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "j",
+          "tipo_dispositivo": "alinea",
+          "caminho_estrutural": "art-1/ali-10",
+          "ordem": 10,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "j) a Gerência de Análise de Projetos, subordinada à Superintendência dos Programas de Desenvolvimento, passa a denominar-se\nGerência de Análise e Viabilidade de Projetos, e mantêm-se inalterados o cargo de provimento em comissão de Gerente, símbolo DAI-1, e a\nsua subordinação, sem prejuízo da investidura do atual ocupante;",
+              "hash_texto": "304a5192591943f2a68178e70deab112dd43d63fda8b75d90981cdda9bf069ec",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "k",
+          "tipo_dispositivo": "alinea",
+          "caminho_estrutural": "art-1/ali-11",
+          "ordem": 11,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "k) a Gerência de Financiamento e Microcrédito, subordinada à Subsecretaria de Fomento e Competitividade, passa a\ndenominar-se Gerência de Monitoramento dos Programas de Desenvolvimento, e mantém-se inalterado o cargo de provimento em comissão\nde Gerente, símbolo DAI-1, e a sua subordinação fica vinculada à Superintendência dos Programas de Desenvolvimento, sem prejuízo da\ninvestidura do atual ocupante;",
+              "hash_texto": "92d0e8c973ba0b99fb8971559c7497db484e2ee58c450ded88ac8fa01a3f4d0a",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "l",
+          "tipo_dispositivo": "alinea",
+          "caminho_estrutural": "art-1/ali-12",
+          "ordem": 12,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "l) a Superintendência de Mineração, subordinada à Subsecretaria de Fomento e Competitividade, passa a denominar-se\nSuperintendência de Gestão Estratégica do Setor Produtivo, e mantêm-se inalterados o cargo de provimento em comissão de Superintendente,\nsímbolo DAS-4, e a sua subordinação, sem prejuízo da investidura do atual ocupante;\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 0ef1a3c1\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 0ef1a3c1\n2\nDiário Oficial\nGOIÂNIA, SEGUNDA-FEIRA, 20 DE DEZEMBRO DE 2021\nANO 185 - DIÁRIO OFICIAL/GO N° 23.700\nDiretoria\nEstado de Goiás\nImprensa Oficial do Estado de\nGoiás\nReginaldo Alves da Nóbrega Júnior\nPresidente\nRafael dos Santos Vasconcelos\nDiretor de Telerradiodifusão, Imprensa Oficial e Site\nPrevisto Custódio dos Santos\nGerente de Imprensa Oficial e Mídias Digitais\nRua SC-1, nº 299 - Parque Santa Cruz\nCEP: 74.860-270 - Goiânia - Goiás\nFones: 3201-7663 / 3201-7639 / 99220-1032\nwww.abc.go.gov.br",
+              "hash_texto": "939416aa9842e37dc6f9cdf9858b930753542fd958d4f10e82147643de4f7909",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "m",
+          "tipo_dispositivo": "alinea",
+          "caminho_estrutural": "art-1/ali-13",
+          "ordem": 13,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "m) a Gerência de Fomento Financeiro à Mineração, subordinada à Superintendência de Gestão Estratégica, passa a\ndenominar-se Gerência de Projetos Estratégicos do Setor Produtivo, e mantêm-se inalterados o cargo de provimento em comissão de Gerente,\nsímbolo DAI-1, e a sua subordinação, sem prejuízo da investidura do atual ocupante;",
+              "hash_texto": "6a8ce61e1cc70fa2fd90399cd7f64b34f8cc03f915bfde8affacad25146b3413",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "n",
+          "tipo_dispositivo": "alinea",
+          "caminho_estrutural": "art-1/ali-14",
+          "ordem": 14,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "n) a Gerência de Cooperação Técnica, subordinada à Superintendência de Gestão Estratégica, passa a denominar-se Gerência\nde Inteligência do Setor Produtivo, e mantêm-se inalterados o cargo de provimento em comissão de Gerente, símbolo DAI-1, e a sua subordinação,\nsem prejuízo da investidura do atual ocupante; e",
+              "hash_texto": "f675e6b96dfadda457be7f5ee5720bbf7d722c2396b3392f3de6921ea01f6cec",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "o",
+          "tipo_dispositivo": "alinea",
+          "caminho_estrutural": "art-1/ali-15",
+          "ordem": 15,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "o) a Gerência de Desenvolvimento de Áreas Mineradas, subordinada à Superintendência de Gestão Estratégica, passa a\ndenominar-se Gerência de Desenvolvimento do Setor de Minas, e mantêm-se inalterados o cargo de provimento em comissão de Gerente,\nsímbolo DAI-1, e a sua subordinação, sem prejuízo da investidura do atual ocupante.",
+              "hash_texto": "232cb9955853f3ad7bac5f053474bcd606241f3ee88f52a8d3e32d4573b11525",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-2",
+      "ordem": 2,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Ficam introduzidas as seguintes modificações na estrutura organizacional da Agência Goiana de Infraestrutura e\nTransportes - GOINFRA, constante da alínea “e” do inciso II do Anexo I da Lei nº 20.491, de 2019:",
+          "hash_texto": "b94a65829e0a4e73e0ceb5ad2fd55e8c9710df368f337b16fcf2373f37d87501",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-2/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "I - a Gerência de Processos Judiciais passa a denominar-se Gerência de Processos Judiciais Estratégicos, e mantêm-se\ninalterados o cargo de provimento em comissão de Gerente, símbolo DAI-1, e a sua subordinação, sem prejuízo da investidura do atual ocupante;",
+              "hash_texto": "ea10d76a95af0c6e9fe2f748cb5b71f485ba84fc75ca8efd84ceb7cc071f0ad0",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-2/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "II - a Gerência de Segurança e Monitoramento Rodoviário e Faixa de Domínio passa a denominar-se Gerência de Segurança\nRodoviária, e mantêm-se inalterados o cargo de provimento em comissão de Gerente, símbolo DAI-1, e a sua subordinação; e",
+              "hash_texto": "aaf8c439d1d4e2e3a3e1ff519d48b8fb21dfdd6bacf1c579e7a80b0453343db9",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "III",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-2/inc-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "III - ficam criadas, com os respectivos cargos de provimento em comissão de Gerente, símbolo DAI-1:",
+              "hash_texto": "747a377b6c91cd3e4242af08bbed33dd5c48fc49a0effc579df18d15ebad9b0b",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "a",
+              "tipo_dispositivo": "alinea",
+              "caminho_estrutural": "art-2/inc-3/ali-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "16/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "a) a Gerência de Processos Externos e Estratégicos, unidade da estrutura complementar, vinculada ao Gabinete do Presidente;",
+                  "hash_texto": "63f66b58473e0a50beb46fac33ba9e882128a8f1735ef585e322d72e17e32e0e",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "b",
+              "tipo_dispositivo": "alinea",
+              "caminho_estrutural": "art-2/inc-3/ali-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "16/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "b) a Gerência de Contencioso Cível, unidade da estrutura complementar, vinculada à Procuradoria Setorial;",
+                  "hash_texto": "2d2ea2d62a1503295d5a5d204865351f2144ba64fb552942853fa5eba679ffcd",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "c",
+              "tipo_dispositivo": "alinea",
+              "caminho_estrutural": "art-2/inc-3/ali-3",
+              "ordem": 3,
+              "versoes": [
+                {
+                  "vigencia_inicio": "16/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "c) a Gerência de Patrimônio, unidade da estrutura complementar, vinculada à Diretoria de Gestão Integrada;",
+                  "hash_texto": "ae1a0cca09c0aa2bb401abb6fff6ec0d5c942800c572dbab407e1cf56145e796",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "d",
+              "tipo_dispositivo": "alinea",
+              "caminho_estrutural": "art-2/inc-3/ali-4",
+              "ordem": 4,
+              "versoes": [
+                {
+                  "vigencia_inicio": "16/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "d) a Gerência de Arrecadação, unidade da estrutura complementar, vinculada à Diretoria Financeira;",
+                  "hash_texto": "0fd2979305117687922ba0b2fd0ff4b197a2b341bcec79356b9b2313db1ff4d0",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "e",
+              "tipo_dispositivo": "alinea",
+              "caminho_estrutural": "art-2/inc-3/ali-5",
+              "ordem": 5,
+              "versoes": [
+                {
+                  "vigencia_inicio": "16/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "e) a Gerência de Custos e Orçamentos de Obras Civis, unidade da estrutura complementar, vinculada à Diretoria de Planejamento;",
+                  "hash_texto": "d7139cbba7fb7507ae90163c1a99b77f7f8ccbd1916b3ebd968df3eb31d88545",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "f",
+              "tipo_dispositivo": "alinea",
+              "caminho_estrutural": "art-2/inc-3/ali-6",
+              "ordem": 6,
+              "versoes": [
+                {
+                  "vigencia_inicio": "16/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "f) a Gerência de Controle e Qualidade Tecnológica, unidade da estrutura complementar, vinculada à Diretoria de Planejamento;",
+                  "hash_texto": "996eda43c80e2433246abe36c0917e5bbd3507cd0d394e31fa4f0c3839c61271",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "g",
+              "tipo_dispositivo": "alinea",
+              "caminho_estrutural": "art-2/inc-3/ali-7",
+              "ordem": 7,
+              "versoes": [
+                {
+                  "vigencia_inicio": "16/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "g) a Gerência de Monitoramento de Faixa de Domínio, unidade da estrutura complementar, vinculada à Diretoria de Manutenção;",
+                  "hash_texto": "212db3883a7e11865c6bebc2edf09b244ae164ccc70bfbadeb60a27d6279756d",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "h",
+              "tipo_dispositivo": "alinea",
+              "caminho_estrutural": "art-2/inc-3/ali-8",
+              "ordem": 8,
+              "versoes": [
+                {
+                  "vigencia_inicio": "16/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "h) a Gerência de Monitoramento de Contratos e Informações, unidade da estrutura complementar, vinculada à Diretoria de\nObras Rodoviárias;",
+                  "hash_texto": "9c48c89e7aee1e4b2962eb0c5f4b5641538cfddac2cc2dae29348eaea442e263",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "i",
+              "tipo_dispositivo": "alinea",
+              "caminho_estrutural": "art-2/inc-3/ali-9",
+              "ordem": 9,
+              "versoes": [
+                {
+                  "vigencia_inicio": "16/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "i) a Gerência de Projetos e Artes Especiais, unidade da estrutura complementar, vinculada à Diretoria de Obras Rodoviárias.",
+                  "hash_texto": "6ae6f523f95c4fe60b3326e73e79ad9b937f0ab6bd1310516f420842cd36b19a",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "j",
+              "tipo_dispositivo": "alinea",
+              "caminho_estrutural": "art-2/inc-3/ali-10",
+              "ordem": 10,
+              "versoes": [
+                {
+                  "vigencia_inicio": "16/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "j) a Gerência da Rede Física, unidade da estrutura complementar, vinculada à Diretoria de Planejamento; e",
+                  "hash_texto": "0ce1e1bbdf9a5c58a52acf37d3d2b7dc789ef937be941ffe736bf4a230cf0b6a",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "k",
+              "tipo_dispositivo": "alinea",
+              "caminho_estrutural": "art-2/inc-3/ali-11",
+              "ordem": 11,
+              "versoes": [
+                {
+                  "vigencia_inicio": "16/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "k) a Gerência de Administração e Fiscalização, unidade da estrutura complementar, vinculada à Diretoria de Planejamento.",
+                  "hash_texto": "22223d1a60548e7099d4e4e4cc5908233b29c9fc77ec314fc350d7deeacabaaa",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-3",
+      "ordem": 3,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º Ficam criados 2 (dois) cargos de Assessoramento Especial, símbolo AE1, constante do Anexo III - Tabela de cargos de\nprovimento em comissão que não integram a estrutura básica ou complementar.",
+          "hash_texto": "b3d8809b26dd8e2f5fc1b40b13078ba0e98f497d233da6b38381ad1d746cc9e7",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 4º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-4",
+      "ordem": 4,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 4º Em decorrência do disposto:",
+          "hash_texto": "571ea09e7928fe75b58872494504e9feee6aff987fe949490072956734cb6572",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-4/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "I - nos arts. 1º e 2º desta Lei, a alínea “x” do inciso I e a alínea “e” do inciso II do Anexo I da Lei nº 20.491, de 2019, passam a\nvigorar com as alterações constantes do Anexo I desta Lei; e",
+              "hash_texto": "33ebfc1cb29743d5341b81e95cbca995ae4b3f2e9454f25676329a95fdc6285b",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-4/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "II - no art. 3º desta Lei, a tabela de cargos de provimento em comissão que não integram a estrutura básica ou complementar\nconstante do Anexo III da Lei nº 20.491, de 2019, passa a vigorar nos termos do Anexo II desta Lei.",
+              "hash_texto": "1a817884511265fcb38a8371684cf530ce4452c60d8d832473693dd61acffd7e",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 5º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-5",
+      "ordem": 5,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 5º A Lei nº 20.491, de 2019, passa a vigorar com as seguintes alterações:\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 0ef1a3c1\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 0ef1a3c1\n3\nDiário Oficial\nGOIÂNIA, SEGUNDA-FEIRA, 20 DE DEZEMBRO DE 2021\nANO 185 - DIÁRIO OFICIAL/GO N° 23.700\n“",
+          "hash_texto": "2fb0a7c925d784d3b9b897fb80fc6d31a7a203c4222c2f98ab9012479e8a09f2",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 38",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-6",
+      "ordem": 6,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 38. ............................................",
+          "hash_texto": "3355445ea14d303afc9ef081416534f8c7ea7836bc898e66820b89f04ffcdc7b",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-6/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "I - o planejamento, a formulação, a coordenação e a execução das políticas estaduais voltadas para o desenvolvimento\nda indústria, do comércio e dos serviços;\n…………………………………………….............................",
+              "hash_texto": "840cd9f033bef5c1e76c0a11dd228330cac1fdb17f787457a12fff1b25c3d236",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "III",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-6/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "III - a formulação da política dos distritos agroindustriais;\n………………………………………………...........................",
+              "hash_texto": "1d268f14fb92c55fb1780bb8dd9d0241f08bfcd9264b7a3b7f526bcb627708ee",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "X",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-6/inc-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "X - a formulação da política pública do setor de minas;\n…………………....................………………………............",
+              "hash_texto": "ba9ec157c7c73669226bf5dfa1887afb55c7f45421b4bc32aaa845d61b5ba16e",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "XII",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-6/inc-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "XII - promover e divulgar as oportunidades de negócios e investimentos produtivos em Goiás; e",
+              "hash_texto": "488c023f6512e6db8243877d1f71226595062313c3675b97b40875df41221909",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "XIII",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-6/inc-5",
+          "ordem": 5,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "XIII - firmar protocolos de intenções dentro de suas competências.” (NR)\n“",
+              "hash_texto": "81626b73954897736fa901b237ded20b851645473890bc5674303faaa044644e",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 43",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-7",
+      "ordem": 7,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 43-A. ...........................................\n........................................................................",
+          "hash_texto": "8bf31f14d9062036bfa858d0c66ecb0a2a9b71c21a5c6e6ec9e408e20115323a",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "V",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-7/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "V - a formulação e a execução da política estadual do microcrédito.” (NR)\n“",
+              "hash_texto": "a2b06ab7edce059c36f2c228f55bb1feccf6acf026443ab8376595932748dfb2",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 55",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-8",
+      "ordem": 8,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 55. ..............................................",
+          "hash_texto": "d8e70bb7b911c7c8c091fa9d72da65c5f83099fbd185989db17fc4f328e93eb7",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-8/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . Todas as gerências integrantes da Procuradoria Setorial da GOINFRA serão privativamente\nocupadas por Procuradores do Estado, nos termos do art. 132 da Constituição Federal.” (NR)",
+              "hash_texto": "36c6829c4718e97a4b842e1315b2c3e35a52016502ce620e10a526a77eb808b3",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 6º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-9",
+      "ordem": 9,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 6º (VETADO).",
+          "hash_texto": "2c1f6d6b25413a282e3814de4d14ccd517d1ba0d4a9ced86ddeca77dc0214ccc",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 7º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-10",
+      "ordem": 10,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 7º Fica revogado o inciso VIII do art. 38 da Lei nº 20.491, de 2019.",
+          "hash_texto": "bffabedbd87f29c1a92db97a738a9d87692106c970ee1b6a7c4821bcb4683424",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 8º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-11",
+      "ordem": 11,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 8º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 20 de dezembro de 2021; 133º da República.\nRONALDO CAIADO\nGovernador do Estado\nANEXO I\n“ANEXO I\nÓRGÃO OU ENTIDADE/ESTRUTURA\nBÁSICA E COMPLEMENTAR\nCLASSIFICAÇÃO\nCARGOS EM COMISSÃO\nDENOMINAÇÃO DO\nCARGO\nQTDE\nSÍMBOLO\n..........................................",
+          "hash_texto": "20a5266a8e991668b1e51dbead390f97a6c9be23577e384fc970fef22d667760",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-11/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "I - ADMINISTRAÇÃO DIRETA DO PODER EXECUTIVO\n..........................................",
+              "hash_texto": "56bee72b37332800038e015468df83f06345267af4bbbc143715951d84324d2b",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "x",
+              "tipo_dispositivo": "alinea",
+              "caminho_estrutural": "art-11/inc-1/ali-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "16/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "x) SECRETARIA DE ESTADO DE INDÚSTRIA, COMÉRCIO E SERVIÇOS - SIC\n..........................................",
+                  "hash_texto": "768918e5a43a5172327cc848665eb77c8f888afba0280af7d8a11095b4b7265c",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [
+                {
+                  "rotulo": "8",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-1/ali-1/item-1",
+                  "ordem": 1,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "8. 7.1. Superintendência de Prospecção de\nInvestimentos\nBásica\nSuperintendente\n1\nDAS-4",
+                      "hash_texto": "9ed39a30d241f5d11b81fdf66f1b3dcced277011a55a3e3347214638f968834f",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "8",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-1/ali-1/item-2",
+                  "ordem": 2,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "8. 7.1.1. Gerência de Prospecção e Estímulo\nao Investidor\nComplementar\nGerente\n1\nDAI-1",
+                      "hash_texto": "e61d7295667e8298f90dcbcc00a0e1c76333461aaf1b4af8ca023d69478d60bb",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "8",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-1/ali-1/item-3",
+                  "ordem": 3,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "8. 7.1.2. Gerência de Novos Negócios e\nDiversificação de Investimentos\nComplementar\nGerente\n1\nDAI-1",
+                      "hash_texto": "a1902c09765cba10423bac49bde85dbfc7846a9aa6a687e65261d9ddb8926d78",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "8",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-1/ali-1/item-4",
+                  "ordem": 4,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "8. 7.2. Superintendência de Desenvolvimento\nRegional\nBásica\nSuperintendente\n1\nDAS-4",
+                      "hash_texto": "48df47119c40441f00d04b3635375e68a0f1cd2f50a228cf185586797685f34b",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "8",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-1/ali-1/item-5",
+                  "ordem": 5,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "8. 7.2.2. Gerência de Potencialidades\nRegionais\nComplementar\nGerente\n1\nDAI-1",
+                      "hash_texto": "4bafe72fcd0ea8fb38b992213b430f4977d12b4cb1bf263af8d176f089bcc9cf",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "8",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-1/ali-1/item-6",
+                  "ordem": 6,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "8. 7.2.3. Gerência de Integração, Projetos de\nConcessões e Parcerias\nComplementar\nGerente\n1\nDAI-1",
+                      "hash_texto": "4ea1a4f06d2eb7ebffa8e07a13bf0372ce644f4c282cdb9b31faeee81b010ade",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "8",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-1/ali-1/item-7",
+                  "ordem": 7,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "8. 7.2.4. Gerência de Políticas de Desenvolvi­\nmento Regional\nComplementar\nGerente\n1\nDAI-1",
+                      "hash_texto": "59b7b51297281eb49f702d962a279ef3e0943fd930a3bc89757ba9700c72a727",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "8",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-1/ali-1/item-8",
+                  "ordem": 8,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "8. 7.3. Superintendência de Comércio\nExterior e Atração de Investimentos Interna­\ncionais\nBásica\nSuperintendente\n1\nDAS-4\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 0ef1a3c1\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 0ef1a3c1\n4\nDiário Oficial\nGOIÂNIA, SEGUNDA-FEIRA, 20 DE DEZEMBRO DE 2021\nANO 185 - DIÁRIO OFICIAL/GO N° 23.700",
+                      "hash_texto": "eea16d4191980f67d6cf56defd4c5cf59009b4e26dc0e98b52b86c2b097f3cd7",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "8",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-1/ali-1/item-9",
+                  "ordem": 9,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "8. 7.3.1. Gerência de Cooperação e\nPromoção do Estado de Goiás\nComplementar\nGerente\n1\nDAI-1",
+                      "hash_texto": "51055523cde2043cfd203f7fed2e75168f8f416ba836f4090774b64c2f033522",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "8",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-1/ali-1/item-10",
+                  "ordem": 10,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "8. 7.3.2. Gerência de Intercâmbio Comercial\ne Acesso ao Mercado\nComplementar\nGerente\n1\nDAI-1",
+                      "hash_texto": "82b79b2f2f3a3463acce2c64b5f0fd1501786b63f28f5f2644203e2e63af49d7",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "8",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-1/ali-1/item-11",
+                  "ordem": 11,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "8. 8. Subsecretaria de Fomento e Competi­\ntividade\nBásica\nSubsecretário\n1\nDAS-2",
+                      "hash_texto": "1be3f6466cf0f4435d9f891dcd1e62b3113ea0d46378f3052675ead8f2624d9a",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "8",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-1/ali-1/item-12",
+                  "ordem": 12,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "8. 8.1. Superintendência dos Programas de\nDesenvolvimento\nBásica\nSuperintendente\n1\nDAS-4",
+                      "hash_texto": "7c7a7861d8f7e23bb342b8db496d9f4517df43fa2c87e62232e560b91014c99c",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "8",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-1/ali-1/item-13",
+                  "ordem": 13,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "8. 8.1.1. Gerência de Análise e Viabilidade de\nProjetos\nComplementar\nGerente\n1\nDAI-1\n..........................................",
+                      "hash_texto": "23415af16ad09cf9d866afb4519c453c98ba3630567dd504757763e0df9c4ff8",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "8",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-1/ali-1/item-14",
+                  "ordem": 14,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "8. 8.1.4. Gerência de Monitoramento dos\nProgramas de Desenvolvimento\nComplementar\nGerente\n1\nDAI-1\n..........................................",
+                      "hash_texto": "2cebbb5d2c94bf5507aa795e5dac2e6671dfe1659260071057e586bff1900a2c",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "8",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-1/ali-1/item-15",
+                  "ordem": 15,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "8. 8.3. Superintendência de Gestão\nEstratégica do Setor Produtivo\nBásica\nSuperintendente\n1\nDAS-4",
+                      "hash_texto": "79d04f2f39256a7784235c6000eafbe98318997926e319d3bc9db436b5c987e1",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "8",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-1/ali-1/item-16",
+                  "ordem": 16,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "8. 8.3.1. Gerência de Projetos Estratégicos\ndo Setor Produtivo\nComplementar\nGerente\n1\nDAI-1",
+                      "hash_texto": "b003ce6f27026d686d9d576b4ebbe849f31a56cfb8151eb28db8ae3ef89bac70",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "8",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-1/ali-1/item-17",
+                  "ordem": 17,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "8. 8.3.2. Gerência de Inteligência do Setor\nProdutivo\nComplementar\nGerente\n1\nDAI-1",
+                      "hash_texto": "0ff294ce714822d400bffe8911a46f321f4058d50a3634b47c40d79b72e14294",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "8",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-1/ali-1/item-18",
+                  "ordem": 18,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "8. 8.3.3. Gerência de Desenvolvimento do\nSetor de Minas\nComplementar\nGerente\n1\nDAI-1",
+                      "hash_texto": "332d413bf9846c863bd19247f6c984dcc2af8aa1c3d10d5a6d8edf00fffea016",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "8",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-1/ali-1/item-19",
+                  "ordem": 19,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "8. 8.4. Gerência de Apoio ao Fomento\nComplementar\nGerente\n1\nDAI-1\n..........................................",
+                      "hash_texto": "85abe0baacd46d2c85bbdf2e6b28ca240084611c50b581a372f20baa078e7bed",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                }
+              ],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-11/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "II - ADMINISTRAÇÃO AUTÁRQUICA E FUNDACIONAL DO PODER EXECUTIVO\n..........................................",
+              "hash_texto": "6428f729fa3c92b5755f0059509865bbe458673888434fa2f80b4cfa3e5ffee2",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "e",
+              "tipo_dispositivo": "alinea",
+              "caminho_estrutural": "art-11/inc-2/ali-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "16/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "e) AGÊNCIA GOIANA DE INFRAESTRUTURA E TRANSPORTES - GOINFRA\n..........................................",
+                  "hash_texto": "359841bdfe3d7cc73cc1bb5dfc9382cb0b3ed033d3d8765d2b4bef010a8098fa",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [
+                {
+                  "rotulo": "1",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-2/ali-1/item-1",
+                  "ordem": 1,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "1. 8.2. Gerência de Processos Judiciais\nEstratégicos\nComplementar\nGerente\n1\nDAI-1\n..........................................",
+                      "hash_texto": "9406e16d6aa1663dab38a8b16679d892195aba021503dd587b3bbe52ada21d6a",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "1",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-2/ali-1/item-2",
+                  "ordem": 2,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "1. 8.4. Gerência de Contencioso Cível\nComplementar\nGerente\n1\nDAI-1\n..........................................",
+                      "hash_texto": "96fc59bf2648ff575273339447172fa3bac4a5975c9c6b6cfa811dfd55023cab",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "1",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-2/ali-1/item-3",
+                  "ordem": 3,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "1. 9.6. Gerência de Patrimônio\nComplementar\nGerente\n1\nDAI-1\n..........................................",
+                      "hash_texto": "284961fa94a255a8da5dcb6151b19ef43d48d8208eaeef66a0bc83e35b9c85a8",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "1",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-2/ali-1/item-4",
+                  "ordem": 4,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "1. 10.5. Gerência de Arrecadação\nComplementar\nGerente\n1\nDAI-1\n..........................................",
+                      "hash_texto": "edbb49671bda20eb3c37dcbe008e752b3309722ac045d05f2a3b6d4ade06f9c6",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "1",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-2/ali-1/item-5",
+                  "ordem": 5,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "1. 11.5. Gerência de Custos e\nOrçamentos de Obras Civis\nComplementar\nGerente\n1\nDAI-1",
+                      "hash_texto": "cc848b2a1ab3fa2928717e229f5e9a9aa34d2c507837ec434827108b87cc2725",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "1",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-2/ali-1/item-6",
+                  "ordem": 6,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "1. 11.6. Gerência de Controle e\nQualidade Tecnológica\nComplementar\nGerente\n1\nDAI-1",
+                      "hash_texto": "cff4ba17d78a9dcd9da85670eb877adead14d2b35ee6302bc992e9232e4a3464",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "1",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-2/ali-1/item-7",
+                  "ordem": 7,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "1. 11.7. Gerência da Rede Física\nComplementar\nGerente\n1\nDAI-1",
+                      "hash_texto": "4f81b9f36f31ed52cec34a15472b9538edb62091d31989af0900f8ec43a2f763",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "1",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-2/ali-1/item-8",
+                  "ordem": 8,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "1. 11.8. Gerência de Administração e\nFiscalização\nComplementar\nGerente\n1\nDAI-1\n..........................................",
+                      "hash_texto": "eaf8e2a23138674f0b0cfb75d7e551bb61ad07ccb394cf30f76a12079e3a0821",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "1",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-2/ali-1/item-9",
+                  "ordem": 9,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "1. 12.3. Gerência de Segurança Rodoviária\nComplementar\nGerente\n1\nDAI-1\n..........................................",
+                      "hash_texto": "dbb5cb0d01a92a1441e7fbf2e1421675957306f56296b301e89e948ed08ae1a7",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "1",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-2/ali-1/item-10",
+                  "ordem": 10,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "1. 12.6. Gerência de Monitoramento de Faixa\nde Domínio\nComplementar\nGerente\n1\nDAI-1\n..........................................",
+                      "hash_texto": "468f494a20b0dd81ab3d9eaf1694ec5d9579b98f720746cd32466ef0996f532f",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "1",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-2/ali-1/item-11",
+                  "ordem": 11,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "1. 13.5. Gerência de Monitoramento de\nContratos e Informações\nComplementar\nGerente\n1\nDAI-1",
+                      "hash_texto": "6fb7f196976c792d7789b6d4ab40408931dd530c548504c939d8f2756bfaf710",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "1",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-2/ali-1/item-12",
+                  "ordem": 12,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "1. 13.6. Gerência de Projetos e Artes\nEspeciais\nComplementar\nGerente\n1\nDAI-1\n..........................................",
+                      "hash_texto": "0a3f62bdb61228170aaaa97b3476cb981426eb5f3eda92fb407b00585577e8d6",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "1",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-2/ali-1/item-13",
+                  "ordem": 13,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "1. 18. Gerência de Processos Externos e\nEstratégicos\nComplementar\nGerente\n1\nDAI-1\n..........................................\n“ (NR)\nANEXO II\n“ANEXO III\nTABELA DE CARGOS DE PROVIMENTO EM COMISSÃO QUE NÃO INTEGRAM A ESTRUTURA BÁSICA OU COMPLEMENTAR\nNÍVEL\nDENOMINAÇÃO DO CARGO\nSÍMBOLO\nQUANTIDADE\nSUBSÍDIO\nAssessoramento Especial\nAssessor Especial AE1\nAE1\n31³",
+                      "hash_texto": "6ef7a4cf0fbc7a260c3ffe0ed878f47d94f80ac466264534768fb3a4f65304a6",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "10",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-2/ali-1/item-14",
+                  "ordem": 14,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "10. 000,00\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 0ef1a3c1\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 0ef1a3c1\n5\nDiário Oficial\nGOIÂNIA, SEGUNDA-FEIRA, 20 DE DEZEMBRO DE 2021\nANO 185 - DIÁRIO OFICIAL/GO N° 23.700\n..........................................\nTOTAL",
+                      "hash_texto": "05c559713aed88356751a8df5f6bdfd605111464e743ff47c1d0017ebad9eb36",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "5",
+                  "tipo_dispositivo": "item",
+                  "caminho_estrutural": "art-11/inc-2/ali-1/item-15",
+                  "ordem": 15,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "16/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "5. 105³\n“(NR)\n<#ABC#274600#5#323877/>\nProtocolo 274600\n<#ABC#274601#5#323878>\nLEI Nº 21.205, DE 20 DE DEZEMBRO DE 2021\nAltera a Lei nº 17.663, de 14 de junho de 2012, a Lei nº 16.893, de 14 de janeiro de 2010, a Lei nº 20.033, de 6 de abril\nde 2018, e a Lei nº 20.971, de 10 de março de 2021, e dá outras providências.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS, nos termos do art. 10 da Constituição Estadual, decreta e eu sanciono a\nseguinte Lei:",
+                      "hash_texto": "81883d0933007dddfb963d6eeb7f81ca898f3a56a5b5854b8df9584b913d5eb1",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                }
+              ],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-12",
+      "ordem": 12,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º A Lei nº 20.033, de 6 de abril de 2018, passa a vigorar com as seguintes alterações:\n“",
+          "hash_texto": "ae847bb82116d94f25bed1b5acc20bdc6c02c525ad0e614397a91b6064e9192e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art.4º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-13",
+      "ordem": 13,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art.4º ...................................................\n...............................................................................",
+          "hash_texto": "290cca8c3c5b766ed498eb9669fe5423f5b83df6fe02ffcd0eb2e973e3c5ec1b",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-13/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . (Revogado)” (NR)\n“",
+              "hash_texto": "07ce1e45c9f63157e8fdfa12bc133f481cfd7be6ba24032498631ade20837c22",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 5º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-14",
+      "ordem": 14,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 5º-A (VETADO).",
+          "hash_texto": "c72398a354279e48214f03a5562f765cf65b32ff094f955f7d250ddc9622ef9d",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-15",
+      "ordem": 15,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º O § 1º do art. 24 da Lei nº 16.893, de 14 de janeiro de 2010, passa a vigorar com a seguinte redação:\n“",
+          "hash_texto": "e5896f369f12cd083b9c439d8d88522729cb5ebf3763cd5372430812adc593c3",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 24",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-16",
+      "ordem": 16,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 24 ……..............................................",
+          "hash_texto": "f8012525b5fa3dd9ea0d262540389fe35b43df3c41b9f8f1b36908e93040ec58",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "§ 1",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-16/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 1 º Fica assegurada a substituição remunerada, devida na proporção de 1/30 (um trinta avos), tendo como base a remuneração\nda função por encargo de confiança e do cargo em comissão, observando-se, nesta última hipótese, os direitos de caráter individual.\n...............……………….............................…….”(NR)",
+              "hash_texto": "4296cb75747ec56e6f4b7b1c3402a2f37ca5679328725f4f035bf09d71d0e27d",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-17",
+      "ordem": 17,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º Fica alterada a nomenclatura dos seguintes cargos em comissão, mantido o requisito de escolaridade, previsto no art. 4º da Lei\nnº 20.883, de 22 de outubro de 2020:",
+          "hash_texto": "ac681b16a5cf29e198da5ecb7588dd6f5f6a5d4efb6fa64eed47da79b530b98e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-17/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "I - os cargos em comissão de Assistente Administrativo de Juiz de Direito, DAE-3, e de Assistente Administrativo de Juiz de Turma\nRecursal, DAE-3, passam a ser denominados de Assessor de Juiz de Direito I;",
+              "hash_texto": "721fbaafef2a5025401f77a560270d4bd92f0690e9ab6ff2f65a7546e4041688",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-17/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "II - os cargos em comissão de Assistente de Juiz de Direito, DAE-5, e de Assistente de Juiz de Turma Recursal, DAE-5, passam a ser\ndenominados de Assessor de Juiz de Direito II;",
+              "hash_texto": "99577fcd8e918ea47d376a53beff7723aefe614b28541dedc92642c3358d365d",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "III",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-17/inc-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "III - o cargo em comissão de Assistente de Secretaria de Câmara, DAE-2, passa a ser denominado de Assistente de Secretaria II, DAE-2.",
+              "hash_texto": "2e4a8213df9d6ce9c327951e91e2c0767464b1b7bacc7aeaa6ad4e3aad3868c4",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 4º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-18",
+      "ordem": 18,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 4º Ficam transformados, sem aumento de despesa, 57 (cinquenta e sete) cargos de provimento efetivo da Área Judiciária - Oficial\nde Justiça Avaliador; 6 (seis) cargos de provimento efetivo da Área Especializada (Contador); e 14 (quatorze) cargos de Analista Judiciário - Área\nEspecializada, em 5 (cinco) cargos em comissão de Assessor de Juiz de Direito I, DAE-3; em 1 (um) cargo em comissão de Assessor de Juiz de\nDireito II, DAE-5; e em 76 (setenta e seis) cargos de provimento efetivo de Analista Judiciário - Área de Apoio Judiciário e Administrativo, a serem\ndistribuídos por ato da Presidência do Tribunal de Justiça.",
+          "hash_texto": "394096a072d076cf2e12892bff6c313e1ca25250347612a69dfe09f07b43a2ca",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "§ 1",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-18/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 1 º Ficam transformados, sem aumento de despesa e mediante utilização de saldo orçamentário resultante da transformação prevista\nno caput deste artigo, 16 (dezesseis) cargos em comissão de Assistente Administrativo de Juiz de Turma Recursal, DAE-3, em 16 (dezesseis)\ncargos em comissão de Assessor de Juiz de Direito II, DAE-5, os quais serão vinculados aos gabinetes dos Juízes de Direito das Turmas\nRecursais.",
+              "hash_texto": "10622a3dd84bfb4463f8669672c2fda39b3e35a06cca334699e2636ec259b646",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 2",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-18/par-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 2 º A composição dos cargos em comissão prevista nos Anexos XII e XIII da Lei nº 17.663, de 2012, fica modificada na forma dos\nAnexos IV e V desta Lei, para consolidar as alterações introduzidas em decorrência da aplicação da Lei nº 20.509, de 11 de julho de 2019.",
+              "hash_texto": "0293e3918bee90b31a82f125d3721285d0b1664bde00ddfc68a7bf1012fd3514",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 5º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-19",
+      "ordem": 19,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 5º Em decorrência das disposições constantes desta Lei, ficam alterados os Anexos VIII, IX, XII e XIII da Lei nº 17.663, de 14 de\njunho de 2012, alterada pelas Leis nº 20.254, de 03 de agosto de 2018, nº 20.382, de 20 de dezembro de 2018, nº 20.971, de 10 de março de\n2021, e posteriores alterações, conforme denominações e quantitativos, na forma dos Anexos desta Lei.",
+          "hash_texto": "e952f043b0d06211b8766fc7e4cf67dbef96382eac84aac228a8dc665491574e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 6º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-20",
+      "ordem": 20,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 6º Os servidores lotados na Coordenadoria do Plantão Judicial do Poder Judiciário do Estado de Goiás poderão atuar em regime de\nhorário diferenciado, fazendo jus ao adicional correspondente.",
+          "hash_texto": "e92c17b724002b10f0571749b37ef98b766e9f928aa44e3d1b68973f55617987",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 7º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-21",
+      "ordem": 21,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 7º As despesas decorrentes desta Lei correrão à conta dos recursos consignados no Orçamento-Geral do Estado de Goiás ao\nTribunal de Justiça do Estado de Goiás, observando-se o disposto na Lei Complementar federal nº 173/2020.",
+          "hash_texto": "4c0accde08abc80b1151579aabd8724652be3f5f6b77879cf38c162acbff0083",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-21/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . Os efeitos financeiros da previsão contida no artigo 1º desta Lei serão implementados a partir de 1º de janeiro de 2022,\ncondicionando-se à disponibilidade orçamentária e financeira de cada exercício.",
+              "hash_texto": "0ba4cae4c5da95f3ce1d7d5a206c639c08bc4ce64053e2d2b142ad7b6d1986e5",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 8º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-22",
+      "ordem": 22,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 8º Esta Lei entra em vigor na data de sua publicação.\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 0ef1a3c1\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 0ef1a3c1\n6\nDiário Oficial\nGOIÂNIA, SEGUNDA-FEIRA, 20 DE DEZEMBRO DE 2021\nANO 185 - DIÁRIO OFICIAL/GO N° 23.700\nGoiânia, 20 de dezembro de 2021; 133º da República.\nRONALDO CAIADO\nGovernador do Estado\nANEXO I\n“Indicação das alterações introduzidas na tabela de cargos de\nque trata o Anexo VIII da Lei nº 17.663, de 14 de junho de 2012, e\nposteriores alterações.”\n“ANEXO VIII\nTabela de cargos área judiciária\nÁrea Judiciária\nCargo\nEspecialidade/\nFormação\nQuantidade\nprevista\nTotal\nTécnico Judiciário*\nDireito\n96\n534\nEscrivão Judiciário*\nNível Superior\n288\nDistribuidor\nJudiciário*\nNível Superior\n3\nDistribuidor e Partidor\nJudiciário*\nNível Superior\n2\nAnalista Judiciário -\nÁrea Judiciária\nDireito\n145\nOficial de Justiça\nAvaliador**\nNível Superior\n500\n612\nOficial de Justiça**\nNível Superior\n17\nAnalista Judiciário\n- Área Judiciária -\nOficial de Justiça\nDireito\n95\nTotal de Cargos Área Judiciária\n1146\n*Cargos a serem transformados em Analista Judiciário - Área\nJudiciária ao vagarem, conforme art. 33 da Lei nº 17.663/2012.\n**Cargos a serem transformados em Analista Judiciário - Área\nJudiciária - Oficial de Justiça Avaliador ao vagarem, conforme art.\n33 da Lei nº 17.663/2012.”(NR)\nANEXO II\n“Indicação das alterações introduzidas na tabela de cargos da área\nespecializada de que trata o Anexo IX da Lei nº 17.663, de 14 de\njunho de 2012, e posteriores alterações.”\n“ANEXO IX\nTabela de cargos da área especializada\nÁrea Especializada\nCargo\nEspecialidade/\nFormação\nQuantidade\nprevista\nTécnico\nJudiciário*\nAdministrador de\nEmpresas\n11\nArquiteto\n7\nArquivologista\n1\nAssistente Social\n17\nContador\n4\nEngenheiro Civil\n3\nEngenheiro Eletricista\n2\nAnalista de Sistema\n19\nMédico Clínico\n9\nMédico Ortopedista\n2\nMédico Psiquiatra\n10\nMédico do Trabalho\n3\nOdontólogo\n3\nPedagogo\n9\nPsicólogo\n17\nContador\nJudiciário*\nNível Superior\n6\nContador,\nDistribuidor\ne Partidor\nJudiciário*\nNível Superior\n75\nCargo\nEspecialidade/\nFormação\nQuantidade prevista\nAnalista\nJudiciário Área Especiali­\nzada\nAdministrador de\nEmpresas\n5\nAnalista de Sistema\n18\nArquivologista\n2\nAssistente Social\n35\nContador\n1\nEngenheiro Eletricista\n1\nMédico Clínico\n1\nOdontólogo\n1\nPedagogo\n16\nPsicólogo\n31\nTotal de Cargos\nda Área Especia­\nlizada\n309\n*Cargos a serem transformados em Analista Judiciário - Área\nEspecializada ao vagarem, conforme art. 33 da Lei nº 17.663, de\n14 de junho de 2012.”(NR)\nANEXO III\n“Indicação das alterações introduzidas na tabela de cargos de\nque trata o Anexo IX da Lei nº 17.663, de 14 de junho de 2012, e\nposteriores alterações.”\n“ANEXO IX\nTabela de cargos da área apoio judiciário e administrativo\nCargo\nEspecialidade/\nFormação\nQuantidade\nprevista\nAuxiliar Judiciário*\nNível Médio\n239\nEscrevente Judiciário (I,\nII e III)*\nNível Médio\n1817\nDepositário Judiciário (I,\nII e III)*\nNível Médio\n85\nPorteiro Judiciário (I, II\ne III)*\nNível Médio\n82\nAnalista Judiciário - Área\nde Apoio Judiciário e\nAdministrativo\nÁrea de Apoio/Nível\nSuperior\n332\nTotal de Cargos de Área\nde Apoio Judiciário e\nAdministrativo\n2555\n* Cargos a serem transformados em Analista Judiciário - Área de\nApoio Judiciário e Administrativo ao vagarem, conforme art. 33 da\nLei nº 17.663, de 2012.”(NR)\nANEXO IV\n“Indicação das alterações introduzidas no quadro de cargos em\ncomissão de que trata o Anexo XII da Lei nº 17.663, de 14 de junho\nde 2012, e posteriores alterações.”\n“Anexo XII\nQuantitativo de cargos em comissão\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 0ef1a3c1\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 0ef1a3c1\n7\nDiário Oficial\nGOIÂNIA, SEGUNDA-FEIRA, 20 DE DEZEMBRO DE 2021\nANO 185 - DIÁRIO OFICIAL/GO N° 23.700\nDescrição\nDAE\nQuantidade\nprevista\nVencimento\nCargos de\nProvimento em\nComissão\nDAE-01\n58\nR$",
+          "hash_texto": "e0a6af9838f342f55b23953c006b81a58bed4a29b2d1249b4d5e54a58cc4f48a",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "1",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "1. 612,05\nDAE-02\n38\nR$",
+              "hash_texto": "9c66ce9befa8d9b78e3ca3093c0d566820645f42a1e4777d2e1c121690ede8ab",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "1",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "1. 712,03\nDAE-03\n788\nR$",
+              "hash_texto": "7332ef527881762a124306170b53edc76666978d98dcf5d2adb6aaf6848a162f",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "1",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "1. 961,95\nDAE-04\n206\nR$",
+              "hash_texto": "4821f456f6c5126bb689ef7e4b5623611309325814d765c7ee7308641a2fe39f",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "2",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "2. 274,36\nDAE-05\n617\nR$",
+              "hash_texto": "f012216ec1eaed317e61b4523fcc1536d284c8bcf387b8cff40008704911161b",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "2",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-5",
+          "ordem": 5,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "2. 536,79\nDAE-06\n80\nR$",
+              "hash_texto": "d9d1093280d8fff57ef42e4f78f4a1ede35b8dd0ea79f6737524cf33b233276d",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "2",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-6",
+          "ordem": 6,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "2. 824,21\nDAE-07\n231\nR$",
+              "hash_texto": "ffa96a1f8dc3bd1c87ade66f0030b1f7928b0736b072dc81410c2e336989c784",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "3",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-7",
+          "ordem": 7,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "3. 748,96\nDAE-08\n10\nR$",
+              "hash_texto": "d4a4ab1b37da69512562fec8608f8ffa24a0b3274048d22a9adc9f4c19faf761",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "4",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-8",
+          "ordem": 8,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "4. 873,64\nDAE-09\n179\nR$",
+              "hash_texto": "cdb357f3d507f36dce62f705675071eb8018870e8aabe918207e54f8d0e2e673",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "6",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-9",
+          "ordem": 9,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "6. 473,19\nDAE-10\n3\nR$",
+              "hash_texto": "2303bead51dde4afd73ebe3492967ca95d1a3f77da14058d2dae3f5a0913520d",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "8",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-10",
+          "ordem": 10,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "8. 622,59\n“(NR)\nANEXO V\n“Indicação das alterações introduzidas no quadro analítico dos\ncargos em comissão de que trata o Anexo XIII da Lei nº 17.663, de\n14 de junho de 2012, e posteriores alterações.”\n“Anexo XIII\nQuadro Analítico dos Cargos em Comissão\nSÍMBOLO QUANT.\nDENOMINAÇÃO\nDAE-10\n1\nDIRETOR-GERAL\n1\nSECRETÁRIO-GERAL DA CORREGEDO­\nRIA-GERAL DA JUSTIÇA\n1\nSECRETÁRIO-GERAL DA PRESIDÊNCIA\nDAE-9\nDAE-09\n1\nASSESSOR JURÍDICO DA CORREGEDO­\nRIA-GERAL DA JUSTIÇA\n5\nASSESSOR JURÍDICO III\n6\nASSESSOR JURÍDICO DA PRESIDÊNCIA\n126\nASSESSOR JURÍDICO DE DESEMBAR­\nGADOR\n3\nASSESSOR TÉCNICO DA PRESIDÊNCIA II\n1\nASSESSOR TÉCNICO PARA ASSUNTOS\nDE RECURSOS CONSTITUCIONAIS\n1\nDIRETOR DE PLANEJAMENTO E\nINOVAÇÃO\n2\nCOORDENADOR DA DIRETORIA DO\nFORO DA COMARCA DE GOIÂNIA\n1\nCOORDENADOR DA OUVIDORIA DO\nPODER JUDICIÁRIO\n1\nCOORDENADOR DE ASSESSORAMENTO\nDA DIRETORIA-GERAL\n1\nCOORDENADOR DE ASSESSORAMENTO\nDA PRESIDÊNCIA\n1\nCOORDENADOR DE ASSESSORAMENTO\nDA VICE-PRESIDÊNCIA\n1\nDIRETOR DA AUDITORIA INTERNA\n1\nDIRETOR DA JUNTA MÉDICA DO PODER\nJUDICIÁRIO\n8\nDIRETOR DE ÁREA\n3\nDIRETOR DE ÁREA DA CORREGEDORIA­\n-GERAL DA JUSTIÇA\n1\nDIRETOR DE CERIMONIAL E RELAÇÕES\nPÚBLICAS\n1\nDIRETOR DO CENTRO DE SAÚDE\n1\nPRESIDENTE DA COMISSÃO\nPERMANENTE DE LICITAÇÃO\n8\nSECRETÁRIO DE CÂMARA\n3\nSECRETÁRIO DE SEÇÃO\n1\nSECRETÁRIO DO CONSELHO SUPERIOR\nDA MAGISTRATURA\n1\nSECRETÁRIO DO PLENÁRIO E DO\nÓRGÃO ESPECIAL\n1\nSECRETÁRIO EXECUTIVO DA\nPRESIDÊNCIA\nDAE-8\n1\nASSESSOR JURÍDICO-ADMINISTRATIVO\nDA DIRETORIA DO FORO DA COMARCA\nDE GOIÂNIA\n1\nASSESSOR TÉCNICO DA CORREGEDO­\nRIA-GERAL DA JUSTIÇA\n1\nASSESSOR TÉCNICO DA DIRETORIA DO\nFORO DA COMARCA DE GOIÂNIA\n1\nASSESSOR TÉCNICO DA PRESIDÊNCIA\nPARA ASSUNTOS DO CNJ\n1\nCHEFE DE GABINETE DA PRESIDÊNCIA\n1\nCOORDENADOR DE ESTATÍSTICA\n1\nCOORDENADOR DE ENGENHARIA DE\nSOFTWARE\n1\nASSESSOR TÉCNICO DA SECRETARIA\nEXECUTIVA DA PRESIDÊNCIA\n1\nASSESSOR TÉCNICO DE COMUNICAÇÃO\n1\nASSESSOR TÉCNICO DA PRESIDÊNCIA I\nDAE-7\n26\nASSESSOR CORREICIONAL DA CORRE­\nGEDORIA-GERAL DA JUSTIÇA\n1\nASSESSOR DE COMUNICAÇÃO SOCIAL\n1\nASSESSOR DE IMPRENSA\n1\nASSESSOR JURÍDICO DA OUVIDORIA DO\nPODER JUDICIÁRIO\n126\nASSISTENTE EXECUTIVO DE DESEM­\nBARGADOR\n16\nASSISTENTE EXECUTIVO DE JUIZ\nSUBSTITUTO EM SEGUNDO GRAU\n1\nCHEFE DE GABINETE DA CORREGEDO­\nRIA-GERAL DA JUSTIÇA\n1\nSECRETÁRIO DA COMISSÃO DE INFOR­\nMATIZAÇÃO\n1\nSECRETÁRIO DA COMISSÃO DE\nREGIMENTO E ORGANIZAÇÃO\nJUDICIÁRIA\n1\nSECRETÁRIO DA COMISSÃO DE\nSELEÇÃO E TREINAMENTO\n1\nSECRETÁRIO EXECUTIVO DA CORREGE­\nDORIA-GERAL DA JUSTIÇA\n1\nSECRETÁRIO EXECUTIVO DA OUVIDORIA\nDO PODER JUDICIÁRIO\n1\nSECRETÁRIO-GERAL DAS TURMAS\nRECURSAIS DOS JUIZADOS ESPECIAIS\nDO ESTADO DE GOIÁS\n1\nASSESSOR DA CORREGEDORIA-GERAL\nDA JUSTIÇA\n1\nASSESSOR DA DIRETORIA DA AUDITORIA\nINTERNA\n1\nASSESSOR JURÍDICO I\n4\nASSISTENTE EXECUTIVO DE JUIZ\nAUXILIAR DA PRESIDÊNCIA\n1\nASSISTENTE JURÍDICO\n45\nDIRETOR DE DIVISÃO\nDAE-6\n1\nCOORDENADOR DE MANDADOS DA\nDIRETORIA DO FORO DA COMARCA DE\nANÁPOLIS\n1\nCOORDENADOR DE SERVIÇOS DA\nDIRETORIA DO FORO DA COMARCA DE\nANÁPOLIS\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 0ef1a3c1\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 0ef1a3c1\n8\nDiário Oficial\nGOIÂNIA, SEGUNDA-FEIRA, 20 DE DEZEMBRO DE 2021\nANO 185 - DIÁRIO OFICIAL/GO N° 23.700\n1\nSECRETÁRIO DA DIRETORIA DO FORO\nDA COMARCA DE ANÁPOLIS\n1\nSECRETÁRIO DA DIRETORIA DO FORO\nDA COMARCA DE GOIÂNIA\n42\nSECRETÁRIO DE GABINETE DE DESEM­\nBARGADOR\n1\nSECRETÁRIO DO JUIZADO DA INFÂNCIA\nE DA JUVENTUDE DA COMARCA DE\nGOIÂNIA\n1\nASSESSOR DA CENTRAL DE PROCESSA­\nMENTO ELETRÔNICO\n4\nASSISTENTE DE SECRETARIA VI\n2\nCOORDENADOR DE SERVIÇO\n26\nDIRETOR DE SERVIÇO\nDAE-5\n552\nASSESSOR DE JUIZ DE DIREITO II\n1\nASSISTENTE DE SECRETARIA V\n6\nASSISTENTE TÉCNICO\n3\nASSISTENTE TÉCNICO DE ARQUITETURA\n1\nASSISTENTE TÉCNICO DE ENGENHARIA\nII\n42\nSECRETÁRIO DE DIRETORIA DE FORO\nDE COMARCA DE ENTRÂNCIA INTERME­\nDIÁRIA\n4\nSECRETÁRIO DE JUIZADO DA INFÂNCIA\nE DA JUVENTUDE DE COMARCA DE\nENTRÂNCIA INTERMEDIÁRIA\n1\nSECRETÁRIO DE NÚCLEO DE MÉTODOS\nCONSENSUAIS\n1\nSECRETÁRIO DE NÚCLEO DE RESPON­\nSABILIDADE SOCIAL E AMBIENTAL\n3\nSECRETÁRIO EXECUTIVO DE COORDE­\nNADORIA DE JUIZADOS\n1\nASSISTENTE TÉCNICO DA DIRETORIA DE\nCORREIÇÃO E SERVIÇO DE APOIO\n1\nASSISTENTE TÉCNICO DE GESTÃO DE\nPROCESSOS\n1\nCOORDENADOR DA SEÇÃO DE\nCUMPRIMENTO DE ATOS CÍVEIS DA\nCENTRAL DE PROCESSAMENTO\nELETRÔNICO\nDAE-4\n10\nASSISTENTE DE ATIVIDADE ESPECÍFICA\nDA CORREGEDORIA-GERAL DA JUSTIÇA\n5\nASSISTENTE DE SECRETARIA IV\n6\nAUXILIAR DE GABINETE I\n103\nCONCILIADOR\n82\nSECRETÁRIO DE JUIZADO\nDAE-3\n716\nASSESSOR DE JUIZ DE DIREITO I\n3\nASSISTENTE DE COMUNICAÇÃO\n3\nASSISTENTE DE NÚCLEO DE MÉTODOS\nCONSENSUAIS\n42\nAUXILIAR DE GABINETE II\n18\nASSISTENTE DE SECRETARIA III\n6\nASSISTENTE TÉCNICO DE ENGENHARIA\nI\nDAE-2\n38\nASSISTENTE DE SECRETARIA II\nDAE-1\n58\nASSISTENTE DE SECRETARIA I\n“(NR)\n<#ABC#274601#8#323878/>\nProtocolo 274601\n<#ABC#274602#8#323879>\nLEI Nº 21.206, DE 20 DE DEZEMBRO DE 2021\nConcede o título de cidadania que\nespecifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu\nsanciono a seguinte Lei:",
+              "hash_texto": "ba51636c881f46b895521a6e5199fbd9a3a2c184a16d658106f0b31ab024b1bd",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-23",
+      "ordem": 23,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica concedido a OSVALDO PINHEIRO DANTAS, in\nmemoriam, o Título Honorífico de Cidadão Goiano.",
+          "hash_texto": "ad1a97b5af69184dbc7e609e9b82a3e4bf894c58fb56539dbdedb111fab01e22",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-24",
+      "ordem": 24,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 20 de dezembro de 2021; 133º da República.\nRONALDO CAIADO\nGovernador do Estado\nLÊDA BORGES\nDeputada Estadual\n<#ABC#274602#8#323879/>\nProtocolo 274602\n<#ABC#274603#8#323880>\nLEI Nº 21.207, DE 20 DE DEZEMBRO DE 2021\nConcede título de cidadania que especifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu\nsanciono a seguinte Lei:",
+          "hash_texto": "0c90c96a0e2d960b6e69d860c31efe53d35898dfb9eb02ceb4dceb5043d5feba",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-25",
+      "ordem": 25,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica concedido a MILTON RIBEIRO o Título\nHonorífico de Cidadão Goiano.",
+          "hash_texto": "b7bfce80bb392f0f4908282a9476cd800b66750cbc132f080308b33dc5bf7bc1",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-26",
+      "ordem": 26,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 20 de dezembro de 2021; 133º da República.\nRONALDO CAIADO\nGovernador do Estado\nCORONEL ADAILTON\nDeputado Estadual\n<#ABC#274603#8#323880/>\nProtocolo 274603\n<#ABC#274604#8#323881>\nLEI Nº 21.208, DE 20 DE DEZEMBRO DE 2021\nDeclara de utilidade pública a entidade que\nespecifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu\nsanciono a seguinte Lei:",
+          "hash_texto": "03594dcc8bc4dd2a46c25e6c124cc3eb88fc019e993d04f02f1288d016066343",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-27",
+      "ordem": 27,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica declarada de utilidade pública a ASSOCIAÇÃO\nATLÉTICA NEUROLOGIA ATIVA, inscrita no Cadastro Nacional da\nPessoa Jurídica (CNPJ) sob o nº 35.393.233/0001-86, com sede no\nMunicípio de Goiânia-GO.",
+          "hash_texto": "415eded5bcf2fc64b1db6a3c1bd06ed0d0827f9b57af7dd1e76f7583bbd34150",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-28",
+      "ordem": 28,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 20 de dezembro de 2021; 133º da República.\nRONALDO CAIADO\nGovernador do Estado\nKARLOS CABRAL\nDeputado Estadual\n<#ABC#274604#8#323881/>\nProtocolo 274604\n<#ABC#274605#8#323882>\nLEI Nº 21.209, DE 20 DE DEZEMBRO DE 2021\nDeclara de utilidade pública a entidade que\nespecifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu\nsanciono a seguinte Lei:",
+          "hash_texto": "9aa1f6c618b31516e6fa3ba6712ed5d20c160c4f3e66e7961d3dc4add7125c4d",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-29",
+      "ordem": 29,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica declarada de utilidade pública a ASSOCIAÇÃO\nBRASILEIRA DE REGULARIZAÇÃO FUNDIÁRIA URBANA -\nABRAREURB, inscrita no Cadastro Nacional da Pessoa Jurídica\n(CNPJ) sob o nº 36.229.760/0001-12, com sede no Município de\nGoiânia-GO.\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 0ef1a3c1\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 0ef1a3c1\n9\nDiário Oficial\nGOIÂNIA, SEGUNDA-FEIRA, 20 DE DEZEMBRO DE 2021\nANO 185 - DIÁRIO OFICIAL/GO N° 23.700",
+          "hash_texto": "1742e279da481e2f0d0e547b531f48ee345a448bf126f4285b66806a53a65be0",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-30",
+      "ordem": 30,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 20 de dezembro de 2021; 133º da República.\nRONALDO CAIADO\nGovernador do Estado\nDELEGADO EDUARDO PRADO\nDeputado Estadual\n<#ABC#274605#9#323882/>\nProtocolo 274605\n<#ABC#274606#9#323883>\nLEI Nº 21.210, DE 20 DE DEZEMBRO DE 2021\nDeclara de utilidade pública a entidade\nque especifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu\nsanciono a seguinte Lei:",
+          "hash_texto": "8df941dab1ef82fbb441a5fe76707cc21de2a7eb2abdb7e099d43d23a55ef729",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-31",
+      "ordem": 31,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica declarada de utilidade pública a ASSOCIAÇÃO\nFAMÍLIA ICF, inscrita no Cadastro Nacional da Pessoa Jurídica\n(CNPJ) sob o nº 37.972.058/0001-07, com sede no Município de\nMorrinhos-GO.",
+          "hash_texto": "a2188a64651ebbdd2a5e106e4d2e18384349644fe39702d0ce998985936b338b",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-32",
+      "ordem": 32,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 20 de dezembro de 2021; 133º da República.\nRONALDO CAIADO\nGovernador do Estado\nFRANCISCO OLIVEIRA\nDeputado Estadual\n<#ABC#274606#9#323883/>\nProtocolo 274606\n<#ABC#274607#9#323884>\nLEI Nº 21.211, DE 20 DE DEZEMBRO DE 2021\nDeclara de utilidade pública a entidade que\nespecifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu\nsanciono a seguinte Lei:",
+          "hash_texto": "cddf08473c31409f9d4b56fb0b4c0c9d06112c172217f3acd47069574195c8ce",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-33",
+      "ordem": 33,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica declarada de utilidade pública a ASSOCIAÇÃO\nPAROQUIAL NOSSA SENHORA DA PENHA DE JARAGUÁ,\ninscrita no Cadastro Nacional da Pessoa Jurídica (CNPJ) sob o nº",
+          "hash_texto": "9cfb57a74c415ef494fd9a70a22ca52ba649857491b05a9749df26517e4ecb2e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "32",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-33/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "32. 848.909/0001-90, com sede no Município de Jaraguá-GO.",
+              "hash_texto": "2121abf919246b7589f542eb8aaa16c7508e9fa1a7c97be5cd6eec5f2fdc68ca",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-34",
+      "ordem": 34,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 20 de dezembro de 2021; 133º da República.\nRONALDO CAIADO\nGovernador do Estado\nHELIO DE SOUSA\nDeputado Estadual\n<#ABC#274607#9#323884/>\nProtocolo 274607\n<#ABC#274424#9#323686>\nEMENDA CONSTITUCIONAL Nº 71, DE 16 DE DEZEMBRO DE",
+          "hash_texto": "8b32789d0966c1133a726dc12c2469164c68f998c26e9cb47fb9de8929ec0bf5",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "2021",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-34/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "2021. Altera o disposto no § 4º-A do art. 101\nda Constituição do Estado de Goiás.\nA MESA DA ASSEMBLEIA LEGISLATIVA DO ESTADO\nDE GOIÁS, nos termos do § 3º do art. 19 da Constituição do Estado\nde Goiás, promulga a seguinte Emenda ao texto Constitucional:",
+              "hash_texto": "90097d65a9253996c377c8f5fa938d6343751d8aa1c465b126c6655ca803d865",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-35",
+      "ordem": 35,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º A Constituição do Estado de Goiás passa a vigorar\ncom a seguinte alteração:\n“",
+          "hash_texto": "0206b23878e3dedfa6a8cb5568d171a09e804b9eee0092a39151d6f03561cbdf",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 101",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-36",
+      "ordem": 36,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 101. .............................................................\n...............................................................................",
+          "hash_texto": "c9fc7cba4fe1af0981ebb76c65079856e7a1f40eac9d35772c200defa174c0e7",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "§ 4",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-36/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 4 º-A A contribuição ordinária dos aposentados e\npensionistas do Estado e dos municípios poderá incidir\nsobre o valor dos proventos de aposentadoria e de pensões\nque superem o maior valor entre R$ 3.000,00 (três mil reais)\ne 1 (um) salário-mínimo quando houver deficit atuarial no\nrespectivo RPPS.\n.....................................................................”(NR)",
+              "hash_texto": "7c04492e35f7aa1cd9c22e472e0cf044132c97ed69d10f9d57e50b4afb1f4a99",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-37",
+      "ordem": 37,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Emenda Constitucional entra em vigor na data\nde sua publicação.\nASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS, em\nGoiânia, 16 de dezembro de 2021.\nDeputado LISSAUER VIEIRA\n- PRESIDENTE <#ABC#274424#9#323686/>\nProtocolo 274424\nSecretaria de Estado da Casa Civil\n<#ABC#274497#9#323769>\nPORTARIA Nº 1.225, DE 18 DE DEZEMBRO DE 2021\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso\nda competência que lhe foi delegada pelo inciso II do art. 1º do\nDecreto nº 9.375, de 2 de janeiro de 2019, com fundamento no art.\n61 da Lei nº 20.756, de 28 de janeiro de 2020, e tendo em vista o\nque consta do Processo nº 202100016036517,\nRESOLVE:",
+          "hash_texto": "ceb912bffde930b23630c74c81006042722f17cb11971dbcbfab23992e026359",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-38",
+      "ordem": 38,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Exonerar, a pedido, NILO SÉRGIO SILVEIRA\nBEZERRA, CPF nº 078.545.737-27, do cargo de Perito Criminal,\ndo Quadro de Pessoal da Superintendência de Polícia Téc­\nnico-Científica, da Secretaria de Estado da Segurança Pública.",
+          "hash_texto": "db84db468e5b5e1634527075d036852cd65c8e5497effefc40c7768859543957",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-39",
+      "ordem": 39,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação, mas seus efeitos retroagem a 14 de dezembro de 2021.\nGoiânia, 18 de dezembro de 2021.\nJorge Luís Pinchemel\n<#ABC#274497#9#323769/>\nProtocolo 274497\n<#ABC#274500#9#323772>\nPORTARIA Nº 1.233, DE 18 DE DEZEMBRO DE 2021\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso\nda competência que lhe foi delegada pelo inciso II do art. 1º do\nDecreto nº 9.375, de 2 de janeiro de 2019, com fundamento no art.\n61 da Lei nº 20.756, de 28 de janeiro de 2020, também tendo em\nvista o que consta do Processo nº 202100020017673,\nRESOLVE:",
+          "hash_texto": "4f0f260c66c8b34b09ccfd758326a93d693a7996fddbe02f6814e6ce64bddbc0",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-40",
+      "ordem": 40,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Exonerar, a pedido, GUILHERME VILELA DE\nCARVALHO, CPF nº 983.335.851-91, do cargo de Assistente de\nGestão Administrativa, Classe “A”, Nível I, do Quadro Permanente\nde Servidores Efetivos da Área Técnico-Administrativa da\nUniversidade Estadual de Goiás - UEG.",
+          "hash_texto": "0e5dc1845c3a6b9aa5a17f4d4a05970324e4a0a8f0cae26d24c84c243581227d",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-41",
+      "ordem": 41,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação, mas seus efeitos retroagem a 23 de novembro de 2021.\nGoiânia, 18 de dezembro de 2021.\nJorge Luís Pinchemel\n<#ABC#274500#9#323772/>\nProtocolo 274500\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 0ef1a3c1\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 0ef1a3c1\n10\nDiário Oficial\nGOIÂNIA, SEGUNDA-FEIRA, 20 DE DEZEMBRO DE 2021\nANO 185 - DIÁRIO OFICIAL/GO N° 23.700\n<#ABC#274507#10#323779>\nPORTARIA Nº 1.226, DE 20 DE DEZEMBRO DE 2021\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso\nda competência que lhe foi delegada pelo inciso IX, alínea “a”, do art.\n1º do Decreto nº 9.375, de 2 de janeiro de 2019, com fundamento no\nart. 6º da Lei nº 20.757, de 28 de janeiro de 2020, e tendo em vista\no que consta do Processo nº 202118037006279,\nRESOLVE:",
+          "hash_texto": "57566a524299ad265615162dc2f7e7bc942745fe181e32d77b13f41f23e4bd5f",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-42",
+      "ordem": 42,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Manter a cessão da servidora ILCE SANTOS\nOLIVEIRA, CPF nº 303.044.901-72, ocupante do cargo efetivo de\nProfessor-III, do Poder Executivo estadual - Secretaria de Estado\nda Educação, ao Estado de Rondônia, no período de 1º de janeiro\na 31 de dezembro de 2022, com ônus para o cessionário, mediante\nressarcimento mensal ao cedente dos valores da remuneração,\nacrescidos dos encargos sociais e trabalhistas.",
+          "hash_texto": "c4e6b9c3c6e5645d322eae49b1f5afaeaa35adc716ea49fd1d9d9f2f64b95845",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-43",
+      "ordem": 43,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação.\nGoiânia, 20 de dezembro de 2021.\nJorge Luís Pinchemel\n<#ABC#274507#10#323779/>\nProtocolo 274507\n<#ABC#274513#10#323784>\nPORTARIA Nº 1.229, DE 20 DE DEZEMBRO DE 2021\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no\nuso da competência que lhe foi delegada pelo inciso IX, alínea\n“a”, do art. 1º do Decreto nº 9.375, de 2 de janeiro de 2019, com\nfundamento nos arts. 71, inciso I, e 72, inciso I, da Lei nº 20.756, de\n28 de janeiro de 2020, e tendo em vista o que consta do Processo\nnº 202100006077666,\nRESOLVE:",
+          "hash_texto": "b9b2233fc173b446e7bb0212e0e53e1f60d72c44216d1e680358b65b76adc397",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-44",
+      "ordem": 44,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Manter a cessão do servidor WELLINGTON DE\nPAULA BRANDÃO, CPF nº 370.151.331-72, ocupante do cargo\nefetivo de Agente Administrativo Educacional Técnico, do Poder\nExecutivo estadual - Secretaria de Estado da Educação, ao Município\nde Brazabrantes, para continuar exercendo, em comissão, o cargo\nde Secretário de Educação Municipal, no período de 1º de janeiro\na 31 de dezembro de 2022, com ônus para o cessionário, mediante\nressarcimento mensal ao cedente dos valores da remuneração,\nacrescidos dos encargos sociais e trabalhistas.",
+          "hash_texto": "d46b52450095421ac065bb766ebdc0da7fcad6d76404256975eed5f7f485f49e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-45",
+      "ordem": 45,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação.\nGoiânia, 20 de dezembro de 2021.\nJorge Luís Pinchemel\n<#ABC#274513#10#323784/>\nProtocolo 274513\n<#ABC#274516#10#323790>\nPORTARIA Nº 1.230, DE 20 DE DEZEMBRO DE 2021\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso\nda competência que lhe foi delegada pelo inciso IX, alínea “a”, do art.\n1º do Decreto nº 9.375, de 2 de janeiro de 2019, com fundamento no\ninciso I, do art. 45-A da Lei nº 13.909, de 25 de setembro de 2001,\ne tendo em vista o que consta do Processo nº 202100013002596,\nRESOLVE:",
+          "hash_texto": "fbc8d0803db6a9a648046009656d6975cb8f94cd00e376204bd847f76ac57ac6",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-46",
+      "ordem": 46,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Manter a cessão do servidor HERIMAR SILVÉRIO\nSANTIAGO DE SOUZA, CPF nº 873.673.271-00, ocupante do cargo\nefetivo de Professor-IV, do Poder Executivo estadual - Secretaria\nde Estado da Educação, ao Município de Taquaral de Goiás, para\ncontinuar exercendo, em comissão, o cargo de Secretário Municipal\nde Educação, no período de 1º de janeiro a 31 de dezembro de\n2022, com ônus para o cessionário, mediante ressarcimento mensal\nao cedente dos valores da remuneração, acrescidos dos encargos\nsociais e trabalhistas.",
+          "hash_texto": "f3759f625704b9de28261292d1a9cc8ee964f7c8a06dc431bb779b3e5f063dbb",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-47",
+      "ordem": 47,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação.\nGoiânia, 20 de dezembro de 2021.\nJorge Luís Pinchemel\n<#ABC#274516#10#323790/>\nProtocolo 274516\n<#ABC#274520#10#323793>\nPORTARIA Nº 1.234, DE 20 DE DEZEMBRO DE 2021\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso\nda competência que lhe foi delegada pelo inciso II do art. 1º do\nDecreto nº 9.375, de 2 de janeiro de 2019, com fundamento no art.\n61 da Lei nº 20.756, de 28 de janeiro de 2020, e tendo em vista o\nque consta do Processo nº 202100005026846,\nRESOLVE:",
+          "hash_texto": "02f2ffd6b668b7a1747abf2bff2a3c3d65b3fa7ab9ea398746ae08f68b074f06",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-48",
+      "ordem": 48,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Exonerar, a pedido, POLLYANNA FIDELES\nCOSTA CUSTÓDIO, CPF nº 979.245.041-68, do cargo de Técnico\nem Gestão Pública, Classe “B”, Padrão II, do Grupo Ocupacional\nTécnico-Governamental, do Quadro Permanente de Servidores\nEfetivos da Área Técnico-Administrativa do Poder Executivo do\nEstado de Goiás.",
+          "hash_texto": "03f8626cdfff38acaadfecc95a0547e7bc831761af1449bdba3e16f49a635869",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-49",
+      "ordem": 49,
+      "versoes": [
+        {
+          "vigencia_inicio": "16/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação, mas seus efeitos retroagem a 8 de setembro de 2020.\nGoiânia, 20 de dezembro de 2021.\nJorge Luís Pinchemel\n<#ABC#274520#10#323793/>\nProtocolo 274520\nSecretaria de Estado de Desenvolvimento e\nInovação\n<#ABC#274367#10#323622>\nEXTRATO DO 2º TERMO ADITIVO AO CONVÊNIO 01/2021-SEDI\nConcedente: ESTADO DE GOIÁS, através da SECRETARIA\nDE\nESTADO\nDE\nDESENVOLVIMENTO\nE\nINOVAÇÃO\n(21.652.711/0001-10).\nConvenente: UNIVERSIDADE FEDERAL DE GOIÁS - UFG\n(01.567.601/0001-43).\nInterveniente: FUNDAÇÃO DE APOIO À PESQUISA - FUNAPE\n(00.799.205/0001-89).\nProcesso: 202114304001134\nObjeto: constitui objeto do termo aditivo: a) alteração do plano de\ntrabalho; b) alteração do termo de convênio, consubstanciando: b.1)\nalteração da cláusula oitava do 1º Termo Aditivo; b.2) alteração da\ncláusula décima terceira; b.3) acréscimo do valor de repasse do\nConcedente; e b.4) aumento da contrapartida não-financeira do\nConvenente.\nValor: R$ 36.125.780,94\nData da Assinatura: 17 de dezembro de 2021\nSignatários: MARCIO CESAR PEREIRA, como Secretário de\nEstado de Desenvolvimento e Inovação; EDWARD MADUREIRA\nBRASIL, como Reitor da Universidade Federal de Goiás; e\nORLANDO AFONSO VALLE DO AMARAL, como Diretor Executivo\nda Fundação de Apoio à Pesquisa.\n<#ABC#274367#10#323622/>\nProtocolo 274367\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 0ef1a3c1\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 0ef1a3c1\n11\nDiário Oficial\nGOIÂNIA, SEGUNDA-FEIRA, 20 DE DEZEMBRO DE 2021\nANO 185 - DIÁRIO OFICIAL/GO N° 23.700\nPARAESTATAIS - SOCIEDADES\nDE ECONOMIA MISTA\nAgência Goiana de Habitação – AGEHAB\n<#ABC#274595#11#323871>\nERRATA ​nº 02/2021 AOS EDITAIS Nº 003 E 004/2021 - AGEHAB\nSELEÇÃO DE FAMÍLIAS PARA O PROGRAMA PRA TER ONDE\nMORAR - MUNICÍPIO DE APARECIDA DE GOIÂNIA E GOIÂNIA\nO GOVERNO DO ESTADO DE GOIÁS, ATRAVÉS DA AGÊNCIA\nGOIANA DE HABITAÇÃO S/A - AGEHAB, sociedade de economia\nmista, dotada de personalidade jurídica e direito privado, inscrita no\nCNPJ sob o nº 01.274.240/0001-47, com sede na Rua 18-A, nº 541,\nSetor Aeroporto, Goiânia - GO; torna público aos interessados a\nERRATA dos Editais nº 003 e 004/2021, que trata do Regulamento\nde Inscrição para Seleção de famílias para Programa Pra Ter Onde\nMorar, em Aparecida de Goiânia e Goiânia, previsto na Lei Estadual\nnº 21.186, de 30 de novembro de 2021.",
+          "hash_texto": "0da02f317943a147894a226321eaa6dc3c878ece4918f59bd70f8b26374ac598",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "1",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-49/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "1. DA DIVULGAÇÃO DA CLASSIFICAÇÃO FINAL",
+              "hash_texto": "0c5784a617044e47a6a7e8333afd96878df78c2a55dc2476b76fbc34916ab340",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "1",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-49/item-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "1. 1. Após a seleção dos candidatos, pelo critério previsto no item\n2 da Errata ao aos editais Nº 003 E 004/2021 - AGEHAB, será\ndivulgada a lista de candidatos que preencheram os requisitos e,\nportanto, poderão receber os benefícios.",
+              "hash_texto": "21ff0092a482801467f23b0f7c4482d5e4f56a3906452a6c93f89092eaaea319",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "1",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-49/item-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "1. 2. A lista com a classificação final será ordenada pelo mesmo\ncritério previsto no item 2 da Errata ao aos editais Nº 003 E\n004/2021 - AGEHAB, isto é, pela cronologia da inscrição, em que os\nprimeiros a se inscreverem precedem àqueles que se inscreveram\nposteriormente;",
+              "hash_texto": "86c0120058c8b7e3b8b1df03467c6b66d1865ec22a1ee2fdf275e89bc9b247cd",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "1",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-49/item-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "1. 3. Com exceção da primeira listagem para o edital nº\n004/2021-AGEHAB, para Goiânia, que já possui cronograma já\ndefinido, a divulgação das demais listagens dos Editais nº 003 e\n004/2021 de candidatos que tenham preenchido os requisitos,\nocorrerá de acordo com o andamento do programa e as análises\nque forem concluídas pela AGEHAB;",
+              "hash_texto": "239513d73084772dcabe733aa1369a22080f7b981a99bc58ad735fc69ee65729",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "1",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-49/item-5",
+          "ordem": 5,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "1. 3.1. As listagens mencionadas no item 1.3 serão consolidadas\npela Coordenadoria de Cadastro nos respectivos processos\nadministrativos, para, após, serem divulgadas integralmente no sítio\neletrônico da AGEHAB, devendo o extrato da listagem ser publicado\nno Diário Oficial do Estado de Goiás.",
+              "hash_texto": "9bafdba7b65197513d5cf7c3f15b60a079f3e0cd5bfa803b246c4742f7d51c71",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "1",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-49/item-6",
+          "ordem": 6,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "1. 4. A ordem de concessão dos benefícios segue o critério\ncronológico de inscrição e dependerá do preenchimento de todos\nos requisitos constantes nos editais, bem como da entrega - no\nprazo definido pela AGEHAB - da documentação comprobatória dos\nrequisitos.",
+              "hash_texto": "5a71ed7c7f311b58a455a115c59b03a3117be4c8bef7e38aeb30f320537b6722",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "1",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-49/item-7",
+          "ordem": 7,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "1. 4.1. Uma vez divulgada a lista de selecionados para apresentar a\ndocumentação, aquele que entregar a documentação primeiramente\nascenderá a posição daquele que a entregar posteriormente ou\nque não tiver entregue, mesmo que tenha realizado a inscrição\nanteriormente.",
+              "hash_texto": "af3dcf47f6eb0753f9e832837f32c3ac7c0a454846c759fdd78760ed4bd8c3ed",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "1",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-49/item-8",
+          "ordem": 8,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "1. 4.2. O candidato convocado a apresentar a documentação terá\n60 (sessenta) dias para fazê-lo, sob pena de exclusão da lista de\nselecionados, sendo necessário, nesse caso, uma nova inscrição\npara pleitear o benefício.",
+              "hash_texto": "c7be5941a7420e417fead43d1c3a9f5ed70d111ceb716a5b7accb1ba3424f088",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "2",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-49/item-9",
+          "ordem": 9,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "2. DAS DISPOSIÇÕES GERAIS",
+              "hash_texto": "f12d1740ccf7e40c2dd2917abf0c37c3712ffa9212fe14983fe9381cb43ed372",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "2",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-49/item-10",
+          "ordem": 10,
+          "versoes": [
+            {
+              "vigencia_inicio": "16/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "2. 1. A AGEHAB poderá, a qualquer tempo, promover o encerramento\ndas inscrições;\nGoiânia, 20 de dezembro de 2021.\nPEDRO HENRIQUE RAMOS SALES\nPresidente Agência Goiana de Habitação S.A.\n<#ABC#274595#11#323871/>\nProtocolo 274595\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 0ef1a3c1",
+              "hash_texto": "6e2c390b95e7cc1bce3894c268768f6c5ad50666a1d53d04d2d77c09b8d6d67c",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    }
+  ],
+  "auditoria": {
+    "run_id": "ec8f0a8a-afec-4b50-b9e5-2f26218c11a5",
+    "parser_versao": "2.0",
+    "gerado_em": "2025-10-14T00:45:48.875395Z"
+  }
+}

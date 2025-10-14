@@ -1,0 +1,3 @@
+{"timestamp": "2025-10-13T23:42:19.133863Z", "level": "INFO", "event": "START_NORMALIZATION", "input_file": "src/parser/output/br_go_estadual_emenda.constitucional_2019-05-02_59_recursivo.json"}
+{"timestamp": "2025-10-13T23:42:19.225166Z", "level": "INFO", "event": "NORMALIZED_FILE_SAVED", "path": "src/normalizer/output/br_go_estadual_emenda.constitucional_2019-05-02_59_normalizado.json"}
+{"timestamp": "2025-10-13T23:42:19.225474Z", "level": "INFO", "event": "END_NORMALIZATION"}

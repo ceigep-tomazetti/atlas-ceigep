@@ -282,8 +282,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Parser LexML-Atlas v2.0")
     parser.add_argument("--manifest", help="Caminho para o arquivo de manifesto JSON da coleta.")
     parser.add_argument("--source-file", help="Caminho para o arquivo fonte local (sobrescreve o manifesto).")
-    parser.add_argument("--outdir", default=os.getenv("PARSER_OUTDIR", "parser/output"), help="Diretório de saída para os arquivos JSON.")
-    parser.add_argument("--logs", default=os.getenv("PARSER_LOGDIR", "parser/logs"), help="Diretório de saída para os arquivos de log.")
+    parser.add_argument("--outdir", default=os.getenv("PARSER_OUTDIR", "src/parser/output"), help="Diretório de saída para os arquivos JSON.")
+    parser.add_argument("--logs", default=os.getenv("PARSER_LOGDIR", "src/parser/logs"), help="Diretório de saída para os arquivos de log.")
     
     args = parser.parse_args()
 

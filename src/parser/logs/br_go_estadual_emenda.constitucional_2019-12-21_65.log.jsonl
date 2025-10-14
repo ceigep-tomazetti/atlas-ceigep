@@ -1,0 +1,31 @@
+{"timestamp": "2025-10-14T00:27:24.405184Z", "level": "INFO", "event": "START_PARSE", "config": {"urn_lexml": "br;go;estadual;emenda.constitucional;2019-12-21;65", "source_file_path": "/Users/tomazetti/Projetos/ceigep-atlas-data/tmp_analise/ato_br_go_estadual_emenda.constitucional_2019-12-21_65.pdf", "tipo_ato": "Emenda Constitucional", "titulo": "Modifica o sistema de previdência social, estabelece regras de transição e disposições transitórias, e dá outras providências.", "entidade_federativa": "Estadual", "orgao_publicador": "Assembleia Legislativa do Estado de Goiás", "data_publicacao": "21/12/2019"}, "run_id": "1f93f446-fe71-440c-9916-e6ccea010990"}
+{"timestamp": "2025-10-14T00:27:24.406943Z", "level": "INFO", "event": "SOURCE_RESOLVED", "type": "local", "path": "/Users/tomazetti/Projetos/ceigep-atlas-data/tmp_analise/ato_br_go_estadual_emenda.constitucional_2019-12-21_65.pdf"}
+{"timestamp": "2025-10-14T00:27:24.667320Z", "level": "DEBUG", "event": "FOUND_PARAGRAFO", "path": "art-1/par-1"}
+{"timestamp": "2025-10-14T00:27:24.667949Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-2/item-1"}
+{"timestamp": "2025-10-14T00:27:24.668645Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-2/item-2"}
+{"timestamp": "2025-10-14T00:27:24.668897Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-2/item-3"}
+{"timestamp": "2025-10-14T00:27:24.669098Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-2/item-4"}
+{"timestamp": "2025-10-14T00:27:24.669361Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-2/item-5"}
+{"timestamp": "2025-10-14T00:27:24.669640Z", "level": "DEBUG", "event": "FOUND_PARAGRAFO", "path": "art-3/par-1"}
+{"timestamp": "2025-10-14T00:27:24.670193Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-4/item-1"}
+{"timestamp": "2025-10-14T00:27:24.670403Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-4/item-2"}
+{"timestamp": "2025-10-14T00:27:24.671568Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-4/item-3"}
+{"timestamp": "2025-10-14T00:27:24.671884Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-4/item-4"}
+{"timestamp": "2025-10-14T00:27:24.672229Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-4/item-5"}
+{"timestamp": "2025-10-14T00:27:24.672578Z", "level": "DEBUG", "event": "FOUND_PARAGRAFO", "path": "art-5/par-1"}
+{"timestamp": "2025-10-14T00:27:24.672996Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-6/item-1"}
+{"timestamp": "2025-10-14T00:27:24.673251Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-6/item-2"}
+{"timestamp": "2025-10-14T00:27:24.673459Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-6/item-3"}
+{"timestamp": "2025-10-14T00:27:24.673798Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-6/item-4"}
+{"timestamp": "2025-10-14T00:27:24.674111Z", "level": "DEBUG", "event": "FOUND_PARAGRAFO", "path": "art-7/par-1"}
+{"timestamp": "2025-10-14T00:27:24.674578Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-8/item-1"}
+{"timestamp": "2025-10-14T00:27:24.674769Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-8/item-2"}
+{"timestamp": "2025-10-14T00:27:24.675005Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-8/item-3"}
+{"timestamp": "2025-10-14T00:27:24.675253Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-8/item-4"}
+{"timestamp": "2025-10-14T00:27:24.675462Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-8/item-5"}
+{"timestamp": "2025-10-14T00:27:24.675660Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-8/item-6"}
+{"timestamp": "2025-10-14T00:27:24.675865Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-8/item-7"}
+{"timestamp": "2025-10-14T00:27:24.676081Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-8/item-8"}
+{"timestamp": "2025-10-14T00:27:24.676459Z", "level": "INFO", "event": "PDF_PARSE_SUCCESS", "article_count": 8}
+{"timestamp": "2025-10-14T00:27:24.683118Z", "level": "INFO", "event": "WRITE_OUTPUT", "path": "src/parser/output/br_go_estadual_emenda.constitucional_2019-12-21_65_recursivo.json", "device_count": 8}
+{"timestamp": "2025-10-14T00:27:24.683287Z", "level": "INFO", "event": "DONE"}

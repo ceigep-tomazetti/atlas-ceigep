@@ -1,0 +1,2174 @@
+{
+  "ato_normativo": {
+    "urn_lexml": "br;go;estadual;emenda.constitucional;2021-12-07;70",
+    "tipo_ato": "Emenda Constitucional",
+    "titulo": "Altera os dispositivos que especifica da Constituição do Estado de Goiás.",
+    "ementa": "",
+    "entidade_federativa": "Estadual",
+    "orgao_publicador": "Deputado Lissauer Vieira",
+    "data_publicacao": "07/12/2021",
+    "fonte_oficial": "",
+    "situacao_vigencia": "vigente"
+  },
+  "dispositivos": [
+    {
+      "rotulo": "Art. 1",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-1",
+      "ordem": 1,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1° Fica o Governo do Estado de Goiás autorizado a estadualizar:",
+          "hash_texto": "0bd03a0846a3a1a0a218537ab6f1948354a94c7ef5c9b58e78353be66f071a5d",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 1° Fica o Governo do Estado de Goiás autorizado a\nestadualizar:",
+          "hash_texto_normalizado": "62b97fdfbb7df61f2d5998200613a97dc0ba97183a9215f7a9084622cd833bb0",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-1/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "I - a rodovia municipal situada no Município de Goiatuba, identificada com o título de GTB-001, que se inicia no ponto Latitude - 49°37’9,312’’W, Longitude - 18°6’7,27”S, e finda no ponto Latitude - 49°33’9,552”W, Longitude - 18°12’19,516”S;",
+              "hash_texto": "4cddece0daf02998a2b0c33c8e803bbc2ba26cddaf8700d5ad528875850f0a0b",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "I - a rodovia municipal situada no Município de Goiatuba,\nidentificada com o título de GTB-001, que se inicia no ponto Latitude\n- 49°37’9,312’’W, Longitude - 18°6’7,27”S, e finda no ponto Latitude\n- 49°33’9,552”W, Longitude - 18°12’19,516”S;",
+              "hash_texto_normalizado": "15cf7d29818aa90e987e66c7ea4a5596a232c37fa35a6991f1619a8505fca81f",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-1/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "II - o trecho de rodovia municipal que liga o Trevo da Rodovia GO-443 com a Rodovia GO-507 até o Ribeirão da Formiga, divisa com o Município de Água Limpa - Goiás.",
+              "hash_texto": "6f4677239879b2a48b8d99e4242be0f38efb04f61f5dd8a3a31245c663e38fa4",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "II - o trecho de rodovia municipal que liga o Trevo da Rodovia\nGO-443 com a Rodovia GO-507 até o Ribeirão da Formiga, divisa\ncom o Município de Água Limpa - Goiás.",
+              "hash_texto_normalizado": "667e6dd2d2dc973e44bf0751f233a382d11e7e41c5ccf90cb783351d4272a103",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-2",
+      "ordem": 2,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2° Caberá ao órgão estadual competente realizar os estudos de viabilidade técnica para estruturação e conservação das rodovias de que trata o art. 1°.",
+          "hash_texto": "4a1ea36e80f4c2357daed99b3e55ea759362ccaa9e5e423da837c57879f47717",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 2° Caberá ao órgão estadual competente realizar os\nestudos de viabilidade técnica para estruturação e conservação das\nrodovias de que trata o art. 1°.",
+          "hash_texto_normalizado": "59e1eb44fb5b01f2fd373141951d8e82bf8569d2ba6adad05f56e1f35c648aef",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-3",
+      "ordem": 3,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º Esta Lei entra em vigor na data de sua publicação. ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS, em Goiânia, 7 de dezembro de 2021. Deputado LISSAUER VIEIRA - PRESIDENTE <#ABC#272151#1#321019/> Protocolo 272151 <#ABC#272159#1#321030> EMENDA CONSTITUCIONAL Nº 70, DE 7 DE DEZEMBRO DE",
+          "hash_texto": "c8d3790620f5ab239873c6ee1fed75fd5c3ec3d3b294ac3d4695420148988c81",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 3º Esta Lei entra em vigor na data de sua publicação.\nASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS, em\nGoiânia, 7 de dezembro de 2021.\nDeputado LISSAUER VIEIRA\n- PRESIDENTE <#ABC#272151#1#321019/>\nProtocolo 272151\n<#ABC#272159#1#321030>\nEMENDA CONSTITUCIONAL Nº 70, DE 7 DE DEZEMBRO DE",
+          "hash_texto_normalizado": "7ecada193559a929f54322632c216f0f54140a36036b07d6c952013c29f1e45b",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "2021",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-3/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "2021. Altera os dispositivos que especifica da Constituição do Estado de Goiás. A MESA DA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS, nos termos do art. 19 da Constituição Estadual, promulga a seguinte Emenda ao texto Constitucional:",
+              "hash_texto": "b172022b1e02770c62ae1a6f8b298ec117ba8f26c4ced3ec54e8139a041e0e16",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "2021. Altera os dispositivos que especifica da\nConstituição do Estado de Goiás.\nA MESA DA ASSEMBLEIA LEGISLATIVA DO ESTADO\nDE GOIÁS, nos termos do art. 19 da Constituição Estadual, promulga\na seguinte Emenda ao texto Constitucional:",
+              "hash_texto_normalizado": "5ca4b281ed40d136a4d5b3c40aec2d446fcb044abdb4510ad13b85afab792bd1",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-4",
+      "ordem": 4,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º O § 1º do art. 107 da Constituição do Estado de Goiás passa a vigorar com as seguintes alterações: “",
+          "hash_texto": "85450e93eaefe0164d12154e7caa8038b06797950db6122e2ba3baf63a41751b",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 1º O § 1º do art. 107 da Constituição do Estado de Goiás\npassa a vigorar com as seguintes alterações:\n“",
+          "hash_texto_normalizado": "cf9d015cf1768120afeae08c8a9f60a48cd264d735389c8a8b9eab452921e337",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 107",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-5",
+      "ordem": 5,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 107. .................................................................. .................................................................................",
+          "hash_texto": "2332a4a305914b4da9d0d0a3c0524d3dd88614f36c41e7dc3f9007f92f7173d0",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 107. ..................................................................\n.................................................................................",
+          "hash_texto_normalizado": "a93da7ba5f6bfb4ad1afd0a54770d83cc1de920caa78f124a525265ad236c0c5",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "§ 1",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-5/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 1 º ............................................................................",
+              "hash_texto": "5fb7bc8e20e72bd308dd09bca87897f59811b11923cc19b1fedbff1a1119901f",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "§ 1 º ............................................................................",
+              "hash_texto_normalizado": "5fb7bc8e20e72bd308dd09bca87897f59811b11923cc19b1fedbff1a1119901f",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "I",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-5/par-1/inc-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "07/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "I - 70% (setenta por cento), na proporção do valor adicionado nas operações relativas à circulação de mercadorias e nas prestações de serviços, realizadas em seus territórios;",
+                  "hash_texto": "2d4ebc6a02157f1fc30968b15226b398b62f09b48378e9cabcefe6f99d4a642c",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null,
+                  "texto_original_parser": "I - 70% (setenta por cento), na proporção do valor adicionado\nnas operações relativas à circulação de mercadorias e nas\nprestações de serviços, realizadas em seus territórios;",
+                  "hash_texto_normalizado": "f1b9f6eba0cea3ae80deefdc4af7f89a4af5e685cbf0eab14e3976e287bb3d88",
+                  "normalizacao": {
+                    "regras_aplicadas": [],
+                    "removido_total_chars": 0
+                  }
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "II",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-5/par-1/inc-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "07/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "II - 10% (dez por cento), distribuído em quotas iguais entre todos os Municípios; ..................................................................................",
+                  "hash_texto": "5d81dd40a64b63d69c58a51f257524c0f714aecef8b47ec0ef982255072573f1",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null,
+                  "texto_original_parser": "II - 10% (dez por cento), distribuído em quotas iguais entre\ntodos os Municípios;\n..................................................................................",
+                  "hash_texto_normalizado": "ded62e29934409ae22d8b1db3b1262658807a86c2b169bb173ce9419ebf3ad51",
+                  "normalizacao": {
+                    "regras_aplicadas": [],
+                    "removido_total_chars": 0
+                  }
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "IV",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-5/par-1/inc-3",
+              "ordem": 3,
+              "versoes": [
+                {
+                  "vigencia_inicio": "07/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "IV - 20% (vinte por cento), distribuídos na proporção do cumprimento de exigências estabelecidas em lei complementar estadual específica, relacionadas com o desempenho da gestão municipal nas áreas de educação, saúde e meio ambiente, sendo:",
+                  "hash_texto": "1d9ad54883cf5909d5c43037c60609d97bd5437658c4ed33a62691f885b51080",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null,
+                  "texto_original_parser": "IV - 20% (vinte por cento), distribuídos na proporção\ndo cumprimento de exigências estabelecidas em lei\ncomplementar estadual específica, relacionadas com o\ndesempenho da gestão municipal nas áreas de educação,\nsaúde e meio ambiente, sendo:",
+                  "hash_texto_normalizado": "185aab82f63981f124af3be964cdd1f3d275c5c61c171a6d9d07db01a49647bf",
+                  "normalizacao": {
+                    "regras_aplicadas": [],
+                    "removido_total_chars": 0
+                  }
+                }
+              ],
+              "filhos": [
+                {
+                  "rotulo": "a",
+                  "tipo_dispositivo": "alinea",
+                  "caminho_estrutural": "art-5/par-1/inc-3/ali-1",
+                  "ordem": 1,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "07/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "a) 10% (dez por cento) para educação;",
+                      "hash_texto": "0378daba1d9150dc53e30d694f974291d1b5eb4cbb67a50a8f28fd088e5fee34",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null,
+                      "texto_original_parser": "a) 10% (dez por cento) para educação;",
+                      "hash_texto_normalizado": "0378daba1d9150dc53e30d694f974291d1b5eb4cbb67a50a8f28fd088e5fee34",
+                      "normalizacao": {
+                        "regras_aplicadas": [],
+                        "removido_total_chars": 0
+                      }
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "b",
+                  "tipo_dispositivo": "alinea",
+                  "caminho_estrutural": "art-5/par-1/inc-3/ali-2",
+                  "ordem": 2,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "07/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "b) 5% (cinco por cento) para saúde;",
+                      "hash_texto": "d3bff110db7659610d59c078231cf5bef450ea333ffa43169cf1bd3deef2f540",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null,
+                      "texto_original_parser": "b) 5% (cinco por cento) para saúde;",
+                      "hash_texto_normalizado": "d3bff110db7659610d59c078231cf5bef450ea333ffa43169cf1bd3deef2f540",
+                      "normalizacao": {
+                        "regras_aplicadas": [],
+                        "removido_total_chars": 0
+                      }
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "c",
+                  "tipo_dispositivo": "alinea",
+                  "caminho_estrutural": "art-5/par-1/inc-3/ali-3",
+                  "ordem": 3,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "07/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "c) 5% (cinco por cento) para meio ambiente; ..................................................................................",
+                      "hash_texto": "df63455fe0a43e8160734b37a2effa82e654dbc66cbc018a7c824f99f7275402",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null,
+                      "texto_original_parser": "c) 5% (cinco por cento) para meio ambiente;\n..................................................................................",
+                      "hash_texto_normalizado": "f1a0b18842305135b4c10ce641ed161cea52945598b59d05fdb714ec8067aa0c",
+                      "normalizacao": {
+                        "regras_aplicadas": [],
+                        "removido_total_chars": 0
+                      }
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                }
+              ],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 7",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-5/par-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 7 º A lei complementar regulamentadora prevista no inciso IV do § 1º deste artigo terá como diretriz para o cálculo da quota parte de cada município, no que concerne à alínea:",
+              "hash_texto": "c8c2e709a757df197ace405a84cfae457ee1806e40b6a755169be1c68691dc74",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "§ 7 º A lei complementar regulamentadora prevista no inciso\nIV do § 1º deste artigo terá como diretriz para o cálculo da\nquota parte de cada município, no que concerne à alínea:",
+              "hash_texto_normalizado": "f85ca1b40fa44576e0695a6bfbd3fdaa6d14cf67aa49899f7785b1a237da1626",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "I",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-5/par-2/inc-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "07/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "I - ”a” do inciso IV do § 1º deste artigo:",
+                  "hash_texto": "d2b7959a1892183bc31a3528db256595419793d1dfc0d0f43fe1a501a74de0c7",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null,
+                  "texto_original_parser": "I - ”a” do inciso IV do § 1º deste artigo:",
+                  "hash_texto_normalizado": "d2b7959a1892183bc31a3528db256595419793d1dfc0d0f43fe1a501a74de0c7",
+                  "normalizacao": {
+                    "regras_aplicadas": [],
+                    "removido_total_chars": 0
+                  }
+                }
+              ],
+              "filhos": [
+                {
+                  "rotulo": "a",
+                  "tipo_dispositivo": "alinea",
+                  "caminho_estrutural": "art-5/par-2/inc-1/ali-1",
+                  "ordem": 1,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "07/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "a) a quantidade de matrículas na rede municipal de ensino como principal critério, o qual corresponderá a, no mínimo, 51% (cinquenta e um por cento) para cálculo, proporcionalmente, ao número de alunos matriculados nas redes municipais no Estado de Goiás, a serem somados aos demais critérios;",
+                      "hash_texto": "55c605913d611be7b3b97148407e6b1d32c0c9afc84e164cfbed83126c785d8d",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null,
+                      "texto_original_parser": "a) a quantidade de matrículas na rede municipal de\nensino como principal critério, o qual corresponderá a,\nno mínimo, 51% (cinquenta e um por cento) para cálculo,\nproporcionalmente, ao número de alunos matriculados nas\nredes municipais no Estado de Goiás, a serem somados aos\ndemais critérios;",
+                      "hash_texto_normalizado": "a620ef8fe7b706c4aeaa33bbc7f2721c1f08ba490e27824c820156fecab829e0",
+                      "normalizacao": {
+                        "regras_aplicadas": [],
+                        "removido_total_chars": 0
+                      }
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "b",
+                  "tipo_dispositivo": "alinea",
+                  "caminho_estrutural": "art-5/par-2/inc-1/ali-2",
+                  "ordem": 2,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "07/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "b) critérios que avaliem a melhoria da qualidade do ensino;",
+                      "hash_texto": "6b127703c5ef2e0d0fac08c4843e82543fb645c39d53a5ca6b41f594ad81c966",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null,
+                      "texto_original_parser": "b) critérios que avaliem a melhoria da qualidade do ensino;",
+                      "hash_texto_normalizado": "6b127703c5ef2e0d0fac08c4843e82543fb645c39d53a5ca6b41f594ad81c966",
+                      "normalizacao": {
+                        "regras_aplicadas": [],
+                        "removido_total_chars": 0
+                      }
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "c",
+                  "tipo_dispositivo": "alinea",
+                  "caminho_estrutural": "art-5/par-2/inc-1/ali-3",
+                  "ordem": 3,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "07/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "c) critérios socioeconômicos; e",
+                      "hash_texto": "9a08c02dcb26dccaa651ec8b98fae2e5a8700fc9fe6a9aa65cdb8263f10ba0ef",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null,
+                      "texto_original_parser": "c) critérios socioeconômicos; e",
+                      "hash_texto_normalizado": "9a08c02dcb26dccaa651ec8b98fae2e5a8700fc9fe6a9aa65cdb8263f10ba0ef",
+                      "normalizacao": {
+                        "regras_aplicadas": [],
+                        "removido_total_chars": 0
+                      }
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                },
+                {
+                  "rotulo": "d",
+                  "tipo_dispositivo": "alinea",
+                  "caminho_estrutural": "art-5/par-2/inc-1/ali-4",
+                  "ordem": 4,
+                  "versoes": [
+                    {
+                      "vigencia_inicio": "07/12/2021",
+                      "vigencia_fim": null,
+                      "texto_normalizado": "d) a universalização do acesso e permanência na educação básica;",
+                      "hash_texto": "401a069c59fd4cf8edfe87d17c60bc5ef60c4a4771db0ab02a6e9d5b3fb07356",
+                      "status_vigencia": "vigente",
+                      "origem_alteracao": null,
+                      "texto_original_parser": "d) a universalização do acesso e permanência na educação\nbásica;",
+                      "hash_texto_normalizado": "75604d1143c9695722e8724434077ca57a75e28098df0ef50de33f8f5a037245",
+                      "normalizacao": {
+                        "regras_aplicadas": [],
+                        "removido_total_chars": 0
+                      }
+                    }
+                  ],
+                  "filhos": [],
+                  "ancoras": null
+                }
+              ],
+              "ancoras": null
+            },
+            {
+              "rotulo": "II",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-5/par-2/inc-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "07/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "II - “b” do inciso IV do §1º deste artigo, levará em consideração o quantitativo de inscritos ativos no Cartão Nacional de Saúde -Cartão SUS-, de cada município, obedecendo a proporcionalidade, do número de inscritos ativos no Estado de Goiás.”(NR)",
+                  "hash_texto": "d6b9c936b093529612b56b49958a43b938136cec670700d397a3b02815724b4e",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null,
+                  "texto_original_parser": "II - “b” do inciso IV do §1º deste artigo, levará em consideração\no quantitativo de inscritos ativos no Cartão Nacional de\nSaúde -Cartão SUS-, de cada município, obedecendo a\nproporcionalidade, do número de inscritos ativos no Estado\nde Goiás.”(NR)",
+                  "hash_texto_normalizado": "8f7c83d9eb0bba3d22d498ff5e5e680e19f87bf4b6c07a149b94ae79088ccb88",
+                  "normalizacao": {
+                    "regras_aplicadas": [],
+                    "removido_total_chars": 0
+                  }
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-6",
+      "ordem": 6,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Os arts. 40 e 41 do Ato das Disposições Constitucionais Transitórias -ADCT- da Constituição do Estado de Goiás passam a vigorar com as seguintes alterações: “",
+          "hash_texto": "0b2a173016063240a062bc648184d6004448c4a3379cddd9225cf1f9c319ba02",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 2º Os arts. 40 e 41 do Ato das Disposições Constitucionais\nTransitórias -ADCT- da Constituição do Estado de Goiás passam a\nvigorar com as seguintes alterações:\n“",
+          "hash_texto_normalizado": "e3219265480ff9006b573eac0aad023f84ddb6e3ae0b4a6d58a5da726e624394",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 40",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-7",
+      "ordem": 7,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 40. ......................................................................",
+          "hash_texto": "c6535b078aa6ddd86e349bdd537d72622fde18c4ff2be1688192d839ada6d748",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 40. ......................................................................",
+          "hash_texto_normalizado": "c6535b078aa6ddd86e349bdd537d72622fde18c4ff2be1688192d839ada6d748",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-7/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . Sem prejuízo no disposto no caput, para os exercícios de 2021, 2022 e 2023, o Estado de Goiás deverá adotar as medidas necessárias para respeitar a limitação de despesa prevista na Lei Complementar federal nº 156, de 28 de dezembro de 2016, e Lei Complementar federal nº 159, de 19 de maio de 2017, e suas eventuais alterações na composição da base de cálculo e no limite nelas estabelecidos.”(NR) “",
+              "hash_texto": "789b0b6de23f8bd85528d63e147c2984aae469f09d5ec422a19019650ae3a288",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "Parágrafo único . Sem prejuízo no disposto no caput, para\nos exercícios de 2021, 2022 e 2023, o Estado de Goiás\ndeverá adotar as medidas necessárias para respeitar a\nlimitação de despesa prevista na Lei Complementar federal\nnº 156, de 28 de dezembro de 2016, e Lei Complementar\nfederal nº 159, de 19 de maio de 2017, e suas eventuais\nalterações na composição da base de cálculo e no limite\nnelas estabelecidos.”(NR)\n“",
+              "hash_texto_normalizado": "d85bf73f2c5681cd86b3f1edf5d62edf128596e1a0818b3649f13561ab9954b7",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 41",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-8",
+      "ordem": 8,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 41. Na vigência do NRF, a despesa primária empenhada, em cada exercício, não poderá exceder o DIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 9436bfa7 DIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 9436bfa7 2 Diário Oficial GOIÂNIA, QUARTA-FEIRA, 08 DE DEZEMBRO DE 2021 ANO 185 - DIÁRIO OFICIAL/GO N° 23.692 SUPLEMENTO Diretoria Estado de Goiás Imprensa Oficial do Estado de Goiás Rua SC-1, nº 299 - Parque Santa Cruz CEP: 74.860-270 - Goiânia - Goiás Fones: 3201-7663 / 3201-7639 / 99220-1032 www.abc.go.gov.br Reginaldo Alves da Nóbrega Júnior Presidente Rafael dos Santos Vasconcelos Diretor de Telerradiodifusão, Imprensa Oficial e Site Previsto Custódio dos Santos Gerente de Imprensa Oficial e Mídias Digitais respectivo montante da despesa primária empenhada no exercício 2021, acrescido da variação do Índice Nacional de Preços ao Consumidor Amplo - IPCA, aferida anualmente de forma acumulada.",
+          "hash_texto": "b3307b02e1a4e0f6b2d3a86dc04d3d330f3d5dd1f5ed9a142b3cb9b577a57ff3",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 41. Na vigência do NRF, a despesa primária\nempenhada, em cada exercício, não poderá exceder o\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 9436bfa7\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 9436bfa7\n2\nDiário Oficial\nGOIÂNIA, QUARTA-FEIRA, 08 DE DEZEMBRO DE 2021\nANO 185 - DIÁRIO OFICIAL/GO N° 23.692\nSUPLEMENTO\nDiretoria\nEstado de Goiás\nImprensa Oficial do Estado de\nGoiás\nRua SC-1, nº 299 - Parque Santa Cruz\nCEP: 74.860-270 - Goiânia - Goiás\nFones: 3201-7663 / 3201-7639 / 99220-1032\nwww.abc.go.gov.br\nReginaldo Alves da Nóbrega Júnior\nPresidente\nRafael dos Santos Vasconcelos\nDiretor de Telerradiodifusão, Imprensa Oficial e Site\nPrevisto Custódio dos Santos\nGerente de Imprensa Oficial e Mídias Digitais\nrespectivo montante da despesa primária empenhada no\nexercício 2021, acrescido da variação do Índice Nacional de\nPreços ao Consumidor Amplo - IPCA, aferida anualmente de\nforma acumulada.",
+          "hash_texto_normalizado": "67ea48c85ea5e1aa7633c681fed25f4e3203f09c697cf19f4e720171ff7fcdb0",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "§1",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-8/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "§1 º............................................................................ ..................................................................................",
+              "hash_texto": "20b5285af7cae3c723584824c5660a03074251828c0f9a0ef1d63b724343a740",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "§1 º............................................................................\n..................................................................................",
+              "hash_texto_normalizado": "767f774406ad3b9ae870b1c206ef514c0e2755029aeeda96132297931851439e",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "V",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-8/par-1/inc-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "07/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "V - revogado;",
+                  "hash_texto": "252f6b8068cc34fdf0b768b5c9df7122f63beafd8674810590ff3fe21509b5a5",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null,
+                  "texto_original_parser": "V - revogado;",
+                  "hash_texto_normalizado": "252f6b8068cc34fdf0b768b5c9df7122f63beafd8674810590ff3fe21509b5a5",
+                  "normalizacao": {
+                    "regras_aplicadas": [],
+                    "removido_total_chars": 0
+                  }
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "VI",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-8/par-1/inc-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "07/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "VI - as despesas com o pagamento de sentenças judiciais;",
+                  "hash_texto": "9d5c0da45e01ce397d7fe9d4cb00b133398bae77088e1040684490d5efe82577",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null,
+                  "texto_original_parser": "VI - as despesas com o pagamento de sentenças judiciais;",
+                  "hash_texto_normalizado": "9d5c0da45e01ce397d7fe9d4cb00b133398bae77088e1040684490d5efe82577",
+                  "normalizacao": {
+                    "regras_aplicadas": [],
+                    "removido_total_chars": 0
+                  }
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "VII",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-8/par-1/inc-3",
+              "ordem": 3,
+              "versoes": [
+                {
+                  "vigencia_inicio": "07/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "VII - revogado; ..................................................................................",
+                  "hash_texto": "18230aee81ed01dda939d34655bd48ee56525f8c3ff03dca4a60ae19401e8a0d",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null,
+                  "texto_original_parser": "VII - revogado;\n..................................................................................",
+                  "hash_texto_normalizado": "082ec1dadd8a7f4cdb6505135a2e4d400d9b7ff5cdbd3e279ea289fd7b1c9132",
+                  "normalizacao": {
+                    "regras_aplicadas": [],
+                    "removido_total_chars": 0
+                  }
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "IX",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-8/par-1/inc-4",
+              "ordem": 4,
+              "versoes": [
+                {
+                  "vigencia_inicio": "07/12/2021",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "IX - as despesas com a recomposição de fundos de reserva de depósitos administrativos e judiciais. ..................................................................................",
+                  "hash_texto": "66960934f2063cbda943a84ae30ddb54e067fe2353fca74a6604f652df088765",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null,
+                  "texto_original_parser": "IX - as despesas com a recomposição de fundos de reserva\nde depósitos administrativos e judiciais.\n..................................................................................",
+                  "hash_texto_normalizado": "187746dd54c15360f225b0f5e08da13d5eec641affb0131ecc5f57dd9f0d6d9c",
+                  "normalizacao": {
+                    "regras_aplicadas": [],
+                    "removido_total_chars": 0
+                  }
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 3",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-8/par-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 3 º Revogado.",
+              "hash_texto": "8d76fd064494766c24539e3fa13c834eac8a963cd01b254f863215889d70d941",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "§ 3 º Revogado.",
+              "hash_texto_normalizado": "8d76fd064494766c24539e3fa13c834eac8a963cd01b254f863215889d70d941",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§4",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-8/par-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "§4 º Para a apuração do limite da despesa primária, será considerada a despesa empenhada no exercício 2021, atualizada anualmente de forma acumulada, e serão observadas as exclusões previstas no § 1º deste artigo. .............................................................................",
+              "hash_texto": "7a903a820f985691b974c376af2f8d97214031f39ce3c43b625d85d5fc01ad48",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "§4 º Para a apuração do limite da despesa primária, será\nconsiderada a despesa empenhada no exercício 2021,\natualizada anualmente de forma acumulada, e serão\nobservadas as exclusões previstas no § 1º deste artigo.\n.............................................................................",
+              "hash_texto_normalizado": "e675140a51ec7688cb8db8bed6d1af035f67290f5a06e5dd1641d839f4cf2691",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 6",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-8/par-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 6 º Revogado.",
+              "hash_texto": "ce1d7fb36290ae5735b79cc3d04a9c809979ef89669df588aa1f990dab56c22f",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "§ 6 º Revogado.",
+              "hash_texto_normalizado": "ce1d7fb36290ae5735b79cc3d04a9c809979ef89669df588aa1f990dab56c22f",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§7",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-8/par-5",
+          "ordem": 5,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "§7 º Revogado.”(NR)",
+              "hash_texto": "1060968946ff9f845276a9775e2584db809f3753fe6d665131a10839bfab34ce",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "§7 º Revogado.”(NR)",
+              "hash_texto_normalizado": "1060968946ff9f845276a9775e2584db809f3753fe6d665131a10839bfab34ce",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-9",
+      "ordem": 9,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º Ficam revogados:",
+          "hash_texto": "90c7d57102b789182beb7be0fcab20fdc5f29e2018fcd36c2835edadbf26d481",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 3º Ficam revogados:",
+          "hash_texto_normalizado": "90c7d57102b789182beb7be0fcab20fdc5f29e2018fcd36c2835edadbf26d481",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-9/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "I - o inciso III do § 1º do art. 107 da Constituição Estadual;",
+              "hash_texto": "02c7c1402eb8c7b18c021337a1bdb3f4f970220182cfc52cf26dc0213abac02d",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "I - o inciso III do § 1º do art. 107 da Constituição Estadual;",
+              "hash_texto_normalizado": "02c7c1402eb8c7b18c021337a1bdb3f4f970220182cfc52cf26dc0213abac02d",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-9/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "II - os incisos V e VII do § 1º do art. 41 do ADCT da Constituição Estadual; e",
+              "hash_texto": "614213cb92c83555497953aa760560779d5b8e35630b5b77db4e92183b8c54dd",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "II - os incisos V e VII do § 1º do art. 41 do ADCT da Constituição\nEstadual; e",
+              "hash_texto_normalizado": "5ce6c67d34ca2e2c36067e6c745550727937f3651c4273a3e79b97309567e6ad",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "III",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-9/inc-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "III - os §§ 3º, 6º e 7º do art. 41 do ADCT da Constituição Estadual.",
+              "hash_texto": "5ae3413b11f8f2afb399ff10948b9708a3690f95516431230b769c3c1ae549e3",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "III - os §§ 3º, 6º e 7º do art. 41 do ADCT da Constituição\nEstadual.",
+              "hash_texto_normalizado": "8d7a21294f807b888311a4ff7ffac318ab24829dc1c261861f0ad1e777804613",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 4º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-10",
+      "ordem": 10,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 4º Esta Emenda Constitucional entra em vigor na data de sua publicação, ressalvadas, porém, os efeitos financeiros das alterações ao art. 107 da Constituição Estadual, que produzirão efeitos a partir de 1º de janeiro de 2023. ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS, em Goiânia, 7 de dezembro de 2021. Deputado LISSAUER VIEIRA - PRESIDENTE <#ABC#272159#2#321030/> Protocolo 272159 <#ABC#272104#2#320968> DECRETO Nº 9.997, DE 8 DE DEZEMBRO DE 2021 Implanta o adicional de que trata o art. 5º da Lei nº 21.184, de 30 de novembro de 2021, ao Bônus por Resultado. O GOVERNADOR DO ESTADO DE GOIÁS, no uso de suas atribuições constitucionais e legais, tendo em vista o que consta do Processo nº 202100006073697, DECRETA:",
+          "hash_texto": "0f8ced7fabed9032827f1c88371e7720d09da5fb6d1c99b7910a1131115f3283",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 4º Esta Emenda Constitucional entra em vigor na data\nde sua publicação, ressalvadas, porém, os efeitos financeiros das\nalterações ao art. 107 da Constituição Estadual, que produzirão\nefeitos a partir de 1º de janeiro de 2023.\nASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS, em\nGoiânia, 7 de dezembro de 2021.\nDeputado LISSAUER VIEIRA\n- PRESIDENTE <#ABC#272159#2#321030/>\nProtocolo 272159\n<#ABC#272104#2#320968>\nDECRETO Nº 9.997, DE 8 DE DEZEMBRO DE 2021\nImplanta o adicional de que trata o art. 5º da\nLei nº 21.184, de 30 de novembro de 2021,\nao Bônus por Resultado.\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso de suas\natribuições constitucionais e legais, tendo em vista o que consta do\nProcesso nº 202100006073697,\nDECRETA:",
+          "hash_texto_normalizado": "c53894601a7063c8aeb052008e99c2065d75e40894fb258e38d8e4c256976fbb",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-11",
+      "ordem": 11,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica implantado, atendidas as condições fiscais, orçamentárias e financeiras pelos órgãos competentes, o adicional de 13,5% (treze inteiros e cinco décimos por cento) da remuneração ou do subsídio do servidor beneficiário, conforme os incisos I e II do art. 88 da Lei nº 20.756, de 28 de janeiro de 2020, ao Bônus por Resultado no percentual de 98% (noventa e oito por cento) de que trata o Decreto nº 9.990, de 30 de novembro de 2021, exclusivamente no mês de dezembro de 2021.",
+          "hash_texto": "6d5a2407da244d6a62db8955e12884cfc9412b1113cd78b6ad0c30b467308357",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 1º Fica implantado, atendidas as condições fiscais,\norçamentárias e financeiras pelos órgãos competentes, o adicional\nde 13,5% (treze inteiros e cinco décimos por cento) da remuneração\nou do subsídio do servidor beneficiário, conforme os incisos I e II do\nart. 88 da Lei nº 20.756, de 28 de janeiro de 2020, ao Bônus por\nResultado no percentual de 98% (noventa e oito por cento) de que\ntrata o Decreto nº 9.990, de 30 de novembro de 2021, exclusivamente\nno mês de dezembro de 2021.",
+          "hash_texto_normalizado": "039cb656ff829322ffc0e8469cf13140fdd39a3e7cebdec8322aa78d516e94f9",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-11/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . Serão beneficiários do adicional implantado pelo caput deste artigo somente os profissionais da educação básica em efetivo exercício na Secretaria de Estado da Educação - SEDUC, nos termos do art. 26 da Lei federal nº 14.113, de 25 de dezembro de 2020, e do inciso XI do art. 212-A da Constituição federal, exclusivamente no mês de dezembro de 2021.",
+              "hash_texto": "bc1a77e9e7bc96ddd0b6321d9e0512d4062ef98fd78ead4c019dcdecc25db540",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "Parágrafo único . Serão beneficiários do adicional implantado\npelo caput deste artigo somente os profissionais da educação básica\nem efetivo exercício na Secretaria de Estado da Educação - SEDUC,\nnos termos do art. 26 da Lei federal nº 14.113, de 25 de dezembro\nde 2020, e do inciso XI do art. 212-A da Constituição federal,\nexclusivamente no mês de dezembro de 2021.",
+              "hash_texto_normalizado": "6f9ca56e17d733ffdf77fefc3fad6b0ca28d0f48dcd3b27fea0d2e905e69f937",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-12",
+      "ordem": 12,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Este Decreto entra em vigor na data de sua publicação. Goiânia, 8 de dezembro de 2021; 133º da República. RONALDO CAIADO Governador do Estado <#ABC#272104#2#320968/> Protocolo 272104 <#ABC#272182#2#321056> DECRETO DE 8 DE DEZEMBRO DE 2021 O GOVERNADOR DO ESTADO DE GOIÁS, no uso de suas atribuições constitucionais e legais, especialmente, com fundamento nos arts. 71, inciso II, e 72 da Lei nº 20.756, de 28 de janeiro de 2020, RESOLVE:",
+          "hash_texto": "55ecd20ddff46b0779099c199e59fd2498e4b3263f478125118b52d417643154",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 2º Este Decreto entra em vigor na data de sua publicação.\nGoiânia, 8 de dezembro de 2021; 133º da República.\nRONALDO CAIADO\nGovernador do Estado\n<#ABC#272104#2#320968/>\nProtocolo 272104\n<#ABC#272182#2#321056>\nDECRETO DE 8 DE DEZEMBRO DE 2021\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso de suas\natribuições constitucionais e legais, especialmente, com fundamento\nnos arts. 71, inciso II, e 72 da Lei nº 20.756, de 28 de janeiro de 2020,\nRESOLVE:",
+          "hash_texto_normalizado": "00813f6113f42a894ae8f399f21a88649fc9ee54c6d86d3fcbbc5afc312e3902",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-13",
+      "ordem": 13,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Ceder ALAN FARIAS TAVARES, CPF/ME nº",
+          "hash_texto": "b3bba0dbf9313ddb376cebf802f6a0304b60eb628e59b68ee97e2e3a3f58f4b7",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 1º Ceder ALAN FARIAS TAVARES, CPF/ME nº",
+          "hash_texto_normalizado": "b3bba0dbf9313ddb376cebf802f6a0304b60eb628e59b68ee97e2e3a3f58f4b7",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "698",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-13/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "698. 383.561-15, Procurador do Estado, ao Ministério da Economia, para representar o Estado de Goiás no Conselho de Supervisão do Regime de Recuperação Fiscal, de que trata o art. 6º da Lei Complementar nº 159, de 19 de maio de 2017, com ônus para o cessionário, mediante ressarcimento.",
+              "hash_texto": "73e48730b8abdb90f7c518a0fc00d7006b9fa1799f683ae0dcdb0ce38b896a95",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "698. 383.561-15, Procurador do Estado, ao Ministério da Economia,\npara representar o Estado de Goiás no Conselho de Supervisão\ndo Regime de Recuperação Fiscal, de que trata o art. 6º da Lei\nComplementar nº 159, de 19 de maio de 2017, com ônus para o\ncessionário, mediante ressarcimento.",
+              "hash_texto_normalizado": "da3b24e42d57fd79d73bf4bc4715c2b808ac8c79587cfe88916d0dba21c0ba6a",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-14",
+      "ordem": 14,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Este Decreto entra em vigor na data de sua publicação. Goiânia, 8 de dezembro de 2021; 133º da República. RONALDO CAIADO Governador do Estado <#ABC#272182#2#321056/> Protocolo 272182 DIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 9436bfa7 DIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 9436bfa7 3 Diário Oficial GOIÂNIA, QUARTA-FEIRA, 08 DE DEZEMBRO DE 2021 ANO 185 - DIÁRIO OFICIAL/GO N° 23.692 SUPLEMENTO <#ABC#272185#3#321060> DECRETO DE 8 DE DEZEMBRO DE 2021 O GOVERNADOR DO ESTADO DE GOIÁS, no uso de suas atribuições constitucionais e legais, RESOLVE:",
+          "hash_texto": "709f431607345e6d0514de7b7913cbc82c6bf8515471bf9af2a657d8989d5e61",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 2º Este Decreto entra em vigor na data de sua publicação.\nGoiânia, 8 de dezembro de 2021; 133º da República.\nRONALDO CAIADO\nGovernador do Estado\n<#ABC#272182#2#321056/>\nProtocolo 272182\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 9436bfa7\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 9436bfa7\n3\nDiário Oficial\nGOIÂNIA, QUARTA-FEIRA, 08 DE DEZEMBRO DE 2021\nANO 185 - DIÁRIO OFICIAL/GO N° 23.692\nSUPLEMENTO\n<#ABC#272185#3#321060>\nDECRETO DE 8 DE DEZEMBRO DE 2021\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso de\nsuas atribuições constitucionais e legais,\nRESOLVE:",
+          "hash_texto_normalizado": "eb73d911200fbc02cb5e1e4fa87108b19d9d4f9865eec4663ce397b0b28c5150",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-15",
+      "ordem": 15,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Exonerar ALAN FARIAS TAVARES, CPF/ME nº",
+          "hash_texto": "9691b6b2b93ac4c6fe4d492035c212b99699f7346b9629df4f4a55d8dfd9a241",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 1º Exonerar ALAN FARIAS TAVARES, CPF/ME nº",
+          "hash_texto_normalizado": "9691b6b2b93ac4c6fe4d492035c212b99699f7346b9629df4f4a55d8dfd9a241",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "698",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-15/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "698. 383.561-15, do cargo em comissão de Secretário de Estado da Casa Civil, DAS-1.",
+              "hash_texto": "dc5e8d87fb4c2cb58b7a68fc459fec4e2ca5427741aad0b58835bc9a903a9d14",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "698. 383.561-15, do cargo em comissão de Secretário de Estado da\nCasa Civil, DAS-1.",
+              "hash_texto_normalizado": "546d2e62bcca8397f29dc46acdbca0b275dca6b554033f5138e8e48f914cfe62",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-16",
+      "ordem": 16,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Este Decreto entra em vigor na data de sua publicação. Goiânia, 8 de dezembro de 2021; 133º da República. RONALDO CAIADO Governador do Estado <#ABC#272185#3#321060/> Protocolo 272185 <#ABC#272190#3#321064> DECRETO DE 8 DE DEZEMBRO DE 2021 O GOVERNADOR DO ESTADO DE GOIÁS, no uso de suas atribuições constitucionais e legais, RESOLVE:",
+          "hash_texto": "d00d0bb20520a991b005f637efba40c6225e5ba541bd96c031a2bd35fde72e53",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 2º Este Decreto entra em vigor na data de sua\npublicação.\nGoiânia, 8 de dezembro de 2021; 133º da República.\nRONALDO CAIADO\nGovernador do Estado\n<#ABC#272185#3#321060/>\nProtocolo 272185\n<#ABC#272190#3#321064>\nDECRETO DE 8 DE DEZEMBRO DE 2021\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso de\nsuas atribuições constitucionais e legais,\nRESOLVE:",
+          "hash_texto_normalizado": "c41819ef8596f36059769fbdf835cf33cd33bcefedbefea3fc7d8956e0618dd7",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-17",
+      "ordem": 17,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Nomear JORGE LUIS PINCHEMEL, CPF/ME nº",
+          "hash_texto": "c724d19cbf676b84127e69622876d7b2280ba11f0d6609d39bb2888cf99c8764",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 1º Nomear JORGE LUIS PINCHEMEL, CPF/ME nº",
+          "hash_texto_normalizado": "c724d19cbf676b84127e69622876d7b2280ba11f0d6609d39bb2888cf99c8764",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "894",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-17/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "894. 795.561-20, para exercer, interinamente, o cargo de provimento em comissão de Secretário de Estado da Casa Civil, DAS-1, sem prejuízo de suas atribuições como Superintendente de Legislação, Atos Oficiais e Assuntos Técnicos, DAS-4, da mesma pasta.",
+              "hash_texto": "9e8080fafdb45ec6fd0bdcb23759bcc2c1e6935f3d48c32ad24a27f3479f75c0",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "894. 795.561-20, para exercer, interinamente, o cargo de provimento\nem comissão de Secretário de Estado da Casa Civil, DAS-1, sem\nprejuízo de suas atribuições como Superintendente de Legislação,\nAtos Oficiais e Assuntos Técnicos, DAS-4, da mesma pasta.",
+              "hash_texto_normalizado": "17ea5a826b54bef02ef48487a6e2439e8f2ff365ad2d060324c952e17c7f0fce",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-18",
+      "ordem": 18,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Este Decreto entra em vigor na data de sua publicação. Goiânia, 8 de dezembro de 2021; 133º da República. RONALDO CAIADO Governador do Estado <#ABC#272190#3#321064/> Protocolo 272190 <#ABC#272196#3#321072> DECRETO DE 8 DE DEZEMBRO DE 2021 O GOVERNADOR DO ESTADO DE GOIÁS, no uso de suas atribuições constitucionais e legais, RESOLVE:",
+          "hash_texto": "16c0e955bc73c5209b22cc68b23d6f64247dc3aa1af2ce14671c670daf5d2333",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 2º Este Decreto entra em vigor na data de sua\npublicação.\nGoiânia, 8 de dezembro de 2021; 133º da República.\nRONALDO CAIADO\nGovernador do Estado\n<#ABC#272190#3#321064/>\nProtocolo 272190\n<#ABC#272196#3#321072>\nDECRETO DE 8 DE DEZEMBRO DE 2021\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso de\nsuas atribuições constitucionais e legais,\nRESOLVE:",
+          "hash_texto_normalizado": "734a8582ed1447264c06d40e3de7561074a6d9e40c4dff213ff8cb7f65ee77e3",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-19",
+      "ordem": 19,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Nomear AMANDA REGINA MARIA TAVEIRA DA MOTA, CPF/ME nº 011.872.621-88, para, em comissão, exercer o cargo de Assessor Especial “AE2”, da Secretaria de Estado da Administração.",
+          "hash_texto": "604ca3f2ec327eb48f20bebc9a1188384c6b94026e65bcae39a67c6309644109",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 1º Nomear AMANDA REGINA MARIA TAVEIRA DA\nMOTA, CPF/ME nº 011.872.621-88, para, em comissão, exercer\no cargo de Assessor Especial “AE2”, da Secretaria de Estado da\nAdministração.",
+          "hash_texto_normalizado": "a3cec6f8618911f151ee54b84c345f18f4cd2b58426641c2ec49134b5ef89c5b",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-19/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . A eficácia do provimento estabelecido pelo art. 1º fica condicionada ao atendimento do Decreto nº 7.587, de 30 de março de 2012, com alterações posteriores, por ocasião da respectiva posse.",
+              "hash_texto": "0cc82111369d246f471a17d5353bea73a21cb732b00eb7686b1a9246c2b0dfaf",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "Parágrafo único . A eficácia do provimento estabelecido pelo\nart. 1º fica condicionada ao atendimento do Decreto nº 7.587, de\n30 de março de 2012, com alterações posteriores, por ocasião da\nrespectiva posse.",
+              "hash_texto_normalizado": "67baf16b1a57be24ecdc1c8572b4423f2c972e2a1f45df96f87fe084d2c6b628",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-20",
+      "ordem": 20,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Este Decreto entra em vigor na data de sua publicação. Goiânia, 8 de dezembro de 2021; 133º da República. RONALDO CAIADO Governador do Estado <#ABC#272196#3#321072/> Protocolo 272196 <#ABC#272107#3#320972> Referência: Processo nº 201610319003384 Interessada: Arinaia Coelho Vieira Assunto: Processo administrativo disciplinar. EXTRATO DE DECISÃO ADMINISTRATIVA DO DESPACHO Nº 866/2021 Conforme a argumentação apresentada e o que consta dos autos, destacadamente o Despacho nº 1.402/2021/ASGAB, da Pro­ curadoria-Geral do Estado, adoto o Relatório Final nº 11/2021/CPAD, da Comissão Processante. Desse modo, reconheço a prescrição da pretensão punitiva para as transgressões supostamente praticadas até o mês de novembro de 2015. Também reconheço a ausência de comprovação da materialidade para a transgressão disciplinar prevista no inciso LV do art. 303 da Lei estadual nº 10.460, de 22 de fevereiro de 1988, vigente à época dos fatos, e supostamente praticada no mês de dezembro de 2015. Portanto, absolvo a servidora ARINAIA COELHO VIEIRA, CPF nº 005.027.771-50, das acusações que lhe foram imputadas. Encaminhem-se os autos à Secretária de Estado de Desenvolvimento Social para o conhecimento e a cientificação à interessada de seu inteiro teor, nos termos dos arts. 3º, inciso II, e 26 da Lei estadual nº 13.800, de 18 de janeiro de 2001. Acrescento que sejam tomadas as medidas necessárias para a apuração da responsabilidade pela ocorrência da prescrição disciplinar, nos termos do art. 201, § 4º, da Lei estadual nº 20.756, de 28 de janeiro de 2020, que “dispõe sobre o novo regime jurídico dos servidores públicos civis do Estado de Goiás, das autarquias e fundações públicas estaduais e dá outras providências”. Goiânia, 8 de dezembro de 2021. RONALDO CAIADO Governador do Estado <#ABC#272107#3#320972/> Protocolo 272107 Secretaria de Estado da Casa Civil <#ABC#272111#3#320976> PORTARIA Nº 1.182, DE 8 DE DEZEMBRO DE 2021 O SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso da competência que lhe foi delegada pelo inciso IX, alínea “b”, do art. 1º do Decreto nº 9.375, de 2 de janeiro de 2019, com fundamento nos arts. 71, inciso II, e 72, inciso II, da Lei nº 20.756, de 28 de janeiro de 2020, também na Lei federal nº 6.999, de 7 de junho de 1982, em harmonia com a Resolução nº 23.523, de 27 de junho de 2017, do Tribunal Superior Eleitoral, e tendo em vista o que consta do Processo nº 202118037006152, em especial o Ofício nº 361 - PRES, de 1º de dezembro de 2021, do Presidente do Tribunal Regional Eleitoral de Goiás, RESOLVE:",
+          "hash_texto": "e279f7717ea24df2847da7d776d94cd78bf74411af50cba2128dbcb01aaece57",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 2º Este Decreto entra em vigor na data de sua publicação.\nGoiânia, 8 de dezembro de 2021; 133º da República.\nRONALDO CAIADO\nGovernador do Estado\n<#ABC#272196#3#321072/>\nProtocolo 272196\n<#ABC#272107#3#320972>\nReferência: Processo nº 201610319003384\nInteressada: Arinaia Coelho Vieira\nAssunto: Processo administrativo disciplinar.\nEXTRATO DE DECISÃO ADMINISTRATIVA DO DESPACHO Nº\n866/2021\nConforme a argumentação apresentada e o que consta dos\nautos, destacadamente o Despacho nº 1.402/2021/ASGAB, da Pro­\ncuradoria-Geral do Estado, adoto o Relatório Final nº 11/2021/CPAD,\nda Comissão Processante. Desse modo, reconheço a prescrição da\npretensão punitiva para as transgressões supostamente praticadas\naté o mês de novembro de 2015. Também reconheço a ausência\nde comprovação da materialidade para a transgressão disciplinar\nprevista no inciso LV do art. 303 da Lei estadual nº 10.460, de 22\nde fevereiro de 1988, vigente à época dos fatos, e supostamente\npraticada no mês de dezembro de 2015. Portanto, absolvo a\nservidora ARINAIA COELHO VIEIRA, CPF nº 005.027.771-50, das\nacusações que lhe foram imputadas.\nEncaminhem-se os autos à Secretária de Estado de\nDesenvolvimento Social para o conhecimento e a cientificação à\ninteressada de seu inteiro teor, nos termos dos arts. 3º, inciso II, e\n26 da Lei estadual nº 13.800, de 18 de janeiro de 2001.\nAcrescento que sejam tomadas as medidas necessárias\npara a apuração da responsabilidade pela ocorrência da prescrição\ndisciplinar, nos termos do art. 201, § 4º, da Lei estadual nº 20.756,\nde 28 de janeiro de 2020, que “dispõe sobre o novo regime jurídico\ndos servidores públicos civis do Estado de Goiás, das autarquias e\nfundações públicas estaduais e dá outras providências”.\nGoiânia, 8 de dezembro de 2021.\nRONALDO CAIADO\nGovernador do Estado\n<#ABC#272107#3#320972/>\nProtocolo 272107\nSecretaria de Estado da Casa Civil\n<#ABC#272111#3#320976>\nPORTARIA Nº 1.182, DE 8 DE DEZEMBRO DE 2021\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no\nuso da competência que lhe foi delegada pelo inciso IX, alínea\n“b”, do art. 1º do Decreto nº 9.375, de 2 de janeiro de 2019, com\nfundamento nos arts. 71, inciso II, e 72, inciso II, da Lei nº 20.756,\nde 28 de janeiro de 2020, também na Lei federal nº 6.999, de 7\nde junho de 1982, em harmonia com a Resolução nº 23.523, de\n27 de junho de 2017, do Tribunal Superior Eleitoral, e tendo em\nvista o que consta do Processo nº 202118037006152, em especial\no Ofício nº 361 - PRES, de 1º de dezembro de 2021, do Presidente\ndo Tribunal Regional Eleitoral de Goiás,\nRESOLVE:",
+          "hash_texto_normalizado": "49d807655dfd91b52b2d0c9ef67de5547ba303f3b4feb26480789573c4a9d634",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-21",
+      "ordem": 21,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Manter a cessão da servidora FABIANA ALVES LEITE DE AGUIAR, CPF nº 969.594.441-87, ocupante do cargo de Analista de Gestão Governamental, do Poder Executivo estadual - Secretaria de Estado da Administração, ao Tribunal Regional Eleitoral de Goiás, com ônus para a origem.",
+          "hash_texto": "cedfbdefadfd909ecbb8ef89e930dd8503ee51d43a772a130479ec6bfd41a480",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 1º Manter a cessão da servidora FABIANA ALVES\nLEITE DE AGUIAR, CPF nº 969.594.441-87, ocupante do cargo de\nAnalista de Gestão Governamental, do Poder Executivo estadual\n- Secretaria de Estado da Administração, ao Tribunal Regional\nEleitoral de Goiás, com ônus para a origem.",
+          "hash_texto_normalizado": "4b690ffc34b1cb466998de619a2085dca2fb55ad1708c29887a66912eee728f2",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-22",
+      "ordem": 22,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua publicação, mas seus efeitos retroagem a 2 de dezembro de 2021 e se estendem a 1º de dezembro de 2022. Goiânia, 8 de dezembro de 2021. Alan Farias Tavares <#ABC#272111#3#320976/> Protocolo 272111 DIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 9436bfa7 DIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 9436bfa7 4 Diário Oficial GOIÂNIA, QUARTA-FEIRA, 08 DE DEZEMBRO DE 2021 ANO 185 - DIÁRIO OFICIAL/GO N° 23.692 SUPLEMENTO <#ABC#272114#4#320979> PORTARIA Nº 1.183, DE 8 DE DEZEMBRO DE 2021 O SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso da competência que lhe foi delegada pelo inciso IX, alínea “b”, do art. 1º do Decreto nº 9.375, de 2 de janeiro de 2019, com fundamento nos arts. 71, inciso II, e 72, inciso II, da Lei nº 20.756, de 28 de janeiro de 2020, também na Lei federal nº 6.999, de 7 de junho de 1982, em harmonia com a Resolução nº 23.523, de 27 de junho de 2017, do Tribunal Superior Eleitoral, e tendo em vista o que consta do Processo nº 202118037006156, em especial o Ofício nº 357 - PRES (0188633), de 1º de dezembro de 2021, do Presidente do Tribunal Regional Eleitoral de Goiás, RESOLVE:",
+          "hash_texto": "c8441230df955c01666b98ffaba084aae5b5eb7f596e8b070e22b74b1523f0fd",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação, mas seus efeitos retroagem a 2 de dezembro de 2021 e\nse estendem a 1º de dezembro de 2022.\nGoiânia, 8 de dezembro de 2021.\nAlan Farias Tavares\n<#ABC#272111#3#320976/>\nProtocolo 272111\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 9436bfa7\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 9436bfa7\n4\nDiário Oficial\nGOIÂNIA, QUARTA-FEIRA, 08 DE DEZEMBRO DE 2021\nANO 185 - DIÁRIO OFICIAL/GO N° 23.692\nSUPLEMENTO\n<#ABC#272114#4#320979>\nPORTARIA Nº 1.183, DE 8 DE DEZEMBRO DE 2021\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso\nda competência que lhe foi delegada pelo inciso IX, alínea “b”, do art.\n1º do Decreto nº 9.375, de 2 de janeiro de 2019, com fundamento\nnos arts. 71, inciso II, e 72, inciso II, da Lei nº 20.756, de 28 de\njaneiro de 2020, também na Lei federal nº 6.999, de 7 de junho de\n1982, em harmonia com a Resolução nº 23.523, de 27 de junho de\n2017, do Tribunal Superior Eleitoral, e tendo em vista o que consta\ndo Processo nº 202118037006156, em especial o Ofício nº 357 -\nPRES (0188633), de 1º de dezembro de 2021, do Presidente do\nTribunal Regional Eleitoral de Goiás,\nRESOLVE:",
+          "hash_texto_normalizado": "df8c1a995a4380dc1f4c6f1246f02130a9d81446ea6c24aa77d0f41d4ce335c8",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-23",
+      "ordem": 23,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Considerar mantida a cessão do servidor CARLOS EDUARDO FLEURY DE SANTANA, CPF nº 273.877.471-72, ocupante do cargo efetivo de Assistente de Gestão Administrativa, do Poder Executivo estadual - Secretaria de Estado da Administração, ao Tribunal Regional Eleitoral de Goiás, com ônus para a origem.",
+          "hash_texto": "02208eae910c704d5ca64f72fb9f69e784be506ef28483cc686073c96306c49d",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 1º Considerar mantida a cessão do servidor CARLOS\nEDUARDO FLEURY DE SANTANA, CPF nº 273.877.471-72,\nocupante do cargo efetivo de Assistente de Gestão Administrativa, do\nPoder Executivo estadual - Secretaria de Estado da Administração,\nao Tribunal Regional Eleitoral de Goiás, com ônus para a origem.",
+          "hash_texto_normalizado": "c1e42696d48733ae7de7fb697c2ee5a8bbc63a06e3189d31d3305af7bdd31aec",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-24",
+      "ordem": 24,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua publicação, mas seus efeitos retroagem a 3 de setembro de 2021 e se estendem a 2 de setembro de 2022. Goiânia, 8 de dezembro de 2021. Alan Farias Tavares <#ABC#272114#4#320979/> Protocolo 272114 <#ABC#272119#4#320982> PORTARIA Nº 1.184, DE 8 DE DEZEMBRO DE 2021 O SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso da competência que lhe foi delegada pelo inciso IX, alínea “b”, do art. 1º do Decreto nº 9.375, de 2 de janeiro de 2019, com fundamento nos arts. 71, inciso II, e 72, inciso II, da Lei nº 20.756, de 28 de janeiro de 2020, também na Lei federal nº 6.999, de 7 de junho de 1982, em harmonia com a Resolução nº 23.523, de 27 de junho de 2017, do Tribunal Superior Eleitoral, e tendo em vista o que consta do Processo nº 202118037006159, em especial o Ofício nº 355 - PRES, de 1º de dezembro de 2021, do Presidente do Tribunal Regional Eleitoral de Goiás, RESOLVE:",
+          "hash_texto": "fb911001a3cf62b6bc43f186685f09ba22ad4f97ca02da46e8b3b8e0c82d7cc9",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação, mas seus efeitos retroagem a 3 de setembro de 2021 e\nse estendem a 2 de setembro de 2022.\nGoiânia, 8 de dezembro de 2021.\nAlan Farias Tavares\n<#ABC#272114#4#320979/>\nProtocolo 272114\n<#ABC#272119#4#320982>\nPORTARIA Nº 1.184, DE 8 DE DEZEMBRO DE 2021\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no\nuso da competência que lhe foi delegada pelo inciso IX, alínea\n“b”, do art. 1º do Decreto nº 9.375, de 2 de janeiro de 2019, com\nfundamento nos arts. 71, inciso II, e 72, inciso II, da Lei nº 20.756,\nde 28 de janeiro de 2020, também na Lei federal nº 6.999, de 7\nde junho de 1982, em harmonia com a Resolução nº 23.523, de\n27 de junho de 2017, do Tribunal Superior Eleitoral, e tendo em\nvista o que consta do Processo nº 202118037006159, em especial\no Ofício nº 355 - PRES, de 1º de dezembro de 2021, do Presidente\ndo Tribunal Regional Eleitoral de Goiás,\nRESOLVE:",
+          "hash_texto_normalizado": "e2b5c6d9fed41f680d8fee4a5acd6fb2ffcc55fdadb57fdd869b3aa7124fd698",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-25",
+      "ordem": 25,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Manter a cessão da servidora SOLANGE ARRUDA MARQUES DA COSTA, CPF nº 277.180.341-00, ocupante do cargo de Assistente de Gestão Administrativa, do Poder Executivo estadual - Secretaria de Estado da Administração, ao Tribunal Regional Eleitoral de Goiás, com ônus para a origem.",
+          "hash_texto": "983f49e224d30e4f9dfc8cc4b2a8618eb885d521998b0c382cb11f04a0c98a22",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 1º Manter a cessão da servidora SOLANGE ARRUDA\nMARQUES DA COSTA, CPF nº 277.180.341-00, ocupante do\ncargo de Assistente de Gestão Administrativa, do Poder Executivo\nestadual - Secretaria de Estado da Administração, ao Tribunal\nRegional Eleitoral de Goiás, com ônus para a origem.",
+          "hash_texto_normalizado": "b0f322c1efcdc7850b4b737df2074ae6209ab5cba6da677e9e3174e6853edb23",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-26",
+      "ordem": 26,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua publicação, mas seus efeitos retroagem a 15 de outubro de 2021 e se estendem a 14 de outubro de 2022. Goiânia, 8 de dezembro de 2021. Alan Farias Tavares <#ABC#272119#4#320982/> Protocolo 272119 <#ABC#272123#4#320989> PORTARIA Nº 1.187, DE 8 DE DEZEMBRO DE 2021 O SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso da competência que lhe foi delegada pelo inciso IX, alínea “b”, do art. 1º do Decreto nº 9.375, de 2 de janeiro de 2019, com fundamento nos arts. 71, inciso II, e 72, inciso II, da Lei nº 20.756, de 28 de janeiro de 2020, também na Lei federal nº 6.999, de 7 de junho de 1982, em harmonia com a Resolução nº 23.523, de 27 de junho de 2017, alterada pela Resolução nº 23.643, de 24 de junho de 2021, do Tribunal Superior Eleitoral, e tendo em vista o que consta do Processo nº 202118037006154, em especial o Ofício nº 360 - PRES (0188645), de 1º de dezembro de 2021, do Presidente do Tribunal Regional Eleitoral de Goiás, RESOLVE:",
+          "hash_texto": "355f9b28d4ac01d101cf5b835f57cf70ed9b4ac55bd7571f8835b86cbf12601b",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação, mas seus efeitos retroagem a 15 de outubro de 2021 e\nse estendem a 14 de outubro de 2022.\nGoiânia, 8 de dezembro de 2021.\nAlan Farias Tavares\n<#ABC#272119#4#320982/>\nProtocolo 272119\n<#ABC#272123#4#320989>\nPORTARIA Nº 1.187, DE 8 DE DEZEMBRO DE 2021\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso\nda competência que lhe foi delegada pelo inciso IX, alínea “b”, do art.\n1º do Decreto nº 9.375, de 2 de janeiro de 2019, com fundamento\nnos arts. 71, inciso II, e 72, inciso II, da Lei nº 20.756, de 28 de\njaneiro de 2020, também na Lei federal nº 6.999, de 7 de junho de\n1982, em harmonia com a Resolução nº 23.523, de 27 de junho de\n2017, alterada pela Resolução nº 23.643, de 24 de junho de 2021,\ndo Tribunal Superior Eleitoral, e tendo em vista o que consta do\nProcesso nº 202118037006154, em especial o Ofício nº 360 - PRES\n(0188645), de 1º de dezembro de 2021, do Presidente do Tribunal\nRegional Eleitoral de Goiás,\nRESOLVE:",
+          "hash_texto_normalizado": "0bdcc74e8171e7ab4f2b7d84299150c609832d0932a0f123026cfa3e1c2d37bf",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-27",
+      "ordem": 27,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Manter a cessão da servidora MARYNE SANTOS RESENDE, CPF nº 926.876.361-34, ocupante do cargo efetivo de Técnico em Gestão Pública, do Poder Executivo estadual - Secretaria de Estado da Administração, ao Tribunal Regional Eleitoral de Goiás, com ônus para a origem.",
+          "hash_texto": "5c23ec540597d71a4f29353a48a0f4615ad721af583a681d4bc04f6946eb5071",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 1º Manter a cessão da servidora MARYNE SANTOS\nRESENDE, CPF nº 926.876.361-34, ocupante do cargo efetivo\nde Técnico em Gestão Pública, do Poder Executivo estadual -\nSecretaria de Estado da Administração, ao Tribunal Regional\nEleitoral de Goiás, com ônus para a origem.",
+          "hash_texto_normalizado": "8f935d30bc4c96bfa324ee628f4d69e275f58e390798a19d47186259e396e3d6",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-28",
+      "ordem": 28,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua publicação, mas seus efeitos retroagem a 13 de outubro de 2021 e se estendem a 04 de julho de 2023. Goiânia, 8 de dezembro de 2021. Alan Farias Tavares <#ABC#272123#4#320989/> Protocolo 272123 <#ABC#272129#4#320993> PORTARIA Nº 1.188, DE 8 DE DEZEMBRO DE 2021 O SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso da competência que lhe foi delegada pelo inciso IX, alínea “b”, do art. 1º do Decreto nº 9.375, de 2 de janeiro de 2019, com fundamento nos arts. 71, inciso II, e 72, inciso II, da Lei nº 20.756, de 28 de janeiro de 2020, também na Lei federal nº 6.999, de 7 de junho de 1982, em harmonia com a Resolução nº 23.523, de 27 de junho de 2017, do Tribunal Superior Eleitoral, e tendo em vista o que consta do Processo nº 202118037006157, em especial o Ofício nº 356 - PRES (0188620), de 1º de dezembro de 2021, do Presidente do Tribunal Regional Eleitoral de Goiás, RESOLVE:",
+          "hash_texto": "7d03a1abb088bc847260e2343dd4605ecd5c6b4908e364e32223d24b91f49bf8",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação, mas seus efeitos retroagem a 13 de outubro de 2021 e\nse estendem a 04 de julho de 2023.\nGoiânia, 8 de dezembro de 2021.\nAlan Farias Tavares\n<#ABC#272123#4#320989/>\nProtocolo 272123\n<#ABC#272129#4#320993>\nPORTARIA Nº 1.188, DE 8 DE DEZEMBRO DE 2021\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso\nda competência que lhe foi delegada pelo inciso IX, alínea “b”, do art.\n1º do Decreto nº 9.375, de 2 de janeiro de 2019, com fundamento\nnos arts. 71, inciso II, e 72, inciso II, da Lei nº 20.756, de 28 de\njaneiro de 2020, também na Lei federal nº 6.999, de 7 de junho de\n1982, em harmonia com a Resolução nº 23.523, de 27 de junho de\n2017, do Tribunal Superior Eleitoral, e tendo em vista o que consta\ndo Processo nº 202118037006157, em especial o Ofício nº 356 -\nPRES (0188620), de 1º de dezembro de 2021, do Presidente do\nTribunal Regional Eleitoral de Goiás,\nRESOLVE:",
+          "hash_texto_normalizado": "3088e6df07c5d6a983d52c664b6b677c200daef8c7097d9ed5ddca13ad50a129",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-29",
+      "ordem": 29,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Manter a cessão da servidora MARINEIDE MARTINS DE SANTANA NASCIMENTO, CPF nº 304.934.551-91, ocupante do cargo efetivo de Técnico em Gestão Pública, do Poder Executivo estadual - Secretaria de Estado da Administração, ao Tribunal Regional Eleitoral de Goiás, com ônus para a origem.",
+          "hash_texto": "5d01ab00681abdb68cfada589ea6e1333b43276acf0ff4af110d12bf6b035edd",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 1º Manter a cessão da servidora MARINEIDE\nMARTINS DE SANTANA NASCIMENTO, CPF nº 304.934.551-91,\nocupante do cargo efetivo de Técnico em Gestão Pública, do Poder\nExecutivo estadual - Secretaria de Estado da Administração, ao\nTribunal Regional Eleitoral de Goiás, com ônus para a origem.",
+          "hash_texto_normalizado": "8f34cd00d70c077ab252336bc036bc3d017c04a7c982eebae51892556348b7f5",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-30",
+      "ordem": 30,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua publicação, mas seus efeitos retroagem a 15 de outubro de 2021 e se estendem a 14 de outubro de 2022. Goiânia, 8 de dezembro de 2021. Alan Farias Tavares <#ABC#272129#4#320993/> Protocolo 272129 <#ABC#272132#4#320998> PORTARIA Nº 1.189, DE 8 DE DEZEMBRO DE 2021 O SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso da competência que lhe foi delegada pelo inciso IX, alínea “a”, do art. 1º do Decreto nº 9.375, de 2 de janeiro de 2019, com fundamento no art. 45-A, inciso I, da Lei nº 13.909, de 25 de setembro de 2001, e tendo em vista o que consta do Processo nº 202118037002298, RESOLVE:",
+          "hash_texto": "6f29c5dadc5bb62f64e6da15eb0c5c58303565b60783e68fb55540d9c27568db",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação, mas seus efeitos retroagem a 15 de outubro de 2021 e\nse estendem a 14 de outubro de 2022.\nGoiânia, 8 de dezembro de 2021.\nAlan Farias Tavares\n<#ABC#272129#4#320993/>\nProtocolo 272129\n<#ABC#272132#4#320998>\nPORTARIA Nº 1.189, DE 8 DE DEZEMBRO DE 2021\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso\nda competência que lhe foi delegada pelo inciso IX, alínea “a”, do art.\n1º do Decreto nº 9.375, de 2 de janeiro de 2019, com fundamento\nno art. 45-A, inciso I, da Lei nº 13.909, de 25 de setembro de 2001,\ne tendo em vista o que consta do Processo nº 202118037002298,\nRESOLVE:",
+          "hash_texto_normalizado": "0a795b6c1c8ac9feaac7fe8036f381eca59eeda3c50f9a6d482309e4565ac73a",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-31",
+      "ordem": 31,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Manter a cessão do servidor VALFRAN DE SOUSA RIBEIRO, CPF nº 770.165.641-34, ocupante do cargo efetivo de Professor-III, do Poder Executivo estadual - Secretaria de Estado da Educação, ao Município de Goiânia, para continuar exercendo, em comissão, o cargo de Secretário Municipal de Planejamento Urbano e Habitação, no período de 1º de janeiro a 31 de dezembro de 2022, com ônus para o cessionário, mediante ressarcimento mensal ao cedente dos valores da remuneração, acrescidos dos encargos sociais e trabalhistas.",
+          "hash_texto": "314b3869896824df87472ae206bc1c77837beecd3e42f6a91fb67bdc7fb30610",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 1º Manter a cessão do servidor VALFRAN DE SOUSA\nRIBEIRO, CPF nº 770.165.641-34, ocupante do cargo efetivo de\nProfessor-III, do Poder Executivo estadual - Secretaria de Estado\nda Educação, ao Município de Goiânia, para continuar exercendo,\nem comissão, o cargo de Secretário Municipal de Planejamento\nUrbano e Habitação, no período de 1º de janeiro a 31 de dezembro\nde 2022, com ônus para o cessionário, mediante ressarcimento\nmensal ao cedente dos valores da remuneração, acrescidos dos\nencargos sociais e trabalhistas.",
+          "hash_texto_normalizado": "dc1a3318a38f9afb54e8077518542b26aed77a918891c488110a34072524cdf2",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-32",
+      "ordem": 32,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua publicação. Goiânia, 8 de dezembro de 2021. Alan Farias Tavares <#ABC#272132#4#320998/> Protocolo 272132 DIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 9436bfa7 DIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 9436bfa7 5 Diário Oficial GOIÂNIA, QUARTA-FEIRA, 08 DE DEZEMBRO DE 2021 ANO 185 - DIÁRIO OFICIAL/GO N° 23.692 SUPLEMENTO <#ABC#272135#5#321000> PORTARIA Nº 1.193, DE 8 DE DEZEMBRO DE 2021 O SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso da competência que lhe foi delegada pelo inciso IX, alínea “a”, do art. 1º do Decreto nº 9.375, de 2 de janeiro de 2019, com fundamento no art. 45-A, inciso I, da Lei nº 13.909, de 25 de setembro de 2001, e tendo em vista o que consta do Processo nº 202100006075944, RESOLVE:",
+          "hash_texto": "668395da719b0a5342593b7a9c09fc109038fd87a3643730bf3dcb81a43b68c3",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação.\nGoiânia, 8 de dezembro de 2021.\nAlan Farias Tavares\n<#ABC#272132#4#320998/>\nProtocolo 272132\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 9436bfa7\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 9436bfa7\n5\nDiário Oficial\nGOIÂNIA, QUARTA-FEIRA, 08 DE DEZEMBRO DE 2021\nANO 185 - DIÁRIO OFICIAL/GO N° 23.692\nSUPLEMENTO\n<#ABC#272135#5#321000>\nPORTARIA Nº 1.193, DE 8 DE DEZEMBRO DE 2021\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso\nda competência que lhe foi delegada pelo inciso IX, alínea “a”, do art.\n1º do Decreto nº 9.375, de 2 de janeiro de 2019, com fundamento\nno art. 45-A, inciso I, da Lei nº 13.909, de 25 de setembro de 2001,\ne tendo em vista o que consta do Processo nº 202100006075944,\nRESOLVE:",
+          "hash_texto_normalizado": "8e02acef3b667ed216bb8485421293e6b73b2aee0731dec55416924c7cd5398b",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-33",
+      "ordem": 33,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Manter a cessão da servidora ÂNGELA MARIA NUNES DA SILVEIRA TAVARES, CPF nº 587.325.511-34, ocupante do cargo efetivo de Professor-IV, do Poder Executivo estadual - Secretaria de Estado da Educação, ao Município de Campestre de Goiás, para continuar exercendo o cargo em comissão de Secretária Municipal de Educação, no período de 1º de janeiro a 31 de dezembro de 2022, com ônus para o cessionário, mediante ressarcimento mensal ao cedente dos valores da remuneração, acrescidos dos encargos sociais e trabalhistas.",
+          "hash_texto": "f0433f50ba047dc11ddf5e37ecc74128ac29dfb215b48e3efce83cbd49252646",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 1º Manter a cessão da servidora ÂNGELA MARIA\nNUNES DA SILVEIRA TAVARES, CPF nº 587.325.511-34, ocupante\ndo cargo efetivo de Professor-IV, do Poder Executivo estadual -\nSecretaria de Estado da Educação, ao Município de Campestre\nde Goiás, para continuar exercendo o cargo em comissão de\nSecretária Municipal de Educação, no período de 1º de janeiro a\n31 de dezembro de 2022, com ônus para o cessionário, mediante\nressarcimento mensal ao cedente dos valores da remuneração,\nacrescidos dos encargos sociais e trabalhistas.",
+          "hash_texto_normalizado": "031660a7109e88d67661416d172dd5df700fb6d801ff8341cbb7d47667141958",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-34",
+      "ordem": 34,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua publicação. Goiânia, 8 de dezembro de 2021. Alan Farias Tavares <#ABC#272135#5#321000/> Protocolo 272135 <#ABC#272138#5#321004> PORTARIA Nº 1.194, DE 8 DE DEZEMBRO DE 2021 O SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso da competência que lhe foi delegada pelo inciso IX, alínea “a”, do art. 1º do Decreto nº 9.375, de 2 de janeiro de 2019, com fundamento no art. 45-A, inciso I, da Lei nº 13.909, de 25 de setembro de 2001, e tendo em vista o que consta do Processo nº 202100006078002, RESOLVE:",
+          "hash_texto": "456754196f803b8862559b994ba985ffc5b9aeaf317c7aa5a0cf59ca01a8e973",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação.\nGoiânia, 8 de dezembro de 2021.\nAlan Farias Tavares\n<#ABC#272135#5#321000/>\nProtocolo 272135\n<#ABC#272138#5#321004>\nPORTARIA Nº 1.194, DE 8 DE DEZEMBRO DE 2021\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso\nda competência que lhe foi delegada pelo inciso IX, alínea “a”, do art.\n1º do Decreto nº 9.375, de 2 de janeiro de 2019, com fundamento\nno art. 45-A, inciso I, da Lei nº 13.909, de 25 de setembro de 2001,\ne tendo em vista o que consta do Processo nº 202100006078002,\nRESOLVE:",
+          "hash_texto_normalizado": "7441f378be5cf7f61ddd25b64d9dda7407559dd33749cb286c4dde7784c0ce0f",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-35",
+      "ordem": 35,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Manter a cessão da servidora KÊILA PAULA MONTEIRO REZENDE, CPF nº 852.000.421-00, ocupante do cargo efetivo de Professor-IV, do Poder Executivo estadual - Secretaria de Estado da Educação, ao Município de Caldas Novas, para continuar exercendo o cargo em comissão de Secretária Municipal de Educação, Esporte e Lazer, no período de 1º de janeiro a 31 de dezembro de 2022, com ônus para o cessionário, mediante ressarcimento mensal ao cedente dos valores da remuneração, acrescidos dos encargos sociais e trabalhistas.",
+          "hash_texto": "f7939cdea497ff07096827549d50f6a202075201698b34a62adffd6256f864cb",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 1º Manter a cessão da servidora KÊILA PAULA\nMONTEIRO REZENDE, CPF nº 852.000.421-00, ocupante do cargo\nefetivo de Professor-IV, do Poder Executivo estadual - Secretaria\nde Estado da Educação, ao Município de Caldas Novas, para\ncontinuar exercendo o cargo em comissão de Secretária Municipal\nde Educação, Esporte e Lazer, no período de 1º de janeiro a 31\nde dezembro de 2022, com ônus para o cessionário, mediante\nressarcimento mensal ao cedente dos valores da remuneração,\nacrescidos dos encargos sociais e trabalhistas.",
+          "hash_texto_normalizado": "bf3dac9f2dd199fa5cda5caa3c82bc8c16b6dffa22895feffb1543628be9b1b9",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-36",
+      "ordem": 36,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua publicação. Goiânia, 8 de dezembro de 2021. Alan Farias Tavares <#ABC#272138#5#321004/> Protocolo 272138 Secretaria da Saúde - SES <#ABC#272113#5#320978> Portaria 2054/2021 - SES O SECRETÁRIO DE ESTADO DA SAÚDE, no uso de suas atribuições legais, considerando o disposto no artigo 111 e parágrafos da Constituição do Estado de Goiás, nos artigos 5º e 6º da Lei estadual nº 17.797/2012, no artigo 8º do Decreto Estadual nº 7.824/2013 e na Portaria nº 526/2019-GAB/SES-GO, que trata sobre a instrução processual das transferências de recursos na modalidade Fundo a Fundo. RESOLVE:",
+          "hash_texto": "40c19f3056c2b0fd53d6b5acc7521413472a7d15ca9e3433ec6231b1ee3b933f",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação.\nGoiânia, 8 de dezembro de 2021.\nAlan Farias Tavares\n<#ABC#272138#5#321004/>\nProtocolo 272138\nSecretaria da Saúde - SES\n<#ABC#272113#5#320978>\nPortaria 2054/2021 - SES\nO SECRETÁRIO DE ESTADO DA SAÚDE, no uso de suas\natribuições legais, considerando o disposto no artigo 111 e\nparágrafos da Constituição do Estado de Goiás, nos artigos 5º e 6º\nda Lei estadual nº 17.797/2012, no artigo 8º do Decreto Estadual\nnº 7.824/2013 e na Portaria nº 526/2019-GAB/SES-GO, que trata\nsobre a instrução processual das transferências de recursos na\nmodalidade Fundo a Fundo. RESOLVE:",
+          "hash_texto_normalizado": "58225e306490a42da9048beb600fe3388bd633ca854c77994ff020078f0144e5",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-37",
+      "ordem": 37,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º - HOMOLOGAR o Plano de Trabalho apresentado pela Secretaria Municipal de Saúde de Chapadão do Céu - GO, cujo objeto é Custeio, constante no processo nº 202100010012636.",
+          "hash_texto": "3610847bf8bbc6bdae821416cfcd99ac4ff646d443024544efbe103d8cc6e89d",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 1º - HOMOLOGAR\no Plano de Trabalho apresentado pela Secretaria Municipal de\nSaúde de Chapadão do Céu - GO, cujo objeto é Custeio, constante\nno processo nº 202100010012636.",
+          "hash_texto_normalizado": "6dece4d64b697f3339b9d5c303c820de77a6963cead48b00d720cd6d17b37f7d",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-38",
+      "ordem": 38,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º - DETERMINAR a transferência do recurso na modalidade Fundo a Fundo, no valor total de R$ 100.000,00 (Cem mil reais). Parágrafo Único - Cabe à Superintendência de Gestão Integrada - SGI, a realização dos atos necessários para o cumprimento desta Portaria, inclusive no que tange à sua publicação.",
+          "hash_texto": "c7856e3b7639f96aee26d61aa991962f1f2a091b4b06004e90dcbdcdb89f8355",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 2º - DETERMINAR a\ntransferência do recurso na modalidade Fundo a Fundo, no valor\ntotal de R$ 100.000,00 (Cem mil reais). Parágrafo Único - Cabe\nà Superintendência de Gestão Integrada - SGI, a realização dos\natos necessários para o cumprimento desta Portaria, inclusive no\nque tange à sua publicação.",
+          "hash_texto_normalizado": "b2a959d231b28f0f5c39c10e745e533faf02ecf092885b9a527fe25a10e14182",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-39",
+      "ordem": 39,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º - Para a Prestação de Contas o Município deverá observar a Seção II, do Capítulo IX, da Lei estadual nº 17.928/2012, bem como o artigo 18 da Portaria nº 526/2019 - SES/GO. § 1º - A prestação de contas, relativa aos repasses por meio de Portaria, na modalidade Fundo a Fundo, é obrigatória, conforme disposto em legislação específica e suas alterações. § 2º - A prestação de contas final, referente ao total recebido de uma só vez, é aquela apresentada depois da consecução do objeto ou objetivos pactuados, até 60 (sessenta) dias após sua execução.",
+          "hash_texto": "7d70e49094cce1be9db699ef6c2a11b073203ebc29372589c2bd5b7b355a60ec",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 3º - Para a Prestação de Contas o\nMunicípio deverá observar a Seção II, do Capítulo IX, da Lei estadual\nnº 17.928/2012, bem como o artigo 18 da Portaria nº 526/2019 -\nSES/GO. § 1º - A prestação de contas, relativa aos repasses por\nmeio de Portaria, na modalidade Fundo a Fundo, é obrigatória,\nconforme disposto em legislação específica e suas alterações. § 2º\n- A prestação de contas final, referente ao total recebido de uma\nsó vez, é aquela apresentada depois da consecução do objeto ou\nobjetivos pactuados, até 60 (sessenta) dias após sua execução.",
+          "hash_texto_normalizado": "c8dd7750c5dfd58a8c10a126849fd5bfec0a144d942d14c2134a032f49a208f3",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. \n4º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-40",
+      "ordem": 40,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 4º - A vigência do presente instrumento será de 12 (doze) meses, a partir da data de sua publicação no Diário Oficial do Estado.",
+          "hash_texto": "cf79390c6c29f4a0ca478959b72864018c78bcb47162bb5324bb36f452df117e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art.\n4º - A vigência do presente instrumento será de 12 (doze) meses,\na partir da data de sua publicação no Diário Oficial do Estado.",
+          "hash_texto_normalizado": "7b4dc76a05b456e99f990eb20414b7889c91d4840e37dc2c703e0db98759afb2",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 5º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-41",
+      "ordem": 41,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 5º - Esta Portaria entra em vigor na data de sua publicação. CUMPRA-SE e PUBLIQUE-SE. Gabinete do SECRETÁRIO do (a) SECRETARIA DE ESTADO DA SAÚDE, aos 30 dias do mês de novembro de 2021. ISMAEL ALEXANDRINO Secretário de Estado da Saúde de Goiás <#ABC#272113#5#320978/> Protocolo 272113 <#ABC#272117#5#320981> Portaria 2075/2021 - SES O SECRETÁRIO DE ESTADO DA SAÚDE, no uso de suas atribuições legais, considerando o disposto no artigo 111 e parágrafos da Constituição do Estado de Goiás, nos artigos 5º e 6º da Lei estadual nº 17.797/2012, no artigo 8º do Decreto Estadual nº 7.824/2013 e na Portaria nº 526/2019-GAB/SES-GO, que trata sobre a instrução processual das transferências de recursos na modalidade Fundo a Fundo. RESOLVE:",
+          "hash_texto": "395015210031971fffbfbcccbfa4b7c6cb1bbd6236cf427c18666d69f0b1d12a",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 5º - Esta Portaria entra em vigor na data de sua publicação.\nCUMPRA-SE e PUBLIQUE-SE. Gabinete do SECRETÁRIO do (a)\nSECRETARIA DE ESTADO DA SAÚDE, aos 30 dias do mês de\nnovembro de 2021. ISMAEL ALEXANDRINO Secretário de Estado\nda Saúde de Goiás\n<#ABC#272113#5#320978/>\nProtocolo 272113\n<#ABC#272117#5#320981>\nPortaria 2075/2021 - SES\nO SECRETÁRIO DE ESTADO DA SAÚDE, no uso de suas\natribuições legais, considerando o disposto no artigo 111 e\nparágrafos da Constituição do Estado de Goiás, nos artigos 5º e 6º\nda Lei estadual nº 17.797/2012, no artigo 8º do Decreto Estadual\nnº 7.824/2013 e na Portaria nº 526/2019-GAB/SES-GO, que trata\nsobre a instrução processual das transferências de recursos na\nmodalidade Fundo a Fundo. RESOLVE:",
+          "hash_texto_normalizado": "c4b59c6dea8d38d17f6b8e7f3402a5f02f9ad3125383dc5785252249c9f5a8f2",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-42",
+      "ordem": 42,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º - HOMOLOGAR o Plano de Trabalho apresentado pela Secretaria Municipal de Saúde de PADRE BERNARDO - GO, cujo objeto é Custeio, constante no processo nº 202100010012621.",
+          "hash_texto": "ce9bfa79245f8a5e2ea3b6068363102790ed2df71683b3cc4e13618270518c3c",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 1º - HOMOLOGAR o\nPlano de Trabalho apresentado pela Secretaria Municipal de Saúde\nde PADRE BERNARDO - GO, cujo objeto é Custeio, constante\nno processo nº 202100010012621.",
+          "hash_texto_normalizado": "45c44517cf3111acc3ff21862eb24372d7444e83087de39601cbda2823c5f687",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-43",
+      "ordem": 43,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º - DETERMINAR a transferência do recurso na modalidade Fundo a Fundo, no valor total de R$ 300.000,00 (Trezentos mil reais). Parágrafo Único - Cabe à Superintendência de Gestão Integrada - SGI, a realização dos atos necessários para o cumprimento desta Portaria, inclusive no que tange à sua publicação.",
+          "hash_texto": "4906e4f07bcdd2708d8fbafe7dc1cd4c09e1f15bcc63afaf1b88488410771238",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 2º - DETERMINAR a\ntransferência do recurso na modalidade Fundo a Fundo, no valor\ntotal de R$ 300.000,00 (Trezentos mil reais). Parágrafo Único - Cabe\nà Superintendência de Gestão Integrada - SGI, a realização dos\natos necessários para o cumprimento desta Portaria, inclusive no\nque tange à sua publicação.",
+          "hash_texto_normalizado": "9233f1ff933d42d8470f2235111369788c129e8b54bc05228eb15c321948c97b",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-44",
+      "ordem": 44,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º - Para a Prestação de Contas o Município deverá observar a Seção II, do Capítulo IX, da Lei estadual nº 17.928/2012, bem como o artigo 18 da Portaria nº 526/2019 - SES/GO. § 1º - A prestação de contas, relativa aos repasses por meio de Portaria, na modalidade Fundo a Fundo, é obrigatória, conforme disposto em legislação específica e suas alterações. § 2º - A prestação de contas final, referente ao total recebido de uma só vez, é aquela apresentada depois da consecução do objeto ou objetivos pactuados, até 60 (sessenta) dias após sua execução.",
+          "hash_texto": "7d70e49094cce1be9db699ef6c2a11b073203ebc29372589c2bd5b7b355a60ec",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 3º - Para a Prestação de Contas o\nMunicípio deverá observar a Seção II, do Capítulo IX, da Lei estadual\nnº 17.928/2012, bem como o artigo 18 da Portaria nº 526/2019 -\nSES/GO. § 1º - A prestação de contas, relativa aos repasses por\nmeio de Portaria, na modalidade Fundo a Fundo, é obrigatória,\nconforme disposto em legislação específica e suas alterações. § 2º\n- A prestação de contas final, referente ao total recebido de uma\nsó vez, é aquela apresentada depois da consecução do objeto ou\nobjetivos pactuados, até 60 (sessenta) dias após sua execução.",
+          "hash_texto_normalizado": "c8dd7750c5dfd58a8c10a126849fd5bfec0a144d942d14c2134a032f49a208f3",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. \n4º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-45",
+      "ordem": 45,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 4º - A vigência do presente instrumento será de 12 (doze) meses, a partir da data de sua publicação no Diário Oficial do Estado.",
+          "hash_texto": "cf79390c6c29f4a0ca478959b72864018c78bcb47162bb5324bb36f452df117e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art.\n4º - A vigência do presente instrumento será de 12 (doze) meses,\na partir da data de sua publicação no Diário Oficial do Estado.",
+          "hash_texto_normalizado": "7b4dc76a05b456e99f990eb20414b7889c91d4840e37dc2c703e0db98759afb2",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 5º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-46",
+      "ordem": 46,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 5º - Esta Portaria entra em vigor na data de sua publicação. CUMPRA-SE e PUBLIQUE-SE. Gabinete do SECRETÁRIO do (a) SECRETARIA DE ESTADO DA SAÚDE, aos 02 dias do mês de dezembro de 2021. ISMAEL ALEXANDRINO Secretário de Estado da Saúde de Goiás <#ABC#272117#5#320981/> Protocolo 272117 <#ABC#272239#5#321138> ESTADO DE GOIÁS SECRETARIA DE ESTADO DA SAÚDE Portaria 2096/2021 - SES O SECRETÁRIO DE ESTADO DA SAÚDE, no uso de suas atribuições legais, considerando o disposto nos",
+          "hash_texto": "ef8eb40442fa7ad9c94e0f7774b5115ab974d27da5d2a9bf77445d9c7186ca7e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 5º - Esta Portaria entra em vigor na data de sua publicação.\nCUMPRA-SE e PUBLIQUE-SE. Gabinete do SECRETÁRIO do (a)\nSECRETARIA DE ESTADO DA SAÚDE, aos 02 dias do mês de\ndezembro de 2021. ISMAEL ALEXANDRINO Secretário de Estado\nda Saúde de Goiás\n<#ABC#272117#5#320981/>\nProtocolo 272117\n<#ABC#272239#5#321138>\nESTADO DE GOIÁS\nSECRETARIA DE ESTADO DA SAÚDE\nPortaria 2096/2021 - SES\nO SECRETÁRIO DE ESTADO DA SAÚDE, no uso de suas\natribuições legais, considerando o disposto nos",
+          "hash_texto_normalizado": "f0db8d23d9aad473a426c09b12e8459d0350c465572cd2423835b9ec8c97bc67",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 5º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-47",
+      "ordem": 47,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 5º e 6º da Lei Estadual nº 17.797/2012 e",
+          "hash_texto": "78548f719a1868e48b156432ec80f924a1533c2aaf4b25ad94fcdc0f6f33db3b",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 5º e 6º da\nLei Estadual nº 17.797/2012 e",
+          "hash_texto_normalizado": "865687fd9f47219a2c441102403dc367edf13e5838e0f4159690a72650a998cc",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 8º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-48",
+      "ordem": 48,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 8º do Decreto Estadual nº",
+          "hash_texto": "5a53a79a5f5775befbf4a20b32096b5abffff937b19691607290fac455e0c460",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 8º do Decreto Estadual nº",
+          "hash_texto_normalizado": "5a53a79a5f5775befbf4a20b32096b5abffff937b19691607290fac455e0c460",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "7",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-48/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "7. 824/2013 e Portaria nº 526/2019-GAB/SES-GO, que trata sobre a instrução processual das transferências de recursos na modalidade fundo a fundo RESOLVE: O SECRETÁRIO DE ESTADO DA SAÚDE, no uso de suas atribuições legais, considerando o disposto nos",
+              "hash_texto": "4b3a4fc6aea49213ed53b252d470d1dfd660d409244b88854c689314609b546e",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "7. 824/2013 e Portaria nº 526/2019-GAB/SES-GO, que trata sobre a\ninstrução processual das transferências de recursos na modalidade\nfundo a fundo\nRESOLVE:\nO SECRETÁRIO DE ESTADO DA SAÚDE, no uso de suas\natribuições legais, considerando o disposto nos",
+              "hash_texto_normalizado": "af0a638bb23af11b874e3d0a7ca59ca4536a184dfae6ae3c187617f7b060e821",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 5º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-49",
+      "ordem": 49,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 5º e 6º da Lei Estadual nº 17.797/2012 e",
+          "hash_texto": "a2d9365eab602c620a0d19effd4badce73d791716442a8f4d0580958d3f2ad57",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 5º e 6º\nda Lei Estadual nº 17.797/2012 e",
+          "hash_texto_normalizado": "865687fd9f47219a2c441102403dc367edf13e5838e0f4159690a72650a998cc",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 8º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-50",
+      "ordem": 50,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 8º do Decreto Estadual nº 7.824/2013 e Portaria nº 526/2019-GAB/SES-GO, que trata sobre a instrução processual das transferências de recursos na modalidade fundo a fundo. RESOLVE",
+          "hash_texto": "fcd132cd3d0b92cd951d88ecfeb7cc58a3d7eb27593ff7c05da86c398cf11e73",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 8º do Decreto Estadual\nnº 7.824/2013 e Portaria nº 526/2019-GAB/SES-GO, que trata\nsobre a instrução processual das transferências de recursos\nna modalidade fundo a fundo.\nRESOLVE",
+          "hash_texto_normalizado": "bf759ba1406c4f665f1a0b65a5ea5a1750db0b6a83b3766eaa8c98cc4856b5c3",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-51",
+      "ordem": 51,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º HOMOLOGAR o Plano de Trabalho apresentado pela Secretaria Municipal de Saúde de Matrinchã, cujo objeto é o investimento na área da saúde, por meio do processo nº 202000010007618 e DETERMINAR a transferência do recurso pleiteado na modalidade fundo a fundo, no valor total de R$ 150.000,00 (cento e cinquenta mil reais). DIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 9436bfa7 DIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 9436bfa7 6 Diário Oficial GOIÂNIA, QUARTA-FEIRA, 08 DE DEZEMBRO DE 2021 ANO 185 - DIÁRIO OFICIAL/GO N° 23.692 SUPLEMENTO",
+          "hash_texto": "a368978d84b6c57089f4c0e313e081e7e075a077395646f41f20fe18eaf1b534",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 1º HOMOLOGAR o Plano de Trabalho apresentado pela\nSecretaria Municipal de Saúde de Matrinchã, cujo objeto é\no investimento na área da saúde, por meio do processo nº\n202000010007618 e DETERMINAR a transferência do recurso\npleiteado na modalidade fundo a fundo, no valor total de R$\n150.000,00 (cento e cinquenta mil reais).\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 9436bfa7\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 9436bfa7\n6\nDiário Oficial\nGOIÂNIA, QUARTA-FEIRA, 08 DE DEZEMBRO DE 2021\nANO 185 - DIÁRIO OFICIAL/GO N° 23.692\nSUPLEMENTO",
+          "hash_texto_normalizado": "00ade7365eeb16596ad66b95180b3c073e2fc528a80d604465bf486c2a545a72",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo Único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-51/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "07/12/2021",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo Único - Cabe à Superintendência de Gestão Integrada - SGI, a realização dos atos necessários para o cumprimento desta Portaria, inclusive no que tange à sua publicação.",
+              "hash_texto": "a60bec519f61da545ac7527ee86eb55928c9de7e4bc610d2f450a0a8eaa0aba1",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null,
+              "texto_original_parser": "Parágrafo Único - Cabe à Superintendência de Gestão Integrada - SGI, a realização dos atos necessários para o cumprimento desta Portaria,\ninclusive no que tange à sua publicação.",
+              "hash_texto_normalizado": "1a7aa743ddc4bc80cef44f7268785cc380c23bdffd46f90fbac55ad29e43eec0",
+              "normalizacao": {
+                "regras_aplicadas": [],
+                "removido_total_chars": 0
+              }
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-52",
+      "ordem": 52,
+      "versoes": [
+        {
+          "vigencia_inicio": "07/12/2021",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Fica revogada a Portaria 823/2020 - SES (000013498503), publicada no Diário Oficial nº 23.324, de 18 de junho de 2020. SECRETARIA DE ESTADO DE SAÚDE, em Goiânia, aos 08 dias do mês de dezembro de 2021. ISMAEL ALEXANDRINO JÚNIOR SECRETÁRIO DE ESTADO DA SAÚDE <#ABC#272239#6#321138/> Protocolo 272239 DIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 9436bfa7",
+          "hash_texto": "ae712b72fb2536d74870ca9415f42fca0f2184545fde6b6cb070e274d142c5c7",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null,
+          "texto_original_parser": "Art. 2º Fica revogada a Portaria 823/2020 - SES (000013498503), publicada no Diário Oficial nº 23.324, de 18 de junho de 2020.\nSECRETARIA DE ESTADO DE SAÚDE, em Goiânia, aos 08 dias do mês de dezembro de 2021.\nISMAEL ALEXANDRINO JÚNIOR\nSECRETÁRIO DE ESTADO DA SAÚDE\n<#ABC#272239#6#321138/>\nProtocolo 272239\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 9436bfa7",
+          "hash_texto_normalizado": "1704402ca6313ae237d0466dfe3e572b018ac20c135d07d1f78b55d5dc8ae871",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    }
+  ],
+  "auditoria": {
+    "run_id": "d3672f10-efa7-47f1-a4b5-e2009e6e656b",
+    "parser_versao": "2.0",
+    "gerado_em": "2025-10-13T23:42:09.965993Z"
+  }
+}

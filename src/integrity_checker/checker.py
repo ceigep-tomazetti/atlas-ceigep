@@ -129,8 +129,12 @@ def check_neo4j(ground_truth):
 def generate_report(ground_truth, pg_results, neo4j_results, json_path, duration):
     """Gera o relatório de integridade em Markdown de forma robusta."""
     urn = ground_truth['urn_lexml']
-    report_path = f"integrity_checker/output/{urn}_integrity_report.md"
-    log_path = f"integrity_checker/output/{urn}_integrity_log.jsonl"
+    urn_slug = urn.replace(';', '_')
+    output_dir = "src/integrity_checker/output"
+    os.makedirs(output_dir, exist_ok=True)
+    
+    report_path = os.path.join(output_dir, f"{urn_slug}_integrity_report.md")
+    log_path = os.path.join(output_dir, f"{urn_slug}_integrity_log.jsonl")
 
     pg_pass = pg_results and pg_results['device_count_match'] and pg_results['hash_set_match']
     neo4j_pass = neo4j_results and neo4j_results['device_count_match'] and neo4j_results['hash_set_match']
@@ -228,7 +232,7 @@ def main():
     
     urn = config['urn_lexml']
     normalized_file_name = urn.replace(";", "_") + "_normalizado.json"
-    json_path = os.path.join("normalizer/output", normalized_file_name)
+    json_path = os.path.join("src/normalizer/output", normalized_file_name)
 
     if not os.path.exists(json_path):
         print(f"Erro: Arquivo normalizado não encontrado em '{json_path}'", file=sys.stderr)

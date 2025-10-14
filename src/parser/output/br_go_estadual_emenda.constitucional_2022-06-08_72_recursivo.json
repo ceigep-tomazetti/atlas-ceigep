@@ -1,0 +1,1403 @@
+{
+  "ato_normativo": {
+    "urn_lexml": "br;go;estadual;emenda.constitucional;2022-06-08;72",
+    "tipo_ato": "Emenda Constitucional",
+    "titulo": "Autoriza os municípios goianos a aderirem a plano de benefícios de previdência complementar que o Estado de Goiás seja patrocinador, atendidas as condições estabelecidas.",
+    "ementa": "",
+    "entidade_federativa": "Estadual",
+    "orgao_publicador": "Governador do Estado de Goiás",
+    "data_publicacao": "08/06/2022",
+    "fonte_oficial": "",
+    "situacao_vigencia": "vigente"
+  },
+  "dispositivos": [
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-1",
+      "ordem": 1,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º A Constituição do Estado de Goiás passa a vigorar\ncom as seguintes alterações:\n“",
+          "hash_texto": "4b6a79e3658a9708770db0f0db3edaa5480831bcd906af324688d23733bf99fa",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 97",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-2",
+      "ordem": 2,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 97. ............................................................\n...........................................................................",
+          "hash_texto": "6c2214e6fb1f6b2b381e6fc9d501f3041e4f5e1e4111dfe8fc3241eb9419f108",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "§ 22",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-2/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 22 . A entidade de previdência complementar referida no",
+              "hash_texto": "4aac8fdef334d9dcfd582abbc5f51e2e6822d4367ec559654d2a8dfba1ddd382",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 15",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-2/par-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 15 deste artigo, cuja escolha será precedida de processo\nseletivo, deve atender, no mínimo, às seguintes condições:",
+              "hash_texto": "4c7ed9811a3ce522bb079f5e6a0a438534be301565db4d1d08480ab1bd6a48f7",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "I",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-2/par-2/inc-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "08/06/2022",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "I - contemplação de qualificação técnica e economicidade\nindispensáveis à garantia da boa gestão dos planos de\nbenefícios;",
+                  "hash_texto": "59889caf1ba209bf0473daa08a5805c446d4a796fc850df5f7d65adc97bb1064",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "II",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-2/par-2/inc-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "08/06/2022",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "II - comprovação de viabilidade financeira e econômica dos\nplanos de benefícios;",
+                  "hash_texto": "29272b61664d94b31b0776238b78b8ca39c0d1592b50410d37a7191e6769aa37",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "III",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-2/par-2/inc-3",
+              "ordem": 3,
+              "versoes": [
+                {
+                  "vigencia_inicio": "08/06/2022",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "III\n- demonstração\nde\natendimento\naos\nprincípios\nadministrativos, especialmente aos da impessoalidade,\npublicidade e transparência; e",
+                  "hash_texto": "9139ad74af8f4ab047b5b0955a84c3145bc15d0e063c7fc43bd47840d8e6c8da",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "IV",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-2/par-2/inc-4",
+              "ordem": 4,
+              "versoes": [
+                {
+                  "vigencia_inicio": "08/06/2022",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "IV - cumprimento dos requisitos normativos no órgão de\nfiscalização das entidades de previdência complementar.",
+                  "hash_texto": "7d14730b5830fc1a64cd11bed2bf9e5ab0fed728d73a726a834997078e6d8dc8",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 23",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-2/par-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 23 . Os municípios goianos ficam autorizados a firmar\nconvênio de adesão com a entidade de previdência\ncomplementar escolhida pelo Estado de Goiás, em processo\nseletivo, e a ofertar o mesmo plano de benefícios escolhido\npor esse ente, hipótese em que estarão dispensados do\nprocesso seletivo de que trata o § 22 deste artigo.",
+              "hash_texto": "788d9c1cb7cb5ad2a9ab7a4a318b5b32e58378494cac2c0f275d6c1386d77505",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 24",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-2/par-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 24 . A extinção, por qualquer motivo, do convênio de adesão\na que se refere o § 23 deverá ser precedida do processo\nseletivo de que trata o § 22, ambos deste artigo.”(NR)",
+              "hash_texto": "4751921ea32697a0ca624e913a7d0ba028948f9c5059ec3de9e7cd0738a24b64",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-3",
+      "ordem": 3,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º A Constituição do Estado de Goiás passa a vigorar\ncom as seguintes alterações:\n“",
+          "hash_texto": "67ddf4fbb8ffe3440adfb54f5a603055e0d362d70b05d40f99cafee18129ea7a",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 111",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-4",
+      "ordem": 4,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 111-A. As emendas individuais impositivas apresentadas\nao projeto de lei orçamentária anual poderão alocar recursos\na Municípios por meio de:\nI - transferência especial; ou\nII - transferência com finalidade definida.",
+          "hash_texto": "94eba6b79ab73c77f15418baa1a4633fc545c5e30c93fad54d39e213c8909266",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "§ 1",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-4/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 1 º Os recursos transferidos na forma do caput deste artigo\nnão integrarão a receita dos Municípios para o cálculo\ndos limites da despesa com pessoal ativo e inativo e de\nendividamento do ente federado.",
+              "hash_texto": "f58db3462a3e2e4a0dadd7a68a229e4558040ddd96a9ac0bb7b7f78b676c02e8",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 2",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-4/par-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 2 º É vedada, em qualquer caso, a aplicação dos recursos\na que se refere o caput deste artigo no pagamento de:",
+              "hash_texto": "77ae064c812b1ae0e052ad6692b8b4de4f0cc3beb92ec7927ca6387cdc60d212",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "I",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-4/par-2/inc-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "08/06/2022",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "I - despesas com pessoal e encargos sociais relativas a\nativos e inativos, e com pensionistas; e",
+                  "hash_texto": "e6bc02b0ed23496330b236d919aed34c778a5ffca3b68fddae2eaa6a568ffd4f",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "II",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-4/par-2/inc-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "08/06/2022",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "II - encargos referentes ao serviço da dívida.",
+                  "hash_texto": "808860b6476541a18bb4af1db813f730f04821596721f3b390877fab27725c96",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 3",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-4/par-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 3 º Na transferência especial a que se refere o inciso I do\ncaput deste artigo, os recursos:",
+              "hash_texto": "54bd026788aa928398f057a71e5583314cdc4f389ce0f8d7b070a21895495d1f",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "I",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-4/par-3/inc-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "08/06/2022",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "I - serão repassados diretamente ao ente federado\nbeneficiado, independentemente de celebração de convênio\nou de instrumento congênere;",
+                  "hash_texto": "62baa4e626d6feed9e533b32359a5ab7c060dd129d11d670d75bb043ae43b51d",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "II",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-4/par-3/inc-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "08/06/2022",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "II - pertencerão ao ente federado no ato da efetiva\ntransferência financeira; e",
+                  "hash_texto": "16c7c7cc263671038a32adb325fe62cfcb61ebb174a2acd8c1a76c148c904023",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "III",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-4/par-3/inc-3",
+              "ordem": 3,
+              "versoes": [
+                {
+                  "vigencia_inicio": "08/06/2022",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "III - serão aplicadas em programações finalísticas das\náreas de competência do Poder Executivo do ente federado\nbeneficiado, observado o disposto no § 5º deste artigo.",
+                  "hash_texto": "1cf7d9edc82c82af6053a73686ad11dc9aab89ef8b991d736e49538294f3fba4",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 4",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-4/par-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 4 º O ente federado beneficiado da transferência especial\na que se refere o inciso I do caput deste artigo poderá firmar\ncontratos de cooperação técnica para fins de subsidiar o\nacompanhamento da execução orçamentária na aplicação\ndos recursos.",
+              "hash_texto": "a22c145f2c8212cfd91756e65f315efe966a90c486606ce7bd15f323e0c4671b",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 5",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-4/par-5",
+          "ordem": 5,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 5 º Pelo menos 70% (setenta por cento) das transferências\nespeciais de que trata o inciso I do caput deste artigo\ndeverão ser aplicadas em despesas de capital, observada\na restrição a que se refere o inciso II do § 2º deste artigo.",
+              "hash_texto": "11ef77cc3e7ac151ddc1cba3da9ea36cdad148fedb97c2aec2246b3567f20e76",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 6",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-4/par-6",
+          "ordem": 6,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 6 º Somente poderá ser utilizada a transferência especial\na que se refere o inciso I do caput deste artigo para as\nemendas individuais impositivas não destinadas à saúde e\nà educação.",
+              "hash_texto": "5d2d83d4537975e8cdfbd01b5bb1f9d6113f3f3638d1d6b9def9310e55d959f8",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 7",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-4/par-7",
+          "ordem": 7,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 7 º Na transferência com finalidade definida a que se refere\no inciso II do caput deste artigo, os recursos serão:",
+              "hash_texto": "1e56c235d373eff2fb324be641cf70f96cbd1233bd639a4ceef9eeea61b80950",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "I",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-4/par-7/inc-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "08/06/2022",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "I - vinculados à programação estabelecida na emenda\nindividual impositiva; e",
+                  "hash_texto": "94f8c632ee986e8095339c5dacaf276d0d513c9d7429e76af4623d3474a1e297",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "II",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-4/par-7/inc-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "08/06/2022",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "II - aplicados nas áreas de competência constitucional do\nEstado.”(NR)",
+                  "hash_texto": "4a07cac3e10ff3636801eea0f8c97cdabc5210add02d7dd638308716cbc6d97f",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-5",
+      "ordem": 5,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º Esta Emenda Constitucional entra em vigor na data\nde sua publicação.",
+          "hash_texto": "d60b0b762590ca595a5c64276e28c2a90084d7b4143f72d8c4c4aed4b4f626c2",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "§ 1",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-5/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 1 º Fica autorizada a aplicação do disposto no art. 111-A da\nConstituição Estadual às emendas de que trata o § 8º do art. 111 da\nConstituição Estadual a serem executadas em 2022.",
+              "hash_texto": "ae8939ef7fb141582783b99ead57e488473abea1abf4b7cc0d5ac5aa5f04abdf",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 2",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-5/par-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 2 º Aplica-se o disposto no § 1º às emendas impositivas\nempenhadas no exercício de 2021 e não pagas até a publicação\ndesta Emenda Constitucional.",
+              "hash_texto": "685d9026f1b924804b086b4eaa5ffdf5a934253a3209c24602ae11ab7a02c43c",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 3",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-5/par-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 3 º Aplica-se o disposto no § 2º independentemente da\ncelebração de instrumento de transferência de recursos.\nASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS, em\nGoiânia, 8 de junho de 2022.\nDeputado LISSAUER VIEIRA\n- PRESIDENTE <#ABC#309555#1#363134/>\nProtocolo 309555\n<#ABC#309501#1#363072>\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 57d9813c\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 57d9813c\n2\nDiário Oficial\nGOIÂNIA, SEXTA-FEIRA, 10 DE JUNHO DE 2022\nANO 185 - DIÁRIO OFICIAL/GO N° 23.814\nSUPLEMENTO\nDiretoria\nEstado de Goiás\nImprensa Oficial do Estado de\nGoiás\nRua SC-1, nº 299 - Parque Santa Cruz\nCEP: 74.860-270 - Goiânia - Goiás\nFones: 3201-7663 / 3201-7639 / 99220-1032\nwww.abc.go.gov.br\nReginaldo Alves da Nóbrega Júnior\nPresidente\nRafael dos Santos Vasconcelos\nDiretor de Telerradiodifusão, Imprensa Oficial e Site\nLuiz Fernando Dibe\nDiretor de Gestão Integrada\nPrevisto Custódio dos Santos\nGerente de Imprensa Oficial e Mídias Digitais\nDECRETO DE 10 DE JUNHO DE 2022\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso de\nsuas atribuições constitucionais e legais, também tendo em vista o\nque consta do Processo nº 202218037003376,\nRESOLVE:",
+              "hash_texto": "ae8164e2f577a4872e67793435b0978809243ee2c9cb5952aeed2fcfb5057bbc",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-6",
+      "ordem": 6,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Tornar sem efeito o art. 1º do Decreto de 2 de maio de\n2022, publicado na página 1 do Diário Oficial nº 23.788, do dia 3 do\nmesmo mês e ano (Protocolo nº 301050), que nomeou ANNA JÚLIA\nCARNEIRO DE FREITAS, CPF/ME nº 937.071.261-53, para exercer\no cargo em comissão de Supervisor de Atendimento, DAID-12, da\nSecretaria de Estado da Administração, por não haver tomado posse\nno prazo legal, e nomear ANDRÉIA PEREIRA DOS SANTOS, CPF/\nME nº 843.854.131-34, para exercê-lo.",
+          "hash_texto": "5c2682478601e255ca9594289a1800c1405d2f64368057c281a546296b0101a9",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-7",
+      "ordem": 7,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Nomear o pessoal relacionado no quadro a seguir\npara exercer em comissão os cargos discriminados, todos da\nSecretaria de Estado da Administração:\nNº DE\nORDEM\nNOMEAR\nCPF/ME Nº\nCARGO\n1\nJOSÉ CARLOS DE\nSOUSA",
+          "hash_texto": "0836e8aa50c8d9deb008f75bbba64813a06f0878e9b763381f729b1ee74153c8",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "486",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-7/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "486. 475.27100\nAssessor “A8”\n2\nANA MARIA\nRAMOS DE\nRIBEIRO",
+              "hash_texto": "a09705c3c60698d7a11fec6d81b68f8727edbf1668be393686eec543f4ed206d",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "508",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-7/item-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "508. 597.14187\nAssessor “A8”\n3\nLUIZ ALFREDO\nMARINARI",
+              "hash_texto": "0f60610d936429ca257acc50a12b0620f5501dc5731e8389e24b50676a9ccb4e",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "170",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-7/item-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "170. 323.34172\nAssessor “A9”\n4\nDAVID LUCAS\nSILVA SOUSA",
+              "hash_texto": "0d61427a862d246370189cd334605365ead5542bbe4ca925f7f611aced44181b",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "038",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-7/item-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "038. 882.34107\nAssessor “A9”",
+              "hash_texto": "e47e4c798d9c0257ab0e720e55e6ad367c14aa7b387938441b510eb4d762b160",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-8",
+      "ordem": 8,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º Condicionar as posses de que tratam os arts. 1º e 2º\nao atendimento pelos nomeados do disposto no art. 1º do Decreto nº",
+          "hash_texto": "b555b70ebd006e6a7c8bd4ec4a70260ac70e7577badac6104254aed8cea117de",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "7",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-8/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "7. 587, de 30 de março de 2012, com alterações posteriores.",
+              "hash_texto": "8556b1c5debd376085f1a1f75119a9c1d872a7935460bbd67e876cf9bb829463",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 4º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-9",
+      "ordem": 9,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 4º Este Decreto entra em vigor na data de sua publicação.\nGoiânia, 10 de junho de 2022; 134º da República.\nRONALDO CAIADO\nGovernador do Estado\n<#ABC#309501#2#363072/>\nProtocolo 309501\n<#ABC#309503#2#363074>\nDECRETO DE 10 DE JUNHO DE 2022\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso de\nsuas atribuições constitucionais e legais,\nRESOLVE:",
+          "hash_texto": "339121d3376b2fc7886cf6b4704e38bb9e35f20cfa3fb3203a167022b4355008",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-10",
+      "ordem": 10,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Exonerar BRUNO AUGUSTO PINTO MONTEIRO,\nCPF/ME nº 011.656.941-74, do cargo em comissão de Líder de\nÁrea ou Projeto - LAP, da Secretaria de Estado de Meio Ambiente\ne Desenvolvimento Sustentável, e nomear SAULO BARROS\nASSUNÇÃO PINTO, CPF/ME nº 000.824.381-61, para exercê-lo.",
+          "hash_texto": "de6d4f1daeab8e03498c8f17b08d5db85f20645ec23bced0e6b0b421b44b2de6",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-11",
+      "ordem": 11,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Exonerar VALÉRIA MEDEIROS DE OLIVEIRA, CPF/\nME nº 056.287.281-79, do cargo em comissão de Assessor “A8”,\nda Secretaria de Estado da Administração, e nomear VINÍCIUS DE\nCASTRO PARDINHO, CPF/ME nº 031.509.931-30, para exercê-lo.",
+          "hash_texto": "2242597ca09d9ded1b4645ba11de374a13db0b04f6e65591e49f876b156cde85",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. \n3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-12",
+      "ordem": 12,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art.\n3º\nExonerar\nKETHELLEY\nLOUISE\nSANTOS\nCLAUDINO, CPF/ME nº 756.644.881-15, do cargo em comissão\nde Assessor “A7”, da Secretaria de Estado da Administração, e\nnomear MAYARA LOURENÇO MOREIRA DE QUEIROZ, CPF/ME\nnº 056.495.961-82, para exercê-lo.",
+          "hash_texto": "360dfff9487ce4e986bdb07d7101869af38f25aee5137af339551c1d2e0df5de",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 4º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-13",
+      "ordem": 13,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 4º A eficácia dos provimentos estabelecidos pelos arts.\n1º, 2 º e 3º fica condicionada ao atendimento, pelos nomeados, do\nart. 1º do Decreto nº 7.587, de 30 de março de 2012, com alterações\nposteriores, por ocasião das respectivas posses.",
+          "hash_texto": "d5675341a3fbbec6e03b87c0877f9d9f8ee3a7eceec4c63d9397240510bdbf94",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 5º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-14",
+      "ordem": 14,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 5º Este Decreto entra em vigor na data de sua\npublicação.\nGoiânia, 10 de junho de 2022; 134º da República.\nRONALDO CAIADO\nGovernador do Estado\n<#ABC#309503#2#363074/>\nProtocolo 309503\n<#ABC#309504#2#363075>\nDECRETO DE 10 DE JUNHO DE 2022\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso de\nsuas atribuições constitucionais e legais,\nRESOLVE:",
+          "hash_texto": "c06a87bfa0c13ec533b49b047b632563f6f5a2918e2774a6f53d67c7973f64f6",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-15",
+      "ordem": 15,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Exonerar DANIEL PEREIRA DUTRA, CPF/ME\nnº 010.909.391-75, do cargo em comissão de Assessor “A5”, da\nSecretaria de Estado da Administração, e nomear REGINALDO\nPEREIRA BAIA FILHO, CPF/ME nº 033.921.181-41, para exercê-lo.",
+          "hash_texto": "d36bf63e27a109c540383df6962dcec7137fc3e1692a14a22e106dc7bb57908e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-15/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . Condicionar a eficácia do provimento de\nque trata o artigo 1º ao atendimento do Decreto nº 7.587, de 30\nde março de 2012, com alterações posteriores, por ocasião da\nrespectiva posse.",
+              "hash_texto": "abd9963e4c97036c0bdfac7dd646f06b327bbc3dcf7f4e80e55a6f04035cfe09",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-16",
+      "ordem": 16,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Este Decreto entra em vigor na data de sua\npublicação.\nGoiânia, 10 de junho de 2022; 134º da República.\nRONALDO CAIADO\nGovernador do Estado\n<#ABC#309504#2#363075/>\nProtocolo 309504\n<#ABC#309507#2#363079>\nDECRETO DE 10 DE JUNHO DE 2022\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso de\nsuas atribuições constitucionais e legais, também tendo em vista o\nque consta do Processo nº 202200012000590,\nRESOLVE:",
+          "hash_texto": "4e7a7d85e4e9bff1501f0805b281e07ebaada07bf4f07c5c854b9c9f57555bb5",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-17",
+      "ordem": 17,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Exonerar JOSÉ PEREIRA DE LUCENA, CPF/ME\nnº 095.817.231-53, do cargo em comissão de Assessor “A9”, da\nSecretaria de Estado da Administração, e nomear JOSÉ ANTÔNIO\nDA COSTA, CPF/ME nº 269.824.391-00, para exercê-lo, com\nlotação na Secretaria de Estado da Saúde.\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 57d9813c\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 57d9813c\n3\nDiário Oficial\nGOIÂNIA, SEXTA-FEIRA, 10 DE JUNHO DE 2022\nANO 185 - DIÁRIO OFICIAL/GO N° 23.814\nSUPLEMENTO",
+          "hash_texto": "3df439b94ab0a50fa4d19cd8aa183cb8e07cf00931f7465d6cf700541e807da8",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-18",
+      "ordem": 18,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Condicionar a eficácia da posse de que trata o art. 1º\nao atendimento pelo nomeado do disposto no art. 1º do Decreto nº",
+          "hash_texto": "914d89471db4149e42b3cb724865b642bf84e86892952c8f169e5166ce6bda8d",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "7",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-18/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "7. 587, de 30 de março de 2012, com alterações posteriores.",
+              "hash_texto": "8556b1c5debd376085f1a1f75119a9c1d872a7935460bbd67e876cf9bb829463",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-19",
+      "ordem": 19,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º Este Decreto entra em vigor na data de sua publicação.\nGoiânia, 10 de junho de 2022; 134º da República.\nRONALDO CAIADO\nGovernador do Estado\n<#ABC#309507#3#363079/>\nProtocolo 309507\n<#ABC#309508#3#363080>\nDECRETO DE 10 DE JUNHO DE 2022\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso de\nsuas atribuições constitucionais e legais,\nRESOLVE:",
+          "hash_texto": "68e0ad10bdf89fbfc90f6ab4fd36ae0c0b6810bc131f1ac2ac1cae0e5ea089c4",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-20",
+      "ordem": 20,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Nomear o pessoal relacionado no quadro abaixo\npara, em comissão, exercerem os cargos ali discriminados, todos da\nSecretaria de Estado da Administração:\nNº DE\nORDEM\nNOME\nCPF/ME\nCARGO\n1\nJULIANA DE\nJESUS FERREIRA\nRODRIGUES",
+          "hash_texto": "a5df2b6f45e8bfbbb3aff96492555109e4b4c7d25c60eaef347c6b85c9906516",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "051",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-20/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "051. 692.78179\nAssessor “A9”\n2\nIVETE ALVES\nSOARES DA SILVA",
+              "hash_texto": "c133bb079e77b19de0c76b22696f7cc57f8c09ea4482da3439d430daf6c35c52",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "009",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-20/item-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "009. 296.28152\nAssessor “A9”\n3\nCRISTIANA\nDE ALMEIDA\nCONCEIÇÃO\nDOURADO",
+              "hash_texto": "a14476f1249ded652144e464c861d4b1d37b82c1c523e5ff7a1f2107da7a5c13",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "030",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-20/item-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "030. 905.92169\nAssessor “A9”",
+              "hash_texto": "16ca00186064cd64b4ac2941faf84b6e71ab2196ed82df27090363eaf6c26501",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-21",
+      "ordem": 21,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º A eficácia dos provimentos estabelecidos pelos\nart. 1º fica condicionada ao atendimento, pelos nomeados, do art.\n1º do Decreto nº 7.587, de 30 de março de 2012, com alterações\nposteriores, por ocasião das respectivas posses.",
+          "hash_texto": "3286d4b250ed29a57fbdc1065ea9ef74736685a7351d2872d74bd5b6e4a93abc",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-22",
+      "ordem": 22,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º Este Decreto entra em vigor na data de sua\npublicação.\nGoiânia, 10 de junho de 2022; 134º da República.\nRONALDO CAIADO\nGovernador do Estado\n<#ABC#309508#3#363080/>\nProtocolo 309508\n<#ABC#309518#3#363094>\nDECRETO DE 10 DE JUNHO DE 2022\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso de\nsuas atribuições constitucionais e legais, também tendo em vista o\nque consta do Processo nº 202210319003477,\nRESOLVE:",
+          "hash_texto": "d2dd487aebb6243c4ccb3edcf3d053f762b5b1b698ae69a4ded1c51e3d5e42bd",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-23",
+      "ordem": 23,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Exonerar os ocupantes dos cargos de provimento\nem comissão da Secretaria de Estado de Desenvolvimento Social\n- SEDS relacionados no quadro abaixo e nomear o pessoal nele\nespecificado para ocupá-los:\nNº DE\nORDEM\nEXONERAR\nCARGO\nNOMEAR\n1\nRITA DE CÁSSIA\nDIAS BORGES\nMELO\nCPF/ME nº",
+          "hash_texto": "eb6fe6f276fabe10a989f85103acd8c47699fcac95cff5e1b6310a6460364934",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "691",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-23/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "691. 413.631-91\nSuperintenden­\nte de Gestão\nIntegrada, DAS-4\nCÁSSIA\nRODRIGUES DE\nBESSA\nCPF/ME nº",
+              "hash_texto": "5c9e6e7db610b452314a09d45e8f6c11424add30264782d574c3d3cd12f51e99",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "006",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-23/item-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "006. 064.041-39\n2\nCÁSSIA\nRODRIGUES DE\nBESSA\nCPF/ME nº",
+              "hash_texto": "8c81ed980c23181ba3e5e147667c497cf9b1fcb8323905b32702dd55d0778542",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "006",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-23/item-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "006. 064.041-39\nSuperintenden­\nte de Gestão\ne Controle\nde Parcerias,\nContratações e\nTransferências,\nDAS-4\nDENISE\nMENDES\nFORTUNA\nCPF/ME nº",
+              "hash_texto": "62f99adcb0dc6abb8a2fb54c71a6b4386def9e6e0d263db61c6c33854bdaf10a",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "984",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-23/item-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "984. 304.751-68\n3\nDENISE MENDES\nFORTUNA\nCPF/ME nº",
+              "hash_texto": "d09c2e0fb2e784e184625f49e1ecfbc1896b265324be02664130de4beaa65409",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "984",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-23/item-5",
+          "ordem": 5,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "984. 304.751-68\nGerente de\nPrestação de\nContas, DAI-1\nJULIANO\nFUMIO MATOS\nURUSHIBATA\nCPF/ME nº",
+              "hash_texto": "2978988c5cecaea0f70064d7e4e50cf8062ef39ce8cdb602598bc5f9ecb9f351",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "770",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-23/item-6",
+          "ordem": 6,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "770. 873.131-34\n4\nHÉLIO SILVA\nVIEIRA\nCPF/ME nº",
+              "hash_texto": "8b8882048a8d8689f0de9fff3818dacb8df73bbd2973bb915d47a8f37c33194d",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "770",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-23/item-7",
+          "ordem": 7,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "770. 269.851-91\nGerente de\nPlanejamento\ne Orçamento,\nDAI-1\nRITA DE CÁSSIA\nDIAS BORGES\nMELO\nCPF/ME nº",
+              "hash_texto": "78279bc1367b5c1e169a2da1b78b047a79640b72c8875f80aff30d4c1fde5836",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "691",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-23/item-8",
+          "ordem": 8,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "691. 413.631-91\n5\nLORRANY\nSAMPAIO\nMONTEIRO\nCPF/ME nº",
+              "hash_texto": "8c930a9642347ab44238e8f70c94034a2b8a3823d1aa48cc4e658a944252179f",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "755",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-23/item-9",
+          "ordem": 9,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "755. 735.711-68\nGerente de Apoio\nAdministrativo e\nLogístico, DAI-1\nHÉLIO SILVA\nVIEIRA\nCPF/ME nº",
+              "hash_texto": "62296eef88db7d62eef4fc094f3d5bea71a26faf52ff6dbfac92dbcd080f2e94",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "770",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-23/item-10",
+          "ordem": 10,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "770. 269.851-91",
+              "hash_texto": "aab49fd203075d0822d64a8738ebf37810c9dcbee154db563409beecdd7b483e",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-24",
+      "ordem": 24,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Condicionar a eficácia das posses de que trata o art.\n1º ao atendimento pelos nomeados do disposto no art. 1º do Decreto\nnº 7.587, de 30 de março de 2012, com alterações posteriores.",
+          "hash_texto": "50246adc2056daeabba4b272e57c98d699a1fcdfc7b5119059aa8b072918dc10",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-25",
+      "ordem": 25,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º Este Decreto entra em vigor na data de sua publicação.\nGoiânia, 10 de junho de 2022; 134º da República.\nRONALDO CAIADO\nGovernador do Estado\n<#ABC#309518#3#363094/>\nProtocolo 309518\n<#ABC#309552#3#363129>\nDECRETO LEGISLATIVO Nº 601, DE 7 DE JUNHO DE 2022.\nHomologa, no que concerne ao Estado\nde Goiás, os Convênios ICMS 169, 170 e\n171, todos de 1º de outubro de 2021.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do inciso IX do art. 11 da Constituição Estadual, promulga\no seguinte Decreto Legislativo:",
+          "hash_texto": "1da49c5933f5db7a885e36511c866c5ff223f5d888d38a8c18050f9578eb6dca",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1o",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-26",
+      "ordem": 26,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1o Ficam homologados, no que concerne ao Estado de\nGoiás, os Convênios ICMS 169, 170 e 171, todos de 1º de outubro\nde 2021.",
+          "hash_texto": "7d6862d9b8332d74386e7aa8e926158b8a1c7c3edb4feb7310d2699059483c62",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-26/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . Nos termos do inciso IX do art. 11 da\nConstituição Estadual, ficam sujeitos à homologação da Assembleia\nLegislativa quaisquer atos que possam resultar em alteração dos\nreferidos Convênios.",
+              "hash_texto": "3cf0529620c9ddd6c2995abff5f24fceba6ebb0f3d085bbf9bedf06e8ce55208",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-27",
+      "ordem": 27,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Este Decreto Legislativo entra em vigor na data de\nsua publicação.\nASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS, em\nGoiânia, 7 de junho de 2022.\nDeputado LISSAUER VIEIRA\n- PRESIDENTE <#ABC#309552#3#363129/>\nProtocolo 309552\n<#ABC#309553#3#363133>\nDECRETO LEGISLATIVO Nº 602, DE 7 DE JUNHO DE 2022.\nHomologa, no que concerne ao Estado\nde Goiás, o Convênio ICMS 217, de 9 de\ndezembro de 2021.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do inciso IX do art. 11 da Constituição Estadual, promulga\no seguinte Decreto Legislativo:",
+          "hash_texto": "2bb2e7ef08a4207e161b00862eef9956b97701ea82e3e6aeb3553f46a0893c8a",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1o",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-28",
+      "ordem": 28,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1o Fica homologado, no que concerne ao Estado de\nGoiás, o Convênio ICMS 217, de 9 de dezembro de 2021.",
+          "hash_texto": "c40940e8ca4cf692f43944d3cb11d707369abf59afef97293bfa7600803cd760",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-28/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "08/06/2022",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . Nos termos do inciso IX do art. 11 da\nConstituição Estadual, ficam sujeitos à homologação da Assembleia\nLegislativa quaisquer atos que possam resultar em alteração dos\nreferidos Convênios.",
+              "hash_texto": "3cf0529620c9ddd6c2995abff5f24fceba6ebb0f3d085bbf9bedf06e8ce55208",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-29",
+      "ordem": 29,
+      "versoes": [
+        {
+          "vigencia_inicio": "08/06/2022",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Este Decreto Legislativo entra em vigor na data de\nsua publicação.\nASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS, em\nGoiânia, 7 de junho de 2022.\nDeputado LISSAUER VIEIRA\n- PRESIDENTE <#ABC#309553#3#363133/>\nProtocolo 309553\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 57d9813c",
+          "hash_texto": "d51791964d3ef3d89056f5bf3acab67161e3e269396ac92dc969ecaf20782f04",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    }
+  ],
+  "auditoria": {
+    "run_id": "a8ae2d29-c7c0-4510-9c50-b91b963712a6",
+    "parser_versao": "2.0",
+    "gerado_em": "2025-10-13T23:42:23.228961Z"
+  }
+}

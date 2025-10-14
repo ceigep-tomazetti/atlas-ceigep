@@ -1,0 +1,1576 @@
+{
+  "ato_normativo": {
+    "urn_lexml": "br;go;estadual;emenda.constitucional;2012-12-11;49",
+    "tipo_ato": "Emenda Constitucional",
+    "titulo": "Altera o inciso I do art. 129 da Constituição do Estado de Goiás.",
+    "ementa": "",
+    "entidade_federativa": "Estadual",
+    "orgao_publicador": "",
+    "data_publicacao": "11/12/2012",
+    "fonte_oficial": "",
+    "situacao_vigencia": "vigente"
+  },
+  "dispositivos": [
+    {
+      "rotulo": "Art. 4",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-1",
+      "ordem": 1,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 4fl Os ocupantes das classes de Identificador, Ciassificador e\nDactiloscopista, pertencentes ao Grupo Ocupacional Identificação, previsto na\nLei nE 17.089, de 02 de julho de 2010, ativos, aposentados e seus pensionistas\ncom direito a paridade e remunerados pelo regime de subsídio ficam\nenquadrados conforme o disposto no Anexo III desta Lei e observadas as\nseguintes regras:\nI - os servidores ocupantes da classe de identificador, atualmente\nposicionados nos níveis I a III, serão elevados para o nível I da classe de\nclassificador;\nII - os servidores ocupantes da classe de classificador,\natualmente posicionados nos níveis I a III, serão elevados para o nível I da\nclasse de dactiloscopista;\nIII - os servidores ocupantes da classe de dactiloscopista,\natualmente posicionados nos níveis I a III, serão elevados para o nível IV da\nmesma classe;\nIV - os servidores ocupantes da classe de dactiloscopista,\natualmente posicionados no nível IV, serão elevados para o nível V da mesma\nclasse.",
+          "hash_texto": "a281a2dfe6c34846ae552a77ef3cffa3ff64e8dfce1845250d9125713b60726b",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "§ 12",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-1/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 12 Fica criado o nível V na classe de cargo de dactiloscopista,\nextinto automaticamente na vacância, em quantitativo suficiente para nele\nintegrar os servidores ocupantes da classe de cargo de dactiloscopista, nível IV,\nenquadrados conforme as regras definidas neste artigo.",
+              "hash_texto": "22deda1e7dbfcbb5060b16f58c98274baef8ea11f4d392c864b62222085e14d7",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 2",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-1/par-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 2 fi O subsídio referente ao nível V da classe de cargo de\ndactiloscopista será o equivalente a 110% (cento e dez por cento) do subsídio\ndo nível IV da referida classe.",
+              "hash_texto": "aa1d9bbcfbeed0cc64616072af162c0c831b108eb8a0f7420292481e68568b9d",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 3",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-1/par-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 3 a Aos aposentados e seus pensionistas não optantes pelo\nregime de subsídio, quando da sua opção a este regime, serão aplicadas as\nregras previstas neste artigo.",
+              "hash_texto": "1869dfd8a2113e2a2c1760ff47e2fac8949377d1c4bbc69534cd404e471dad30",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 4",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-1/par-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 4 r Na hipótese da opção referida no § 3o deste artigo ocorrer\ndurante ou após os prazos previstos no Anexo III desta Lei, o servidor fará jus,\na partir da data de opção, aos benefícios das etapas do enquadramento já",
+              "hash_texto": "790f16b5d1d53d377d01c4bd6ab1e0dbfe087294d804f6d345750b5bb403378a",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 5",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-1/par-5",
+          "ordem": 5,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 5 e A contagem do prazo para fins de progressão e promoção\nserá reiniciada após a efetivação do enquadramento previsto neste artigo.",
+              "hash_texto": "b77a8a32d07231ecb66ac40e350460912b92763a202642e073d3bb168a56e5b7",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 5",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-2",
+      "ordem": 2,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 5- O Anexo V da Lei na 16.897, de 26 de janeiro de 2010,\npassa a vigorar com as alterações previstas no Anexo IV desta Lei.",
+          "hash_texto": "29e6bdbfcf131ed8913783c509c49051adb23676974f63af80738e77a5839f16",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 62",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-3",
+      "ordem": 3,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 62 O Anexo Único da Lei ne 17.089, de 02 de julho de 2010,\npassa a vigorar com as alterações previstas no Anexo V desta Lei.",
+          "hash_texto": "76821a0f7f1ffaa648dddb5849b289a4ef778dd6f464ab084303192fb31bb037",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 7",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-4",
+      "ordem": 4,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 7- As despesas decorrentes da aplicação desta Lei serão\ncusteadas à conta do Orçamento-Geral do Estado.",
+          "hash_texto": "ce8cf7618c7e582a59b9c42c9a3040f46bb716f9b2be505760bbe2c38a7edb9e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 8",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-5",
+      "ordem": 5,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 8S Esta Lei entra em vigor na data de sua publicação,\nobservados os Anexos I, II e III desta Lei e retroagindo seus efeitos a 19 de\nmaio de 2012, tão-somente em relação às disposições do art. 4e-A e seus\nparágrafos, acrescidos à Lei ne 16.897, de 26 de janeiro de 2010.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS, em\nGoiânia,\nZ 7\nde\nde 2012, 1242 da República.\nANEXO I\n(Tabela de Etapas do Enquadramento)\nMARCONI FERREIRA PERILLO JÚNIOR\nPublíca-se novamente por ter saído incompleta, relativamente aos seus Anexos, no Suplemento\ndo Diário Oficial de 27 de dezembro de 2012.\nCARGOS\nCLASSES\nNÍVEL\nENQUADRAMENTOS\nATUAL\n01/12/2012\n01/03/2013\n01/05/2013\nESPECIAL\nESPECIAL!\nIII\nESPECIAL\n1a\nII\na J ^ I I ^\nESPECIAL\nI\nT 1%L\n1s lll\nESPECIAL\nPERITO CRIMINAL\nIII\n1s l\nMÉDICO LEGISTA\n2~\n1a 1\nI ^\n2~ II\n2~ III\n1a l\n2â I\n3a\nII\n3* III\n2S|\nI\n3a II\n3 -III\n2a 1\nANEXO II\n(Tabela de Etapas do Enquadramento)\nCARGOS\nCLASSES\nNÍVEL\nENQUADRAMENTOS\nATUAL\n01/12/2012\n01/03/2013\n01/05/2013\nAUXILIAR DE\nAUTÓPSIA\nAUXILIAR DE\nLABORATÓRIO\nCRIMINAL\nDESENHISTA\nCRIMINALÍSTICO\nFOTÓGRAFO\nCRIMINALÍSTICO\nPAPILOSCOPISTA\nPOLICIAL\n1a\nIII\nESPECIAL\nII\n1a lll\nESPECIAL\nI\n1a ll\n1â IN\nESPECIAL\n2â\nIII\n1a I\nII\n2a III\n1a I\n!\n2a II\n2- III\n1a I\n3a\nIII\n2i |\nII\n3a III\n2a I\nI\n3- II\n3a III\n2a,\nANEXO III\n(Tabela de Etap as do Enquadram ento)\nGRUPO\nCLASSE DE\nNÍVEL\nENQUADRAMENTOS\nOCUPACIONAL\nCARGOS\nATUAL\n01/12/2012\n01/03/2013\n01/05/2013\nIV\nDACTILOSCOPISTA V\nnAPTIl ftQPrtDIQTA\nIII\nDACTILOSCOPISTA IV\nUAL/ 1 ILUoUUrlo 1A\nII\nDACTILOSCOPISTA III\nDACTILOSCOPISTA\nIV\n1\nDACTILOSCOPISTA II\nDACTILOSCOPISTA III DACTILOSCOPISTA IV\nIDENTIFICAÇÃO\nIII\nDACTILOSCOPISTA 1\nCLASSIFICADOR\nII\nCLASSIFICADOR III\nDACTILOSCOPISTA 1\n1\nCLASSIFICADOR II\nCLASSIFICADOR III DACTILOSCOPISTA 1\nIII\nCLASSIFICADOR 1\nIDENTIFICADOR\nII\nIDENTIFICADOR III\nCLASSIFICADOR 1\n1\nIDENTIFICADOR II\nIDENTIFICADOR III\nCLASSIFICADOR 1\nANEXO IV\n“ANEXO V\nDOS QUANTITATIVOS DOS CARGOS\nLei na 16.897, de 26 de janeiro de 2010\nCARGO\nCLASSE\nNÚMERO DE VAGAS\nPERITO CRIMINAL\nEspecial\n54\n1s\n108\n2a\n162\n3a\n266\nTotal\n590\nMÉDICO LEGISTA\nEspecial\n26\n1a\n54\n263\n3a\n158\nTotal\n301\nODONTOLEGISTA\nEspecial\n1\n1§\n1\n2à\n3\n3a\n4\nTotal\n9\nPAPILOSCOPISTA POLICIAL\nEspecial\n22\n1a\n44\n2a\n66\n3*\n166\nTotal\n298\nAUXILIAR DE AUTÓPSIA\nEspecial\n18\n1?\n35\n2a\n71\n3a\n160\nTotal\n284\n2\nDiário Oficial\nGOIANIA, SEGUNDA-FEIRA, 31 DE DEZEMBRO DE 2012\nANO 176 - DIÁRIO OFICIAL/GO N° 21.498\nFOTÓGRAFO CRIMINALÍSTICO\nEspecial\n6\n1s\n6\n29\n3S\n41\nTotal\n62\nAUXILIAR DE LABORATÓRIO CRIMINAL\nEspecial\n5\n1s\n6\n2~\n9\n3a\n27\nTota!\n47\nDESENHISTA CRIMINALÍSTICO\nEspecial\n3\n1a\n3\n2~\n4\n3S\n15\nTotal\n25\n’ (NR)\nANEXO V\n“ANEXO ÚNICO\nQUADRO DE PESSOAL DA CARREIRA DE IDENTIFICAÇÃO DA POLÍCIA TÉCNICO-CIENTÍFICA\nDA SECRETARIA DA SEGURANÇA PÚBLICA\nGRUPO\nOCUPACIONAL\nCLASSES DE\nCARGOS\nQUANTITATIVOS\nNÍVEIS\nVALOR DO\nSUBSÍDIO\n(R$)\nI",
+          "hash_texto": "445639da9021abfb93a33189eb7af1645a35cd6090408ac52d5c3bf29d8f7004",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "2",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-5/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "2. 971,95\nIDENTIFICADOR\nzero\nII",
+              "hash_texto": "0105fa875ca4fdc2483252d0cfc93dc09e1b7e7f1d8a8969d7d54d11ca31cf33",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "3",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-5/item-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "3. 120,54\nIII",
+              "hash_texto": "d14e684164c0fa690079221ab5a195c4a15812e13b989abb5af6d8ea4e078ece",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "3",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-5/item-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "3. 276,58\nI",
+              "hash_texto": "52ae2db726a99ac7d779e028a51555e410a614642c3ef427f7df4eb01e3aa9f0",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "3",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-5/item-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "3. 604,23\nIDENTIFICAÇÃO\nCLASSIFICADOR\n48\nII",
+              "hash_texto": "c1aa58443ec505379b267d8c8ec26b43dc65706167bbd3f0380b85b3e946f22f",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "3",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-5/item-5",
+          "ordem": 5,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "3. 784,44\nIII",
+              "hash_texto": "4112665491bab63e6c5abc09f4451838ca4c216dd3b7883da40537a4b68cd239",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "3",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-5/item-6",
+          "ordem": 6,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "3. 973,67\nI",
+              "hash_texto": "e5c5629a88fd53e230da7f71e09c225034bf37d6236529ad2edc806f83b1c482",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "4",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-5/item-7",
+          "ordem": 7,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "4. 371,03\nII",
+              "hash_texto": "4466901f46e2c38b094d7b7f9c8f2b0a94c2e18f2b5ab10f3fc00c1cfdff58c7",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "4",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-5/item-8",
+          "ordem": 8,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "4. 589,59\nDACTILOSCOPISTA\n71\nIII",
+              "hash_texto": "98b765d5ffc8641faecb804b46597138daf9cccf143fa4758cffec602488b448",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "4",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-5/item-9",
+          "ordem": 9,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "4. 819,07\nIV",
+              "hash_texto": "1b3d3ceec19a1b3b14c9635b76a7393642d36521733ea3f4a46af28a8285a73f",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "5",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-5/item-10",
+          "ordem": 10,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "5. 638,31\n* Vide Lei nB 17.597, de 26 de abril de 2012.\n(NR)\nLEI N° 17.948, DE 27 DE DEZEMBRO DE 2012.\nDeclara de utilidade pública a entidade que\nespecifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termo:; ao art. 10 da Constituição Estadual, decreta e eu sanciono a seguinte\nLei:",
+              "hash_texto": "b7b437c2df034e17e490da4bef11d6bf41191dbc8af136f6f804ebf4bc84640b",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-6",
+      "ordem": 6,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1a Fica declarado de utilidade pública o SINDICATO\nRURAL i f NERÓPOLIS, inscrito no Cadastro Nacional da Pessoa Jurídica\n(CNPJ) s, b o na 01.274.257/0001-02, com sede no Municipio de Nerópolis-GO.\nArt, 2° Esta Lêi entra em vigor na data de sua publicação.\nGoiân\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS, em\nia,\nZ l\nde\nde 2012, 124a da República.\nMARCONI FERREIRA PERILLO JÚNIOR\nLEI N° 17.949, DE 27 DE DEZEMBRO DE 2012.\nDeclara de utilidade pública a entidade que\nespecifica.\nA ASSEM BLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art 10 da Constituição Estadual, decreta e eu sanciono a seguinte\nLei:",
+          "hash_texto": "354be01945df9d6a908c7244c4b96231c0f1d95a294c3df1af0c375f0f33d0d1",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-7",
+      "ordem": 7,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1- Fica declarada de utilidade pública a ASSOCIAÇÃO\nSOCIEDa iJE VIANOPOLINA DE ESPORTES, inscrita no Cadastro Nacional da\nPessoa Jurídica (CNPJ) sob o n- 14.524.475/0001-91, com sede no Municipio de\nVianópoln- GO",
+          "hash_texto": "ae8fbfc734e4def4418d685b6960beae8bfa030ad247b32e3c11995719fe2b32",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-8",
+      "ordem": 8,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2a Esta Lei entra em vigor na data de sua publicação.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS, em\nGoiânia, Z 7\nde\nde 2012' 1242 da República.\nMARCONI FERREIRA PERILLO JÚNIOR\nLEI N° 17.950, DE 27 DE DEZEMBRO DE 2012.\nConcede título de cidadania que especifica.\nMARCONI FERREIRA PERILLO JÚNIOR\nLEI N° 17.951, DE 27 DE DEZEMBRO DE 2012.\nDeclara de utilidade pública a entidade que\nespecifica.\n: GOIÁS\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termcs do art. 10 da Constituição Estadual, decreta e eu sanciono a seguinte\nLei:",
+          "hash_texto": "ced5c8c431aa54f4128856196fa9f2bab906b15dbf4fb2d1a7c6e7e22c907b1c",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-9",
+      "ordem": 9,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1a Fica declarada de utilidade pública a ASSOCIAÇÃO\nDOS MORADORES DE ÁGUAS BONITAS I, inscrita no Cadastro Nacional da\nPessoa Jurídica (CNPJ) sob 0 n2 07.611.756/0001-16, com sede no Município de\nÁguas Lmdas de Goiás-GO.",
+          "hash_texto": "afc8cc32752aa0ba6b19bae0ece2d4968f633e2232d3963c3bacb621d2d040c6",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-10",
+      "ordem": 10,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2- Esta Lei entra em vigor na data de sua publicação.\nGoiânia,\n2 1\nPALACIO DO GOVERNO DO ESTADO DE GOIÁS, em\nde\nJd\nde 2012, 124® da República.\nMARCONI FERREIRA PERILLO JÚNIOR",
+          "hash_texto": "ac86b877f01b5d894c23731094e125b3957ed8d52cdd98cb159b65aca0ae7e1d",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "17",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-10/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "17. 952, DE 27 DE DEZEMBRO DE 2012.\nDeclara de utilidade pública a entidade que\nespecifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIAS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu sanciono a seguinte",
+              "hash_texto": "95997bc5119261a260abfc9d171a3b2da890cbbfbda45608511597e101afecb7",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-11",
+      "ordem": 11,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1a Fica declarada de utilidade pública a UNIÃO MUNICIPAL\nPOR MORADIA POPULAR -UMMP-, inscrita no Cadastro Nacional da Pessoa\nJurídica CNPJ) sob 0 na 06.171.499/0001-86, com sede no Município de\nCaldas Novas-GO.",
+          "hash_texto": "6b3cb21d89d43dc4edbe9ce4f49458d3e230365bbb5ecbbce17f11e4204b1927",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-12",
+      "ordem": 12,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2° Esta Lei entra em vigor na data de sua publicação.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS, em\nGoiânia",
+          "hash_texto": "670f440391533e3ef6e582c16f6d647801aa2bc866ab1d9affb6285f4303cf81",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "2",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-12/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "2. T\nde\n‘à lA M Í f S\nde 2012’ 124“ da República.\nLEI N° 17.953, DE 27 DE DEZEMBRO DE 2012.\nDeclara de utilidade pública a entidade que\nespecifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termo1; do art. 10 da Constituição Estadual, decreta e eu sanciono a seguinte\nLei:",
+              "hash_texto": "6ab7af0bf187441a47a6df51bcc9484104a5a4f0255ace90f44b86d0a6a85c3c",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 12",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-13",
+      "ordem": 13,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 12 Fica declarada de utilidade pública a ASSOCIAÇÃO\nDOS PRODUTORES DE LEITE DE JUSSARA -APROLEITE-, inscrita no\nCadastro Nacional da Pessoa Jurídica (CNPJ) sob 0 n- 02.689.518/0001-00,\ncom sede no Município de Jussara-GO.",
+          "hash_texto": "4265885b64fbe5bd78d53625817324cab36387570a0c7232bb66684c7c4fbb97",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-14",
+      "ordem": 14,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2a Esta Lei entra em vigor na data de sua publicação.\nÁCIO DO GO\nde 2012, 124s da República.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS, em\no n\nGoiânia,\n- - 1\nde\nMARCONI FERREIRA PERILLO JÚNIOR\nLEI N° 17.954, DE 27\n<í<\nDE DEZEMBRO DE 2012.\nc\nDeclara de utilidade pública a\nentidade que especifica.\nMARCONI FERREIRA PERILLO JÚNIOR\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIAS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu sanciono a\nseguinte Lei:",
+          "hash_texto": "0ca4f6c19650576e8e2c103efc2a953bbba93d1cb18f182190883108cd4b44d3",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-15",
+      "ordem": 15,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1a Fica declarada de utilidade pública a associação\nOBRAS SOCIAIS BATUÍRA, inscrita no Cadastro Nacional da Pessoa Jurídica\n(CNPJ) sob o ns 10.803.325/0001-66, com sede no Município de Goiânia-GO.",
+          "hash_texto": "449197e991d9f2a24aedd1a205b1b8151663f09c06cbf14fe37bef79b2105d80",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-16",
+      "ordem": 16,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2a Esta Lei entra em vigor na data de sua publicação.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS, em\nnri\nGoiânia, L i\nde\nde 2012’ 124a da República.\nMARCONI FERREIRA PERILLO JÚNIOR\nLEI N° 17.955, DE 27 DE DEZEMBRO DE 2012.\nDá\ndenominação\nao\npróprio\npúblico que especifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS, nos\ntermos do art. 10 da Constituição Estadual, decreta e eu sanciono a seguinte\nLei:",
+          "hash_texto": "f222e6dcfb30e7ffd9686aec46308e178fcd4b1e27cb8c06eb35bb685943f6a8",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-17",
+      "ordem": 17,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1fl Fica denominada RODOVIA JAIME RINCON a Rodovia\nG0-020, no trecho que liga 0 Município de Pires do Rio à BR-050.",
+          "hash_texto": "6b597b053aee04af192334173a9af5890b8591d14383bd5282f0267aa29fbe54",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-18",
+      "ordem": 18,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2a Esta Lei entra em vigor na data de sua publicação.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS, em\nGoiânia, 2 7\nde\nf l / i d\nde 2012,124s da República.\nMARCONI FERREIRA PERILLO JÚNIOR\nEstado de Goiás\nImprensa Oficial do Estado de Goiás\n©\nAGECOM\nRua SC-1, n° 299 - Parque Santa Cruz\nCEP: 74.860-270 - Goiânia - Goiás\nFone: 3201-7600 / 3201-7663\nFax: 3201-7623 / 3201-7779\nwww.agecom.go.gov.br\nD iretoria\nJ osé L uiz B ittencourt F ilho\nP r e s id e n t e\nA d a lc ir T eixeira Ramos\nV ic e- P r e s id e n t e d e J o r n a l is m o\nLuiz José Siqueira\nD ir e t o r d e G e s t ã o , P l a n e j a m e n t o e F in a n ç a s\nAntônio A ugusto Passos Danin Júnior\nD ir e t o r d e T e c n o l o g ia d a C o m u n ic a ç ã o e D iv u l g a ç ã o\nAbadia Divina Lima\nD ir e t o r a d e T e l e r r a d io d if u s ã o\nP revisto Custódio dos Santos\nC h e f e d o N ú c l e o d e Im p r e n s a O f ic ia l\nINFORMAÇÕES TÉCNICAS\nR e g iã o\nA s s in a t S e m e s tr a l\nP a g a m e n t o . à V ista\nG o iân ia\nR $\n7 0 6 ,0 0\nIn ter io r de g o iás\nR $\n1 .1 4 1 ,0 0\nO u t r o s E s t a d o s\nR $\n1 .2 4 5 ,0 0\nregião\ng oiânia\nInter io r de goiás\nO utro s E stados\nA s s in a t . A n u a l\nP a g a m e n t o . à V ista\nR $\n1 .0 7 8 ,0 0\nR $ 1 .8 9 9 ,0 0\nR $\n2 .0 5 4 ,0 0\nPreço Anúncio (Col/Cm)\nÀ v is ta o u a p ra z o ( 3 0 dias)\nR $ 4 3 , 7 5\nExemplar Avulso\nR $ 5,50",
+          "hash_texto": "bc709be45a92b1ec60887b9daf35bb4e4406b0fb04f51e625808d48b0ccf66b0",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "1",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-18/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "1. As publicações não serão feitas antes do prazo mínimo de 48\n(quarenta e oito) horas úteis após o material ter dado entrada na\na g e c o m .",
+              "hash_texto": "7d6225051ac33ad90d3ced3875a8002243ca136df022b2e873900d63581346f5",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "2",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-18/item-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "2. Balanços, balancetes e tabelas, para efeito de diagramação e\ncálculos, serão observados em um período de antecedência de 72\nhoras.",
+              "hash_texto": "ac06d6fc9f72899b17e7336b6bce7d062ffb5c3f9c0cdffb2a1f117d4ce2b4fe",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "3",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-18/item-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "3. Os originais serão devolvidos mediante solicitação da parte interes­\nsada no prazo máximo de 30 (trinta) dias. Após esta data serão inci­\nnerados.",
+              "hash_texto": "e3f918d98f8b37dcd16a276e738bf1dd7a77ccbd09812c97d8e7a9e57da29489",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "4",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-18/item-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "4. As reclamações quanto às matérias publicadas só serão aceitas se\nformuladas por escrito até 05 (cinco) dias da publicação.",
+              "hash_texto": "b54cca3eed1dbe9fe7bdfa8dd328422596be428fcab37f91e8e1262dcefbabc8",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "5",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-18/item-5",
+          "ordem": 5,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "5. As publicações e assinaturas poderão ser feitas nos seguintes enMatriz: Rua SC-1, n° 299 - Parque Santa Cruz - Fone:3201-7600 / 3201­\n7663\nFAX: 3201-7623 / 3201-7779\nPosto Fórum: Térreo, Sala. 193 - Fone: 3216-2321\nCentro Adm inistrativo: Vapt-Vupt - Fone: 3201-5070\nVENDAS EXTERNAS: somente através de vendedores credenciados\nA TE N D IM EN T O\nDE SEGUNDA A SEXTA-FEIRA DAS 08:00 ÀS 18:00 Horas\nGOIANIA, SEGUNDA-FEIRA, 31 DE DEZEMBRO DE 2012\nANO 176 - DIÁRIO OFICIAL/GO N° 21.498\nDiário Oficial\n3\nLEI N° 17.956, DE 27 DE DEZEMBRO DE 2012.\nDeclara de utilidade pública a entidade que\nespecifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIAS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu sanciono a seguinte\nLei:",
+              "hash_texto": "a478cb1569cbacf4a52450b8b12dee6e603ae2c8bcc819be77ede31d70027c2d",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-19",
+      "ordem": 19,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1a Fica declarada de utilidade pública a ASSOCIAÇÃO\nDO SOL NASCENTE DE DESENVOLVIMENTO SOCIAL E CULTURAL -ASNADESSC-,\ninscrita no Cadastro Nacional da Pessoa Jurídica (CNPJ) sob o n9 13.273.785/0001-18,\ncom sede no Município de Águas Lindas de Goiás-GO.",
+          "hash_texto": "6a4dfac97e252288c07da79c21cb4969a568cae3ba80ea55e57bce6d8b22a695",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-20",
+      "ordem": 20,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2a Esta Lei entra em vigor na data de sua publicação.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS, em\nGoiânia,\nZ 7\nde\nde 2012, 124a da República.\nMARCONI FERREIRA PERILLO JÚNIOR\nLEI N° 17.957, DE 27 DE DEZEMBRO DE 2012.\nDeclara de utilidade pública a entidade que\nespecifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termo* do art. 10 da Constituição Estadual, decreta e eu sanciono a seguinte\nLei:",
+          "hash_texto": "f21e8c9c60f522b587f5b0a0a4c898587122b4e5bcb41ce03a263ae290fc7823",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-21",
+      "ordem": 21,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1- Fica declarada de utilidade pública a ASSOCIAÇÃO\nDE MÚSiCOS DE JARAGUÁ, inscrita no Cadastro Nacional da Pessoa Jurídica\n(CNPJ) sob o n2 13.700.748/0001-49, com sede no Município de Jaraguá-GO.",
+          "hash_texto": "155eb9a2fb06070db209f3ca97fc6d7a3fe70da0dbbb3a7e0fa2a7c86375a57e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-22",
+      "ordem": 22,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2a Esta Lei entra em vigor na data de sua publicação.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS, em\nGoiânia,\nde\ndè 20'12’ 1242 da República.\nMARCONI FERREIRA PERILLO JÚNIOR\nLEI N° 17.958, DE 27 DE DEZEMBRO DE 2012.\nDeclara de utilidade pública a entidade que\nespecifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu sanciono a seguinte\nLei:",
+          "hash_texto": "bdb764727839247d630dad2bbf6ee14695d7c63578ab98f362606eb6fc70729e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-23",
+      "ordem": 23,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1a Fica declarada de utilidade pública a SOCIEDADE\nDE INSTRUÇÃO E ASSISTÊNCIA SOCIAL, inscrita no Cadastro Nacional da\nPessoa Jurídica (CNPJ) sob 0 na 33.812.074/0007-77, com sede no Município de\nFormosa-GO.",
+          "hash_texto": "403e8554df0f85fdf3d2708f8998689cacab8b08010768b51573d3a690400b62",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-24",
+      "ordem": 24,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2a Esta Lei entra em vigor na data de sua publicação.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS, em\nGoiânia,\nde\nde 2012, 124a da República.\nMARCONI FERREIRA PERILLO JÚNIOR\nLEI N° 17.959, DE 27 DE DEZEMBRO DE 2012.\nDeclara de utilidade pública a entidade que\nespecífica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu sanciono a seguinte\nLei:",
+          "hash_texto": "407b3a660641cf166d0ca73621607c775ba0ee5a9010a8ca4b4c0c911b974c44",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-25",
+      "ordem": 25,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1a Fica declarada de utilidade pública o CENTRO DE\nTRATAMENTO ESPIRITUAL BEZERRA DE MENEZES, inscrita no Cadastro\nNacional da Pessoa Jurídica (CNPJ) sob o ns 04.781.010/0001-62, com sede no\nMunicípio de Guapó-GO.",
+          "hash_texto": "3db8fd7f1220fe3348d36c76a65b9de5501852fc3204cfc9cc9984273cf00482",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-26",
+      "ordem": 26,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2a Esta Lei entra em vigor na data de sua publicação.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS, em\nGoiânia, 27\nde\nde 2012, 124a da República.\nMARCONI FERREIRA PERILLO JÚNIOR\nLEI N° 17.960, DE 27 DE DEZEMBRO DE 2012.\nDeclara de utilidade pública a entidade que\nespecifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu sanciono a seguinte\nLei:",
+          "hash_texto": "bae65d4996847ba721aee9eabec30e812c075d8c1f3bbebad90b036753abcd1f",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-27",
+      "ordem": 27,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1a Fica declarada de utilidade pública a COMUNIDADE\nMEL DE DEUS, inscrita no Cadastro Nacional da Pessoa Jurídica (CNPJ) sob 0\nn° 14.862.152/0001-08, com sede no Município de Luziânia-GO.",
+          "hash_texto": "0ef229ebcf9fa009749ebcb6c0beb80b3555462bd074bff36a08541cdd2348bd",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 22",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-28",
+      "ordem": 28,
+      "versoes": [
+        {
+          "vigencia_inicio": "11/12/2012",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 22 Esta Lei entra em vigor na data de sua publicação.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS, em\nGoiânia, Z 7\nde\nde 2012. 124a da República.\nMARCONI FERREIRA PERILLO JÚNIOR\nDECRETO DE 27 DE DEZEMBRO DE 2012.\n0 GOVERNADOR DO ESTADO DE GOIÁS, no uso de suas\natribuições constitucionais e legais e tendo em vista 0 que consta do Processo na\n201200013004524, resolve:\n1 - excluir dos efeitos do Decreto de 20 de novembro de 2012,\npublicado na página 04 do Suplemento do Diário Oficial na 21.471, de mesma data,\no pessoal constante do Anexo I, até então ocupante dos cargos em comissão ali\ndiscriminados, todos alocados na Secretaria de Estado de Gestão e Planejamento,\nintegrantes da reserva técnica prevista no art. 5o, inciso III e seu parágrafo único,\ndo Decreto na 7.347/2011, ficando, de conseqüência, restabelecido o seu\nprovimento nos respectivos cargos;",
+          "hash_texto": "417d751ce01e92b4ba60248cbc738224125c68903718ce5276e30003ba49c568",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-28/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "II - excluir dos efeitos do Decreto de 20 de novembro de 2012,\npublicado na página 04 do Suplemento do Diário Oficial na 21.471, de mesma data,\no pessoal constante do Anexo II, até então ocupante dos cargos em comissão ali\ndiscriminados, todos alocados na Secretaria de Estado de Gestão e Planejamento,\nintegrante do módulo disponibilizado à Agência Goiana de Esporte e Lazer,\nficando, de conseqüência, restabelecido o seu provimento nos respectivos cargos;",
+              "hash_texto": "edd3faae5539dec9a5a21fab131d2112f6ab75d42f1fc43622a9a5d2784068d2",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "III",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-28/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "III - delegar ao Secretário de Estado de Gestão e Planejamento,\nGIUSEPPE VECCI, competência para proceder, mediante portaria, a correções\nmateriais pertinentes a nomes, cargos e CPFs/MF do pessoal constante dos\nincisos I e II.\nPALÁCIO DO GOVERNO DO ESTADO DE GO IÁS, em\nGoiânia, 2.I\nde\nd i/U Y fl/lfj\nde 2012, 124a da República.\nRREIRA PERILLO JÚNIOR\nANEXO i\nT S E / E X O N E R A Ç A O\nC PF/M F N°\nC AR G O\nREFERÊNCIA/SÍMBOLO |\nABADIO FERREIRA BARBOSA",
+              "hash_texto": "414533df35b25dc5ec58683a5c02d8864fc5dfe522f443bd56e4fe33a1a7fc8f",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "251",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "251. 600.281-53\nASSISTENTE DE GABINETE-D”\nIV\n__l\nADOLFO ANDRÉ ALVES DE MELO",
+                  "hash_texto": "ef418a2e4934032f047d432ebdca3d8176095a62149500ad27bc1f51d6f46f04",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "493",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "493. 542.991-72\nSUPERVISOR \"A\"\nCDA-8\n!\nALEXANDRE MOURA PIRES",
+                  "hash_texto": "11898ddfc5dfc6ed0f4a7ee7949aab36d8e270990ffb95329b52dd38b60a2d58",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "764",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-3",
+              "ordem": 3,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "764. 287.531-20\nASSISTENTE DE GABINETE “E”\nV\nANA PAULA CAIADO GUEDES DE\nAMORIM CHAVES",
+                  "hash_texto": "d30ebe7bf872d5d85f0693d760046e9a02031aa87df16454d9d10c5fde6323ce",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "018",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-4",
+              "ordem": 4,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "018. 161.211-93\nASSESSOR ESPECIAL \"B\"\nIII\nANA PAULA SEGURADO TEIXEIRA JARDIM",
+                  "hash_texto": "66b93c16afec046eb75981eb5ac65da62a4a5d2010d7d9a3b92919877bc10a9f",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "660",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-5",
+              "ordem": 5,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "660. 868.681-15\nASSESSOR ESPECIAL “A”\nI\nDALTON DUTRA\n0 39.956.311-34\nASSISTENTE DE GABINETE “E\"\n1\nEDUARDO MARTINS DA SILVA",
+                  "hash_texto": "420bbfe0534100ba671edaad655e76dcd6eca97a880fe2bb65430ec9ff39d29e",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "394",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-6",
+              "ordem": 6,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "394. 644.741-49\nASSISTENTE DE GABINETE “F\"\nV\nEUNICE DE GODOY PINTO",
+                  "hash_texto": "7637b085e4af23b15a46d7fa9e962899ab3eefbec568cca3da6ac63e0dee1e09",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "117",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-7",
+              "ordem": 7,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "117. 531.101-49\nASSISTENTE DE GABINETE “E\"\nli\ní\nGILCE RODOVALHO TEIXEIRA NOGUEIRA",
+                  "hash_texto": "b50a53c12987e19b40ecaa5ec202dc07d18d5fcca0e53ba4fb3d2ae1cd492774",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "530",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-8",
+              "ordem": 8,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "530. 391.061-04\nASSISTENTE DE GABINETE “E”\nIII\nGILMAR JAIM E DE LIMA",
+                  "hash_texto": "0193ca8d430ca13df927306523722fcb49ffd99775f9236eb063766bcab8739d",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "215",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-9",
+              "ordem": 9,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "215. 581.241-87\nSUPERVISOR “C”\nCDA-1\nHUGO LEONARDO C0SAC DE SOUSA",
+                  "hash_texto": "77cd8c827bb78adc40f1454a1d85959064aaff3a0384d2b3bdefbea95f69e03f",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "008",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-10",
+              "ordem": 10,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "008. 743.741-46\nSUPERVISOR “B\"\nCDA-4\nJOÃO LUIZ FERNANDES",
+                  "hash_texto": "680b4c98e869c2ad90344c3d2bc918161f28903f1c78544bd5cc6e80299f6143",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "085",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-11",
+              "ordem": 11,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "085. 961.581-20\nASSESSOR ESPECIAL “A”\nV\nJOAQUIM MANOEL DA SILVA",
+                  "hash_texto": "957d3f7afa9adf74d845be761dc2ddfa4c68efef7541d2132158f12906502955",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "125",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-12",
+              "ordem": 12,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "125. 620.411-00\nASSISTENTE DE GABINETE “D”\n1\nJOSÉ LUIZ DOS SANTOS",
+                  "hash_texto": "ba81772c50790329c2425bbd368a57b44f7c8593fed00fee2f5b72f8feb2b7fb",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "191",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-13",
+              "ordem": 13,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "191. 918.391-49\nASSISTENTE DE GABINETE “E”\nI\nLANNIER SARAIVA DE AQUINO",
+                  "hash_texto": "a5dd8f49f0f2d0f4e3b979118f1e83478f72ecaec06f8a09d546375f2bce1690",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "392",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-14",
+              "ordem": 14,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "392. 130.721-04\nASSISTENTE DE GABINETE “E\"\n1\n;\nLIVIA AM ÉLIA CANDIDO DE MELO",
+                  "hash_texto": "3a05552c3dd222e327ecec50958714e00a1442cafb25a1743d02aa763f885340",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "937",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-15",
+              "ordem": 15,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "937. 106,231-20\nASSISTENTE DE GABINETE “F”\nV\nLUCENIA SANTOS DE ALMEIDA",
+                  "hash_texto": "01e8738f51e08b3aebddc5e1087c0dcb48919265b2f5545add01252b3db3c439",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "394",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-16",
+              "ordem": 16,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "394. 487.031-04\nASSISTENTE DE GABiNETE “A”\nV\nMÁRCIO ANTÔNIO VIANA BARROS",
+                  "hash_texto": "97c23f591853721f350f2d0bd5e65e3e75ed8a7e2ed5bb906b89bd5e3ce5a874",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "587",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-17",
+              "ordem": 17,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "587. 273.291-00\nASSISTENTE DE GABINETE \"F”\n111\nMARIA ELEUZA PEREIRA DA SILVA",
+                  "hash_texto": "a2a7e55636a3afeffa8730510499e7e91aecef8e4fbe44fa5792d42ff540a610",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "260",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-18",
+              "ordem": 18,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "260. 433.511-53\nASSISTENTE DE GABINETE “E”\nIII\nPOLIANA GOMES DA SILVA",
+                  "hash_texto": "13e3897ea56129bd2a6ca78d0cedcaf57657e653d4561e099078e84c2db9e19b",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "002",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-19",
+              "ordem": 19,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "002. 648.181-21\nASSISTENTE DE GABINETE UE”\nv\ni\nRICARDO FERREIRA DOLIVEIRA",
+                  "hash_texto": "9ea3acfb3b61999a2edde3e5c69f5fe8ac318d9ea47b7e516aa7e986d38300fc",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "130",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-20",
+              "ordem": 20,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "130. 989.421-34\nASSESSOR ESPECIAL \"D”\nil\nRICARDO MASSAHIDE ARASHIRO",
+                  "hash_texto": "92bc21a221c6cb703b7dab3989f9283311fef3de03e49767a21d8a9e45fcede2",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "999",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-21",
+              "ordem": 21,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "999. 748.861-04\nASSISTENTE DE GABINETE “F”\nIII\nRONAN ALVES DA SILVA",
+                  "hash_texto": "2370a9063fc9876d9ac7fabf05bf0ca562abdcc170a9d9b569d3a35eecf14c35",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "985",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-22",
+              "ordem": 22,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "985. 342.461-49\nASSISTENTE DE GABINETE \"E”\ni\n!\n: ROSA ARAUJO LEITE",
+                  "hash_texto": "3a4cc64d623248e852654adefc6eb26e821c5c3f0360f5604167b816ecfdea80",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "062",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-23",
+              "ordem": 23,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "062. 891.851-87\nASSESSOR ESPECIAL \"C”\nIII\nW ALTER DINIZ",
+                  "hash_texto": "b213e717c237a30f87b33c38834a60c5fd9fa1bd29e7fc960cb495f93d772076",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "014",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-24",
+              "ordem": 24,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "014. 561.561-87\n:\nSUPERVISOR “A”\nCDA-S\nW ILLIAN FIGUEIREDO ARANTES",
+                  "hash_texto": "ffcec1d5f78833679644ba3fdebfd6b741646b8d6da4d63db1fd13a1c6e045e1",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "052",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-25",
+              "ordem": 25,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "052. 959.391-20 j\nASSESSOR ESPECIAL \"C\"\n1",
+                  "hash_texto": "d0d1fc92f0141092f5927065edea23ad724d0c437cb5b3f8c341a000f4c0b4d8",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "025",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-26",
+              "ordem": 26,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "025. 584.451-46\n011,472.981-65\nSUPERVISOR “A\"\nASSESSOR ESPECIAL \"C\"\nLANA FARIA DE SOUZA",
+                  "hash_texto": "0af6aa7933f746097d4758a007901281b74b7cc7b811e70545f272a4228846f5",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "302",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-27",
+              "ordem": 27,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "302. 461.481-87\nSUPERVISOR “A\"\nCDA-8\n!\nLARISSA DE AZEVEDO BARROS",
+                  "hash_texto": "4710ed3bc2fda05d686e5df59362e08e04953d7146457b5222a95912a7b4a3ef",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "807",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-28",
+              "ordem": 28,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "807. 496.661-53\nSUPERVISOR “A”\nCDA-8\nLEILA LAIS RUFINO THOMAZ\n749,245.751-00\nASSISTENTE DE GABINETE “C”\n1\nrM AG U IN Ó RIA FELÍCIO LIMA\n282,308,171-20\nASSESSOR ESPECIAL “B\"\n1\n|\nMARCOS ANTÔNIO VILA VERDE",
+                  "hash_texto": "7ccac3223b8a8f1da85739a0e0a610b92c74c3be994f1a2cfcb506e58a6f17f9",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "363",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-29",
+              "ordem": 29,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "363. 909.841-20\nASSESSOR ESPECIAL “A”\nIV\nMIGUEL JOSÉ DE ASSIS",
+                  "hash_texto": "00ec634ce4dc26310285871fa5d9f70ccbeb780cc1ae54928f51bc30a833a4a5",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "082",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-30",
+              "ordem": 30,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "082. 724.411-87\nASSISTENTE DE GABINETE UB”\n1\nEXTRATO DE DECISÃO EM PROCESSO ADMINISTRATIVO PARA ANULAÇÃO DE\nATO IRREGULAR\nPROCESSOS N - 200500006026752 E 200900006020811\nRECORRENTE: FERNANDA LUDMILA PEREIRA ROSA\nRECORRIDO: ADMINISTRAÇÃO PÚBLICA DO PODER EXECUTIVO ESTADUAL.\nOV\nDECISÃO: PARTE FINAL DO DESPACHO N2\n652 /2012 - ANTE O\nEXPOSTO E EM FACE DA COMPROVADA DECADÊNCIA DO DIREITO DA\nADMINISTRAÇÃO DE ANULAR O ATO IRREGULAR DE QUE SE CUIDA NESTES\nAUTOS,\nCONHEÇO\nDO\nPRESENTE\nRECURSO,\nCONVALIDO\nO\nEFEITO\nSUSPENSIVO QUE LHE FOI DADO TACITAMENTE E DOU-LHE PROVIMENTO,\nPARA RECONSIDERAR A DECISÃO TOMADA POR INTERMÉDIO DO DESPACHO\nN° 302/2009 (FLS. 210/214) E, CONSEQUENTEMENTE, JULGAR IMPROCEDENTE A\nAÇÃO ADMINISTRATIVA LEVADA A EFEITO, MANTENDO-SE VÁLIDO, DESSE\nMODO, O DECRETO DE 22 DE NOVEMBRO DE 1999, PUBLICADO NO DIÁRIO\nOFICIAL DO ESTADO Ne 18.310, DE 25 DO MESMO MÊS E ANO, QUE NOMEOU\nFERNANDA LUDMILA PEREIRA ROSA NO CARGO DE PROFESSOR Pl, DA\nSECRETARIA DA EDUCAÇÃO. AO GABINETE CIVIL DA GOVERNADORIA PARA\nPROVIDENCIAR O ATO DE INVALIDAÇÃO DOS EFEITOS DO DECRETO DE 08 DE\nMAIO DE 2009, PUBLICADO NO DIÁRIO OFICIAL N° 20.611 - SUPLEMENTO, DE 11\nDO MESMO MÊS E ANO. APÓS A PUBLICAÇÃO DO EXTRATO DESTA DECISÃO NO\nDIÁRIO OFICIAL DO ESTADO, ENCAMINHEM-SE OS AUTOS À SECRETARIA DA\nEDUCAÇÃO PARA AS DEMAIS PROVIDÊNCIAS. GOVERNADORIA DO ESTADO, EM\nGOIÂNIA,\n27\nDE\nd l/iJ frrlfljj\nDE 2012. MARCONI FERREIRA\nPERILLO JÚNIOR - GOVERNADOR*\nDECRETO DE 27 DE DEZEMBRO DE 2012.\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso de suas\natribuições constitucionais e legais e tendo em vista 0 que consta dos Processos n—\n200500006026752 e 200900006020811, resolve, nos termos do art. 54 da Lei ns",
+                  "hash_texto": "d4f0446780427f2649388a29b0839b482659ff69d5324c3004c90834a21b03f2",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "13",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-2/item-31",
+              "ordem": 31,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "13. 800, de 18 de janeiro de 2001, tomar sem efeito 0 Decreto de 08 de maio de\n2009, publicado no Diário Oficial do Estado na 20.611 - Suplemento, de 11 do\nmesmo mês e ano, que havia declarado a nulidade do ato que nomeou FERNANDA\nLUDMILA PEREIRA ROSA no cargo de Professor P-l, da Secretaria da Educação.\nPALÁCI0| ; D° G0VERN° D° E8TAD0 DE G0IÁS- em\nMARCONI FERREIRA PERILLO JÚNIOR\nSECRETARIA DA CASA CIVIL\nPORTARIA N° 3.931, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1s, inciso II, do Decreto ns 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista 0 que consta do Processo na\n201200004036659, notadamente do Parecer n2 005622/2012, aprovado pelo\nDespacho “AG” n- 008319/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 3-, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal n5 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar n2 77, de 22 de janeiro de 2010, conceder a DALVES ROSA\nDE OLIVEIRA aposentadoria no cargo de Agente Fazendário II, Nível 6, do\nQuadro Transitório da Secretaria da Fazenda, com proventos integrais.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nVilmar da Silva Rocha\nSecretário\n4\nê Diário Oficial\nGOIÂNIA, SEGUNDA-FEIRA, 31 DE DEZEMBRO DE 2012\nANO 176 - DIÁRIO OFICIAL/GO N° 21.498\nPORTARIA N° 3.932, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200007001942, notadamente do Parecer n- 006091/2012, aprovado pelo\nDespacho “AG” na 008405/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 32, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal n2 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar nE 77, de 22 de janeiro de 2010, conceder a DIVINA\nFERREIRA DE SOUZA aposentadoria no cargo de Auxiliar de Gestão\nAdministrativa, Classe A, Padrão V, do Grupo Ocupacional de mesmo nome, do\nQuadro Permanente de Pessoal da Secretaria de Gestão e Planejamento, com\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nPORTARIA N° 3.933, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 12, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200006025626, notadamente do Parecer na 005967/2012, aprovado pelo\nDespacho “AG\" n2 008361/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 62, incisos I a IV, da Emenda Constitucional Federal n241, de\n19 de dezembro de 2003, e no art. 56, incisos I a V, da Lei Complementar na 77,\nde 22 de janeiro de 2010, conceder a DIVINO CAMARGO DA SILVA\naposentadoria no cargo de Professor III, Referência “C”, do Quadro Permanente\ndo Magistério Público Estadual, com proventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia, ^\nde Ò £ Z € . ~ n b lú\nd e 2 0 1 2 Vilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.934, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1s, inciso II, do Decreto na 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo na\n201200005003338, notadamente do Parecer na 005371/2012, aprovado com\nacréscimos pelo Despacho “AG” na 007982/2012, da Procuradoria-Geral do\nEstado, resolve, com fundamento nos arts. 40, § 1a, inciso I, da Constituição\nFederal, alterado pela Emenda Constitucional Federal n2 41, de 19 de dezembro\nde 2003, e 6°-A da referida Emenda, com redação dada pela de na 70, de 29 de\nmarço de 2012, combinados com o art. 97, § 12, inciso I, da Constituição Estadual,\nem harmonia com o art. 45 da Lei Complementar n2 77, de 22 de janeiro de 2010,\ndeclarar aposentada, a partir de 21 de maio de 2012, EDILENE APARECIDA\nAMARAL no cargo de Professor IV, Referência “A”, do Quadro Permanente do\nMagistério Público Estadual, com proventos integrais, em virtude de haver sido\nconsiderada definitivamente incapaz para o serviço público.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia, ^\nde iic T ^ /v ^ ls y L O\nde 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.935, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 12, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201100010006920, notadamente do Parecer ne 005288/2012, aprovado pelo\nDespacho “AG” n2 007477/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 3S, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal n2 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar n2 77, de 22 de janeiro de 2010, conceder, a partir de 03 de\nabril de 2011, a ERCILIA SERAFIM ARRUDA aposentadoria no cargo de\nAuxiliar de Enfermagem, do Grupo Ocupacional Auxiliar de Saúde, do Quadro\nPermanente dos Servidores da Secretaria da Saúde, com proventos integrais.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nPORTARIA N° 3.936, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200006024299, notadamente do Parecer n-° 005686/2012, aprovado pelo\nDespacho “AG” n2 008002/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 3a, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal n2 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar n2 77, de 22 dejaneiro de 2010, conceder a ERINÍCIA DIAS\nDA SILVA aposentadoria no cargo de Agente Administrativo Educacional de\nApoio, Referência “F-l”, do Quadro de Pessoal da Secretaria da Educação, com\nproventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia, ^\nde Ò C Z - £ ^ r \\l^ Q\nàe 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.937, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 12, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200006019366, notadamente do Parecer n2 006081/2012, aprovado pelo\nDespacho \"AG” n2 008358/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 32, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal n2 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar n2 77, de 22 de janeiro de 2010, conceder a GERALDO\nDIVINO MENDES aposentadoria no cargo de Professor IV, Referência “E”, do\nQuadro Permanente do Magistério Público Estadual, com proventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia,\nde\nde 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.938 DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, inciso II, do Decreto na 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo na\n201200006019546, notadamente do Parecer n2 005358/2012, aprovado pelo\nDespacho “AG” na 008010/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 6fi, incisos I a IV, da Emenda Constitucional Federal n2 41, de\n19 de dezembro de 2003, e no art. 56, incisos I a V, da Lei Complementar na 77,\nde 22 de janeiro de 2010, conceder a IRACY DOS REIS BRAGA aposentadoria\nno cargo de Professor IV, Referência “C”, do Quadro Permanente do Magistério\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nPORTARIA N° 3.939, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 12, incisos II e VII, do Decreto nfi 7.206, de 21 de janeiro de 2011, e suas\nalterações posteriores, com base nos arts. 20 e 21 da Lei n° 13.910, de 25 de\nsetembro de 2001, e tendo em vista o que consta do Processo na\n201200006027593, notadamente do Parecer n2 006034/2012, aprovado pelo\nDespacho “AG” n2 008360/2012, da Procuradoria-Geral do Estado, resolve\ntranspor, mediante enquadramento, a partir de 12 de outubro de 2001, IOLANDA\nMARIA DE OLIVEIRA GONÇALVES do cargo de Auxiliar de Serviços Gerais\npara o de Agente Administrativo Educacional II, Referência “C”, atual Agente\nAdministrativo Educacional de Apoio, Referência “H”, do Quadro de Pessoal da\nSecretaria da Educação, e, com fundamento no art. 40, § 12, inciso III, alínea “b”,\nda Constituição Federal, alterado pela Emenda Constitucional Federal n2 41, de\n19 de dezembro de 2003, combinado com o art. 97, § 1a, inciso III, alínea “b”, da\nConstituição Estadual, e no art. 52, incisos I, II e III, da Lei Complementar na 77,\nde 22 de janeiro de 2010, conceder-lhe aposentadoria no cargo por último citado,\ncom proventos proporcionais ao tempo de contribuição.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia, 3 ^\nde\nde 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.940, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, inciso II, do Decreto na 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo ns\n201200025006023, notadamente do Parecer n2 005244/2012, aprovado pelo\nDespacho “AG” na 007815/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 32, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal n2 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar na 77, de 22 de janeiro de 2010, conceder a IROSITA\nRODRIGUES DIAS aposentadoria no cargo de Assistente de Trânsito, Classe\n“D”, Referência I, do Grupo Ocupacional de mesmo nome, do Quadro\nPermanente dos Servidores do Departamento Estadual de Trânsito-DETRAN-,\ncom proventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia, 3 . ^ de\nde 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.941, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 12, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo na\n201200006024034, notadamente do Parecer na 005639/2012, aprovado pelo\nDespacho “AG” n2 008196/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 6a, incisos I a IV, da Emenda Constitucional Federal n241, de\n19 de dezembro de 2003, e no art. 56, incisos I a V, da Lei Complementar n2 77,\nde 22 de janeiro de 2010, conceder a ISABEL CARLOS FERNANDES FARIA\naposentadoria no cargo de Professor IV, Referência “D”, do Quadro Permanente\ndo Magistério Público Estadual, com proventos integrais.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nPORTARIA N° 3.942, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 12, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200066011101, notadamente do Parecer n2 005611/2012, aprovado pelo\nDespacho “AG” n2 007785/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 3a, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal n2 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar n2 77, de 22 dejaneiro de 2010, conceder a JOÃO BORGES\nGOIÂNIA, SEGUNDA-FEIRA, 31 DE DEZEMBRO DE 2012\nANO 176 - DIÁRIO OFICIAL/GO N° 21.498\n1 Diário Oficial\n5\nDA SILVA aposentadoria no cargo de Fiscal Estadual Agropecuário, Referência\n7, do Quadro de Pessoal da Agência Goiana de Defesa Agropecuária GABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nPORTARIA N° 3.943, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n201000004036837, notadamente do Parecer n2 005506/2012, aprovado pelo\nDespacho “AG” n2 007635/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 32, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal n247, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar n2 77, de 22 de janeiro de 2010, conceder, a partir de 02 de\nabril de 2011, a JOÃO DA COSTA ATAIDES aposentadoria no cargo de Agente\nFazendário II, do Quadro Transitório da Secretaria da Fazenda, com proventos\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nPORTARIA N° 3.944, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 12, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200046000165, notadamente do Parecer n2 001098/2012, aprovado com\nacréscimos pelo Despacho “AG” n2 008529/2012, da Procuradoria-Geral do\nEstado, resolve, com fundamento no art. 32, incisos I, II e III e parágrafo único,\nda Emenda Constitucional Federal n2 47, de 5 de julho de 2005, e no art. 58,\nincisos I a V, da Lei Complementar n2 77, de 22 de janeiro de 2010, conceder a\nLUCIONY FONSECA SILVA aposentadoria no cargo de Assistente de Gestão\nAdministrativa, Classe “A\", Padrão V, do Grupo Ocupacional de mesmo nome,\ndo Quadro Permanente dos Servidores Efetivos da Agência Goiana de Esporte e\nLazer - AGEL -, com proventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia, ^\nde JseJLe 'W n.LoO\nde 2012.\nPORTARIA N° 3.945, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 12, incisos II e VII, do Decreto n2 7.206, de 21 de janeiro de 2011, e suas\nalterações posteriores, com base nos arts. 20 e 21 da Lei n2 13.910, de 25 de\nsetembro de 2001, e tendo em vista o que consta do Processo na\n201200006025541, notadamente do Parecer n2 006147/2012, aprovado pelo\nDespacho “AG” n2 008496/2012, da Procuradoria-Geral do Estado, resolve\ntranspor, mediante enquadramento, a partir de 12 de outubro de 2001, LUZIA\nMATIAS PEREIRA E SILVA do cargo de Executor de Serviços Administrativos I,",
+                  "hash_texto": "f52741215a15f94b1e173d24a3d8d14f1ec812b797366ee56cb29030840d2193",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        },
+        {
+          "rotulo": "M",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-28/inc-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "11/12/2012",
+              "vigencia_fim": null,
+              "texto_normalizado": "M- 2, para o de Agente Administrativo Educacional IV, Referência “G”, atual Agente\nAdministrativo Educacional Técnico, Referência “G-l”, do Quadro de Pessoal da\nSecretaria da Educação, e, com fundamento no art. 32, incisos I, II e III e parágrafo\núnico, da Emenda Constitucional Federal n2 47, de 5 de julho de 2005, e no art. 58,\nincisos I a V, da Lei Complementar n2 77, de 22 de janeiro de 2010, conceder-lhe\naposentadoria no cargo por último citado, com proventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia,\nde\nde 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.946, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1° incisos II e VII, do Decreto n2 7.206, de 21 de janeiro de 2011, e suas\nalterações posteriores, com base nos arts. 20 e 21 da Lei n2 13.910, de 25 de\nsetembro de 2001, e tendo em vista o que consta do Processo n2\n201200006023093, notadamente do Parecer n2 005839/2012, aprovado pelo\nDespacho “AG\" n2 008167/2012, da Procuradoria-Geral do Estado, resolve\ntranspor, mediante enquadramento, a partir de 12 de outubro de 2001, MÁRCIA\nMARQUES DE ALENCAR ARRAES do cargo de Executor de Serviços\nAdministrativos II, M-1, para o de Agente Administrativo Educacional IV, Referência\n“G”, atual Agente Administrativo Educacional Técnico, Referência “A-ll”, do Quadro\nde Pessoal da Secretaria da Educação, e, com fundamento no art. 32, incisos I, II e\nIII e parágrafo único, da Emenda Constitucional Federal n2 47, de 5 de julho de\n2005, e no art. 58, incisos I a V, da Lei Complementar n2 77, de 22 de janeiro de\n2010, conceder-lhe aposentadoria no cargo por último citado, com proventos\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nPORTARIA N° 3.947, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, incisos II e VII, do Decreto n2 7.206, de 21 de janeiro de 2011, e suas\nalterações posteriores, com base nos arts. 20 e 21 da Lei n2 13.910, de 25 de\nsetembro de 2001, e tendo em vista o que consta do Processo n2\n201200006025173, notadamente do Parecer n2 005862/2012, aprovado pelo\nDespacho “AG” n2 008173/2012, da Procuradoria-Geral do Estado, resolve\ntranspor, mediante enquadramento, a partir de 1a de outubro de 2001, MARIA\nPATROCÍNIA GONÇALVES BOMTEMPO do cargo de Executor de Serviços\nAuxiliares I, A-2, para o de Agente Administrativo Educacional I, Referência “F”,\natual Agente Administrativo Educacional de Apoio, Referência “F-l”, do Quadro de\nPessoal da Secretaria da Educação, e, com fundamento no art. 40, § 12, inciso III,\nalínea “b”, da Constituição Federal, alterado pela Emenda Constitucional Federal\nn2 41, de 19 de dezembro de 2003, combinado com o art. 97, § 12, inciso III,\nalínea “b”, da Constituição Estadual, e no art. 52, incisos I, II e III, da Lei\nComplementar n2 77, de 22 de janeiro de 2010, conceder-lhe aposentadoria no\ncargo por último citado, com proventos proporcionais ao tempo de contribuição.\nP u b liq u e -s e .\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia,\nde\nde 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.948, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, incisos II e VII, do Decreto na 7.206, de 21 de janeiro de 2011, e suas\nalterações posteriores, com base nos arts. 20 e 21 da Lei na 13.910, de 25 de\nsetembro\nde\n2001,\ne\ntendo\nem\nvista\no\nque\nconsta\ndo\nProcesso\nna 201200006008508, notadamente do Parecer ne 004670/2012, aprovado peto\nDespacho “AG” n2 007753/2012, da Procuradoria-Geral do Estado, resolve\ntranspor, mediante enquadramento, a partir de 1a de outubro de 2001, MARIA\nDAS GRAÇAS SILVA CAMARGO do cargo de Auxiliar de Serviços Gerais, A-2,\npara o de Agente Administrativo Educacional I, Referência A ”, atual Agente\nAdministrativo Educacional de Apoio, Referência “B-l”, do Quadro de Pessoal da\nSecretaria da Educação, e, com fundamento no art. 40, § 1a, inciso III, alínea “b”,\nda Constituição Federal, alterado pela Emenda Constitucional Federal na 41, de\n19 de dezembro de 2003, combinado com o art. 97, § 1a, inciso III, alínea “b”, da\nConstituição Estadual, e no art. 52, incisos I, II e III, da Lei Complementar na 77,\nde 22 de janeiro de 2010, conceder-lhe aposentadoria no cargo por último citado,\ncom proventos proporcionais ao tempo de contribuição.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia,\n^ 9\nde b í l í / i w\nt t O\nde 2012.\nVilmar da Silva Rocha\nSECRETÁRIO\nPORTARIA N° 3.949, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200006022476, notadamente do Parecer n2 005504/2012, aprovado pelo\nDespacho “AG” nfi 007978/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 62, incisos I a IV, da Emenda Constitucional Federal n241, de\n19 de dezembro de 2003, e no art. 56, incisos I a V, da Lei Complementar n2 77,\nde 22 de janeiro de 2010, conceder a MARIA VITÓRIA DE AZEVEDO SILVA\naposentadoria no cargo de Professor IV, Referência “B”, do Quadro Permanente\ndo Magistério Público Estadual, com proventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia, ^\nde Ò t~ L ^ ^ r \\ly io\nde 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.950, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 12, inciso II, do Decreto na 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200006023663, notadamente do Parecer n2 005685/2012, aprovado pelo\nDespacho “AG” n2 007998/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 32, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal n2 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar n2 77, de 22 de janeiro de 2010, conceder a MARIA\nOLIVEIRA BARROS aposentadoria no cargo de Agente Administrativo\nEducacional Técnico, Referência “A-ll”, do Quadro de Pessoal da Secretaria da\nEducação, com proventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia,\nde h\n>\ne\nd\ne\n2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.951, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 12, incisos II e VII, do Decreto n2 7.206, de 21 de janeiro de 2011, e suas\nalterações posteriores, com base nos arts. 20 e 21 da Lei ne 13.910, de 25 de\nsetembro de 2001, e tendo em vista o que consta do Processo n2\n201200006027394, notadamente do Parecer n2 006076/2012, aprovado pelo\nDespacho “AG\" n2 008504/2012, da Procuradoria-Geral do Estado, resolve\ntranspor, mediante enquadramento, a partir de 12 de outubro de 2001, MARIA\nABADIA DOS REIS VENTURA do cargo de Executor de Serviços Auxiliaies I, A-2, para o de\nAgente Administrativo Educacional I, Referência “F\", atual Agente Administrativo\nEducacional de Apoio, Referência “H”, do Quadro de Pessoal da Secretaria da\nEducação, e, com fundamento no art. 40, § 12, inciso III, alínea “b”, da\nConstituição Federal, alterado pela Emenda Constitucional Federal n2 41, de 19\nde dezembro de 2003, combinado com o art. 97, § 12, inciso III, alínea “b\", da\nConstituição Estadual, e no art. 52, incisos I, II e III, da Lei Complementar n2 77,\nde 22 de janeiro de 2010, conceder-lhe aposentadoria no cargo por último citado,\ncom proventos proporcionais ao tempo de contribuição.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nPORTARIA N° 3.952, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 12, inciso II, do Decreto n- 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200006022761, notadamente do Parecer n2 005388/2012, aprovado pelo\nDespacho “AG” n2 007623/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 3a, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal n2 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar n2 77, de 22 de janeiro de 2010, conceder a MIRTES ALINE\nDO PRADO BUENO aposentadoria no cargo de Professor IV, Referência “F”, do\nQuadro Permanente do Magistério Público Estadual, com proventos integrais.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\n6\nDiário Oficial\nGOIANIA, SEGUNDA-FEIRA, 31 DE DEZEMBRO DE 2012\nANO 176 - DIÁRIO OFICIAL/GO N° 21.498\nPORTARIA N° 3.953, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1s, inciso II, do Decreto na 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo na\n201200046002232, notadamente do Parecer na 006105/2012 aprovado pelo\nDespacho “AG” n2 008532/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 3a, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal ns 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar ne 77, de 22 dejaneiro de 2010, conceder a MYRIAN PÓVOA\nBORGES FONSECA aposentadoria no cargo de Instrutor de Técnica Esportiva,\nReferência 6, do Grupo Ocupacional Analista de Esporte e Lazer, do Quadro\nPermanente dos Servidores Efetivos da Agência Goiana de Esporte e Lazer,\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.954, DE 28 DE DEZEMBRO DE 2012.\nO SECRETARIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, inciso II, do Decreto nE 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo na\n201200004023988, notadamente do Parecer n2 005402/2012, aprovado pelo\nDespacho “AG” na 008518/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 32, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal n2 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar n2 77, de 22 de janeiro de 2010, conceder a NICANOR\nALVES DA SILVA aposentadoria no cargo de Agente Fazendário I, Nível 5, do\nQuadro Transitório da Secretaria da Fazenda, com proventos integrais.\nP u b liq u e -s e .\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia, QT?* de\nde 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.955, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200006011976, notadamente do Parecer na 005888/2012, aprovado pelo\nDespacho “AG\" n2 008085/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 62, incisos I a IV, da Emenda Constitucional Federal n241, de\n19 de dezembro de 2003, e no art. 56, incisos I a V, da Lei Complementar nfi 77,\nde 22 de janeiro de 2010, conceder a NORMEIDE PEREIRA DE OLIVEIRA\naposentadoria no cargo de Professor IV, Referência “A”, do Quadro Permanente\ndo Magistério Público Estadual, com proventos integrais.\nPublique-se.\ngrais.\n<\nr S\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia,\nde\nde 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.956, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, inciso II, do Decreto na 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo na\n201200006027401, notadamente do Parecer n2 006092/2012, aprovado pelo\nDespacho “AG” na 008364/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 6a, incisos I a IV, da Emenda Constitucional Federal n2 4 1 , de\n19 de dezembro de 2003, e no art. 56, incisos I a V, da Lei Complementar ns 77,\nde 22 de janeiro de 2010, conceder a OEMES GERALDO MACHADO\naposentadoria no cargo de Professor IV, Referência “E”, do Quadro Permanente\ndo Magistério Público Estadual, com proventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia, 03 de\nde 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.957, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart, 1e, inciso II, do Decreto na 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200006024451, notadamente do Parecer n2 005620/2012, aprovado pelo\nDespacho “AG” ns 007765/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 32, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal na 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar n2 77, de 22 de janeiro de 2010, conceder a RENILDA\nMARIA RODRIGUES aposentadoria no cargo de Agente Administrativo\nEducacional Técnico, Referência “G-l”, do Quadro de Pessoal da Secretaria da\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.958, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, inciso II, do Decreto na 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200006027253, notadamente do Parecer n2 005939/2012, aprovado pelo\nDespacho “AG” n2 008204/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 40, § 12, inciso III, alínea “b”, da Constituição Federal, alterado\npela Emenda Constitucional n241, de 19 de dezembro de 2003, combinado com o\nart. 97, § 1a, inciso III, alínea “b”, da Constituição Estadual, e no art. 52, incisos I,\nII e III, da Lei Complementar n2 77, de 22 de janeiro de 2010, conceder a\nRENiLDES PEREIRA DA CRUZ PORFÍRIO aposentadoria no cargo de Agente\nAdministrativo Educacional de Apoio, Referência “C-l\", do Quadro de Pessoal da\nSecretaria da Educação, com proventos proporcionais ao tempo de contribuição.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia,\nde\nde 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.959, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, inciso II, do Decreto ns 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo na\n201200006014821,\nnotadamente\ndos\nPareceres\nn—\n004534/2012\ne\n006082/2012, aprovado pelo Despacho “AG” n2 008272/2012, da ProcuradoriaGeral do Estado, resolve, com fundamento no art. 62, incisos I a IV, da Emenda\nConstitucional Federal n2 41, de 19 de dezembro de 2003, e no art. 56, incisos I\na V, da Lei Complementar n2 77, de 22 de janeiro de 2010, conceder a\nSOLANGE ROQUE DA SILVA aposentadoria no cargo de Professor IV,\nReferência “D\", do Quadro Permanente do Magistério Público Estadual, com\nproventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia, Qüv de\nde 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.960, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, inciso II, do Decreto na 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista 0 que consta do Processo n2\n201200006024195, notadamente do Parecer na 006083/2012, aprovado pelo\nDespacho “AG\" n2 008362/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 62, incisos I a IV, da Emenda Constitucional Federal na 41, de\n19 de dezembro de 2003, e no art. 56, incisos I a V, da Lei Complementar na 77,\nde 22 de janeiro de 2010, conceder a SONIA MARIA VELOSO ARAUJO\naposentadoria no cargo de Professor IV, Referência “A”, do Quadro Permanente\ndo Magistério Público Estadual, com proventos integrais.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.961, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, inciso II, do Decreto na 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200006026021, notadamente do Parecer ne 005884/2012, aprovado pelo\nDespacho “AG” n2 008188/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 62, incisos I a IV, da Emenda Constitucional Federal n2 41, de\n19 de dezembro de 2003, e no art. 56, incisos I a V, da Lei Complementar n2 77,\nde 22 de janeiro de 2010, conceder a SÔNIA MARIA SARTORIO MESSORA\naposentadoria no cargo de Professor IV, Referência “C”, do Quadro Permanente\ndo Magistério Público Estadual, com proventos integrais.\nPublique-se.\nGABINETE DO SECRETARIO DE ESTADO DA CASA CIVIL,\nem Goiânia, 2 ^ de kí-S -e-vrxLt-O\nde 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.962, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 12, incisos II e VII, do Decreto n2 7.206, de 21 de janeiro de 2011, e suas\nalterações posteriores, com base nos arts. 20 e 21 da Lei na 13.910, de 25 de\nsetembro de 2001, e tendo em vista 0 que consta do Processo n2\n201200006022965, notadamente do Parecer n2 005461/2012, aprovado pelo\nDespacho “AG\" n2 008071/2012, da Procuradoria-Geral do Estado, resolve\ntranspor, mediante enquadramento, a partir de 12 de outubro de 2001, TEREZINHA\nMARIA DE JESUS MONTEIRO do cargo de Executor de Serviços Administrativos\nII, M-1, para o de Agente Administrativo Educacional IV, Referência “G”, atual\nAgente Administrativo Educacional Técnico, Referência “G-l\", do Quadro de\nPessoal da Secretaria da Educação, e, com fundamento no art. 3a, incisos I, II e III\ne parágrafo único, da Emenda Constitucional Federal n2 47, de 5 de julho de 2005,\ne no art. 58, incisos I a V, da Lei Complementar n2 77, de 22 de janeiro de 2010,\nconceder-lhe aposentadoria no cargo por último citado, com proventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia, <2^ de\nde 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.963, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1s, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200006018643, notadamente do Parecer ns 005640/2012, aprovado pelo\nDespacho “AG” n2 008321/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 62, incisos I a IV, da Emenda Constitucional Federal ns 41, de\n19 de dezembro de 2003, e no art. 56, incisos I a V, da Lei Complementar n2 77,\nde 22 de janeiro de 2010, conceder a ZIZÉLIA MARIA OLIVEIRA SILVA\naposentadoria no cargo de Professor IV, Referência “D”, do Quadro Permanente\ndo Magistério Público Estadual, com proventos integrais.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.964, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo na\n201200006024742, notadamente do Parecer nfi 005699/2012, aprovado pelo\nDespacho “AG” n2 008305/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 6fi, incisos I a IV, da Emenda Constitucional Federal na 41, de\n19 de dezembro de 2003, e no art. 56, incisos I a V, da Lei Complementar n2 77,\nde 22 de janeiro de 2010, conceder a ZULMIRA ROSALINA MOTA\naposentadoria no cargo de Professor IV, Referência “E”, do Quadro Permanente\ndo Magistério Público Estadual, com proventos integrais.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nVilmar da Silva Rocha\nSecretário\nGOIÂNIA, SEGUNDA-FEIRA, 31 DE DEZEMBRO DE 2012\nANO 176 - DIÁRIO OFICIAL/GO N° 21.498\nDiario Oficial\n7\nPORTARIA N° 3.965, DE 28 DE DEZEMBRO DE 2012.\nO S E C R E T Á R IO DE E S T A D O D A C A S A C IV IL , nos termos do\nart. 1a, inciso II, do Decreto na 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo ns\n2 01 1 0 0 0 0 6 0 3 2 3 8 3 , notadamente do Parecer ns 005160/2012, aprovado pelo\nDespacho “AG\" n2 007216/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento nos arts. 40, § 1° inciso II, da Constituição Federal, alterado pela\nEmenda Constitucional na 41, de 19 de dezembro de 2003, combinado com o art.\n97, § 1E, inciso II, da Constituição Estadual, e no art. 50 e seu § 2a da Lei\nComplementar na 77, de 22 de janeiro de 2010, declarar aposentado, a partir de\n05 de setembro de 2011, A N T O N IO J O R G E C H E IM F IL H O no cargo de Professor\nI, Referência “A\", do Quadro do Permanente do Magistério Público Estadual, com\nproventos proporcionais ao tempo de contribuição, em virtude de haver atingido a\nidade limite para permanecer no serviço público.\nG A B IN E T E D O S E C R E T Á R IO DE E S T A D O D A C A S A C IV IL ,\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.966, DE 28 DE DEZEMBRO DE 2012.\nO S E C R E T Á R IO D E E S T A D O D A C A S A C IV IL , nos termos do\nart. 1a, inciso II, do Decreto nfi 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo na\n2 0 1 2 0 0 0 0 6 0 1 8 7 5 1 , notadamente do Parecer n2 004960/2012, aprovado pelo\nDespacho “AG” na 008086/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 6S, incisos I a IV, da Emenda Constitucional Federal na 41, de\n19 de dezembro de 2003, e no art. 56, incisos I a V, da Lei Complementar n- 77,\nde 22 de janeiro de 2010, conceder a G E N I D U C A S S O A R E S aposentadoria no\ncargo de Professor IV, Referência “B”, do Quadro Permanente do Magistério\nPúblico Estadual, com proventos integrais.\nP u b liq u e -s e .\nG A B IN E T E D O S E C R E T Á R IO D E E S T A D O D A C A S A C IV IL ,\nem Goiânia,\nde\nde 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.967, DE 28 DE DEZEMBRO DE 2012.\nO S E C R E T Á R IO D E E S T A D O D A C A S A C IV IL , nos termos do\nart. 1° inciso ll, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo na\n2 0 1 2 0 0 0 0 6 0 2 3 6 6 2 , notadamente do Parecer ne 006072/2012, aprovado pelo\nDespacho “AG” n2 008359/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 3a, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal ns 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar n2 77, de 22 de janeiro de 2010, conceder a J O S É\nR O D R IG U E S D E S O U Z A aposentadoria no cargo de Professor IV, Referência\n“E”, do Quadro Permanente do Magistério Público Estadual, com proventos\nintegrais.\nP u b liq u e -s e .\nG A B IN E T E D O S E C R E T Á R IO D E E S T A D O D A C A S A C IV IL ,\nem Goiânia, Qi? de £>e\nde 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.968, DE 28 DE DEZEMBRO DE 2012.\nO S E C R E T Á R IO D E E S T A D O D A C A S A C IV IL , nos termos do\nart. 12, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n2 0 1 2 0 0 0 0 6 0 1 9 8 3 4 , notadamente do Parecer ne 005409/2012, aprovado pelo\nDespacho “AG” n2 008087/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 3a, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal na 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar ns 77, de 22 de janeiro de 2010, conceder a M A R IA V IE IR A\nD A C O S T A S IL V A aposentadoria no cargo de Professor IV, Referência “E ”, do\nQuadro Permanente do Magistério Público Estadual, com proventos integrais.\nP u b liq u e -s e .\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia, ^\nde\nde 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.969, DE 28 DE DEZEMBRO DE 2012.\nO S E C R E T Á R IO D E E S T A D O D A C A S A C IV IL , nos termos do\nart. 1a, inciso II, do Decreto na 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo na\n2 0 1 2 0 0 0 0 6 0 2 6 4 8 3 , notadamente do Parecer nÊ 005895/2012, aprovado pelo\nDespacho “AG” na 008099/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 6a, incisos I a IV, da Emenda Constitucional Federal na 4 1, de\n19 de dezembro de 2003, e no art. 56, incisos I a V, da Lei Complementar n2 77,\nde 22 de janeiro de 2010, conceder a\nO S A IL D A\nS O A R E S\nS IM Õ E S\naposentadoria no cargo de Professor I, Referência “D”, do Quadro Permanente\ndo Magistério Público Estadual, com proventos integrais.\nG A B IN E T E D O S E C R E T Á R IO D E E S T A D O D A C A S A C IV IL ,\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.970, DE 28 DE DEZEMBRO DE 2012.\nO S E C R E T Á R IO D E E S T A D O D A C A S A C IV IL , nos termos do\nart. 1a, inciso II, do Decreto na 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo na\n2 0 1 2 0 0 0 0 6 0 2 2 7 7 9 , notadamente do Parecer na 005861/2012, aprovado pelo\nDespacho “AG” na 008094/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 32, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal na 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar na 77, de 22 de janeiro de 2010, conceder a V E R A L Ú C IA\nR A M O S F A U S T IN O aposentadoria no cargo de Professor III, Referência “Cj^do\nQuadro Permanente do Magistério Público Estadual, com proventos integrais.\nP u b liq u e -s e .\nG A B IN E T E D O S E C R E T Á R IO D E E S T A D O D A C A S A C IV IL ,\nem Goiânia, Jr% de\nde 2Q1^i\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.971, DE 28 DE DEZEMBRO DE 2012.\n971, DE 28 C\nJV\n> ‘\nrorroga\nos\natos\nde\ncessão\nou\ndisposição de pessoal que especifica.\nO S E C R E T Á R IO D E E S T A D O D A C A S A C IV IL , no uso de\nsuas atribuições legais e nos termos do art. 2o do Decreto n° 7.532, de 29 de\ndezembro de 2011, resolve prorrogar, até 31 de dezembro de 2013, os atos\nde cessão ou disposição praticados pelo Secretário de Estado da Casa Civil,\nkcom vigência limitada a 31 de dezembro de 2012, disponibilizando pessoal da\nadministração direta, autárquica e fundacional do Poder Executivo, bem como\nde suas entidades paraestatais, para a União, outras unidades federadas e\nrespectivos órgãos e entidades de administração direta e indireta, o Ministério\nPúblico, os Tribunais de Contas e demais poderes de Estado, ficando,\ntodavia, a eficácia da prorrogação de cada ato de cessão ou disposição\ncondicionada a que, no prazo de até 30 (trinta) dias, a contar de 1o de janeiro\nde 2013, o órgão cessionário solicite, formalmente, a sua renovação, caso\nainda não o tenha feito.\nP u b liq u e - s e .\nG A B IN E T E D O S E C R E T Á R IO D E E S T A D O D A C A S A C IV IL ,\nem Goiânia, H\"? de\nde 2012.\nV ilm a r d a S ilv a R o c h a\nS e c r e tá r io\nPORTARIA N° 3.972, DE 28 DE DEZEMBRO DE 2012.\nO\nS E C R E TÁ R IO\nDE\nE S TA D O\nD A\nC A S A\nC IV IL,\nno\nuso\nda\ncompetência que lhe foi delegada pelo inciso I do art. 2o do Decreto n° 7.532, de 29\nde dezembro de 2011, com fundamento na Lei federal ne 6.999, de 07 de junho de\n1982, em harmonia com a Resolução n2 23.255, de 29 de abril de 2010 e com o\nDecreto n§ 7.218, de 18 de fevereiro de 2011 e tendo em vista o que consta do\nProcesso n° 2 01200013004407, resolve colocar E LIS B H E T Y L O B O O LIV E IR A ,\nAssistente de Gestão Administrativa, da Secretaria de Gestão e Planejamento, à\ndisposição do Tribunal Regional Eleitoral de Goiás, pelo período de 1 (um) ano, a\npartir do efetivo exercício naquele Tribunal, com ônus para o órgão de origem.\nP u b liq u e -s e .\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL, em\nGoiânia, aos\ndias do mês de\nde 2012.\nVILMAR DA SILVA ROCHA\nSecretário\nPORTARIA N° 3.973, DE 28 DE DEZEMBRO DE 2012.\nO S E C R E T Á R IO D E E S T A D O D A C A S A C IV IL , nos termos do\nart. 1a, inciso II, do Decreto na 7,206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo na\n2 0 1 2 0 0 0 0 6 0 2 3 2 1 3 , notadamente do Parecer na 005722/2012, aprovado pelo\nDespacho “AG” na 008307/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 3a, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal na 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar na 77, de 22 de janeiro de 2010, conceder a E V A R O S A\nL IN O aposentadoria no cargo de Agente Administrativo Educacional Técnico,\nReferência \"G-l”, do Quadro de Pessoal da Secretaria da Educação, com\nproventos integrais.\nP u b liq u e -s e .\nG A B IN E T E D O S E C R E T Á R IO D E E S T A D O D A C A S A C IV IL ,\nem Goiânia, 2 ^ de\nde 2012.\nVilmar da Silva Rocha\nSecretário ^\nPORTARIA N° 3.974, DE 28 DE DEZEMBRO DE 2012.\nO S E C R E T Á R IO D E E S T A D O D A C A S A C IV IL , nos termos do\nart. 1a, inciso II,A o Decreto na 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo nfi\n1 9 9 6 0 0 0 0 6 0 0 2 5 5 8 e Anexo, notadamente do Parecer na 006269/2012, aprovado\npelo Despacho “AG” ns 008831/2012, da Procuradoria-Geral do Estado, resolve,\ncom fundamento no art. 40, § 1a, inciso III, alínea “b”, da Constituição Federal,\nalterado pela Emenda Constitucional na 41, de 19 de dezembro de 2003,\ncombinado com o art. 97, § 1a, inciso III, alínea “b”, da Constituição Estadual, e no\nÉ t 52, incisos I, II e III, da Lei Complementar na 77, de 22 de janeiro de 2010, em\nharmonia com o art. 133, inciso IV, alínea “b”, da Lei n2 13.909, de 25 de setembro\nde 2001, conceder a IO L A N D A P A L M E IR A aposentadoria no 2- (segundo) cargo,\nProfessor IV, Referência “C”, do Quadro Permanente do Magistério Público\nEstadual, com proventos proporcionais ao tempo de contribuição.\nP u b liq u e -s e .\nG A B IN E T E D O S E C R E T Á R IO D E E S T A D O D A C A S A C IV IL ,\nem Goiânia, J'Ô de hcz.e^\nd\ne\n2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.975, DE 28 DE DEZEMBRO DE 2012.\nO S E C R E T Á R IO D E E S T A D O D A C A S A C IV IL , nos termos do\nart. 1a, inciso II, do Decreto na 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo na\n2 0 1 2 0 0 0 6 6 0 0 9 1 7 2 , notadamente do Parecer na 006165/2012, aprovado pelo\nDespacho “AG” n2 008511/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 3a, incisos I,\nII e III e parágrafo único, da Emenda\nConstitucional Federal na 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar na 77, de 22 de janeiro de 2010, conceder a M A R IA\nA P A R E C ID A D E R E Z E N D E aposentadoria no cargo de Assistente de Gestão\nAdministrativa, Classe “A”, Padrão V, do Grupo Ocupacional de mesmo nome,\ndo Quadro Permanente dos Servidores Efetivos da Agência Goiana de Defesa\nAgropecuária - AGRODEFESA -, com proventos integrais.\nG A B IN E T E D O S E C R E T Á R IO D E E S T A D O D A C A S A C IV IL ,\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.976, DE 28 DE DEZEMBRO DE 2012.\nO S E C R E T Á R IO DE E S T A D O D A C A S A C IV IL , nos termos do\nart. 1° inciso II, do Decreto na 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo na\n2 0 1 2 0 0 0 0 6 0 2 2 1 3 9 , notadamente do Parecer n2 005343/2012, aprovado pelo\nDespacho ‘ AG’’ na 007744/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento nos arts. 40, § 1s, inciso I, da Constituição Federal, alterado pela\nEmenda Constitucional Federal n2 41, de 19 de dezembro de 2003, e 6°-A da\nreferida Emenda, com redação dada pela de ne 70, de 29 de março de 2012,\ncombinados com o art. 97, § 1a, inciso I, da Constituição Estadual, em harmonia\ncom o art. 45 da Lei Complementar n2 77, de 22 de janeiro de 2010, declarar\naposentado, a partir de 11 de junho de 2012, O L IV É R IO A L E X A N D R E P IN T O no\ncargo de Professor IV, Referência “E”, do Quadro Permanente do Magistério\nPúblico Estadual, com proventos integrais, em virtude de haver sido considerado\ndefinitivamente incapaz para o serviço público.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nVilmar da Silva Rocha\nSecretário\n8\nê D iá r io O fic ia l\nGOIANIA, SEGUNDA-FEIRA, 31 DE DEZEMBRO DE 2012\nANO 176 - DIÁRIO OFICIAL/GO N° 21.498\nPORTARIA N° 3.977, DE 28 DE DEZEMBRO DE 2012.\nO\nS E C R E T Á R IO\nDE\nE S T A D O\nD A\nC A S A\nC IV IL, no uso da\ncompetência que lhe foi delegada pelo inciso I do art. 2° do Decreto n° 7.532, de 29\nde dezembro de 2011, com fundamento na Lei federal ne 6.999, de 07 de junho de\n1982, em harmonia com a Resolução n8 23.255, de 29 de abril de 2010 e com o\nDecreto na 7.218, de 18 de fevereiro de 2011 e tendo em vista o que consta do\nProcesso n° 2 01200013004445, resolve colocar V Â N IA C R IS T IN A G O N Ç A LV E S\nD A S IL V A , Gestor de Finanças e Controle, da Secretaria de Gestão e Planejamento,\nà disposição do Tribunal Regional Eleitoral de Goiás, pelo período de 1 (um) ano, a\npartir do efetivo exercício naquele Tribunal, com ônus para o órgão de origem.\nPublique~se.\nG o iâ n ia ,\nG A B IN E T E DO S E C R E T Á R IO DE E S TA D O D A C A S A C IV IL , em\naos 2\"$ dias do mês de\n^e2012.\nVILMAR DA SILVA ROCHA\nS e c re tá rio\nPORTARIA N° 3.978, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, inciso II, do Decreto n- 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo na\n201100004031372, notadamente do Parecer n2 002470/2012, aprovado pelo\nDespacho “AG” n2 003791/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 40, § 1s, inciso I, da Constituição Federal, alterado pela\nEmenda Constitucional nfi 41, de 19 de dezembro de 2003, combinado com o art.\n97, § 1a, inciso I, da Constituição Estadual, em harmonia com o art. 43, inciso II, da\nLei Complementar n2 77, de 22 de janeiro de 2010, e 260, inciso I, da Lei n2",
+              "hash_texto": "b04f1266ae8d1d7d70acdfcd39c0ae444c40e63e021c37ca9278f90666fde5f2",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "10",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-3/item-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "10. 460, de 22 de fevereiro de 1988, declarar aposentado, a partir de 1a de\nnovembro de 2011, WILSON KRAN JUNIOR no cargo de Assistente de Gestão\nAdministrativa, Classe A, Padrão IV, do Grupo Ocupacional de mesmo nome, do\nQuadro Permanente da Secretaria de Gestão e Planejamento -SEGPLAN-, com\nproventos integrais, em virtude de haver sido considerado definitivamente incapaz\npara o serviço público.\nP u b liq u e -s e .\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia, 2ÍJ de\nde 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.979, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo na\n201200006022109, notadamente do Parecer n2 005405/2012, aprovado pelo\nDespacho “AG” n2 008083/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 3° incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal na47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar n2 77, de 22 de janeiro de 2010, conceder a ZILDA PEREIRA\nDO BONFIM SANTANA aposentadoria no cargo de Professor I, Referência “C”,\ndo Quadro Permanente do Magistério Público Estadual, com proventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia, 2 3 de\n^\nde 2012.\nVilmar da Silva R\nSecretário\nPORTARIA N° 3.980, DE 28 DE DEZEMBRO DE 2012.\nO S EC R E TÁR IO DE ESTADO DA C A S A CIVIL, no uso da competência\nque lhe foi delegada pelo inciso I do art. 2° do Decreto n° 7.532, de 29 de dezembro de\n2011, com fundamento na Lei federal n- 6.999, de 07 de junho de 1982, em harmonia\ncom a Resolução n® 23.255, de 29 de abril de 2010 e com o Decreto n5 7.218, de 18 de\nfevereiro de 2011 e tendo em vista o que consta do Processo n° 201200013004440,\nresolve manter o pessoal abaixo relacionado à disposição do Tribunal Regional\nEleitoral de Goiás, nos períodos ali especificados, com ônus para os órgãos de origem.\nServidor\nO rgão\nPeríodo\nJoão Batista da Silva\nEMATER\n01/03/2013 a 28/02/2014\nLeonardo de Araújo Brandão\nSEGPLAN\n01/01 a 31/12/2013\nAna Paula Machado Rodrigues Pedrozo\nAGR\n01/01 a 31/12/2013\nRosemary Maria da Cunha Saturnino\nSEGPLAN\n01/01 a 31/12/2013\nPublique-se.\nG A B IN E TE DO S EC R E TÁR IO DE E STA D O DA C A S A CIVIL, em\nGoiânia, aos 2 % dias do mês de\nde 2012.\nVILMAR DA SILVA ROCHA\nSecretário\nPORTARIA N° 3.981, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 12, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200006023070, notadamente do Parecer n2 004990/2012, aprovado pelo\nDespacho “AG” n2 008200/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 3a, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal n2 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar n2 77, de 22 de janeiro de 2010, conceder a TELMA\nAPARECIDA DUARTE aposentadoria no cargo de Agente Administrativo\nEducacional Superior, Referência “F-l”, do Quadro de Pessoal da Secretaria da\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.982, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200006012839, notadamente do Parecer na 006119/2012, aprovado pelo\nDespacho “AG” na 008538/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 32, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal n2 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar n2 77, de 22 de janeiro de 2010, conceder a ADELSO LUIZ\nDE SOUSA aposentadoria no cargo de Agente Administrativo Educacional de\nApoio, Referência “G-l”, do Quadro de Pessoal da Secretaria da Educação, com\nproventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia,\nde\nL\no\nde 2012Vilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.983, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200006017777, notadamente do Parecer n2 005488/2012, aprovado pelo\nDespacho “AG” n2 008079/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 32, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal n2 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar n2 77, de 22 de janeiro de 2010, conceder a LEONTINA\nPEREIRA LEAL aposentadoria no cargo de Agente Administrativo Educacional\nde Apoio, Referência \"G-l”, do Quadro de Pessoal da Secretaria da Educação,\ncom proventos integrais.\nP ublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia, ^\nde\nde 2012.\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.984, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 1a, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200006022852, notadamente do Parecer n2 005424/2012, aprovado pelo\nDespacho “AG” n2 008089/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 32, incisos I, II e III e parágrafo único, da Emenda\nConstitucional Federal na 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar n2 77, de 22 dejaneiro de 2010, conceder a MARIA ÂNGELA\nDOS SANTOS aposentadoria no cargo de Professor IV, Referência “E”, do\nQuadro Permanente do Magistério Público Estadual, com proventos integrais.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nVilmar da Silva Rocha\nSecretário\nPORTARIA N° 3.985, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 12, inciso II, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200006025618, notadamente do Parecer na 005928/2012, aprovado pelo\nDespacho “AG” n2 008494/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art, 6a, incisos I a IV, da Emenda Constitucional Federal n2 41, de\n19 de dezembro de 2003, e no art. 56, incisos I a V, da Lei Complementar n2 77,\nde 22 de janeiro de 2010, conceder a NORMA DA SILVA NERY PEREIRA\naposentadoria no cargo de Professor IV, Referência “D”, do Quadro Permanente\ndo Magistério Público Estadual, com proventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia,\nde\nL o\nde2012Vilmar da Silva Rocl\nSecretário\nPORTARIA N° 3.986, DE 28 DE DEZEMBRO DE 2012.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos termos do\nart. 12, inciso ll, do Decreto n2 7.206, de 21 de janeiro de 2011, com suas\nalterações posteriores, e tendo em vista o que consta do Processo n2\n201200006023998, notadamente do Parecer n- 005723/2012, aprovado pelo\nDespacho “AG” n2 008537/2012, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 3a, incisos I, II e lil e parágrafo único, da Emenda\nConstitucional Federal n2 47, de 5 de julho de 2005, e no art. 58, incisos I a V, da\nLei Complementar n6 77, de 22 de janeiro de 2010, conceder a SEBASTIANA\nD’ARC DOS SANTOS aposentadoria no cargo de Agente Administrativo\nEducacional de Apoio, Referência “G-l”, do Quadro de Pessoal da Secretaria da\nEducação, com proventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nem Goiânia,\nde\nde 2012.\nASSEMBLEIA LEGISLATIVA\nEM EN D A C O N S T IT U C IO N A L N° 49, DE\n11\nDE D E Z E M B R O D E 2012.\nA lt e r a o in c is o l d o a r t. 1 2 9 d a\nC o n s titu iç ã o d o E s ta d o d e G o iá s .\nA M E S A D A A S S E M B L E IA L E G IS L A T IV A\nD O E S T A D O D E G O IÁ S , n o s te r m o s d o a rt. 19, §\n3°, d a C o n s titu iç ã o E s ta d u a l, p r o m u lg a a s e g u in te\nE m e n d a a o te x to C o n s titu c io n a l:\nA rt. 1o O in c is o I d o a rt. 1 2 9 d a C o n s titu iç ã o\nd o E s ta d o d e G o iá s p a s s a a v ig o r a r c o m a s e g u in te\ni — a s re s e rv a s ie g a is d e v e rã o s e r d e lim ita d a s\ne re g is tra d a s n o ò r g ã o c o m p e te n te d o P o d e r\nE x e c u tiv o , p o d e n d o s e r re m a n e ja d a s , n a\nfo rm a d a le», v e d a d a s u a re d u ç ã o e m q u a lq u e r\nA rt. 2 o E s ta E m e n d á C o n s titu c io n a l e n tra e m\nv ig o r n a d a ta d e s u a p u b lic a ç ã o .\nA S S E M B L E IA L E G IS L A T IV A D O E S T A D O\nD E G O lA S , e m G o iâ n ia , 11 d e d e z e m b r o d e 2 0 1 2 ,\nDeputado JARDEL SEBBA\nPUBLICAÇAO PARTICULAR\nSIPRF-GO\nSIN PR F-G O\nS in d ic a to d o s P o lic ia is R o d o v iá rio s F e d e ra is no E sta d o d e G o iá s.\nE d ital d e A b e rtu ra d o P r o c e s s o E leito ral (fev/2013-fev/2016)\nO Presidente da Comissão Eleitoral do Sindicato dos Policiais\nRodoviários Federais no Estado de Goiás, em cumprimento de suas\nobrigações, e observância da competência que íhe é atribuída no art. 53\ndo Estatuto da Entidade, convoca o pJeito eleitora) para escolha dos\nmembros da Diretoria Executiva para o período de fev/2013-fev/2016,\ncuja eleição realizar-se-á no dia 14.01.2013. As chapas que concorrerão\nao pleito deverão ser inscritas junto a Comissão Eíeitorala partir do dia 13\nde dezembro até o dia 27 de dezembro do corrente ano, de segunda-feira\na sexta-feira, das 8h às 17h, mediante requerimento a ser protocolizado\nna sede do SINPRF/GO. Goiânia-GO, em 12 de dezembro de 2012. L uiz\nG o m e s F ilh o - M atricu la n°011616114 - P re sid e n te d a C o m is s ã o\nE leito ral",
+                  "hash_texto": "4db6ed0508200fe7408d54df96e0bd8eac2ca18892f2ed99f7ac178df71a7648",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "42",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-28/inc-3/item-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "11/12/2012",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "42. 325",
+                  "hash_texto": "ed6678b0576b05f877b2f3cceeec14109177f81010c596310d112564282dda01",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    }
+  ],
+  "auditoria": {
+    "run_id": "61cc067f-f376-421b-8cfe-8fca4884a438",
+    "parser_versao": "2.0",
+    "gerado_em": "2025-10-13T23:43:58.247275Z"
+  }
+}

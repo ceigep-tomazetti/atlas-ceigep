@@ -1,0 +1,1801 @@
+{
+  "ato_normativo": {
+    "urn_lexml": "br;go;estadual;emenda.constitucional;2024-11-14;84",
+    "tipo_ato": "Emenda Constitucional",
+    "titulo": "Altera o Ato das Disposições Constitucionais Transitórias da Constituição do Estado de Goiás.",
+    "ementa": "",
+    "entidade_federativa": "Estadual",
+    "orgao_publicador": "Assembleia Legislativa do Estado de Goiás",
+    "data_publicacao": "14/11/2024",
+    "fonte_oficial": "",
+    "situacao_vigencia": "vigente"
+  },
+  "dispositivos": [
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-1",
+      "ordem": 1,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica incluído, no Calendário Cívico, Cultural e\nTurístico do Estado de Goiás, o Circuito de Pesca Esportiva\nGigantes do Araguaia, realizado, anualmente, entre os meses de\nmarço e outubro.",
+          "hash_texto": "f26bc41ab3f6a64c694b12eee04828ac9c0d57a5a4962d8ac939ddb6576de5d0",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-2",
+      "ordem": 2,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 18 de novembro de 2024; 136º da República.\nRONALDO CAIADO\nGovernador do Estado\nCORONEL ADAILTON\nDeputado Estadual\n<#ABC#500181#1#576470/>\nProtocolo 500181\n<#ABC#500182#1#576471>\nLEI Nº 23.083, DE 18 DE NOVEMBRO DE 2024\nDeclara de utilidade pública a entidade que\nespecifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu\nsanciono a seguinte Lei:",
+          "hash_texto": "747b434c28998cfa3c4705bd14b0c11d9adc797a1f8b59099708422459ec74b8",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-3",
+      "ordem": 3,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica declarada de utilidade pública a ASSOCIAÇÃO\nCOMUNITÁRIA DE APOIO A SAÚDE, EDUCAÇÃO, ESPORTE E\nLAZER DE BURITINÓPOLIS/GO E REGIÃO, inscrita no Cadastro\nNacional da Pessoa Jurídica (CNPJ) sob o nº 46.250.851/0001-93,\ncom sede no Município de Buritinópolis/GO.",
+          "hash_texto": "f286a3f30730fa74f4274155fc439dd68fb5182a7d8e21bf575213debee2b4e3",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-4",
+      "ordem": 4,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 18 de novembro de 2024; 136º da República.\nRONALDO CAIADO\nGovernador do Estado\nTALLES BARRETO\nDeputado Estadual\n<#ABC#500182#1#576471/>\nProtocolo 500182\n<#ABC#500183#1#576472>\nLEI Nº 23.084, DE 18 DE NOVEMBRO DE 2024\nInstitui o Dia Estadual do Fonoaudiólogo e\nda Fonoaudiologia e dá outras providências.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu\nsanciono a seguinte Lei:",
+          "hash_texto": "45f4b0b8ba50af267d096d208d7c67b55bb1364bbf0a68f19c7ac74418335492",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-5",
+      "ordem": 5,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica instituído o Dia Estadual do Fonoaudiólogo e\nda Fonoaudiologia, a ser comemorado, anualmente, no dia 9 de\ndezembro.",
+          "hash_texto": "a33dc2aa0105ef9642c4339a462d38f34a7dfecbeac04627c3ba0e51a369390d",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-5/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . O Dia Estadual de que trata esta Lei fica\nincluído no Calendário Cívico, Cultural e Turístico do Estado de\nGoiás.",
+              "hash_texto": "b82adb22852d601c4632c403b2e3fbbb3732bd070c5ec9ecfc80ff75702a41ec",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-6",
+      "ordem": 6,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º O Dia Estadual instituído por esta Lei tem como\nfinalidade reconhecer a importância da atuação dos profissionais da\nfonoaudiologia, conscientizar sobre os serviços prestados por esses\nprofissionais à sociedade e estimular a valorização da profissão.",
+          "hash_texto": "3a81ee2770dccae87179cd6e0b2c51b750825aed255d323171d58238fd6f82b5",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-7",
+      "ordem": 7,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º No Dia Estadual instituído por esta Lei, poderão ser\nadotadas as seguintes medidas:",
+          "hash_texto": "5930d800e2717fa0539e84559f2a74f8a054b9b5ec73ec1247e1c8c7ed918216",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-7/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "I - divulgar a importância do trabalho realizado pelos\nfonoaudiólogos;",
+              "hash_texto": "2002485bbe59ff48efcd2d83b8a371f6191975d5928488c16fb4878ba5b3fc5f",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-7/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "II - celebrar convênios ou parcerias com a organização da\nsociedade civil para alcançar os fins previstos nesta Lei.",
+              "hash_texto": "f1e67c7306b3ceb9ed07cc611aadb0b4e3d6827035c6fd5a9cf6ad49bde2d0c8",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 4º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-8",
+      "ordem": 8,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 4º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 18 de novembro de 2024; 136º da República.\nRONALDO CAIADO\nGovernador do Estado\nLINEU OLIMPIO\nDeputado Estadual\n<#ABC#500183#1#576472/>\nProtocolo 500183\n<#ABC#500184#1#576473>\nLEI Nº 23.085, DE 18 DE NOVEMBRO DE 2024\nInstitui o Dia Estadual da Diálise e dá outras\nprovidências.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu\nsanciono a seguinte Lei:",
+          "hash_texto": "b55cac7cedca16142f9189a842b1d7906553a2567c65c698958aebf5dfaebbb6",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-9",
+      "ordem": 9,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica instituído o Dia Estadual da Diálise, a ser\ncomemorado, anualmente, na última quinta-feira do mês de agosto.",
+          "hash_texto": "d3bf153434e5cb4c37c59a2e3a68533f53079ca1e420e127a8f0b7a786b95eca",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-9/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . O Dia Estadual de que trata esta Lei fica\nincluído no Calendário Cívico, Cultural e Turístico do Estado de\nGoiás.",
+              "hash_texto": "b82adb22852d601c4632c403b2e3fbbb3732bd070c5ec9ecfc80ff75702a41ec",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-10",
+      "ordem": 10,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º No Dia Estadual da Diálise, serão promovidas ações\npara a conscientização sobre doenças renais e a prevenção de seu\nagravamento, fatores de risco, comorbidades e diálise, que poderão\nincluir:\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 2cf71d02\n2\nDiário Oficial\nGOIÂNIA, SEGUNDA-FEIRA, 18 DE NOVEMBRO DE 2024\nANO 188 - DIÁRIO OFICIAL/GO N° 24.415\nSUPLEMENTO\nDiretoria\nEstado de Goiás\nImprensa Oficial do Estado de Goiás\nRua SC-1, nº 299 - Parque Santa Cruz - CEP: 74.860-270 - Goiânia - Goiás\nFones: 3201-7663 / 3201-7639 / 99220-1032\nwww.abc.go.gov.br\nReginaldo Alves da Nóbrega Júnior\nPresidente\nRafael dos Santos Vasconcelos\nDiretor de Telerradiodifusão, Imprensa Oficial e Site\nLuiz Fernando Dibe\nDiretor de Gestão Integrada\nPrevisto Custódio dos Santos\nGerente de Imprensa Oficial e Mídias Digitais",
+          "hash_texto": "b8c361e6edd32f181b0069e768a35ebff298995b655ae23885322e1a39191f1b",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-10/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "I - a realização de eventos, de seminários e de palestras;",
+              "hash_texto": "ee8449d06399833e280ac4f6984120d8579214c0b2cb94925efafc005247c3a0",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-10/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "II - a divulgação na mídia;",
+              "hash_texto": "91c985b32b210df402fe1cf4b510e8c4e5657e7c2daf4c2317e705e5849831c5",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "III",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-10/inc-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "III - a promoção de debates com autoridades sanitárias,\nprofissionais de saúde e a sociedade civil.",
+              "hash_texto": "250fbf63c186daa2652b068f35a239589bd2ba2ea7fd1148b3702154237b81ac",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-11",
+      "ordem": 11,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 18 de novembro de 2024; 136º da República.\nRONALDO CAIADO\nGovernador do Estado\nROSÂNGELA REZENDE\nDeputada Estadual\n<#ABC#500184#2#576473/>\nProtocolo 500184\n<#ABC#500186#2#576475>\nLEI Nº 23.086, DE 18 DE NOVEMBRO DE 2024\nInstitui a Semana Estadual de Combate à\nViolência Escolar e dá outras providências.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu\nsanciono a seguinte Lei:",
+          "hash_texto": "33dab680b8410391661894f915c30bf85bbef4a271be0abbc252a767ba79baeb",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-12",
+      "ordem": 12,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica instituída a Semana Estadual de Combate à\nViolência Escolar, a ser realizada, anualmente, na última semana\ndo mês de abril.",
+          "hash_texto": "08fc883065dd857b4561e2df5f8db40bd0b9fbb7b4dbf4a8a43a8aefd6754ebf",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-13",
+      "ordem": 13,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º A Semana Estadual instituída por esta Lei tem como\nobjetivo envolver toda a comunidade escolar em prol do bem-estar,\nda convivência fraterna, da promoção da paz, a fim de fortalecer\ncaminhos para a propagação e incremento de ações que resguardam\na escola como um lugar seguro e propício para formação da vida.",
+          "hash_texto": "e6bfaad7aa0863e58fa51a229edfd0363149ed97e2a30ccd85d9ffd0e8e7c92c",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-14",
+      "ordem": 14,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º A Semana Estadual de Combate à Violência Escolar\nfica incluída no Calendário Cívico, Cultural e Turístico do Estado de\nGoiás.",
+          "hash_texto": "d5cf2b9f07d1896908f00a0694b15f1976b20262c117dffbb2942ef05162ebdf",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 4º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-15",
+      "ordem": 15,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 4º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 18 de novembro de 2024; 136º da República.\nRONALDO CAIADO\nGovernador do Estado\nRENATO DE CASTRO\nDeputado Estadual\n<#ABC#500186#2#576475/>\nProtocolo 500186\n<#ABC#500214#2#576506>\nEMENDA CONSTITUCIONAL Nº 84, DE 14 DE NOVEMBRO DE\n2024\nAltera\no\nAto\ndas\nDisposições\nConstitucionais\nTransitórias\nda\nConstituição do Estado de Goiás.\nA MESA DA ASSEMBLEIA LEGISLATIVA DO ESTADO\nDE GOIÁS, nos termos do art. 19 da Constituição do Estado de\nGoiás, promulga a seguinte Emenda ao texto constitucional:",
+          "hash_texto": "025a8c3085731d4b861d799a6f35d80a00992f660b78320c6d6c36d352e3d809",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-16",
+      "ordem": 16,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º O Ato das Disposições Constitucionais Transitórias\nda Constituição do Estado de Goiás passa a vigorar com a seguinte\nalteração:\n“",
+          "hash_texto": "c7050744769bef14086071b47445033dd4a6ce8cfb4017aa498f811823287c2a",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 39",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-17",
+      "ordem": 17,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 39. As receitas vinculadas a órgãos e entidades, fundos\nou despesa, por força de dispositivo desta Constituição e da\nlegislação complementar ou ordinária, ficam desvinculadas\nem 30% (trinta por cento) até o dia 31 de dezembro de 2032.\n.............................................................................",
+          "hash_texto": "f5465951ec9abfb0e1990f4b4ce65973ad112e1f4937118d5a5e1fec69777c72",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "§ 3",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-17/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 3 º Excetuam-se da desvinculação de que trata este artigo\nos recursos:\n.............................................................................",
+              "hash_texto": "ffb4a61aeeed26bd818b29eb7187c5d210355a64a20bac320d95b4cb4dbb950f",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "IV",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-17/par-1/inc-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "14/11/2024",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "IV - arrecadados pela Goiás Previdência (GOIASPREV);\n.............................................................................",
+                  "hash_texto": "d542d9c1fc7bc7e391983bfd47db482b260efdec1b6130e52301302815743726",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "VII",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-17/par-1/inc-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "14/11/2024",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "VII - destinados ao Fundo de Infraestrutura do Estado de\nGoiás - FUNDEINFRA.” (NR)",
+                  "hash_texto": "4bc4ea41dcdbe08eeb7e66d551d6f414cb2cb85688064636847fc6e20b6a97f7",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-18",
+      "ordem": 18,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Emenda Constitucional entra em vigor na data\nde sua publicação.\nASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS, em\nGoiânia, 14 de novembro de 2024.\nDeputado BRUNO PEIXOTO\n- PRESIDENTE <#ABC#500214#2#576506/>\nProtocolo 500214\n<#ABC#500216#2#576508>\nDECRETO Nº 10.579, DE 18 DE NOVEMBRO DE 2024\nAltera o Anexo IX do Decreto nº 4.852, de\n29 de dezembro de 1997, Regulamento\ndo Código Tributário do Estado de Goiás\n- RCTE.\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso de suas\natribuições constitucionais, com fundamento no inciso IV do art. 37\nda Constituição do Estado de Goiás, no art. 4º das Disposições\nFinais e Transitórias da Lei nº 11.651, de 26 de dezembro de\n1991, Código Tributário do Estado de Goiás - CTE, em atenção ao\nConvênio ICMS nº 109, de 21 de outubro de 2014, com a redação\ndada pelo Convênio ICMS nº 23, de 25 abril de 2024, e ao Processo\nnº 202400004090146,\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 2cf71d02\n3\nDiário Oficial\nGOIÂNIA, SEGUNDA-FEIRA, 18 DE NOVEMBRO DE 2024\nANO 188 - DIÁRIO OFICIAL/GO N° 24.415\nSUPLEMENTO\nDECRETA:",
+          "hash_texto": "b245684bc0c2955b9c016438276c529f7fbabb530a75123cab7e2e0b129f86b0",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-19",
+      "ordem": 19,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º O Anexo IX do Decreto nº 4.852, de 29 de dezembro\nde 1997, Regulamento do Código Tributário do Estado de Goiás -\nRCTE, passa a vigorar com as seguintes alterações:\n“Seção III\nDo Diferimento do Pagamento do ICMS",
+          "hash_texto": "d595e9de07933342aca01eebc11540616f56457194409b10cc36158ac0ad6d54",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 30",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-20",
+      "ordem": 20,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 30. Fica diferido o pagamento do ICMS relativo ao\ndiferencial de alíquotas devido na aquisição interestadual e ao\nimposto devido na importação de máquinas, equipamentos\ne materiais, sem similar nacional, relacionados no Apêndice\nLV deste Anexo, destinados à captação, à geração e\nà transmissão de energia solar ou eólica, bem como à\ngeração de energia a partir de biogás, incorporadas ao ativo\nimobilizado dos estabelecimentos geradores instalados\nneste Estado (Convênio ICMS 109/14).",
+          "hash_texto": "c8a77ac23aace6ecbbfb594ab9aabba5a250652c7025211a0ba7aef05f70b312",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "§ 1",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-20/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 1 º A utilização do benefício fica condicionada à\ncelebração de Termo de Acordo de Regime Especial - TARE\ncom a Secretaria de Estado da Economia, no qual devem\nser estabelecidas as condições para a fruição.",
+              "hash_texto": "1e4217a064b2cfcd0e9096946bd9986b49fdc2e123916091a0156667e11fa4d7",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 2",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-20/par-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 2 º O imposto diferido relativo às operações de que\ntrata o caput deste artigo deve ser pago, acrescido de juros\nde mora, no momento da desincorporação dos bens do ativo\nimobilizado ou até 31 de dezembro de 2032, o que ocorrer\nprimeiro.",
+              "hash_texto": "c515786fc17e21dc136a244082c51357cedfe3ecabb484f88fa9ffd1a276ca4f",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 3",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-20/par-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 3 º Implica perda do diferimento a destinação das\nmercadorias beneficiadas com o diferimento para outro\ncontribuinte goiano ou para outra unidade da Federação, a\nqualquer título, hipótese em que o valor do ICMS diferido\nserá exigido com juros de mora e demais acréscimos legais,\nconforme dispuser a legislação tributária, contados desde a\nentrada das mercadorias no estabelecimento.",
+              "hash_texto": "9e5bbeb446ab57c9f43fcca50e97ef047d5208acb5cc748be0b6ee800671af29",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 4",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-20/par-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 4 º A ausência de similaridade deve ser comprovada\ncom\nlaudo\nde\nentidade\nde\nabrangência\nnacional\nrepresentativa\ndo\nsetor\nprodutivo\ndas\nmercadorias\nrelacionadas no Apêndice LV deste Anexo ou de órgão\nfederal competente.",
+              "hash_texto": "7ce65effc28bb7b1731a065aab76af6ed9b83b4ee6d6dd5336e31c4b35fb9b7c",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 5",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-20/par-5",
+          "ordem": 5,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 5 º O diferimento do imposto:",
+              "hash_texto": "ea82c76d9b5cff2e7232d8018dcc7e2ca334f315cf9929f2e4a211a00980897c",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "I",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-20/par-5/inc-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "14/11/2024",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "I - não se estende à prestação de serviço de transporte,\nrelacionada com as operações envolvendo as mercadorias;",
+                  "hash_texto": "844f02217f53be02eb028ad22fbd547e8eb42404e607e085c84ef2d48be65c9f",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "II",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-20/par-5/inc-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "14/11/2024",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "II - não se aplica a mercadorias sujeitas ao regime de\nsubstituição tributária; e",
+                  "hash_texto": "b54497efc078d9c6bb8f23bb8a0a3a8a1e2c0f29ed1b91696b6879e9e11b0fed",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "III",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-20/par-5/inc-3",
+              "ordem": 3,
+              "versoes": [
+                {
+                  "vigencia_inicio": "14/11/2024",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "III - não autoriza restituição ou compensação de\nimportância já paga.” (NR)",
+                  "hash_texto": "d6256fe9532110ac4779c5d633b324004c096c88c133f30d9fa1581252f73c5d",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-21",
+      "ordem": 21,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º O Anexo IX do Decreto nº 4.852, de 1997, passa a\nvigorar acrescido do Apêndice LV, nos termos do Anexo Único deste\nDecreto.",
+          "hash_texto": "bae1dac748c91159030ad27a71a8f5098feb7f55077023a90966998f901fbb8b",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-22",
+      "ordem": 22,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º Este Decreto entra em vigor na data de sua\npublicação.\nGoiânia, 18 de novembro de 2024; 136º da República.\nRONALDO CAIADO\nGovernador do Estado\nANEXO ÚNICO\n“APÊNDICE LV\n(Anexo IX, art. 30)\nMÁQUINAS, EQUIPAMENTOS E MATERIAIS DESTINADOS À\nCAPTAÇÃO, À GERAÇÃO E À TRANSMISSÃO DE ENERGIA\nSOLAR OU EÓLICA, BEM COMO À GERAÇÃO DE ENERGIA A\nPARTIR DE BIOGÁS, INCORPORADOS AO ATIVO IMOBILIZADO\nDOS ESTABELECIMENTOS GERADORES\nITEM\nNCM\nDESCRIÇÃO\n1",
+          "hash_texto": "773bd8b84d3ebc50789e20cc175f34f4879f755a5877f4a5146cede83b3f4a21",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "7213",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "7213. 10.00 Fio-máquina de ferro ou aço não ligado dentados,\ncom nervuras, sulcos (entalhes) ou relevos,\nobtidos durante a laminagem\n2",
+              "hash_texto": "244f6eb9d51f67cde3a6a1da206d7c9933e191dfe2fa8210ed360ab2c8a36ff6",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "7214",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "7214. 20.00 Barras de ferro ou aço não ligado simplesmente\nforjadas, laminadas, estiradas ou extrudadas,\na quente, dentadas, com nervuras, sulcos\n(entalhes)\nou\nrelevos,\nobtidos\ndurante\na\nlaminagem, ou torcidas após laminagem\n3",
+              "hash_texto": "42a212d261019503452412802a587c44d437ae7b8ec4a82bde3c254ac4d1ba40",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "7215",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "7215. 50.00 Outras barras de ferro ou aço não ligado\nsimplesmente\nobtidas\nou\ncompletamente\nacabadas a frio\n4",
+              "hash_texto": "f58f75021830611f8af34bd3e8228ea6e1ad9b46a1090cbebffb1989344e7ef5",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "3917",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "3917. 21.00 Tubos rígidos de polímeros de etileno\n5",
+              "hash_texto": "25977a26f87ba7788e1a571ad812f072a470f35a8a859bdfe9f33d93dbad3c2e",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "7326",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-5",
+          "ordem": 5,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "7326. 90.90 Outras obras de ferro ou aço\n6",
+              "hash_texto": "f13f7d238b68fe114ca124ab7175bbaa87263326e86bf10255797263587e4a44",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "7419",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-6",
+          "ordem": 6,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "7419. 80.90 Outras obras de cobre\n7",
+              "hash_texto": "cdb31879c85ff6addf554316e34efa54000139489a1b5cf2cbe5a0246b168bbe",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "7308",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-7",
+          "ordem": 7,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "7308. 20.00 Torres e pórticos de ferro fundido, ferro ou aço,\nexceto as construções pré-fabricadas da posição",
+              "hash_texto": "909d713631bb8d737c622905b42c3f6c7a418acfa0478c7d2507bb4555b70599",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "94",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-8",
+          "ordem": 8,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "94. 06\n8",
+              "hash_texto": "6a5f5f76424a2d1f23a421bee228de97b745bf0876fe922d16e1e9a344c2fdcd",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "7312",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-9",
+          "ordem": 9,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "7312. 90.00 Outras tranças, lingas e artigos semelhantes de\nferro ou aço não isolados para usos elétricos\n9",
+              "hash_texto": "af61ec9d4513a7d7cee0e2b7bd132da9e49b71d849913481faa365348cf29ff0",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "7325",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-10",
+          "ordem": 10,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "7325. 99.10 Outras obras moldadas de aço\n10",
+              "hash_texto": "fa9ccd13ebe076f829e7c6feaee5b2a0850f81f1d6e6fd72a9ab6037c25f1232",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "3917",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-11",
+          "ordem": 11,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "3917. 32.29 Outros tubos não reforçados de polipropileno\n11",
+              "hash_texto": "059553cb5d10c761c9e240aff0ffa49b93db266a5445554b289e0f9990196ff2",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "8546",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-12",
+          "ordem": 12,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "8546. 10.00 Isoladores elétricos de vidro\n12",
+              "hash_texto": "ef1839ee5d043ec84cd48b147c1fe04789f6c1e683a524617c454abb4233de66",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "3926",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-13",
+          "ordem": 13,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "3926. 90.90 Outras obras de plástico e obras de outras\nmatérias das posições 39.01 a 39.14\n13",
+              "hash_texto": "21f1d59cf9ca7d99ea835ab5fac3697e933ef978657766c3a07ab23fe0d2748c",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "7616",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-14",
+          "ordem": 14,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "7616. 99.00 Outras obras de alumínio\n14",
+              "hash_texto": "8a00efe05b5347179795a24cdc0cac8b4322780cf5fce813276c3f66abcde915",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "8517",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-15",
+          "ordem": 15,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "8517. 62.52 Terminais ou repetidores sobre linhas de fibras\nópticas com velocidade de transmissão superior\na 2,5 Gbit/s\n15",
+              "hash_texto": "6d880bc728f2b250d307fb76f1339bd26b25081a9272eb21284e5e46c5a673f0",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "8504",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-16",
+          "ordem": 16,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "8504. 22.00 Transformadores de dielétrico líquido de potência\nsuperior a 650 kVA, mas não superior a 10.000\nkVA\n16",
+              "hash_texto": "336a365069436fd87c978fc4d67698091ff053b735d37853917ad0c36752db24",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "8535",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-17",
+          "ordem": 17,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "8535. 21.00 Disjuntores para tensão superior a 1 kV e inferior\na 72,5 kV\n17",
+              "hash_texto": "1917cf5aa6f367dc30f58062ae04d9579729aef51a26ac5745e7c8e16f9fd4fb",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "8502",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-22/item-18",
+          "ordem": 18,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "8502. 20.19 Grupos eletrogêneos de 1.065 kW de potência\nmovidos a biogás\n“ (NR)\n<#ABC#500216#3#576508/>\nProtocolo 500216\n<#ABC#500188#3#576478>\nDECRETO DE 18 DE NOVEMBRO DE 2024\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso\nde suas atribuições constitucionais e legais, em atenção ao\nque consta do Processo nº 202400005040790, sobretudo do\nDespacho nº 7.680/2024/SGDP/SEAD, da Secretaria de Estado da\nAdministração, do Despacho nº 481/2024/PROCSET/CASACIVIL,\nda Procuradoria Setorial da Secretaria de Estado da Casa Civil, em\ncumprimento à decisão judicial proferida no Mandado de Segurança\nnº 5982846-98.2024.8.09.0000 pela 2ª Câmara Cível do Tribunal de\nJustiça do Estado de Goiás,\nRESOLVE:",
+              "hash_texto": "1584bfe73508bd08c7512acf56ab75df3679123124bda3b4a90e56821b8893a0",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-23",
+      "ordem": 23,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Nomear, na condição sub judice, JEDIAEL LUIZ\nVIEIRA, CPF nº ***.005.341-**, Inscrição 300153337, 3ª colocação,\npara exercer, em caráter efetivo, o cargo de Professor Nível III -\nMatemática, no Município de Goianésia, do Quadro Permanente do\nMagistério, da Secretaria de Estado da Educação - SEDUC, em\nvirtude de sua aprovação no Concurso Público regido pelo Edital nº\n7/2022, publicado em 15 de julho de 2022.",
+          "hash_texto": "f1f4e2de313ed2b7cc0fefdc1a8b56b9ee5494865eae6cfc9e15e44b64194995",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-24",
+      "ordem": 24,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Este Decreto entra em vigor na data de sua publicação.\nGoiânia, 18 de novembro de 2024; 136º da República.\nRONALDO CAIADO\nGovernador do Estado\n<#ABC#500188#3#576478/>\nProtocolo 500188\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 2cf71d02\n4\nDiário Oficial\nGOIÂNIA, SEGUNDA-FEIRA, 18 DE NOVEMBRO DE 2024\nANO 188 - DIÁRIO OFICIAL/GO N° 24.415\nSUPLEMENTO\n<#ABC#500213#4#576505>\nDECRETO LEGISLATIVO Nº 633, DE 14 DE NOVEMBRO DE\n2024\nHomologa, no que concerne ao Estado\nde Goiás, o Convênio ICMS nº 109, de\n21 de outubro de 2014, com a redação\ndada pelo Convênio ICMS nº 23, de 25\nde abril de 2024.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do inciso IX do art. 11 da Constituição Estadual, aprova\no seguinte Decreto Legislativo:",
+          "hash_texto": "3596af64ae25d70c1ede6740983b0fc66334c94889bdb20b8a00a89e45c207dd",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-25",
+      "ordem": 25,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica homologado, no que concerne ao Estado de\nGoiás, o Convênio ICMS nº 109, de 21 de outubro de 2014, com a\nredação dada pelo Convênio ICMS nº 23, de 25 de abril de 2024.",
+          "hash_texto": "63078f24eb8a1603aed02dfe911750093d750ce294dbc8938a63e918eaf44ea2",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-25/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . Nos termos do inciso IX do art. 11 da\nConstituição Estadual, ficam sujeitos à homologação da Assembleia\nLegislativa quaisquer atos que possam resultar em alteração dos\nreferidos Convênios.",
+              "hash_texto": "3cf0529620c9ddd6c2995abff5f24fceba6ebb0f3d085bbf9bedf06e8ce55208",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-26",
+      "ordem": 26,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Este Decreto Legislativo entra em vigor na data de\nsua publicação.\nASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS, em\nGoiânia, 14 de novembro de 2024.\nDeputado BRUNO PEIXOTO\n- PRESIDENTE <#ABC#500213#4#576505/>\nProtocolo 500213\nConsórcio Interestadual de Desenvolvimento\ndo Brasil Central\n<#ABC#500200#4#576490>\nPORTARIA Nº 62/2024, DE 18 DE NOVEMBRO DE 2024\nO\nSECRETÁRIO-EXECUTIVO\nDO\nCONSÓRCIO\nINTERESTADUAL\nDE\nDESENVOLVIMENTO\nDO\nBRASIL\nCENTRAL, no uso das atribuições que lhe são conferidas pelo\ninciso VII da Cláusula 24 do Protocolo de Intenções, ratificado pela\nLei Distrital nº 5.553, de 06 de novembro de 2015 e no §1º do art.\n17 e do inciso XI do art. 18 do Estatuto do BrC, publicado no Diário\nOficial de Goiás, aos 26 de novembro de 2015,\nAo considerar a necessidade de formar equipe para planejar a\naquisição descrita no Documento de Oficialização da Demanda no\nprocesso SEI-DF 04029-00000496/2024-67,\nRESOLVE",
+          "hash_texto": "86d33b1c002841daac621b58393a3a16c6d9d6a7faab7b2ba9e4c0767ab4dad9",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-27",
+      "ordem": 27,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Designar os empregados públicos abaixo relacionados\npara compor a Equipe de Planejamento da Contratação e Equipe de\nGerenciamento de Projeto:",
+          "hash_texto": "4231281308eb970c68060afdcbf571e59fd7ac999bb4c02a4ab1ec4d2fcc61cd",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-27/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "I - Matheus Pinheiro de Abreu Zordan, inscrito sob o CPF nº\n***.062.651-**, ocupante do cargo de assessor, na qualidade de\nIntegrante Requisitante;",
+              "hash_texto": "fe2a4e392b0c47c1e2a0543cba7bb23b4b1a438ef0622d739fbbcfd67043475f",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-27/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "II - Alex Camacho Castilho, inscrito sob o CPF nº ***.243.768-**,\nocupante do cargo de assessor, na qualidade de Integrante Técnico;",
+              "hash_texto": "54b4aa9baa04aec0c85f13467929cb510b4005453cc2371c02c940b1dd29f26e",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "III",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-27/inc-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "III - Fabrício Oliveira dos Santos, inscrito sob o CPF nº\n***.196.171-**, ocupante do cargo de assessor, na qualidade de\nIntegrante Administrativo.",
+              "hash_texto": "7f3a59bd5df1f38b5884c0e5e4346a864436e67f98196ede1b2937ee617720dc",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-28",
+      "ordem": 28,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2° São atribuições, se for o caso, da Equipe de\nPlanejamento da Contratação:",
+          "hash_texto": "2a109d021d91faecdab655abc2c51a8f9857264baed04ec2be46de7cb3fc2d46",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-28/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "I - elaboração do Estudo Técnico Preliminar;",
+              "hash_texto": "0b405f46b91fa66d09860acd704c2431d043f7ae783f8b63939a504a721a9a63",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-28/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "II - elaboração do mapa de riscos;",
+              "hash_texto": "83306cfb696f9617daeb2c4ac5610b608c67d24f33737b78d5926ed3e7bc9da1",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "III",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-28/inc-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "III - realização o gerenciamento de riscos;",
+              "hash_texto": "da9ef7e5992ffab9a951af02ffd0ccbf853aae7f32ed36c656919e3a3ff8dc6c",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "IV",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-28/inc-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "IV - prestação de auxílio à área competente na realização de\npesquisa de preços;",
+              "hash_texto": "7b6b9b8b9f333174ec01c162dc7d6835ca1f5f7121fed3651923cf4175d78b1f",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "V",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-28/inc-5",
+          "ordem": 5,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "V - elaboração da análise crítica de preços;",
+              "hash_texto": "75a1e374ad4243795743c7a128725d73f4ee01f771185aa604f9110669f9801b",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "VI",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-28/inc-6",
+          "ordem": 6,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "VI - elaboração do Projeto Básico/Termo de Referência;",
+              "hash_texto": "9e28b4cf80f84ad72afbfb0d03fc58aaebc4eb2b049a522efb515bb386c93059",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-29",
+      "ordem": 29,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º. São atribuições, se for o caso, da Equipe de\nGerenciamento do Projeto:",
+          "hash_texto": "bfbeb177bf249775a664e29edd636d769de4ac16b72adc72ca5a70951836dd78",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-29/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "I - Alinhar as informações relevantes para o projeto;",
+              "hash_texto": "93e536d3b93656c1cab171d3b5beff4242e69758bab4716af1564510ee65bfd1",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-29/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "II - Realizar abertura processual com a definitiva justificativa,\nobjetivo, benefícios esperados, estimativa do custo e o prazo;",
+              "hash_texto": "3ef3900faeba3ebfd364231b3ff2d66a717db6d80ca9b666b20dfd52707e840b",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "III",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-29/inc-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "III - Analisar a realidade atual que se pretende modificar e a\nsua perspectiva futura;",
+              "hash_texto": "c75016c2319c6541af5eae71d94f98368742c14b0aabfe0a8ebd317f2e6cb4f6",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "IV",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-29/inc-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "IV - Executar o planejamento contendo escopo do projeto,\nmatriz de risco, estudo técnico preliminar e cronograma;",
+              "hash_texto": "a0aaaaba0c8109893df7d201835cf60023817d65f5ddd6856eb2b61922727335",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "V",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-29/inc-5",
+          "ordem": 5,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "V - Coordenar os recursos, gerenciar o engajamento das\npartes interessadas e executar as atividades do projeto;",
+              "hash_texto": "3454324ae5b7d8c314a14ee8c266a6463327dd94a43dd5a3e60f4020c9f03e9f",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "VI",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-29/inc-6",
+          "ordem": 6,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "VI - Identificar quem é executor, responsável, consultado e\ninformado para cada tarefa ou função que precisa ser realizada no\nprojeto;",
+              "hash_texto": "ea1bdd6a6d42a91353eddcd39a82be5f18c592d42e1b5a8e2bf31cc6293f9122",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "VII",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-29/inc-7",
+          "ordem": 7,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "VII - Monitorar e autorizar as mudanças solicitadas, verificando\nos impactos no andamento do projeto;",
+              "hash_texto": "b0612e25b80786cdd3d8a5b8c683efbba2b7de997644fc89b190ff9b5bd847bc",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "VIII",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-29/inc-8",
+          "ordem": 8,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "VIII - Avaliar o desenvolvimento do projeto, o alcance dos\nresultados propostos, benefícios, lições aprendidas e novas\nperspectivas.",
+              "hash_texto": "839d58f25b33bc785af5ebba6438383fdd4ce735ae248a2dfc2548033f48d8d2",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 4º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-30",
+      "ordem": 30,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 4º O procedimento licitatório, contratação e quaisquer\ndocumentos equivalentes seguirão as diretrizes da Lei nº",
+          "hash_texto": "d733f1d920f46b96d71bd0328421cbe585a99e5debfced561bc25a140f1df103",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "14",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-30/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "14. 133/2021.",
+              "hash_texto": "dce602219b9f441eac2cb3858548227c0d802187633245f6dfc8a9cdf1f562d1",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 5º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-31",
+      "ordem": 31,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 5º Esta portaria entra em vigor na data da sua publicação.\nJOSÉ EDUARDO PEREIRA FILHO\nSecretário Executivo\nConsórcio Interestadual de Desenvolvimento do Brasil Central\n<#ABC#500200#4#576490/>\nProtocolo 500200\n<#ABC#500194#4#576483>\nEXTRATO DO CONTRATO N º 31/2024\nPROCESSO: 04029-00000389/2024-39 ; OBJETO: Contratação\nde empresa especializada em fornecimento de softwares para\na disponibilização de 26 (vinte e seis) subscrições de licenças do\nMicrosoft 365 Business Standard para o Consórcio Interestadual\nde Desenvolvimento do Brasil Central - BrC. CONTRATANTE:\nCONSÓRCIO\nINTERESTADUAL\nDE\nDESENVOLVIMENTO\nDO BRASIL CENTRAL - BrC, CNPJ nº 23.791.169/0001-02.\nCONTRATADO: ONEFACTORY TECNOLOGIA DA INFORMACAO\nLTDA pessoa jurídica de direito privado, inscrita no CNPJ sob o nº",
+          "hash_texto": "9dce366f6673ee0215729fb03332d099cad453aa726143ec627d0ba0a285f47a",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "46",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-31/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "46. 518.412/0001-19 ; PROCEDIMENTO DE LICITAÇÃO: Cotação\nEletrônica 926873 - 90010/2024, Dispensa de Licitação nº 10/2024;\nVIGÊNCIA: 12.11.2024 a 12.11.2024; VALOR TOTAL: R$18.880,42\n( dezoito mil, oitocentos e oitenta reais e quarenta e dois centavos).\nJOSÉ EDUARDO PEREIRA FILHO\nSecretário Executivo\nConsórcio Interestadual de Desenvolvimento do Brasil Central\n<#ABC#500194#4#576483/>\nProtocolo 500194\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 2cf71d02\n5\nDiário Oficial\nGOIÂNIA, SEGUNDA-FEIRA, 18 DE NOVEMBRO DE 2024\nANO 188 - DIÁRIO OFICIAL/GO N° 24.415\nSUPLEMENTO\n<#ABC#500197#5#576486>\nEXTRATO\nNOTA DE EMPENHO\nPublica-se o extrato de nota de empenho oriundo do pregão nº\n11/2023, cujo objeto é a compra compartilhada de medicamentos\npara atender os entes consorciados.\nProcesso 00060-00453269/2024-57 - DF\nEMPENHO\nTIPO\nCREDOR\nVALOR",
+              "hash_texto": "12a0743d8294bf37a5c2f9a8be46455459c1a9302dcb79e2aa4edbc7fdabcf93",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "319",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-31/item-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "319. 002\nGrupo\n1B\nR.\nPRÓPRIOS\nCIENTÍFICA R$ 821.998,80\nTOTAL\nR$ 821.998,80\nJOSÉ EDUARDO PEREIRA FILHO\nSecretário Executivo\nConsórcio Interestadual de Desenvolvimento do Brasil Central\n<#ABC#500197#5#576486/>\nProtocolo 500197\n<#ABC#500198#5#576487>\nEXTRATO\nNOTA DE EMPENHO\nPublica-se o extrato de nota de empenho oriundo do pregão nº\n11/2023, cujo objeto é a compra compartilhada de medicamentos\npara atender os entes consorciados.\nProcesso 00060-00459961/2024-99 - DF\nEMPENHO TIPO\nCREDOR\nVALOR",
+              "hash_texto": "e0910bf30f9b4df027653d1a3b340f72711696b26d66145447fd36f4d17fe2f1",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "319",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-31/item-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "319. 001\nGrupo\n2\nR.\nPRÓPRIOS\nHOSPFAR\nR$ 336,00\nTOTAL\nR$ 336,00\nJOSÉ EDUARDO PEREIRA FILHO\nSecretário Executivo\nConsórcio Interestadual de Desenvolvimento do Brasil Central\n<#ABC#500198#5#576487/>\nProtocolo 500198\n<#ABC#500196#5#576485>\nEDITAL DE LICITAÇÃO DO CONSÓRCIO BRASIL CENTRAL\nPREGÃO ELETRÔNICO\nN. Compras 93000/2024 N. 03-2024-BrC\nO Consórcio Interestadual de Desenvolvimento do Brasil Central\n- BrC, por intermédio da Secretaria Executiva, através Comissão\nde Licitação e da Equipe de Apoio, designados pela Portaria nº\n68/2023-BrC, realizará procedimento licitatório na modalidade\nPregão Eletrônico do tipo MENOR PREÇO POR ITEM para\ncontratação de empresa de prestação de serviço especializado\nem locação de sistema para monitoramento e acompanhamento\ndas ações dos poderes legislativo e executivo, na modalidade\nSoftware as a Service (SaaS) para atender às necessidades\nda Secretaria-Executiva do BrC e de seus entes pelo período\nde 12 (doze) meses, conforme o Regulamento de Licitações\ne Contratações Administrativas do Consórcio Interestadual de\nDesenvolvimento do Brasil Central, Lei Federal nº 14.133/2021,\ne as exigências estabelecidas neste Edital. Processo nº 0402900000248/2024-16 UASG:926873. Abertura da sessão do Pregão\nEletrônico: 09/12/2024 ás 9 horas Endereço eletrônico: www.gov.\nbr/compras.\nJOSÉ EDUARDO PEREIRA FILHO\nSecretário Executivo\nConsórcio Interestadual de Desenvolvimento do Brasil Central\n<#ABC#500196#5#576485/>\nProtocolo 500196\nSecretaria de Estado da Casa Civil\n<#ABC#500217#5#576509>\nPORTARIA Nº 1.687, DE 18 DE NOVEMBRO DE 2024\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no\nuso da competência que lhe foi delegada pela alínea “a” do inciso\nIX do art. 1º do Decreto nº 9.375, de 2 de janeiro de 2019, com\nfundamento no inciso I do art. 71, no inciso I do art. 72 e no art. 73\nda Lei nº 20.756, de 28 de janeiro de 2020, também no art. 21 da Lei\nComplementar nº 161, de 30 de dezembro de 2020, e em atenção\nao Processo nº 202400013002024, resolve:",
+              "hash_texto": "bd98cfcd4fc374d922b8725dc9d506688dc96af5aca3732e5d74d258cefbde08",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-32",
+      "ordem": 32,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica mantida a cessão do servidor WALDIR DE\nPAULA MENDANHA JÚNIOR, CPF nº ***.075.671-**, Técnico\nem Gestão Pública, da Secretaria de Estado da Administração\nao Tribunal de Contas dos Municípios do Estado de Goiás,\npara continuar exercendo a Função de Confiança de Assessor\nAdministrativo, de 1º de janeiro a 31 de dezembro de 2025, com\nônus para o cessionário, mediante ressarcimento mensal ao\ncedente dos valores da remuneração, acrescidos dos encargos\nsociais e trabalhistas.",
+          "hash_texto": "99596a029269684261f02ddd75fd586e3773bb1d09ded682b2838b1ca2554bb2",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-33",
+      "ordem": 33,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação.\nJORGE LUÍS PINCHEMEL\n<#ABC#500217#5#576509/>\nProtocolo 500217\n<#ABC#500218#5#576510>\nPORTARIA Nº 1.690, DE 18 DE NOVEMBRO DE 2024\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso\nda competência que lhe foi delegada pela alínea “b” do inciso IX do\nart. 1º do Decreto estadual nº 9.375, de 2 de janeiro de 2019, com\nfundamento no inciso II do art. 71 e no inciso II do art. 72 da Lei\nestadual nº 20.756, de 28 de janeiro de 2020, também na Lei federal\nnº 6.999, de 7 de junho de 1982, em harmonia com a Resolução\nnº 23.523, de 27 de junho de 2017, do Tribunal Superior Eleitoral,\ne em atenção ao Processo nº 202318037009267, em especial a\nrequisição contida no Ofício nº 346/2024/PRES, do Presidente do\nTribunal Regional Eleitoral de Goiás, resolve:",
+          "hash_texto": "e56b6a40bc4c5be010b3e434767d22ece557caacab4ae3f6bf575f1406edf5ea",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-34",
+      "ordem": 34,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica mantida a cessão da servidora CARLA\nMACHADO SILVA, CPF nº ***.372.341-**, Técnico em Gestão\nPública, da Secretaria de Estado da Administração ao Tribunal\nRegional Eleitoral de Goiás, de 8 de janeiro de 2025 a 7 de janeiro\nde 2026, com ônus para a origem.",
+          "hash_texto": "e5471d2a9edee56f13c8d749a713c55ab86098177b3a4d804b0ede1c3aefe0df",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-35",
+      "ordem": 35,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação.\nJORGE LUÍS PINCHEMEL\n<#ABC#500218#5#576510/>\nProtocolo 500218\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 2cf71d02\n6\nDiário Oficial\nGOIÂNIA, SEGUNDA-FEIRA, 18 DE NOVEMBRO DE 2024\nANO 188 - DIÁRIO OFICIAL/GO N° 24.415\nSUPLEMENTO\nSecretaria de Estado da Segurança Pública - SSP\nDelegacia Geral Da Policia Civil – DGPC\n<#ABC#500209#6#576501>\nPORTARIA Nº 637, DE 14 DE NOVEMBRO DE 2024\nProgressão funcional de servidor do Quadro de Pessoal Efetivo da Delegacia-Geral da\nPolícia Civil do Estado de Goiás.\nO DELEGADO-GERAL DA POLICIA CIVIL, no desempenho de suas atribuições, com fulcro no art. 19, inciso XI, da Lei\nEstadual n.º 16.901, de 26 de janeiro de 2010,\nConsiderando o que consta do processo administrativo n.º 202400007102195, pelo qual apurada pela Gerência de Gestão\ne Desenvolvimento de Pessoas da Polícia Civil a implementação dos requisitos à evolução funcional horizontal pelos servidores públicos\nefetivos vinculados à Delegacia-Geral da Polícia Civil, nos termos das Leis ordinárias estaduais n.º 16.897, n.º 16.900 e n.º 16.901, todas de 26\nde janeiro de 2010, fixando-se as datas da efetiva implementação, resolve:",
+          "hash_texto": "4f5eb115d472a719d245d492391e98c1b8ad88150493a7d0df37671de42a31ec",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-36",
+      "ordem": 36,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Considerar concedida, a partir de 02/10/2024, progressão funcional ao servidor público relacionado, no cargo,\nclasse, nível (referência funcional) e data de implementação de requisitos especificados:\nCPF\nCÓDIGO\nDO\nVÍNCULO\nNOME\nCARGO\nEFETIVO\nTIPO DE\nEVOLUÇÃO\n(PROMOÇÃO /\nPROGRESSÃO)\nCLASSE\nREFERÊNCIA\nFUNCIONAL\nATUAL\nREFERÊNCIA\nFUNCIONAL\nPREVISTA\nDATA DE IMPLEMENTAÇÃO DOS\nREQUISITOS\nXXX.392.\n111-XX\n56487\nLUIZ\nMARQUES\nVIEIRA DE\nCASTRO\nAgente\nde Polícia\nProgressão\n1\nII\nIII\n02/10/2024",
+          "hash_texto": "d46e8263c1edc0932f91aeb32e27f899552989e990d8eacd1e093fab04b09229",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-36/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "14/11/2024",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único - A progressão funcional de que trata este artigo terá efeitos financeiros a partir de 1º de novembro de",
+              "hash_texto": "5bd6300f52585f40eadabe10e9b7a7604f5f4d834d0f3bac6f1adb804d1bb6e8",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "2024",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-36/par-1/item-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "14/11/2024",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "2024.",
+                  "hash_texto": "63009ed7c5764c4d2d7567bea35e126c3f6154b5fc4ddafd5c222c1f97058310",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-37",
+      "ordem": 37,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Determinar a remessa deste ato à Gerência de Gestão e Desenvolvimento de Pessoas da Polícia Civil, para\nconhecimento e adoção das providências pertinentes, no âmbito de suas atribuições; e à Secretaria de Estado da Administração, para análise\ne providências pertinentes à referida Pasta.",
+          "hash_texto": "21b9082185ffd493171f585e75b0c921af134c38b9c3cd35ced2427a86954f08",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-38",
+      "ordem": 38,
+      "versoes": [
+        {
+          "vigencia_inicio": "14/11/2024",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º Fixar que esta Portaria entra em vigor na data de sua expedição.\nGoiânia, 14 de novembro de 2024.\nANDRÉ GUSTAVO CORTEZE GANGA\nDelegado Geral da Polícia Civil\n<#ABC#500209#6#576501/>\nProtocolo 500209\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 2cf71d02",
+          "hash_texto": "e8753d8ab9a62603d8af26cbdb6a17c4daac8406f7e8c29ff9d0ed6e5c9be16a",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    }
+  ],
+  "auditoria": {
+    "run_id": "f45eb9f6-3afc-4aed-9f4f-909eba931a96",
+    "parser_versao": "2.0",
+    "gerado_em": "2025-10-14T00:45:21.139580Z"
+  }
+}

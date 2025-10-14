@@ -1,0 +1,16 @@
+{"timestamp": "2025-10-14T00:41:58.641963Z", "level": "INFO", "event": "START_PARSE", "config": {"urn_lexml": "br;go;estadual;emenda.constitucional;2024-02-21;79", "source_file_path": "/Users/tomazetti/Projetos/ceigep-atlas-data/tmp_analise/ato_br_go_estadual_emenda.constitucional_2024-02-21_79.pdf", "tipo_ato": "Emenda Constitucional", "titulo": "Altera o Ato das Disposições Constitucionais Transitórias da Constituição Estadual.", "entidade_federativa": "Estadual", "orgao_publicador": "Assembleia Legislativa do Estado de Goiás", "data_publicacao": "21/02/2024"}, "run_id": "62b38c4f-8e0c-4be8-9421-8d005974449e"}
+{"timestamp": "2025-10-14T00:41:58.642806Z", "level": "INFO", "event": "SOURCE_RESOLVED", "type": "local", "path": "/Users/tomazetti/Projetos/ceigep-atlas-data/tmp_analise/ato_br_go_estadual_emenda.constitucional_2024-02-21_79.pdf"}
+{"timestamp": "2025-10-14T00:41:58.839889Z", "level": "DEBUG", "event": "FOUND_PARAGRAFO", "path": "art-2/par-1"}
+{"timestamp": "2025-10-14T00:41:58.840537Z", "level": "DEBUG", "event": "FOUND_PARAGRAFO", "path": "art-2/par-2"}
+{"timestamp": "2025-10-14T00:41:58.842351Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-3/item-1"}
+{"timestamp": "2025-10-14T00:41:58.842914Z", "level": "DEBUG", "event": "FOUND_PARAGRAFO", "path": "art-5/par-1"}
+{"timestamp": "2025-10-14T00:41:58.844002Z", "level": "DEBUG", "event": "FOUND_INCISO", "path": "art-6/inc-1"}
+{"timestamp": "2025-10-14T00:41:58.844272Z", "level": "DEBUG", "event": "FOUND_ALINEA", "path": "art-6/inc-1/ali-1"}
+{"timestamp": "2025-10-14T00:41:58.844631Z", "level": "DEBUG", "event": "FOUND_ALINEA", "path": "art-6/inc-1/ali-2"}
+{"timestamp": "2025-10-14T00:41:58.845397Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-7/item-1"}
+{"timestamp": "2025-10-14T00:41:58.846446Z", "level": "DEBUG", "event": "FOUND_PARAGRAFO", "path": "art-9/par-1"}
+{"timestamp": "2025-10-14T00:41:58.848089Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-11/item-1"}
+{"timestamp": "2025-10-14T00:41:58.849879Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-18/item-1"}
+{"timestamp": "2025-10-14T00:41:58.851604Z", "level": "INFO", "event": "PDF_PARSE_SUCCESS", "article_count": 32}
+{"timestamp": "2025-10-14T00:41:58.858391Z", "level": "INFO", "event": "WRITE_OUTPUT", "path": "src/parser/output/br_go_estadual_emenda.constitucional_2024-02-21_79_recursivo.json", "device_count": 32}
+{"timestamp": "2025-10-14T00:41:58.858610Z", "level": "INFO", "event": "DONE"}

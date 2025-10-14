@@ -1,0 +1,221 @@
+{
+  "ato_normativo": {
+    "urn_lexml": "br;go;estadual;emenda.constitucional;2018-04-25;56",
+    "tipo_ato": "Emenda Constitucional",
+    "titulo": "Altera o art. 87 da Constituição Estadual.",
+    "ementa": "",
+    "entidade_federativa": "Estadual",
+    "orgao_publicador": "",
+    "data_publicacao": "25/04/2018",
+    "fonte_oficial": "",
+    "situacao_vigencia": "vigente"
+  },
+  "dispositivos": [
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-1",
+      "ordem": 1,
+      "versoes": [
+        {
+          "vigencia_inicio": "25/04/2018",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º O art. 87 da Constituição Estadual passa a vigorar\ncom as seguintes alterações:\n“",
+          "hash_texto": "18a1aa78d9ff0098dd24673f960f4e63ada687325c4438b5b6111deafcb6b6be",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 87",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-2",
+      "ordem": 2,
+      "versoes": [
+        {
+          "vigencia_inicio": "25/04/2018",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 87. ............................................................\n...........................................................................\nV - as áreas definidas em projetos de loteamento como áreas\nverdes ou institucionais não poderão ter sua destinação, fim\ne objetivos originais alterados, exceto quando a alteração da\ndestinação tiver como finalidade a regularização de imóveis\nocupados por organizações religiosas para suas atividades\nfinalísticas.",
+          "hash_texto": "8e071e98eee726bf36a78b5a338458990dae6c71ee2259c229ce5273c2636c2b",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-2/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "25/04/2018",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . A exceção prevista no inciso V deste artigo\nserá permitida desde que a situação das áreas públicas\nobjeto de alteração da destinação esteja consolidada até\ndezembro de 2016, e mediante a devida compensação ao\nPoder Executivo Municipal, conforme diretrizes estabeleci­\ndas em lei municipal específica.”(NR)",
+              "hash_texto": "a8c8fbea903c6c3978c8dd2c74d00544cb0f736b6bfc7ffe126debe533207c1d",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-3",
+      "ordem": 3,
+      "versoes": [
+        {
+          "vigencia_inicio": "25/04/2018",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Emenda Constitucional entra em vigor na data\nde sua publicação.\nASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS, em Goiânia,\n25 de abril de 2018.\nDeputado JOSÉ VITTI\n- PRESIDENTE <#ABC#73195#1#90205/>\nProtocolo 73195\n<#ABC#73182#1#90191>\nDECRETO Nº 9.214, DE 29 DE ABRIL DE 2018\nDecreta luto oficial pelo falecimento do\nProfessor JOSÉ MENDONÇA TELES.\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso de\nsuas atribuições constitucionais e\nconsiderando que faleceu, na noite de ontem, o Ilustre\nProfessor JOSÉ MENDONÇA TELES, nascido em Hidrolândia, no\ndia 25 de março de 1936, bacharel em direito pela Universidade\nCatólica de Goiás, instituição à qual dedicou parte da sua vida,\nlecionando ali por longos trinta e três anos;\nconsiderando a sua profícua vida acadêmica e cultural\ncomo historiador, poeta, contista, cronista, ensaísta, dicionarista\ne jornalista, autor de inúmeras obras que enriqueceram a cultura\ngoiana;\nconsiderando que desempenhou com honradez e profis­\nsionalismo a presidência do Instituto Histórico e Geográfico de Goiás\ne a da Academia Goiana de Letras,\nconsiderando, finalmente, que constitui dever do Estado\nreverenciar a memória daqueles que souberam dedicar a sua\nexistência à defesa dos interesses da sociedade,\nDECRETA:",
+          "hash_texto": "0661d84a4f17af641dd3f5cc15d2775c6813173f72a0dfacb5fc9c060c3c76b7",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-4",
+      "ordem": 4,
+      "versoes": [
+        {
+          "vigencia_inicio": "25/04/2018",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º O Estado de Goiás, por meio de seus órgãos,\nguardará luto oficial por três dias, em razão do falecimento do\nProfessor JOSÉ MENDONÇA TELES.",
+          "hash_texto": "9530d829144f1e4de928e98bc808fc42498d2e172b92d6dd47bd2e4b81c7b3ba",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-5",
+      "ordem": 5,
+      "versoes": [
+        {
+          "vigencia_inicio": "25/04/2018",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Este Decreto entra em vigor nesta data.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS, em\nGoiânia, 29 de abril de 2018, 130º da República.\nJOSÉ ELITON DE FIGUERÊDO JÚNIOR\n<#ABC#73182#1#90191/>\nProtocolo 73182\n<#ABC#73183#1#90192>\nDECRETO Nº 9.215, DE 02 DE MAIO DE 2018.\nAltera o Decreto nº 8.889, de 15 de fevereiro de",
+          "hash_texto": "b522ba69d4d58fcf3471542aefd496a257163eaf4e5b9c1f949454a8d063e6dc",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "2017",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-5/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "25/04/2018",
+              "vigencia_fim": null,
+              "texto_normalizado": "2017. O GOVERNADOR DO ESTADO DE GOIÁS, no uso\nde suas atribuições constitucionais e legais e tendo em vista o que\nconsta do Processo nº 201700044004039,\nD E C R E T A:",
+              "hash_texto": "49e6a0f637d794d619fbdaf4b628992865205eeff8121b224fc0bdf138571eb1",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-6",
+      "ordem": 6,
+      "versoes": [
+        {
+          "vigencia_inicio": "25/04/2018",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1° O art. 1º do Decreto nº 8.889, de 15 de fevereiro\nde 2017, passa a vigorar com a seguinte redação:\n“",
+          "hash_texto": "1c1dac77aa78fe29a8ab39e7c6b1763f7d5ca7edef8c4430d0288da9c3a47572",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art.1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-7",
+      "ordem": 7,
+      "versoes": [
+        {
+          "vigencia_inicio": "25/04/2018",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art.1º Fica alterado o art. 1º do Decreto nº 8.396, de 25\nde junho de 2015, a fim de considerar a Faculdade de\nFilosofia e Ciências Humanas de Goiatuba - FAFICH,\nrecredenciada até 31 de dezembro de 2020, como\nCentro Universitário, denominado Centro Universitário\nde Goiatuba - UNICERRADO.” (NR)",
+          "hash_texto": "b09408ce4274d0e5b0792b25d80b9b76774aa5288d6fe657b0d02e4138bcaf6b",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-8",
+      "ordem": 8,
+      "versoes": [
+        {
+          "vigencia_inicio": "25/04/2018",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Este Decreto entra em vigor na data de sua\npublicação, retroagindo seus efeitos a 16 de fevereiro de 2017.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS,\nem Goiânia, 02 de maio de 2018, 130o da República.\nJOSÉ ELITON DE FIGUERÊDO JÚNIOR\n<#ABC#73183#1#90192/>\nProtocolo 73183\n<#ABC#73186#1#90194>\nDECRETO DE 02 DE MAIO DE 2018.\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso\nde suas atribuições constitucionais e legais e tendo em vista o que\nconsta do Processo no 201800007008146, resolve retificar a Portaria\nnº 084/2004, de 27 de fevereiro de 2004, publicado no Diário\nOficial nº 19.352, de 4 de março do mesmo ano, na parte em que\nexonerou, a partir de 1º de janeiro de 2004, ANTÔNIO ANTUNES\nDE OLIVEIRA do cargo efetivo de Identificador, da então Secretaria\nda Segurança Pública e Justiça, a fim de considerá-lo exonerado a\npartir de 30 de dezembro de 2003.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS,\nem Goiânia, 02 de maio de 2018, 130o da República.\nJOSÉ ELITON DE FIGUERÊDO JÚNIOR\n<#ABC#73186#1#90194/>\nProtocolo 73186\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 8f5ab400\n2\nGOIÂNIA, QUARTA-FEIRA, 02 DE MAIO DE 2018\nANO 181 - DIÁRIO OFICIAL/GO N° 22.799\nSUPLEMENTO\nDiário Oficial\nDiretoria\nEstado de Goiás\nImprensa Oficial do Estado de\nGoiás\nRua SC-1, nº 299 - Parque Santa Cruz\nCEP: 74.860-270 - Goiânia - Goiás\nFone: 3201-7600 / 3201-7663\nFax: 3201-7623 / 3201-7779\nwww.abc.go.gov.br\nJoão Bosco Bittencourt\nPresidente\nPaulo Valério da Silva\nDiretor de Gestão Planejamento e Finanças\nAbadia Divina Lima\nDiretora de Telerradiodifusão e Imprensa Oficial\nPrevisto Custódio dos Santos\nChefe do Núcleo de Imprensa Oficial\n<#ABC#73187#2#90195>\nDECRETO DE 02 DE MAIO DE 2018.\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso de\nsuas atribuições constitucionais e legais, tendo em vista o que consta\ndo Processo no 201800006016100, resolve exonerar, de ofício e com\nefeitos retroativos a 1º de janeiro de 1992, FAUSTINA VIGILATO\nMORAES DE SOUZA, inscrita no CPF/MF nº 547.895.241-91, do\ncargo em comissão de Secretário de Unidade Escolar, CA-4, Módulo\n7, da então Secretaria de Estado da Educação.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS, em\nGoiânia, 02 de maio de 2018, 130o da República.\nJOSÉ ELITON DE FIGUERÊDO JÚNIOR\n<#ABC#73187#2#90195/>\nProtocolo 73187\n<#ABC#73188#2#90197>\nDECRETO DE 02 DE MAIO DE 2018.\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso\nde suas atribuições constitucionais e legais e tendo em vista o que\nconsta do Processo no 201800001000203, resolve, com fundamento\nno art. 34, inciso II, da Lei no 10.460, de 22 de fevereiro de 1988,\nconsiderar autorizada a viagem que WILLIAM LEYSER O’ DWYER,\nSuperintendente Executivo de Comércio Exterior, da Secretaria de\nEstado de Desenvolvimento Econômico, Científico e Tecnológico\ne de Agricultura, Pecuária e Irrigação, empreendeu aos Emirados\nÁrabes Unidos, no período de 9 a 11 de abril de 2018, a fim de\nrepresentar o Governador do Estado de Goiás na 8ª Edição do\nEncontro Anual de Investimentos em Dubai.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS, em\nGoiânia, 02 de maio de 2018, 130o da República.\nJOSÉ ELITON DE FIGUERÊDO JÚNIOR\n<#ABC#73188#2#90197/>\nProtocolo 73188\n<#ABC#73192#2#90202>\nDECRETO DE 02 DE MAIO DE 2018.\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso de\nsuas atribuições constitucionais e legais, tendo em vista o que consta\ndo Processo nº 201700013006058, especialmente do Despacho nº\n17/2018-SEI-ADSET, da Advocacia Setorial da Secretaria de Estado\nda Casa Civil, e em cumprimento à liminar deferida no Mandado\nde Segurança nº 5313726.61.2017.8.09.0000, resolve, na condição\nsub judice, retificar o Decreto de 22 de agosto de 2017, publicado\nno Diário Oficial no 22.635, de 23 do mesmo mês e ano, apenas\nna parte em que nomeou ARTHUR ALVES CASTRO, CPF/MF nº",
+          "hash_texto": "448b6d733a7dc7efa686992a87df5dae2a346dea06291127a59af3358844da9e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "009",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-8/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "25/04/2018",
+              "vigencia_fim": null,
+              "texto_normalizado": "009. 359.921-89, para, em caráter efetivo, exercer o cargo de Agente\nde Segurança Prisional, Classe Inicial, do Grupo Ocupacional\nAssistente Prisional, Região/Cidade: Entorno de Brasília/Luziânia,\na fim de considerá-lo nomeado no cargo de Agente de Segurança\nPrisional de 3ª Classe.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS, em\nGoiânia, 02 de maio de 2018, 130º da República.\nJOSÉ ELITON DE FIGUERÊDO JÚNIOR\n<#ABC#73192#2#90202/>\nProtocolo 73192\n<#ABC#73194#2#90203>\nDECRETO DE 02 DE MAIO DE 2018.\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso de\nsuas atribuições constitucionais e legais, tendo em vista o que consta\ndo Processo nº 201700013006102, especialmente do Despacho nº\n20/2018-SEI-ADSET, da Advocacia Setorial da Secretaria de Estado\nda Casa Civil, e em cumprimento à liminar deferida no Mandado\nde Segurança nº 5313726.61.2017.8.09.0000, resolve, na condição\nsub judice, retificar o Decreto de 22 de agosto de 2017, publicado\nno Diário Oficial no 22.635, de 23 do mesmo mês e ano, apenas\nna parte em que nomeou JORGE GUEDES DA PAIXÃO JÚNIOR,\nCPF/MF nº 943.428.221-72, para, em caráter efetivo, exercer o\ncargo de Agente de Segurança Prisional, Classe Inicial, do Grupo\nOcupacional Assistente Prisional, Região/Cidade: Metropolitana/\nAparecida de Goiânia, a fim de considerá-lo nomeado no cargo de\nAgente de Segurança Prisional de 3ª Classe.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS, em\nGoiânia, 02 de maio de 2018, 130º da República.\nJOSÉ ELITON DE FIGUERÊDO JÚNIOR\n<#ABC#73194#2#90203/>\nProtocolo 73194\n<#ABC#73199#2#90209>\nDECRETO DE 02 DE MAIO DE 2018.\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso\nde suas atribuições constitucionais e legais e tendo em vista o que\nconsta do Processo no 201800006003083, resolve exonerar, de\nofício e com efeitos retroativos a 01 de agosto de 2006, OSCÉLIA\nDOMINGUES BONIFÁCIO, CPF/MF no 656.305.561-34, do cargo\nem comissão de Assistente de Gabinete “A”, Referência V, da então\nAgência Goiana de Administração e Negócios Públicos.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS, em\nGoiânia, 02 de maio de 2018, 130o da República.\nJOSÉ ELITON DE FIGUERÊDO JÚNIOR\n<#ABC#73199#2#90209/>\nProtocolo 73199\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 8f5ab400",
+              "hash_texto": "576b50c58af3c8bcbe56a2bbc0e37de8d30dbef60cf4ffca088de682becdfb62",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    }
+  ],
+  "auditoria": {
+    "run_id": "b65d4c37-836e-486f-97a2-98bdee19b744",
+    "parser_versao": "2.0",
+    "gerado_em": "2025-10-14T00:30:49.604356Z"
+  }
+}

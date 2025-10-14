@@ -1,0 +1,496 @@
+{
+  "ato_normativo": {
+    "urn_lexml": "br;go;estadual;emenda.constitucional;2017-07-02;54",
+    "tipo_ato": "Emenda Constitucional",
+    "titulo": "Altera o Ato das Disposições Constitucionais Transitórias para limitar os gastos correntes dos Poderes do Estado e dos órgãos governamentais autônomos, até 31 de dezembro de 2026.",
+    "ementa": "",
+    "entidade_federativa": "Estadual",
+    "orgao_publicador": "",
+    "data_publicacao": "02/07/2017",
+    "fonte_oficial": "",
+    "situacao_vigencia": "vigente"
+  },
+  "dispositivos": [
+    {
+      "rotulo": "Art. 1",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-1",
+      "ordem": 1,
+      "versoes": [
+        {
+          "vigencia_inicio": "02/07/2017",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1° O Ato das Disposições Constitucionais Transitórias\nda Constituição Estadual passa a vigorar com o acréscimo dos\nseguintes dispositivos:\n“",
+          "hash_texto": "f9f1c7c024b1bea5c57ea494d812c5f73bcd2a777d6ca348900cb621f87fed8d",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 40",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-2",
+      "ordem": 2,
+      "versoes": [
+        {
+          "vigencia_inicio": "02/07/2017",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 40. Fica instituído, com vigência até 31 de dezembro\nde 2026, o Novo Regime Fiscal -NRF-, de que tratam os\narts. 41 a 46, ao qual se sujeitam os Poderes Executivo\n(administração direta, autárquica e fundacional, fundos\nespeciais e empresas estatais dependentes), Legislativo\ne Judiciário, bem como os órgãos governamentais\nautônomos (Tribunais de Contas do Estado e dos\nMunicípios, Defensoria Pública do Estado e Ministério\nPúblico).” (NR)\n“",
+          "hash_texto": "b1bf376109be3ef55e5394c6c5933882484dd939fb0964228c407af930d42343",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 41",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-3",
+      "ordem": 3,
+      "versoes": [
+        {
+          "vigencia_inicio": "02/07/2017",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 41. Na vigência do NRF, a despesa corrente, em\ncada exercício, não poderá exceder, no âmbito de cada\nPoder ou órgão governamental autônomo nominado\nno art. 40, o respectivo montante da despesa corrente\nrealizada no exercício imediatamente anterior, acrescido\nda variação do índice Nacional de Preço ao Consumidor\nAmplo -IPCA- ou da Receita Corrente Líquida - RCL,\nrelativa ao período de doze meses encerrado em junho\ndo último exercício antecedente ao do orçamento em\nvigor.” (NR)\n“",
+          "hash_texto": "988e9a04a42718862760cd2990b148d84fb5156e6294b1d51a6c1bbddd0c5f9b",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 42",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-4",
+      "ordem": 4,
+      "versoes": [
+        {
+          "vigencia_inicio": "02/07/2017",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 42. O NRF poderá ser revisto quando da propositura,\npelo Governador do Estado, da Lei de Diretrizes Orça­\nmentárias, a partir do terceiro exercício de sua vigência,\ndesde que atendidas, pelo menos, duas das seguintes\ncondições:",
+          "hash_texto": "604c852575b04d64b47f9a3a6e878a38e82a7f306e091071fbb80d3ce562e65b",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-4/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "02/07/2017",
+              "vigencia_fim": null,
+              "texto_normalizado": "I- redução do comprometimento da receita com despesas\nde pessoal abaixo do limite de alerta da Lei de Respon­\nsabilidade Fiscal;",
+              "hash_texto": "bfa77b82d81b715789c7bde2b06ab693dfd6e9b29bea42db33a10f61b589555d",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-4/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "02/07/2017",
+              "vigencia_fim": null,
+              "texto_normalizado": "II - eliminação dos restos a pagar de exercícios anteriores\nsem disponibilidade financeira;",
+              "hash_texto": "3eb8e18e9b947bee33def589dd1f4fa5db87597fda13bbb5db8835040ee949f6",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "III",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-4/inc-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "02/07/2017",
+              "vigencia_fim": null,
+              "texto_normalizado": "III - provisão orçamentária e disponibilidade financeira\nque garantam o investimento pelo Estado de 10% (dez\npor cento) da sua RCL.” (NR)\n“",
+              "hash_texto": "2ab3bb4595785d50f375159c40ba5e25bc433446eafccfdbbe78a614d3b84ae2",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 43",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-5",
+      "ordem": 5,
+      "versoes": [
+        {
+          "vigencia_inicio": "02/07/2017",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 43. Será responsabilizado, na forma da lei, o\nordenador de despesa que der causa ao descumpri­\nmento do limite que lhe cabe observar no âmbito de sua\ncompetência, em consonância com as disposições do\nart. 41.” (NR)\n“",
+          "hash_texto": "6866ee51f8125c911590d84eebd99112176ba21636fcce66e5466c6af48a1967",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 44",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-6",
+      "ordem": 6,
+      "versoes": [
+        {
+          "vigencia_inicio": "02/07/2017",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 44. No caso do art. 43, aplicam-se, no exercício\nseguinte ao descumprimento do limite ali previsto, as\nseguintes vedações ao Poder ou órgão governamental\nautônomo responsável por ele:\nI - concessão, a qualquer título, de vantagem, aumento,\nreajuste ou adequação de remuneração ou subsídio de\nservidor ou empregado público e militar, inclusive do\nprevisto no inciso XI do art. 92 desta Constituição, exceto\nos derivados de sentença judicial ou determinação legal\ndecorrente de atos anteriores à entrada em vigor da\nEmenda Constitucional instituidora do referido limite;\nII - criação de cargo, emprego ou função que implique\naumento de despesa;\nIII - alteração de estrutura de carreira que implique\naumento de despesa;\nIV - admissão ou contratação de pessoal, a qualquer\ntítulo, ressalvadas as reposições de cargo de chefia e\nde direção que não acarretem aumento de despesa e\naquelas decorrentes de vacâncias de cargos efetivos:\nV - realização de concurso público, exceto no âmbito\ndas Secretarias de Estado da Saúde, de Educação,\nCultura e Esporte e de Segurança Pública e Administra­\nção Penitenciária ou quando se destinar, exclusivamen­\nte, a reposição ou instalação de órgão jurisdicional ou\nministerial ou da Defensoria Pública;\nVI - as exceções ao descumprimento do limite definido\nno art. 41 não exime o Poder ou órgão governamental\nautônomo de cumprir os limites globais definidos em lei\ncomplementar federal para despesa total com pessoal,\nobservado o que dispõe o art. 113 da Constituição\nEstadual.",
+          "hash_texto": "fa428146170effd514a2fc13aadd9ebd40296632ee324beded364e20f7ff3e2a",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-6/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "02/07/2017",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . Sem prejuízo do disposto no caput\ndeste artigo, no caso de descumprimento pelo Poder\nExecutivo do limite referenciado no art. 41, aplicam-se\nlhe, no exercício subsequente, as seguintes restrições:",
+              "hash_texto": "ecb6a50b48da0adc2115b6f95c514709c025234ef2b4f9e46bc4df7e4338628f",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "I",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-6/par-1/inc-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "02/07/2017",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "I - a despesa nominal com subsídios e subvenções\neconômicas não poderá superar aquela realizada no\nexercício anterior;",
+                  "hash_texto": "7a232b9df733e98829998e74889ddbedba0eeddfb5c6c70bc3767f3218c9dd74",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "II",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-6/par-1/inc-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "02/07/2017",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "II - fica vedada a ampliação de incentivo ou benefício de\nnatureza tributária da qual decorra renúncia de receita.”\n(NR)\n“",
+                  "hash_texto": "97ee3eefd507c905942f94d524a02df54bf9d1974c7dbe7107224591a83e418b",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 45",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-7",
+      "ordem": 7,
+      "versoes": [
+        {
+          "vigencia_inicio": "02/07/2017",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 45. A partir do exercício financeiro de 2017, as\naplicações mínimas de recursos pelo Estado:",
+          "hash_texto": "27e94a5c9e660360e97fd5d92af80842663c02ad8b647c7965e0391fc0b1d318",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-7/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "02/07/2017",
+              "vigencia_fim": null,
+              "texto_normalizado": "I - em ações e serviços públicos de saúde e em\nmanutenção e desenvolvimento do ensino corresponde­\nrão, em cada exercício financeiro, às aplicações mínimas\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: a9977abc\n2\nGOIÂNIA, SEXTA-FEIRA, 02 DE JUNHO DE 2017\nANO 180 - DIÁRIO OFICIAL/GO N° 22.580\nSUPLEMENTO\nDiário Oficial\nDiretoria\nEstado de Goiás\nImprensa Oficial do Estado de\nGoiás\nRua SC-1, nº 299 - Parque Santa Cruz\nCEP: 74.860-270 - Goiânia - Goiás\nFone: 3201-7600 / 3201-7663\nFax: 3201-7623 / 3201-7779\nwww.abc.go.gov.br\nPaulo Valério da Silva\nDiretor de Gestão, Planejamento e Finanças\nPresidente em Exercício\nAbadia Divina Lima\nDiretora de Telerradiodifusão e Imprensa Oficial\nPrevisto Custódio dos Santos\nChefe do Núcleo de Imprensa Oficial\nreferentes ao exercício anterior, corrigidas pela variação\ndo IPCA ou da RCL, na forma do art. 41;",
+              "hash_texto": "e9f282a73d9290905323f9566cbeb58b2a5aea66246e2067ad470800aed412bd",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-7/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "02/07/2017",
+              "vigencia_fim": null,
+              "texto_normalizado": "II - em manutenção e reconstrução de rodovia,\naeródromo, autódromo, porto pluvial e balsa correspon­\nderão, em cada exercício financeiro, a dois terços da\nsua participação no produto da arrecadação do Imposto\nsobre a Propriedade de Veículos Automotores -IPVA.”\n(NR)\n“",
+              "hash_texto": "8176748eb17994df786650e55b3358c2cc7c89ee23711da8a8811cdebd031d09",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 46",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-8",
+      "ordem": 8,
+      "versoes": [
+        {
+          "vigencia_inicio": "02/07/2017",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 46. Além da contenção das despesas correntes nos\ncorrespondentes limites previstos no art. 41, o NRF ainda\nconsiste na adoção, no âmbito do Poder Executivo, pelo\nprazo de três anos, das seguintes medidas:",
+          "hash_texto": "b9991f67190b32175f7b9029814245e342b8315971ffb130827121e177dab389",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-8/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "02/07/2017",
+              "vigencia_fim": null,
+              "texto_normalizado": "I - só haverá promoção uma vez por ano, limitada às\ncarreiras integrantes da Segurança Pública e Administra­\nção Penitenciária e da Saúde;",
+              "hash_texto": "c638c8b24ea42490a27209713ae888b80d2915725c87ed9302f7c0acd639e50c",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-8/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "02/07/2017",
+              "vigencia_fim": null,
+              "texto_normalizado": "II - fica suspensa a eficácia dos dispositivos legais e\ninfralegais de que decorram progressões funcionais\npor antiguidade ou merecimento e, consequentemen­\nte, majorações da despesa com pessoal, devendo a\npermanência dos mesmos no ordenamento jurídico ser\navaliada com vistas à sua revogação ou modificação.”\n(NR)",
+              "hash_texto": "b6256e6338d470eff161a5ac6af1b34996623b5d532fa0dd6c0fdcd2b6e9d5c3",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-9",
+      "ordem": 9,
+      "versoes": [
+        {
+          "vigencia_inicio": "02/07/2017",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2° O art. 113 da Constituição Estadual fica acrescido\ndo seguinte § 8°:\n“",
+          "hash_texto": "e3895ea4c1d1dfffd21bcfd15c7d177d5ba78834ffc95650ce921969f64f5514",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 113",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-10",
+      "ordem": 10,
+      "versoes": [
+        {
+          "vigencia_inicio": "02/07/2017",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 113 .....................................................\n....................................................................",
+          "hash_texto": "ef3e3d5c148208a1ecacd1a8b93762a40cbddbfd78597b4c9cfb700e04efee1b",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "§ 8",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-10/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "02/07/2017",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 8 ° Na verificação do atendimento pelo Estado dos\nlimites globais estabelecidos na lei complementar\nfederal, mencionado no caput deste artigo, não serão\ncomputadas as despesas com os pensionistas e os\nvalores referentes ao imposto de renda retidos na fonte\ndos servidores públicos estaduais.” (NR)",
+              "hash_texto": "fc8d61dfc944267ba1df67e34b47f7b176a0520b36a7214dd9c332a625006b58",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-11",
+      "ordem": 11,
+      "versoes": [
+        {
+          "vigencia_inicio": "02/07/2017",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3° Esta Emenda Constitucional entra em vigor na\ndata de sua publicação.\nASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nem Goiânia, 02 de junho de 2017.\nDeputado JOSÉ VITTI\n- PRESIDENTE <#ABC#20552#2#27110/>\nProtocolo 20552\n<#ABC#20520#2#27074>\nDECRETO Nº 8.962, DE 1º DE JUNHO DE 2017.\nQualifica\ncomo\nOrganização\nSocial\nde Desenvolvimento Tecnológico e de\nEducação Profissional e Tecnológica, no\nâmbito do Estado de Goiás, a entidade\nque especifica.\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso\nde suas atribuições constitucionais, nos termos da Lei estadual nº",
+          "hash_texto": "f853829564b71eaed743a9fddeaabd3a6bd5023be2878bf89d7505963d067a5f",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "15",
+          "tipo_dispositivo": "item",
+          "caminho_estrutural": "art-11/item-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "02/07/2017",
+              "vigencia_fim": null,
+              "texto_normalizado": "15. 503, de 28 de dezembro de 2005, e alterações posteriores, e\ntendo em vista o que consta do Processo nº 201500013002124,\nD E C R E T A:",
+              "hash_texto": "fc74ab3ccdd8c817b399f6a02f95cc2e31ad00e77793dfe60ca5e4f1334539ac",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-12",
+      "ordem": 12,
+      "versoes": [
+        {
+          "vigencia_inicio": "02/07/2017",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica qualificado como Organização Social\nde Desenvolvimento Tecnológico e de Educação Profissional e\nTecnológica, no âmbito do Estado de Goiás, o Instituto Blaise\nPascal (IBP), inscrito no Cadastro Nacional de Pessoas Jurídicas do\nMinistério da Fazenda (CNPJ/MF) sob o nº 07.787.415/0001-04, com\nsede no Setor de Rádio e Televisão Norte (SRTVN), Quadra 701,\nConjunto C, Ala A, nº 124, Sala 321, Asa Norte, CEP 70.719-903,\nBrasília-DF.",
+          "hash_texto": "f2968971787bff1a826bc6f4f859dbcba172bdb07cbd75e08a888f9431ee3f44",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-13",
+      "ordem": 13,
+      "versoes": [
+        {
+          "vigencia_inicio": "02/07/2017",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Este Decreto entra em vigor na data de sua\npublicação.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS,\nem Goiânia, 1º de junho de 2017, 129º da República.\nMARCONI FERREIRA PERILLO JÚNIOR\n<#ABC#20520#2#27074/>\nProtocolo 20520\n<#ABC#20515#2#27071>\nDECRETO DE 1º DE JUNHO DE 2017.\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso\nde suas atribuições constitucionais e legais, com fundamento nas\nnormas dos arts. 4º, inciso I, 9º e 16 da Lei nº 11.383, de 28 de\ndezembro de 1990, bem como nas do Decreto nº 3.588, de 14 de\nfevereiro de 1991, com alterações posteriores, e tendo em vista o\nque consta do Processo nº 201600011000016 e anexo (Sindicância\nnº 11/17 - CCD/CG), oriundo do Comando-Geral do Corpo de\nBombeiros Militar do Estado de Goiás, resolve promover, por ato\nde bravura, a partir desta data, no Corpo de Bombeiros Militar do\nEstado de Goiás, ao posto de 1º Tenente BM, o 2º Tenente BM RR\n00140 NEURI PEREIRA DA SILVA.\nPALÁCIO DO GOVERNO DO ESTADO DE GOIÁS,\nem Goiânia, 1º de junho de 2017, 129o da República.\nMARCONI FERREIRA PERILLO JÚNIOR\nRicardo Brisolla Balestreri\n<#ABC#20515#2#27071/>\nProtocolo 20515\nSecretaria de Estado da Casa Civil\n<#ABC#20522#2#27078>\nPORTARIA Nº 1287, DE 31 DE MAIO DE 2017.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nnos termos do art. 1º, inciso II, do Decreto nº 8.520, de 30 de\ndezembro de 2015, e tendo em vista o que consta do Processo nº\n201600006039085, notadamente do Parecer “PA” nº 001651/2017,\ndo Despacho de Orientação PGE nº 02/2016 e da Portaria nº\n60/2016-GAB, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 40, § 1º, inciso III, alínea “b”, da Constituição\nFederal, alterado pela Emenda Constitucional nº 41, de 19 de\ndezembro de 2003, combinado com o art. 97, § 1º, inciso III, alínea\n“b”, da Constituição Estadual, e no art. 52, incisos I, II e III, da Lei\nComplementar nº 77, de 22 de janeiro de 2010, em harmonia com\no art. 133, inciso IV, alínea “b”, da Lei nº 13.909, de 25 de setembro\nde 2001, conceder a ROSA CURY GOMES aposentadoria no\ncargo de Professor IV, Referência “B”, do Quadro Permanente do\nMagistério Público Estadual, com proventos proporcionais ao tempo\nde contribuição.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA\nCIVIL, em Goiânia, 31 de maio de 2017.\nJoão Furtado de Mendonça Neto\nSecretário\n<#ABC#20522#2#27078/>\nProtocolo 20522\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: a9977abc\n3\nGOIÂNIA, SEXTA-FEIRA, 02 DE JUNHO DE 2017\nANO 180 - DIÁRIO OFICIAL/GO N° 22.580\nSUPLEMENTO\nDiário Oficial\n<#ABC#20523#3#27081>\nPORTARIA Nº 1288, DE 31 DE MAIO DE 2017.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nnos termos do art. 1º, inciso II, do Decreto nº 8.520, de 30 de\ndezembro de 2015, e tendo em vista o que consta do Processo nº\n201700003008502, notadamente do Despacho “AG” nº 001684/2017,\nda Procuradoria-Geral do Estado, resolve, com fundamento no art.\n6º, incisos I a IV, da Emenda Constitucional Federal nº 41, de 19 de\ndezembro de 2003, e no art. 56, incisos I a V, da Lei Complementar\nnº 77, de 22 de janeiro de 2010, conceder a SANDRA REGINA\nMARIA FERREIRA D’ARTAGNAN DE CASTRO aposentadoria no\ncargo de Procurador do Estado, Classe Especial, da Procuradoria­\n-Geral do Estado, com proventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA\nCIVIL, em Goiânia, 31 de maio de 2017.\nJoão Furtado de Mendonça Neto\nSecretário\n<#ABC#20523#3#27081/>\nProtocolo 20523\n<#ABC#20526#3#27083>\nPORTARIA Nº 1289, DE 31 DE MAIO DE 2017.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, nos\ntermos do art. 1o, incisos II e VII, do Decreto no 8.520, de 30 de\ndezembro de 2015, com base nos arts. 20 e 21 da Lei no 13.910,\nde 25 de setembro de 2001, e tendo em vista o que consta do\nProcesso no 201700006004619, notadamente do Parecer “PA” no\n001898/2017, do Despacho de Orientação PGE nº 01/2016 e da\nPortaria nº 60/2016 - GAB, da Procuradoria-Geral do Estado, resolve\ntranspor, mediante enquadramento, a partir de 1o de outubro de 2001,\nSALVELINA MARIA PEREIRA GRACIANO do cargo de Auxiliar de\nServiços Gerais, A-2, para o de Agente Administrativo Educacional\nI, Referência “C”, atual Agente Administrativo Educacional de Apoio,\nReferência “I”, do Quadro de Pessoal da Secretaria de Educação,\nCultura e Esporte, e, com fundamento no art. 3o, incisos I, II e III e",
+          "hash_texto": "2e5f5d9f303d3aa7c94453e32796a91f7391182a3f926ebc8257c31c97cc0655",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-13/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "02/07/2017",
+              "vigencia_fim": null,
+              "texto_normalizado": "parágrafo único , da Emenda Constitucional Federal no 47, de 5 de\njulho de 2005, e no art. 58, incisos I a V, da Lei Complementar no 77,\nde 22 de janeiro de 2010, conceder-lhe aposentadoria no cargo por\núltimo citado, com proventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA\nCIVIL, em Goiânia, 31 de maio de 2017.\nJoão Furtado de Mendonça Neto\nSecretário\n<#ABC#20526#3#27083/>\nProtocolo 20526\n<#ABC#20528#3#27084>\nPORTARIA Nº 1290, DE 31 DE MAIO DE 2017.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nnos termos do art. 1o, inciso II, do Decreto no 8.520, de 30 de\ndezembro de 2015, e tendo em vista o que consta do Processo no\n201600010026793, notadamente do Parecer “PA” no 001079/2017,\naprovado pelo Despacho “AG” no 000918/2017, da Procuradoria-Ge­\nral do Estado, resolve, com fundamento no art. 6o, incisos I a IV, da\nEmenda Constitucional Federal no 41, de 19 de dezembro de 2003, e\nno art. 56, incisos I a V, da Lei Complementar no 77, de 22 de janeiro\nde 2010, conceder a TEREZINHA DE JESUS CARVALHO aposen­\ntadoria no cargo de Atendente de Consultório Dentário, Referência\n“M”, do Grupo Ocupacional Auxiliar de Saúde, do Quadro Transitório\ndos Servidores da Secretaria de Saúde, com proventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA\nCIVIL, em Goiânia, 31 de maio de 2017.\nJoão Furtado de Mendonça Neto\nSecretário\n<#ABC#20528#3#27084/>\nProtocolo 20528\n<#ABC#20529#3#27085>\nPORTARIA Nº 1291, DE 31 DE MAIO DE 2017.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nnos termos do art. 1o, inciso II, do Decreto no 8.520, de 30 de\ndezembro de 2015, e tendo em vista o que consta do Processo\nno 201700006004603, notadamente do Parecer no 002180/2017,\ndo Despacho de Orientação PGE nº 02/2016 e da Portaria nº\n60/2016-GAB, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 6o, incisos I a IV, da Emenda Constitucional\nFederal no 41, de 19 de dezembro de 2003, e no art. 56, incisos I a\nV, da Lei Complementar no 77, de 22 de janeiro de 2010, conceder\na VERANI BENTA DA COSTA aposentadoria no cargo de Professor\n“IV”, Referência “B”, do Quadro Permanente do Magistério Público\nEstadual, com proventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA\nCIVIL, em Goiânia, 31 de maio de 2017.\nJoão Furtado de Mendonça Neto\nSecretário\n<#ABC#20529#3#27085/>\nProtocolo 20529\n<#ABC#20530#3#27086>\nPORTARIA Nº 1292, DE 31 DE MAIO DE 2017.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nnos termos do art. 1º, inciso II, do Decreto nº 8.520, de 30 de\ndezembro de 2015, e tendo em vista o que consta do Processo nº\n201700028000107, notadamente do Parecer PA nº 001949/2017,\naprovado pelo Despacho “AG” nº 001700/2017, da Procuradoria­\n-Geral do Estado, resolve, com fundamento no art. 3º, incisos I, II e\nIII e parágrafo único, da Emenda Constitucional Federal nº 47, de 5\nde julho de 2005, e no art. 58, incisos I a V, da Lei Complementar nº\n77, de 22 de janeiro de 2010, conceder a VALDINÁ PEREIRA DOS\nSANTOS aposentadoria no cargo de Assistente de Gestão Admi­\nnistrativa, Classe A, Padrão “V”, do Grupo Ocupacional de mesmo\nnome, do Quadro Permanente de Pessoal da Agência Brasil Central,\ncom proventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA\nCIVIL, em Goiânia, 31 de maio de 2017.\nJoão Furtado de Mendonça Neto\nSecretário\n<#ABC#20530#3#27086/>\nProtocolo 20530\n<#ABC#20531#3#27087>\nPORTARIA Nº 1295, DE 31 DE MAIO DE 2017.\nO SECRETÁRIO DE ESTADO DA CASA CIVIL,\nnos termos do art. 1o, inciso II, do Decreto no 8.520, de 30 de\ndezembro de 2015, e tendo em vista o que consta do Processo no\n201700006003013, notadamente do Parecer “PA” no 002373/2017,\ndo Despacho de Orientação PGE nº 02/2016 e da Portaria nº\n60/2016-GAB, da Procuradoria-Geral do Estado, resolve, com\nfundamento no art. 6o, incisos I a IV, da Emenda Constitucional\nFederal no 41, de 19 de dezembro de 2003, e no art. 56, incisos I a\nV, da Lei Complementar no 77, de 22 de janeiro de 2010, conceder\na ELOÍSA PERES DOS SANTOS aposentadoria no cargo de\nProfessor “IV”, Referência “C”, do Quadro Permanente do Magistério\nPúblico Estadual, com proventos integrais.\nPublique-se.\nGABINETE DO SECRETÁRIO DE ESTADO DA CASA\nCIVIL, em Goiânia, 31 de maio de 2017.\nJoão Furtado de Mendonça Neto\nSecretário\n<#ABC#20531#3#27087/>\nProtocolo 20531\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: a9977abc\n4\nGOIÂNIA, SEXTA-FEIRA, 02 DE JUNHO DE 2017\nANO 180 - DIÁRIO OFICIAL/GO N° 22.580\nSUPLEMENTO\nDiário Oficial\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: a9977abc",
+              "hash_texto": "0d6d520716cdb342de854e00d38f02b477dcc92deced2bbe459fa535fbbd29b2",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    }
+  ],
+  "auditoria": {
+    "run_id": "7da95906-2101-476d-8142-be9efd334f1a",
+    "parser_versao": "2.0",
+    "gerado_em": "2025-10-13T23:43:41.811911Z"
+  }
+}

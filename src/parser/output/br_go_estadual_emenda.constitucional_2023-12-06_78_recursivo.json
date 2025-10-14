@@ -1,0 +1,2260 @@
+{
+  "ato_normativo": {
+    "urn_lexml": "br;go;estadual;emenda.constitucional;2023-12-06;78",
+    "tipo_ato": "Emenda Constitucional",
+    "titulo": "Altera o Ato das Disposições Constitucionais Transitórias.",
+    "ementa": "",
+    "entidade_federativa": "Estadual",
+    "orgao_publicador": "Assembleia Legislativa do Estado de Goiás",
+    "data_publicacao": "06/12/2023",
+    "fonte_oficial": "",
+    "situacao_vigencia": "vigente"
+  },
+  "dispositivos": [
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-1",
+      "ordem": 1,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica concedido a WEVERTON FRANCISCO DA\nSILVA MATIAS o Título Honorífico de Cidadão Goiano.",
+          "hash_texto": "cd3ece0d56ab3fde332fb1e78a02cccf81617e1844df26d88ed23db173b607e0",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-2",
+      "ordem": 2,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 7 de dezembro de 2023; 135º da República.\nRONALDO CAIADO\nGovernador do Estado\nBRUNO PEIXOTO\nDeputado Estadual\n<#ABC#425882#1#494246/>\nProtocolo 425882\n<#ABC#425884#1#494250>\nLEI Nº 22.442, DE 7 DE DEZEMBRO DE 2023\nConcede\no\ntítulo\nde\ncidadania\nque\nespecifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu\nsanciono a seguinte Lei:",
+          "hash_texto": "85fb752a2dfd404a971fcc9a005e8c01c356f58d99362fbaf8aa6a047cea0b85",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-3",
+      "ordem": 3,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica concedido a FABIANO LOPES FERREIRA o\nTítulo Honorífico de Cidadão Goiano.",
+          "hash_texto": "3d08274ba643a5d99bdc2dc98533589cf4876a628a4dc2ae9b1bebeb97b39726",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-4",
+      "ordem": 4,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 7 de dezembro de 2023; 135º da República.\nRONALDO CAIADO\nGovernador do Estado\nBRUNO PEIXOTO\nDeputado Estadual\n<#ABC#425884#1#494250/>\nProtocolo 425884\n<#ABC#425885#1#494251>\nLEI Nº 22.443, DE 7 DE DEZEMBRO DE 2023\nConcede\no\ntítulo\nde\ncidadania\nque\nespecifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu\nsanciono a seguinte Lei:",
+          "hash_texto": "3d7b29d77ea88bb08473b83e693c2a29021910a526ad70cbcc397474c91447b5",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-5",
+      "ordem": 5,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica concedido a WENDERSON DOS SANTOS\nAMORIM o Título Honorífico de Cidadão Goiano.",
+          "hash_texto": "d3e2ef202d6e96209bac97148c0a0563f9a0e286f33ebd6543e7519982c7d5e5",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-6",
+      "ordem": 6,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 7 de dezembro de 2023; 135º da República.\nRONALDO CAIADO\nGovernador do Estado\nBRUNO PEIXOTO\nDeputado Estadual\n<#ABC#425885#1#494251/>\nProtocolo 425885\n<#ABC#425886#1#494252>\nLEI Nº 22.444, DE 7 DE DEZEMBRO DE 2023\nConcede\no\ntítulo\nde\ncidadania\nque\nespecifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu\nsanciono a seguinte Lei:",
+          "hash_texto": "0886c4d074a93fb099a6e705af0a91a3dab36e6115aac74ca893d45f2dfc09fe",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-7",
+      "ordem": 7,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica concedido a RINALDO RUELA DA SILVA o\nTítulo Honorífico de Cidadão Goiano.",
+          "hash_texto": "2d5f78758bc6fe4e5878423e91d2dbe023d5bf8c6342479773be94cff0ba0b07",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-8",
+      "ordem": 8,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 7 de dezembro de 2023; 135º da República.\nRONALDO CAIADO\nGovernador do Estado\nBRUNO PEIXOTO\nDeputado Estadual\n<#ABC#425886#1#494252/>\nProtocolo 425886\n<#ABC#425887#1#494254>\nLEI Nº 22.445, DE 7 DE DEZEMBRO DE 2023\nConcede\no\ntítulo\nde\ncidadania\nque\nespecifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu\nsanciono a seguinte Lei:",
+          "hash_texto": "a0ca961d95c8c4ff10b686b326dcfb2e5e2125ae67e09f73eab882723de931fd",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-9",
+      "ordem": 9,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica concedido a JOSÉ LUIZ DATENA o Título\nHonorífico de Cidadão Goiano.",
+          "hash_texto": "8886d303b439e6956b41c18929ba3148ddb84a24b112a8cd370b378664cc08dc",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-10",
+      "ordem": 10,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 7 de dezembro de 2023; 135º da República.\nRONALDO CAIADO\nGovernador do Estado\nBRUNO PEIXOTO\nDeputado Estadual\n<#ABC#425887#1#494254/>\nProtocolo 425887\nDIARIO OFICIAL DO ESTADO DE GOIAS\nAssinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL\nCODIGO DE AUTENTICACAO: 8f6aace1\n2\nDiário Oficial\nGOIÂNIA, QUINTA-FEIRA, 07 DE DEZEMBRO DE 2023\nANO 187 - DIÁRIO OFICIAL/GO N° 24.177\nSUPLEMENTO\nDiretoria\nEstado de Goiás\nImprensa Oficial do Estado de Goiás\nRua SC-1, nº 299 - Parque Santa Cruz - CEP: 74.860-270 - Goiânia - Goiás\nFones: 3201-7663 / 3201-7639 / 99220-1032\nwww.abc.go.gov.br\nReginaldo Alves da Nóbrega Júnior\nPresidente\nRafael dos Santos Vasconcelos\nDiretor de Telerradiodifusão, Imprensa Oficial e Site\nLuiz Fernando Dibe\nDiretor de Gestão Integrada\nPrevisto Custódio dos Santos\nGerente de Imprensa Oficial e Mídias Digitais\n<#ABC#425888#2#494255>\nLEI Nº 22.446, DE 7 DE DEZEMBRO DE 2023\nConcede\no\ntítulo\nde\ncidadania\nque\nespecifica.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu\nsanciono a seguinte Lei:",
+          "hash_texto": "4964fdf7abcc694eb51acf06ff358ba6ce6e03ace104fea5e2be3f6431f19137",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-11",
+      "ordem": 11,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Fica concedido a ADILSON BATISTA SCHIO o Título\nHonorífico de Cidadão Goiano.",
+          "hash_texto": "06b8860d815d052372675063850af5b90b6332865bc7f4ce2830e08099073db9",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-12",
+      "ordem": 12,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 7 de dezembro de 2023; 135º da República.\nRONALDO CAIADO\nGovernador do Estado\nBRUNO PEIXOTO\nDeputado Estadual\n<#ABC#425888#2#494255/>\nProtocolo 425888\n<#ABC#425902#2#494271>\nLEI Nº 22.447, DE 7 DE DEZEMBRO DE 2023\nAltera as Leis nº 21.792, de 16 de fevereiro\nde 2023, que estabelece a organização\nadministrativa básica do Poder Executivo\ne dá outras providências; nº 20.756, de\n28 de janeiro de 2020, que dispõe sobre\no regime jurídico dos servidores públicos\ncivis do Estado de Goiás, das autarquias\ne fundações públicas estaduais, e dá\noutras providências; e nº 19.020, de 30 de\nsetembro de 2015, que ratifica o Protocolo\nde Intenções firmado entre os Estados de\nGoiás, Mato Grosso, Mato Grosso do Sul,\nRondônia e Tocantins e o Distrito Federal,\npara constituição de consórcio interestadual\ndestinado a promover o desenvolvimento\nda Região do Brasil Central; e dá outras\nprovidências.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição do Estado de Goiás, decreta e\neu sanciono a seguinte Lei:",
+          "hash_texto": "3182fe9386f259f8b3f7915be750f3c3f9d02801a773839eb8ffb51733118690",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-13",
+      "ordem": 13,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º A Lei estadual nº 21.792, de 16 de fevereiro de 2023,\npassa a vigorar com as seguintes alterações:\n“",
+          "hash_texto": "7ef828f8607522c31fb78cf450b95980bff7440349bfb15c4b3c3eb9e9ce3c8d",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 27",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-14",
+      "ordem": 14,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 27. ....................................................\nI - a formulação das políticas estaduais de habitação,\nobras públicas e saneamento básico, exceto de resíduos\nsólidos, bem como o planejamento, o monitoramento e o\nacompanhamento de sua execução, de seu fornecimento e\nda prestação dos serviços relacionadas a elas, também a\nrespectiva captação de recursos, em especial:\n.................................................................................\nVIII - a elaboração e o acompanhamento de projetos de\nhabitação, de saneamento básico, exceto resíduos sólidos,\nque podem ser financiados com recursos:\na) do Orçamento-Geral do Estado; e\nb) provenientes de outros entes federativos, transferidos\nà SEINFRA por qualquer instrumento;\nIX - a execução de obras públicas, com os respectivos\npagamentos, a serem custeadas com recursos advindos de\nemendas parlamentares.",
+          "hash_texto": "1f9673fb20ba0ddbfdc5b13e772cf5cfcf399bb328a3c7cc533e09b91fd4a5ce",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "§ 1",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-14/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 1 º A SEINFRA, no exercício de suas competências,\natuará na esfera do saneamento básico, exceto resíduos\nsólidos, sobre o conjunto dos serviços públicos de\nabastecimento de água, esgotamento sanitário, drenagem\ne manejo das águas pluviais urbanas.",
+              "hash_texto": "8fec2943a37e0608101e1fd91d5cc0c46359efa922c8dd774008a549c8995114",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 2",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-14/par-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 2 º As obras decorrentes das políticas formuladas\npela SEINFRA poderão ser executadas na própria\npasta, custeadas por emendas parlamentares e demais\ntransferências de recursos, ou quando houver designação\nexpressa do Chefe do Poder Executivo.” (NR)\n“",
+              "hash_texto": "08dd1fd482d0033ec6dc38aa201d366e144f79e371f1801369493be3e2b69ab9",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 30",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-15",
+      "ordem": 15,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 30. .......................................................\n....................................................................................",
+          "hash_texto": "f8e9cf55cf245f458d83f30d63dfbfcc458f5a8b022d5ead84517dc58d4eb1ae",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-15/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . ...........................................\n................................................................................",
+              "hash_texto": "81280074005e1ebd5c1e50e70e9d19b4b8f850895d059f033d2915f220bc934c",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "VI",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-15/par-1/inc-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "VI - Subsecretaria de Políticas Públicas para Obras e\nSaneamento, da SEINFRA; e",
+                  "hash_texto": "039a5859db14a00d3a4ec66de4aa9242d2655b04adc3d6f48d23eca8608fa4f3",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "VII",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-15/par-1/inc-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "VII - Subsecretaria de Políticas Habitacionais, Parcerias\ne Inovação, da SEINFRA.” (NR)\n“",
+                  "hash_texto": "3c3792bd2953fbb47a16c6f011606ed6c4e6444fe80234396a5ebff0de02db1e",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 70",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-16",
+      "ordem": 16,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 70. .........................................................\n.................................................................................",
+          "hash_texto": "17f03df20f259001e08b6131e49d45f9b7a9511820e6b37c7ab166a71d225b7e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "§ 1",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-16/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 1 º ..................................................................\n...................................................................................",
+              "hash_texto": "0ab2bece4183b042c59196b1a6f016e0b90354eda21d8d7e3b87e4874c5657fe",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "IX",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-16/par-1/inc-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "IX - compliance público.” (NR)\n“",
+                  "hash_texto": "c600745c631e10ff154d4e7dc31dae3a8e81d1a7c358e3661fc5123d4b9e3bf7",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 90",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-17",
+      "ordem": 17,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 90. ............................................................\n....................................................................................",
+          "hash_texto": "f6f773f2d29cb63de3312f60c24bc4593c7c50da953dcec8fef6d40cd2a6d071",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "§ 4",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-17/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 4 º Poderá haver movimentação de pessoal dos\ncargos a que se refere o caput deste artigo exclusivamente\nentre unidades e órgãos ou entidades da administração\ndireta, autárquica e fundacional, sem a possibilidade de\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 8f6aace1\n3\nDiário Oficial\nGOIÂNIA, QUINTA-FEIRA, 07 DE DEZEMBRO DE 2023\nANO 187 - DIÁRIO OFICIAL/GO N° 24.177\nSUPLEMENTO\nessa movimentação ocorrer para empresas públicas e\nsociedades de economia mista do Estado de Goiás.” (NR)\n“Seção VI\nDas Funções Comissionadas do Sistema Estruturador\ndas Redes de Gestão” (NR)\n“",
+              "hash_texto": "f0eb68dba1bd2d29a8dc817fc849b0d01c83e70f74e3a5ac7d34de7921b3093b",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 103",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-18",
+      "ordem": 18,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 103. As Funções Comissionadas do Sistema\nEstruturador das Redes de Gestão - FCRGs destinam-se\naos servidores efetivos e aos empregados públicos\npermanentes que atuem nas unidades centrais, setoriais e\ncorrelatas do Sistema Estruturador das Redes de Gestão\nda administração direta, autárquica e fundacional do Poder\nExecutivo estadual.” (NR)\n“",
+          "hash_texto": "fe1b11b88e4240a071423227c0d699b0df0828c2577355c13d18b487e261fddd",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 104",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-19",
+      "ordem": 19,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 104. A distribuição das FCRGs e os critérios de\navaliação periódica para a manutenção da sua percepção\nserão definidos por decreto do Chefe do Poder Executivo\nestadual, observados os tipos, os símbolos e os valores\ndiscriminados na alínea “e” do Anexo III desta Lei, bem como\nrespeitado o limite anual a que se refere o art. 114.” (NR)\n“",
+          "hash_texto": "98e4d13b661c011092fb523890e807bc973ad46ebf1d15a098cdaaa2f2d4d3b1",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 107",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-20",
+      "ordem": 20,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 107. Fica instituído o Sistema Estruturador das\nRedes de Gestão - SIGES no Poder Executivo estadual,\npara aprimorar sistêmica e integradamente a eficiência,\na eficácia e a efetividade das entregas e das atividades\ncomuns aos órgãos e às entidades da administração direta,\nautárquica e fundacional.",
+          "hash_texto": "080f8aa0ffd7faaf4c59605c77976554d72f167c585292ec33083c1be0404385",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "§ 1",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-20/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 1 º O SIGES destina-se a inovar a gestão pública,\nampliar a capacidade estatal, garantir a atuação integrada\npromotora da entrega de valor aos cidadãos alinhada às\nexpectativas e às necessidades deles.",
+              "hash_texto": "883a04e8a881470c7a08a5a380b3dbf2c07f6a75c405644dc1e5f9298518fd8c",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 2",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-20/par-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 2 º O SIGES é composto por redes específicas\nformadas pelas áreas de:",
+              "hash_texto": "aa60d0784f7420aed69365634a4562a69d3bc7c03195ab8338a4433fd3f074ac",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "I",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-20/par-2/inc-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "I - gestão de pessoas;",
+                  "hash_texto": "044f1cc97fe42b08557123f9bd772eab6520e5952832cdcaefd28bc532f685e7",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "II",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-20/par-2/inc-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "II - projetos de governo;",
+                  "hash_texto": "403f5a93a576a230d515916169142588251c8d72a491779a2cc867b53e7ef286",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "III",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-20/par-2/inc-3",
+              "ordem": 3,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "III - compras e contratos;",
+                  "hash_texto": "c9b5a4d21e8c9e54f4e27fdc19e17fe85b21db3cebaa4845c242ea4b4df17234",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "IV",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-20/par-2/inc-4",
+              "ordem": 4,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "IV - patrimônio;",
+                  "hash_texto": "63e3a29912fcf309af52a1ad70e3af43275da439c6c327dcc58492b196136f39",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "V",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-20/par-2/inc-5",
+              "ordem": 5,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "V - planejamento, orçamento e finanças;",
+                  "hash_texto": "9ddbec9549a9ffb6c4a7b6b0a7387003fc6e41bd6c5e17727ad057b0ccbc40e0",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "VI",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-20/par-2/inc-6",
+              "ordem": 6,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "VI - contabilidade;",
+                  "hash_texto": "2e7f24df4170befca975293993a4b3cf64a8a338eeb16dadc384f76035974a8b",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "VII",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-20/par-2/inc-7",
+              "ordem": 7,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "VII - inovação da gestão e dos serviços públicos;",
+                  "hash_texto": "68952d48a1d94bc56757211a46c45bed57a2a02dcc852cd4f22b5615fc4fdc43",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "VIII",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-20/par-2/inc-8",
+              "ordem": 8,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "VIII - tecnologia da informação; e",
+                  "hash_texto": "91064941eb1b54bbd5dd66631312c87e52705ea09fe4011739c0d4d2c1fdfd17",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "IX",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-20/par-2/inc-9",
+              "ordem": 9,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "IX - compliance público.",
+                  "hash_texto": "9e0d5a0cd940a9cf2d4105f622251b8ec9f4724d47aedc862b5094942452aff5",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 3",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-20/par-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 3 º O SIGES é constituído por unidades centrais,\nsetoriais e correlatas presentes nos órgãos e nas entidades\nda administração direta, autárquica e fundacional do Poder\nExecutivo estadual.” (NR)\n“",
+              "hash_texto": "9a4af4e9b948a149bb5911d8a01246fb53a70ccb366ace3f91e88adc0de7ae69",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 108",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-21",
+      "ordem": 21,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 108. ........................................................",
+          "hash_texto": "d11c91107452718d5880122299d11e9114b939ebfe5e3d147d73116892fbb3e9",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "§ 1",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-21/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 1 º .................................................................\n...................................................................................",
+              "hash_texto": "7d9097d95dc33e4d3c7c1a1acd1f4df2a07068125f7d03c705fd8d15413cb8f0",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "III",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-21/par-1/inc-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "III - a Subsecretaria de Logística e Patrimônio, da\nSEAD, e as unidades vinculadas referentes às áreas de\npatrimônio, de compras e de contratos;",
+                  "hash_texto": "45ccae7aae5856480ed83a65c75f033b52caf15c8f25d53150b9bc0ab85259de",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "IV",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-21/par-1/inc-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "IV - a Subsecretaria Central de Planejamento,\nMonitoramento e Avaliação e a Subsecretaria Central de\nOrçamento, ambas da ECONOMIA, e as unidades vinculadas\nreferentes às áreas de planejamento e orçamento;",
+                  "hash_texto": "3f73bb6efe957e34d4a28106177f56da0befdd14cf8a5e4f64a2054f501813d6",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "V",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-21/par-1/inc-3",
+              "ordem": 3,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "V - a Subsecretaria do Tesouro Estadual, da\nECONOMIA, e as unidades vinculadas referentes às áreas\nde finanças públicas e contabilidade;",
+                  "hash_texto": "8aee5b628c2e831b913c3c3cb68fa1e08825cbee24b698f1f3a4ba73f9a14d7b",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "VI",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-21/par-1/inc-4",
+              "ordem": 4,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "VI - a Subsecretaria de Inovação da Gestão e dos\nServiços Públicos, da SEAD, e as unidades vinculadas\nreferentes às áreas de gestão, inovação, processos e\nserviços públicos;",
+                  "hash_texto": "f7fe0b545fcf8db59c74d8141c9d6d9a9cbefc096abe335808339644b3ea14d1",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "VII",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-21/par-1/inc-5",
+              "ordem": 5,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "VII - a Subsecretaria de Tecnologia da Informação,\nda SGG, e as unidades vinculadas referentes à área de\ntecnologia da informação; e",
+                  "hash_texto": "f6b535bccd9f03fc1fede08b59ce0d689a6ca9c1f8339f3771a0f04e8f2fe9ec",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "VIII",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-21/par-1/inc-6",
+              "ordem": 6,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "VIII - a Subcontroladoria de Governo Aberto e Ouvidoria\nGeral, a Subcontroladoria do Sistema de Correição e Contas\ne a Subcontroladoria de Auditoria Interna e Controle, da\nCGE, e as unidades vinculadas referentes às áreas de\ncompliance público e, especificadamente, governo aberto e\nouvidoria, correição e contas, além de gestão de riscos e\ncontrole.",
+                  "hash_texto": "dcda7cd4d7f09215b1270304cb91fd5e330cc99281488169a6a692b2c564b8aa",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 2",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-21/par-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 2 º ...........................................................",
+              "hash_texto": "c1949a5a268eec279b158d1f5229bd7a52ee2b53c44625dced14931ad6b413f2",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "I",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-21/par-2/inc-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "I - a definição das políticas, das normas e das\ndiretrizes e a orientação dos procedimentos gerais a serem\nexecutados pelas unidades setoriais;",
+                  "hash_texto": "dd53daade4779fde4edd641f651e2888adffcc9da7b707bed96a82282af8d564",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "II",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-21/par-2/inc-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "II - a certificação e a capacitação das unidades\nsetoriais com a possibilidade de parcerias com outros entes,\nPoderes, empresas e entidades especializadas, quando\nisso for necessário;",
+                  "hash_texto": "a6114d385239a4341fad40d9292bc8f4200d4564030ce600e18d170155bcabf4",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "III",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-21/par-2/inc-3",
+              "ordem": 3,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "III - a gestão e a proposição das regras de negócio para\na disponibilização das soluções tecnológicas corporativas; e",
+                  "hash_texto": "95aada975d0c7d9a75de9f549c8558a58b3191c5e9fbc1eeb6251dd5b6c183e3",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "IV",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-21/par-2/inc-4",
+              "ordem": 4,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "IV - as ações de integração de sua respectiva rede de\ngestão com as demais redes.” (NR)\n“",
+                  "hash_texto": "23bb755f84c50eacc8230526e1fdcc7d99e2541ad93caa3e79cb549a45fb2771",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 109",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-22",
+      "ordem": 22,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 109. As unidades setoriais possuem as\ncompetências táticas e operacionais na execução das\nentregas e das atividades próprias de sua atuação em cada\nárea específica.",
+          "hash_texto": "1febe394ab7633d4a0c0d21eb3672d51e7890408d1fcf3f08f56b60db6e9ac4a",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "§ 1",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-22/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 1 º As unidades setoriais ficarão subordinadas\ntécnica e normativamente às unidades centrais, sem\nprejuízo à subordinação administrativa vinculada à estrutura\norganizacional do órgão ou da entidade.",
+              "hash_texto": "6b83ee5c23e8c60a2eff0671a70b2e92ad518be187f7bb2bffc7face2cc4525c",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "§ 2",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-22/par-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 2 º São responsabilidades das unidades setoriais,\nconforme as determinações específicas de sua área de\natuação:",
+              "hash_texto": "64b46c2b8b105d1e19749ec1e215a28f578633e309b830ff0a3b32170e537f75",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "I",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-22/par-2/inc-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "I - a implementação das políticas, das normas e das\ndiretrizes definidas pela unidade central;",
+                  "hash_texto": "315819597898d039c9a654c8608563bb58bb18ac316a0095c467d863abd88bf9",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "II",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-22/par-2/inc-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "II - a integração às certificações e às capacitações\nestabelecidas pela unidade central;",
+                  "hash_texto": "e258e2c3fd347106bb97704b0bba0c65db0dd5e584d035fadeea1929af67320c",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "III",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-22/par-2/inc-3",
+              "ordem": 3,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "III - a adoção e a participação na definição das regras\nde negócio e das soluções tecnológicas corporativas; e",
+                  "hash_texto": "4092e2a1f3f706d396889c795f28251628dfbc183113b45eda57869c76fd7a9f",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "IV",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-22/par-2/inc-4",
+              "ordem": 4,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "IV - a execução das entregas e das atividades próprias\nde sua atuação.” (NR)\n“",
+                  "hash_texto": "8bcdb420030b5be1441793f98a5edc34c7d66ae18a0d4dd3587837e50c8b5bf9",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 109",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-23",
+      "ordem": 23,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 109-A. As unidades correlatas desenvolvem\nentregas e atividades complementares ou similares àquelas\ndefinidas no § 2º do art. 107 desta Lei, conforme o decreto\nregulamentador de cada rede.",
+          "hash_texto": "f019f56f33ede363594135f2d10db65c91e1113c7d4c401f8ad6c1d8bcb36995",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-23/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . A unidade definida como correlata\nobservará as responsabilidades definidas no § 1º do\nart. 109 desta Lei, além das definidas no decreto de\nregulamentação.” (NR)\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 8f6aace1\n4\nDiário Oficial\nGOIÂNIA, QUINTA-FEIRA, 07 DE DEZEMBRO DE 2023\nANO 187 - DIÁRIO OFICIAL/GO N° 24.177\nSUPLEMENTO\n“Seção II\nDa Gratificação do Sistema Estruturador das Redes de\nGestão” (NR)\n“",
+              "hash_texto": "728e95b3807d0bc99186cf590a038f75c6573218bdf193c26da9da82f269bedb",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 110",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-24",
+      "ordem": 24,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 110. Fica criada a Gratificação do Sistema\nEstruturador das Redes de Gestão - GRG, destinada a\nincentivar o aprimoramento da qualidade das entregas e\ndas atividades executadas pelos servidores que atuam\nnas unidades centrais, setoriais e correlatas, integrantes\ndo SIGES de que trata o art. 107, em atribuições e\nresponsabilidades diferenciadas, que serão disciplinadas\nem decreto do Chefe do Poder Executivo estadual.” (NR)\n“",
+          "hash_texto": "386b3f551c14e8831524e51e638e0cdab8a0529cf20fee10f206576513b8ec3d",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 111",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-25",
+      "ordem": 25,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 111. A distribuição da GRG será definida por\ndecreto do Chefe do Poder Executivo estadual, observados\nos tipos, os símbolos e os valores do Anexo IV desta Lei e\nrespeitado o limite anual a que se refere o art. 114.",
+          "hash_texto": "8a02252331182009333b7428aae2e5686284ccfb531b2260df6609d412c88495",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-25/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . ..............................................",
+              "hash_texto": "36c687bd926822a3e03aa983fafac18e7beffbb1786e2263f010cfaecd3bcfd7",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "I",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-25/par-1/inc-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "I - os tipos, os símbolos, os valores e os níveis de\ncomplexidade correspondentes a cada tipo de unidade\ncentral, setorial e correlata do SIGES;",
+                  "hash_texto": "0a6de99b8cbcd1f51ea34f4d7955d64e5680115705485eda7de1c6560eb1791e",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "II",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-25/par-1/inc-2",
+              "ordem": 2,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "II - a distribuição por unidade central, setorial e correlata\ndas redes de gestão e por órgão ou entidade;",
+                  "hash_texto": "91f7a0a4f799138b798e31b74ce2b9b195307b618b980c96e1e136a29d5bd6ba",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "III",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-25/par-1/inc-3",
+              "ordem": 3,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "III - os critérios exigidos para o exercício das atribuições\ne das responsabilidades diferenciadas, de acordo com\nas especificidades da área de atuação e os níveis de\ncomplexidade correspondente; e",
+                  "hash_texto": "ded179908ee58596b641b31083731826f733830101f0a0c772ee366b16d60a17",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            },
+            {
+              "rotulo": "IV",
+              "tipo_dispositivo": "inciso",
+              "caminho_estrutural": "art-25/par-1/inc-4",
+              "ordem": 4,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "IV - os critérios de avaliação periódica para a\nmanutenção da percepção da GRG.” (NR)\n“",
+                  "hash_texto": "8edae59905ba8bbe2c915ccb2da16301cfda2c2c71059ddbf0076dddd589dbbf",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 112",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-26",
+      "ordem": 26,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 112. A GRG será concedida aos servidores\nefetivos e aos comissionados, aos empregados públicos\npermanentes\ne\nao\npessoal\ncontratado\npor\ntempo\ndeterminado\nem\nexercício\nna\nadministração\ndireta,\nautárquica e fundacional do Poder Executivo estadual e\nlotados nas unidades centrais, setoriais ou correlatas do\nSIGES, observado o seguinte:\nI - são competentes para designar a GRG os\nsecretários de Estado e seus equivalentes hierárquicos, na\nadministração direta, e os presidentes e seus equivalentes\nhierárquicos, na administração autárquica e fundacional,\nconforme a distribuição para cada unidade central, setorial\nou correlata do órgão ou da entidade;\nII - a designação e a manutenção da percepção da\nGRG observarão o cumprimento do disposto nos incisos III\ne IV do parágrafo único do art. 111 desta Lei;\nIII - a designação da GRG implica a obrigatoriedade\ndo cumprimento da jornada de 8 (oito) horas diárias de\ntrabalho, exceto nos casos previstos no § 3º do art. 74 da\nLei estadual nº 20.756, de 28 de janeiro de 2020, e não se\naplicará o disposto no art. 76 da mesma Lei; e\nIV - a GRG:\n............................................................................\nb) tem caráter funcional e impessoal e é devida em razão\nde designação para as atribuições e as responsabilidades\ndiferenciadas previstas em decreto e do resultado da\navaliação periódica;\n............................................................................",
+          "hash_texto": "82fab7af85ea0c81e0a73ff83c858ae64ac27906e73c6f7da14d99b37e66cad6",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-26/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . Caso as atribuições e as\nresponsabilidades diferenciadas sejam desempenhadas\npor servidor remunerado por subsídio, poderá ser atribuída\na ele Função Comissionada do Sistema Estruturador das\nRedes de Gestão de valor e símbolo equivalentes à GRG, e\nesse servidor será submetido às mesmas exigências para a\ndesignação e a manutenção da referida gratificação.” (NR)\n“",
+              "hash_texto": "eb5e9d266d2cd5f8af532898f923d16409af1b654882b1064009cbc863ef1140",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 113",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-27",
+      "ordem": 27,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 113. O servidor designado para as atribuições e\nas responsabilidades diferenciadas, com direito à percepção\nda GRG, receberá o valor dela decorrente cumulativamente\ncom o vencimento, o salário, a remuneração ou o subsídio\npelo exercício de cargo de provimento efetivo, comissionado,\nde emprego público permanente ou ao pessoal contratado\npor tempo determinado, observado o disposto na alínea “g”\ndo inciso IV e no parágrafo único do art. 112 desta Lei.” (NR)",
+          "hash_texto": "d98436bf9332c383dd0ab127dd973f5dfe98c3a9ae9c35c9e8eb35dbbf28b8e3",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-28",
+      "ordem": 28,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Em decorrência do que o art. 1º desta Lei dispõe,\na alínea “e” do Anexo III e o Anexo IV da Lei nº 21.792, de 2023,\npassam a vigorar com as alterações constantes do Anexo Único\ndesta Lei.",
+          "hash_texto": "812b0f8bc86fcf3fe7237982e8ac171114147daff99ed0a5800cf1b69cba157d",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-29",
+      "ordem": 29,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º A Lei estadual nº 20.756, de 28 de janeiro de 2020,\npassa a vigorar com a seguinte alteração:\n“",
+          "hash_texto": "3b4858e40521e6a8814a7b8ad7d74e7c07ac688fa82d5d2da2ac98c4b9caecd2",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 69",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-30",
+      "ordem": 30,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 69. .......................................................\n.................................................................................",
+          "hash_texto": "6c96c6605b1a58271cafe0d1c725200e3408992a438d7931c417f3cfcd98358e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "§ 2",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-30/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "§ 2 º Somente os cargos de provimento em comissão\nque não integram a estrutura básica ou a complementar\npoderão ser objeto de disposição nos termos do caput deste\nartigo, sem a possibilidade de essa movimentação ocorrer\npara empresas públicas e sociedades de economia mista do\nEstado de Goiás.\n..........................................................................” (NR)",
+              "hash_texto": "69d18c27a5e2fb828b244ef949a6e5f0b4a65da09a820f0409e766f070b8307c",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 4º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-31",
+      "ordem": 31,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 4º A Lei estadual nº 19.020, de 30 de setembro de 2015,\npassa a vigorar com a seguinte alteração:\n“",
+          "hash_texto": "9a3c2736eca3c0e4c2fae499a2f92fa949bfd18bd720f0f906f4e96f4c19eda8",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-32",
+      "ordem": 32,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º .....................................................",
+          "hash_texto": "c4da4d98fb7ea449e0a30a3c4e65ffcb41d2e4b4045e393c60c7925bbf2d574e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-32/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . A partir do ano de 2024, a incumbência\nde adotar as medidas indispensáveis ao atendimento à\nprevisão do caput deste artigo passa a ser da Secretaria de\nEstado da Infraestrutura - SEINFRA.” (NR)",
+              "hash_texto": "ea61d41b0c2fa04d0d9b43ee2abc911ccb0ad3f37eb8254a94507cd3d127294a",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 5º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-33",
+      "ordem": 33,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 5º Ficam mantidas, nos termos dos respectivos atos de\nmovimentação, as disposições já realizadas até o primeiro dia do\nmês da publicação desta Lei dos servidores ocupantes dos cargos\nde que trata o caput do art. 90 da Lei nº 21.792, de 2023, para as\nempresas públicas e as sociedades de economia mista, sem a\npossibilidade de renovação ou de prorrogação.",
+          "hash_texto": "a4c57b1c40d9e14714f8aa5545abed54400b957088486a715834713f64730c96",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 6º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-34",
+      "ordem": 34,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 6º Ficam revigorados, com efeitos retroativos a 8 de\nnovembro de 2022, os seguintes dispositivos:",
+          "hash_texto": "adebfabceb7ff5ba03f793f485745864cb6dacf873f7eac934a30f7ba06d53af",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-34/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "I - os §§ 13-D e 13-E do art. 2º da Lei estadual nº 13.194, de\n26 de dezembro de 1997, acrescidos pela Lei estadual nº 15.454, de\n16 de novembro de 2005; e",
+              "hash_texto": "b6fdc0daef65ac7f9e5d6cb5e1be89352a36ca98fb6c1d156ebd5bcb43e10989",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-34/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "II - o art. 2º da Lei estadual nº 14.464, de 07 de julho de",
+              "hash_texto": "722e779b8636aff7ef1cb1142f57674159db9bda765f058332565f0e8c62172a",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [
+            {
+              "rotulo": "2003",
+              "tipo_dispositivo": "item",
+              "caminho_estrutural": "art-34/inc-2/item-1",
+              "ordem": 1,
+              "versoes": [
+                {
+                  "vigencia_inicio": "06/12/2023",
+                  "vigencia_fim": null,
+                  "texto_normalizado": "2003.",
+                  "hash_texto": "c9bba5ae6b0426f5be22cb2c87427d17d2538f10a13d7ff903c2304b356ca5b6",
+                  "status_vigencia": "vigente",
+                  "origem_alteracao": null
+                }
+              ],
+              "filhos": [],
+              "ancoras": null
+            }
+          ],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 7º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-35",
+      "ordem": 35,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 7º Ficam revogados os seguintes dispositivos da Lei nº\n21.792, de 2023:",
+          "hash_texto": "4c60b041656106d3c4b2610aeea925a8b75c0fe6588e439c945abe8824e1ef57",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-35/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "I - o inciso X do art. 51;",
+              "hash_texto": "a094c8a04cc14b13d8aa3daaabc7a8cf10faad7bd5365edb95c1602f931285c3",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-35/inc-2",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "II - a alínea “c” do inciso I do art. 52;",
+              "hash_texto": "f83c31da31e06691f3db2e2eebc790eae565bd9e7bb89cc68feb0e2576ec9315",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "III",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-35/inc-3",
+          "ordem": 3,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "III - a Seção XI do Capítulo III, com seus arts. 65 e 66;",
+              "hash_texto": "4d82a18e181b89a4fec2ea26c2c3e5753577891e5f86f4a83cf2630c223c6234",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "IV",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-35/inc-4",
+          "ordem": 4,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "IV - o Capítulo VIII, com seus arts. 105 e 106; e",
+              "hash_texto": "f072cca2bdef3aebd49101144d78f1faecef1ede81acb43bd4a277090bf8f9db",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        },
+        {
+          "rotulo": "V",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-35/inc-5",
+          "ordem": 5,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "V - o parágrafo único do art. 107.\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 8f6aace1\n5\nDiário Oficial\nGOIÂNIA, QUINTA-FEIRA, 07 DE DEZEMBRO DE 2023\nANO 187 - DIÁRIO OFICIAL/GO N° 24.177\nSUPLEMENTO",
+              "hash_texto": "71b7787e6cec3c66cd56b739f3c6f4731132558d1fb24bc42329f6065b62f62b",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 8º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-36",
+      "ordem": 36,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 8º O parágrafo único do art. 109 da Lei nº 21.792, de\n2023, passa a ser o § 1º.",
+          "hash_texto": "26f6251ec9459303d075dd4577c02869c29f3f2b2d45aaf6bd28f0d5f3ee58eb",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 9º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-37",
+      "ordem": 37,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 9º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 7 de dezembro de 2023; 135º da República.\nRONALDO CAIADO\nGovernador do Estado\nANEXO ÚNICO\nLEI Nº 21.792, DE 16 DE FEVEREIRO DE 2023\n“ANEXO III\n.............................................................................",
+          "hash_texto": "66ef0d6caf227e0d5cecb09cc43339f58d8b372b02c3e43f534793c9051dff39",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "e",
+          "tipo_dispositivo": "alinea",
+          "caminho_estrutural": "art-37/ali-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "e) FUNÇÃO COMISSIONADA DO SISTEMA ESTRUTURADOR\nDAS REDES DE GESTÃO - FCRG\nFUNÇÕES COMISSIONADAS DO SISTEMA ESTRUTURADOR\nDAS REDES DE GESTÃO\nTIPO\nVALOR\nFCRG-1\nR$ 3.000,00\nFCRG-2\nR$ 2.500,00\nFCRG-3\nR$ 2.000,00\nFCRG-4\nR$ 1.500,00\nFCRG-5\nR$ 1.000,00\n“ (NR)\n“ANEXO IV\nGRATIFICAÇÃO DO SISTEMA ESTRUTURADOR DAS REDES\nDE GESTÃO - GRG\nGRATIFICAÇÕES DO SISTEMA ESTRUTURADOR DAS REDES\nDE GESTÃO\nTIPO\nVALOR\nGRG-1\nR$ 3.000,00\nGRG-2\nR$ 2.500,00\nGRG-3\nR$ 2.000,00\nGRG-4\nR$ 1.500,00\nGRG-5\nR$ 1.000,00\n“ (NR)\n<#ABC#425902#5#494271/>\nProtocolo 425902\n<#ABC#425904#5#494273>\nLEI Nº 22.448, DE 7 DE DEZEMBRO DE 2023\nAltera a Lei nº 20.363, de 06 de dezembro\nde 2018, que dispõe sobre a criação e a\ntransformação de Colégios Estaduais da\nPolícia Militar de Goiás -CEPMGs nos\nmunicípios que especifica; altera a Lei\nnº 14.050, de 21 de dezembro de 2001,\nque dispõe sobre a criação, instalação\ne transferência de Unidades na Polícia\nMilitar do Estado de Goiás e dá outras\nprovidências.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do art. 10 da Constituição Estadual, decreta e eu\nsanciono a seguinte Lei:",
+              "hash_texto": "7d2c7e8e90d58e9f202dbe5d5a3046556b02c3a02849ec547d5b652f05a71164",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-38",
+      "ordem": 38,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º A Lei nº 20.363, de 06 de dezembro de 2018, passa\na vigorar com as seguintes alterações:\n“",
+          "hash_texto": "a06a257a209ecf204b214a0e469f1c1db74f24111b1a826755f229320855269e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-39",
+      "ordem": 39,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º .....................................................",
+          "hash_texto": "3e1f2bc19744fcf927e8fcafde552832e0dbfcdae3a863f1e4e016133499ed44",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-39/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "I - Centro de Ensino em Período Integral Paulo\nFrancisco da Silva, situado no Centro, no Município de\nNiquelândia;\n........................................................................”(NR)\n“",
+              "hash_texto": "aa90ca80b4cd745489459cad48b2541cff69d7a85633629df55e4017f0856073",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 3º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-40",
+      "ordem": 40,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 3º Em decorrência do disposto nesta Lei, o inciso\nXVIII do art. 1º da Lei nº 14.050, de 21 de dezembro de\n2001, fica acrescido das seguintes alíneas:",
+          "hash_texto": "61a3a81afdf1983aee6129e758171e8113c41ed838a2c04ea7e3e9aefacf5bc2",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-41",
+      "ordem": 41,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º ......................................................\n...........................................................................",
+          "hash_texto": "3caa551a852470a1aeba5b2633292ad7c07b7f8422f454e1d0212fd3d2c5fcd7",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "XVIII",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-41/inc-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "XVIII - .........................................................\n.............................................................................\ncj) Colégio Estadual da Polícia Militar do Estado de\nGoiás - CEPMG Paulo Francisco da Silva - Niquelândia;\n..........................................................................”(NR)",
+              "hash_texto": "531531d17ad10cecd9b8ac6239cefcef831c9d8f3bc1ebb5126249b6c81f8448",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-42",
+      "ordem": 42,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Lei entra em vigor na data de sua publicação.\nGoiânia, 7 de dezembro de 2023; 135º da República.\nRONALDO CAIADO\nGovernador do Estado\nJULIO PINA\nDeputado Estadual\n<#ABC#425904#5#494273/>\nProtocolo 425904\n<#ABC#426188#5#494578>\nEMENDA CONSTITUCIONAL Nº 78, DE 6 DE DEZEMBRO DE\n2023\nAltera\no\nAto\ndas\nDisposições\nConstitucionais Transitórias.\nA ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS,\nnos termos do § 3º do art. 19 da Constituição Estadual, promulga a\nseguinte Emenda ao texto constitucional:",
+          "hash_texto": "ea90df568e30245ad050adfcb694748fbab4a52e79f07cd33553bfc0e05d648d",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-43",
+      "ordem": 43,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º O Ato das Disposições Constitucionais Transitórias\nda Constituição do Estado de Goiás passa a vigorar com as\nseguintes alterações:\n“",
+          "hash_texto": "07997e8a55abe85084af96b2ac3965f70dd070965dad949f32689ddef1bf80bf",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 39",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-44",
+      "ordem": 44,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 39. As receitas vinculadas a órgãos e entidades, fundos\nou despesa, por força de dispositivo desta Constituição e da\nlegislação complementar ou ordinária, ficam desvinculadas\nem 30% (trinta por cento) até o dia 31 de dezembro de 2024.\n.....................................................................”(NR)\n“",
+          "hash_texto": "c445b5be9191fb5ac41df43f92c6f2bc96c76da69aec57c520c87b779f2428aa",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 40",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-45",
+      "ordem": 45,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 40. .............................................................",
+          "hash_texto": "1ef1ace4c64a78284b4d08ab20924cb03330b1c98e65dc2058f687223c95e1dd",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-45/par-1",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/12/2023",
+              "vigencia_fim": null,
+              "texto_normalizado": "Parágrafo único . Sem prejuízo do disposto no caput, o\nEstado de Goiás deverá adotar as medidas necessárias\npara respeitar a limitação de despesa prevista na Lei\nComplementar federal nº 159, de 19 de maio de 2017, e\nem suas eventuais alterações, na composição da base de\ncálculo e no limite nela estabelecidos.”(NR)",
+              "hash_texto": "77a8ca0fbe2c6fc70feed8d3dbfff96d3e73ff8c5f0a9430b36264280c3e0aeb",
+              "status_vigencia": "vigente",
+              "origem_alteracao": null
+            }
+          ],
+          "filhos": [],
+          "ancoras": null
+        }
+      ],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-46",
+      "ordem": 46,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Emenda Constitucional entra em vigor na data\nde sua publicação.\nASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS, em\nGoiânia, 6 de dezembro de 2023.\nDeputado BRUNO PEIXOTO\n- PRESIDENTE <#ABC#426188#5#494578/>\nProtocolo 426188\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 8f6aace1\n6\nDiário Oficial\nGOIÂNIA, QUINTA-FEIRA, 07 DE DEZEMBRO DE 2023\nANO 187 - DIÁRIO OFICIAL/GO N° 24.177\nSUPLEMENTO\n<#ABC#426089#6#494475>\nDECRETO DE 7 DE DEZEMBRO DE 2023\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso de\nsuas atribuições constitucionais e legais, especialmente nos termos\ndo § 2º do art. 32 e dos arts. 128 a 132 da Lei estadual nº 20.756,\nde 28 de janeiro de 2020, também em atenção ao que consta do\nProcesso nº 202320920000835,\nRESOLVE:",
+          "hash_texto": "7c9107bc5ac0cf6b709afb72a0b4ac2d28101e9da713986ae4ceae6da433e3b0",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-47",
+      "ordem": 47,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Designar CLÁUDIO CASALINI MARTINS CORREIA,\nCPF nº ***.554.971-**, Subsecretário de Controle Interno e\nCompliance, DAS-2, da Secretaria de Estado da Infraestrutura -\nSEINFRA, para responder pela referida pasta, no período de 31\nde dezembro de 2023 a 12 de janeiro de 2024, em substituição a\nPEDRO HENRIQUE RAMOS SALES, CPF nº ***.080.231-**, em\nvirtude de férias regulamentares deste último.",
+          "hash_texto": "2d6c64e8e0ba13a5b60fa6b0a6f9a733d20df405fa9998c82c519a576061fb9d",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-48",
+      "ordem": 48,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Este Decreto entra em vigor na data de sua\npublicação.\nGoiânia, 7 de dezembro de 2023; 135º da República.\nRONALDO CAIADO\nGovernador do Estado\n<#ABC#426089#6#494475/>\nProtocolo 426089\n<#ABC#426093#6#494479>\nDECRETO DE 7 DE DEZEMBRO DE 2023\nO GOVERNADOR DO ESTADO DE GOIÁS, no uso de\nsuas atribuições constitucionais e legais, especialmente nos termos\ndo § 2º do art. 32 e dos arts. 128 a 132 da Lei estadual nº 20.756,\nde 28 de janeiro de 2020, também tendo em vista o que consta do\nProcesso nº 202211867002004,\nRESOLVE:",
+          "hash_texto": "037566c0f3e6c1a23f2ed2de0ad1b9e0503e164378571a1cd59686e039f50ef1",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-49",
+      "ordem": 49,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Designar LUÍS HENRIQUE CRISPIM, CPF nº\n***.793.921-**, Subcontrolador de Auditoria Interna e Controle,\nDAS-2, da Controladoria-Geral do Estado - CGE, para responder\npela pasta, no período de 2 a 26 de janeiro de 2024, em substituição\na HENRIQUE MORAES ZILLER, CPF nº ***.173.601-**, em virtude\nde férias regulamentares deste último.",
+          "hash_texto": "fb3d3a80970606211ce12ff0c8332e4eb5bdf580964f066381e435daacaf72fa",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-50",
+      "ordem": 50,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Este Decreto entra em vigor na data de sua\npublicação.\nGoiânia, 7 de dezembro de 2023; 135º da República.\nRONALDO CAIADO\nGovernador do Estado\n<#ABC#426093#6#494479/>\nProtocolo 426093\nSecretaria de Estado da Casa Civil\n<#ABC#426038#6#494417>\nPORTARIA Nº 1.627, DE 7 DE DEZEMBRO DE 2023\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso\nda competência que lhe foi delegada pelo inciso IX, alínea “a”, do art.\n1º do Decreto nº 9.375, de 2 de janeiro de 2019, com fundamento\nnos arts. 71, I, 72, I, e 73 da Lei nº 20.756, de 28 de janeiro de\n2020, também no art. 21 da Lei Complementar nº 161, de 30 de\ndezembro de 2020, e tendo em vista o que consta do Processo nº\n202318037008543, em especial o Despacho nº 588/2023/GAB, da\nProcuradoria-Geral do Estado,\nRESOLVE:",
+          "hash_texto": "817466e541b3cea1d505faf8b1103fcb920191fe3406ec2865f74d89fa6d623e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-51",
+      "ordem": 51,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Manter a cessão da servidora VALDIRENE ALVES\nDE OLIVEIRA, CPF nº ***.120.501-**, ocupante do cargo efetivo de\nDocente de Ensino Superior, do quadro de pessoal da Universidade\nEstadual de Goiás, ao Ministério da Educação, para continuar\nexercendo a função de Coordenadora-Geral, Código FCE 1.13, da\nCoordenação-Geral de Ensino Médio, da Diretoria de Políticas e\nDiretrizes da Educação Integral Básica, da Secretaria de Educação\nBásica, no período de 1º de janeiro a 31 de dezembro de 2024,\ncom todos os direitos e as vantagens de seu cargo, com ônus\npara o cessionário, mediante ressarcimento mensal ao cedente\ndos valores da remuneração, acrescidos dos encargos sociais e\ntrabalhistas.",
+          "hash_texto": "c06028763d91cef3d809bf5b0c385cda46206b6a663e20af0a7e7167c8ae3d2a",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-52",
+      "ordem": 52,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação.\nGoiânia, 7 de dezembro de 2023.\nJORGE LUÍS PINCHEMEL\n<#ABC#426038#6#494417/>\nProtocolo 426038\n<#ABC#426041#6#494419>\nPORTARIA Nº 1.647, DE 7 DE DEZEMBRO DE 2023\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no\nuso da competência que lhe foi delegada pelo inciso IX, alínea\n“a”, do art. 1º do Decreto nº 9.375, de 2 de janeiro de 2019, com\nfundamento nos arts. 71, I, 72, I, e 73, da Lei nº 20.756, de 28 de\njaneiro de 2020, e no art. 21 da Lei Complementar nº 161, de 30\nde dezembro de 2020, também tendo em vista o que consta do\nProcesso nº 202300013002806,\nRESOLVE:",
+          "hash_texto": "fd247c9491bb35753cdccb34827e5bcc9a12021ea11b02d616eba4e36cb4c07f",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-53",
+      "ordem": 53,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Manter a cessão do servidor JOÃO BATISTA\nTURÍBIO DE SENA, CPF nº ***.838.061-**, ocupante do cargo\nefetivo de Assistente de Transportes e Obras, do Poder Executivo\nestadual - Agência Goiana de Infraestrutura e Transportes, ao\nMunicípio de Goiânia, para continuar exercendo, em comissão, o\ncargo de Diretor de Paradesporto, símbolo CDS-4, no período de 1º\nde janeiro a 31 de dezembro de 2024, com ônus para o cessionário,\nmediante ressarcimento mensal ao cedente dos valores da\nremuneração, acrescidos dos encargos sociais e trabalhistas.",
+          "hash_texto": "eb258c62598b9b9f6e792c8f2f5d4eb40181d7d8e217b6c53be3511373f4224f",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-54",
+      "ordem": 54,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação.\nGoiânia, 7 de dezembro de 2023.\nJORGE LUÍS PINCHEMEL\n<#ABC#426041#6#494419/>\nProtocolo 426041\n<#ABC#426044#6#494422>\nPORTARIA Nº 1.648, DE 7 DE DEZEMBRO DE 2023\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso\nda competência que lhe foi delegada pelo inciso IX, alínea “b”, do art.\n1º do Decreto nº 9.375, de 2 de janeiro de 2019, com fundamento\nnos arts. 71, inciso III, e 72, inciso III, da Lei nº 20.756, de 28 de\njaneiro de 2020, e tendo em vista o que consta do Processo nº\n202300013002157,\nRESOLVE:",
+          "hash_texto": "5db8a1be2ef0c913d66e88baea55d9b180122977ac8652861680a14e13e2f76e",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-55",
+      "ordem": 55,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Manter a cessão das servidoras ADRIANA\nHELENA ROSA, CPF nº ***.484.041-**, e CRISTINE GEBRIM\nFRANCO, CPF nº ***.935.471-***, ocupantes do cargo efetivo\nde Fiscal Estadual Agropecuário, do Poder Executivo estadual -\nAgência Goiana de Defesa Agropecuária, à Assembleia Legislativa\ndo Estado de Goiás, no período de 1º de janeiro a 31 de dezembro\nde 2024, com ônus para a origem.",
+          "hash_texto": "28b9b70770604ccf2c6a9caba1c20fe9355e058ed5bab96fc038f597025c5b51",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-56",
+      "ordem": 56,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação.\nGoiânia, 7 de dezembro de 2023.\nJORGE LUÍS PINCHEMEL\n<#ABC#426044#6#494422/>\nProtocolo 426044\n<#ABC#426049#6#494426>\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 8f6aace1\n7\nDiário Oficial\nGOIÂNIA, QUINTA-FEIRA, 07 DE DEZEMBRO DE 2023\nANO 187 - DIÁRIO OFICIAL/GO N° 24.177\nSUPLEMENTO\nPORTARIA Nº 1.656, DE 7 DE DEZEMBRO DE 2023\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no\nuso da competência que lhe foi delegada pelo inciso IX, alínea\n“a”, do art. 1º do Decreto nº 9.375, de 2 de janeiro de 2019, com\nfundamento nos arts. 71, II, 72, II, e 73, da Lei nº 20.756, de 28 de\njaneiro de 2020, também tendo em vista o que consta do Processo\nnº 202300047004058, em especial o Termo de Convênio celebrado\nentre o Estado de Goiás e o Tribunal de Contas do Estado de Goiás,\nRESOLVE:",
+          "hash_texto": "c986dfad10c74b220e2d2c925ba7f88de964e2ce5d7cb4abd002587b360b1820",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-57",
+      "ordem": 57,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Manter a cessão do servidor LEANDRO DOS\nSANTOS, CPF nº ***.038.658-**, ocupante do cargo efetivo de\nGestor de Tecnologia da Informação, do Poder Executivo estadual\n- Secretaria-Geral de Governo, ao Tribunal de Contas do Estado de\nGoiás, para continuar exercendo, em comissão, o cargo de Chefe\nde Serviço, no período de 1º de janeiro a 31 de dezembro de 2024,\ncom todos os direitos e as vantagens de seu cargo e com ônus para\no cessionário.",
+          "hash_texto": "102abf56ffc788a4717d23a283778a1ece7bcb0437d1ab9cc6630e4cbc958f02",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-58",
+      "ordem": 58,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação.\nGoiânia, 7 de dezembro de 2023.\nJORGE LUÍS PINCHEMEL\n<#ABC#426049#7#494426/>\nProtocolo 426049\n<#ABC#426050#7#494429>\nPORTARIA Nº 1.660, DE 7 DE DEZEMBRO DE 2023\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no\nuso da competência que lhe foi delegada pelo inciso IX, alínea\n“a”, do art. 1º do Decreto nº 9.375, de 2 de janeiro de 2019, com\nfundamento nos arts. 71, I, 72, I, e 73, da Lei nº 20.756, de 28 de\njaneiro de 2020, e no art. 21 da Lei Complementar nº 161, de 30\nde dezembro de 2020, também tendo em vista o que consta do\nProcesso nº 202300013002657,\nRESOLVE:",
+          "hash_texto": "cb91631263a769fedd1a06ff64b58b82df8fdf5c30776ef7c85c2095e6f558e7",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-59",
+      "ordem": 59,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Manter a cessão do servidor ALEXANDRE\nDE JESUS SILVA YANEZ, CPF nº ***.541.411-**, ocupante do\ncargo efetivo de Policial Penal, do Poder Executivo estadual\n- Diretoria-Geral de Administração Penitenciária, ao Governo\ndo Distrito Federal, para continuar exercendo, em comissão, o\nCargo Público de Natureza Especial, Símbolo CPE-04, de Chefe\nda Unidade de Coordenação Regional Área Leste, da Secre­\ntaria-Executiva das Cidades, da Secretaria de Estado de Governo\ndo Distrito Federal, no período de 1º de janeiro a 31 de dezembro\nde 2024, com ônus para o cessionário, mediante ressarcimento\nmensal ao cedente dos valores da remuneração, acrescidos dos\nencargos sociais e trabalhistas.",
+          "hash_texto": "9f4c8efb2a9457cb650aa850c8dd7eb22e17f8e3c0780e230247b8986b3be6c0",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-60",
+      "ordem": 60,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação.\nGoiânia, 7 de dezembro de 2023.\nJORGE LUÍS PINCHEMEL\n<#ABC#426050#7#494429/>\nProtocolo 426050\n<#ABC#426053#7#494432>\nPORTARIA Nº 1.664, DE 7 DE DEZEMBRO DE 2023\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso\nda competência que lhe foi delegada pelo inciso I do art. 1º do\nDecreto estadual nº 9.375, de 2 de janeiro de 2019, também em\natenção ao que consta do Processo nº 202200006031604,\nRESOLVE:",
+          "hash_texto": "76309380586a9304417a3099ad032ee7e9bb5e1456e816b7880d6483e43d44a4",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-61",
+      "ordem": 61,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Retificar o Decreto de 28 de novembro de 2008,\npublicado na página 2 do Suplemento do Diário Oficial nº 20.505,\nda mesma data, que aplicou a pena de demissão por abandono de\ncargo a MÁRCIA CRISTINA DE CARVALHO SANTANA PEDROSO,\nCPF nº ***.641.611-**, do cargo de Professor, Nível III, Referência\n“A”, da Secretaria da Educação, apenas quanto à produção de seus\nefeitos, que passa a ser a partir de 8 de março de 2005.",
+          "hash_texto": "f43a78e6226a275b4eefafd58ff8d70b23d724e78611f1bd70c649471dc808c0",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-62",
+      "ordem": 62,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação.\nGoiânia, 7 de dezembro de 2023.\nJORGE LUÍS PINCHEMEL\n<#ABC#426053#7#494432/>\nProtocolo 426053\n<#ABC#426087#7#494472>\nPORTARIA Nº 1.681, DE 7 DE DEZEMBRO DE 2023\nO SECRETÁRIO DE ESTADO DA CASA CIVIL, no uso\nda competência que lhe foi delegada pelo inciso I do art. 1º do\nDecreto estadual nº 9.375, de 2 de janeiro de 2019, também tendo\nem vista o que consta do Processo nº 202318037009205,\nRESOLVE:",
+          "hash_texto": "1e3a05405af4b60abaebdc5c58a045c8e3a8dae452aabdc139e736a4f3d0af5f",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-63",
+      "ordem": 63,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 1º Retificar o art. 2º do Decreto de 6 de dezembro de\n2023 (Protocolo nº 425674), publicado na página 2 do Suplemento\ndo Diário Oficial nº 24.176, da mesma data, na parte em que\nexonerou JENIFHER TOMÉ HENRIQUE, CPF nº *.673.461-**, do\ncargo em comissão de Assessor “A9”, da Secretaria de Estado\nda Administração - SEAD, e a nomeou novamente para exercer o\ncargo em comissão de Assessor “A7”, da mesma pasta, somente\nquanto ao nome, que passa a ser considerado JENIFHER TOMÉ\nHENRIQUE BANDEIRA NAVES.",
+          "hash_texto": "e2b9f335784d5aa1b4b968f67de9d0af9adf3c69f58b943378c5cb8b0764cc1d",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-64",
+      "ordem": 64,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/12/2023",
+          "vigencia_fim": null,
+          "texto_normalizado": "Art. 2º Esta Portaria entra em vigor na data de sua\npublicação.\nGoiânia, 7 de dezembro de 2023.\nJORGE LUÍS PINCHEMEL\n<#ABC#426087#7#494472/>\nProtocolo 426087\nPARAESTATAIS - SOCIEDADES\nDE ECONOMIA MISTA\nAgência Goiana de Habitação – AGEHAB\n<#ABC#426184#7#494574>\nEXTRATO DE EDITAL Nº 048/2023 - AGEHAB RETIFICADO\nO Governo do Estado de Goiás, por meio da Agência Goiana de\nHabitação S/A - AGEHAB, torna público a RETIFICAÇÃO DO\nEDITAL Nº 048/2023 - AGEHAB que trata do procedimento e das\nregras para inscrição, para fins de pré-seleção, de candidatos ao\nsorteio de 50 (cinquenta) unidades habitacionais de interesse\nsocial no município de Quirinópolis - GO, destinadas às famílias\nresidentes no referido município e que possuam renda mensal bruta\nde até 01 (um) salário mínimo, além de preencherem os demais\nrequisitos constantes no edital de seleção em questão, passando os\nitens 1.1, 1.4 e 3.1 a ter a redação alterada de 50 (cinquenta) para\n100 (cem). A distribuição das unidades habitacionais também\nfoi alterada, alterando assim o item 2.1. Informa-se também a\nalteração do ponto de atendimento aos candidatos que acontecerá\nna Sede da Prefeitura de Quirinópolis, localizada na Praça dos Três\nPoderes, nº 88, Centro - Quirinópolis - Goiás, em dias úteis das\n08h às 12h e das 13h às 17h, e nãos mais na sede da Assistência\nSocial - Centro Comunitário Dona Margarida. A íntegra do Edital\nbem como de seu Anexo 1 se encontram disponível para consulta\nno sítio eletrônico da AGEHAB https://www.agehab.go.gov.br/.\nMaiores informações poderão ser obtidas no endereço eletrônico\nwww.agehab.go.gov.br ou através do telefone (62) 3096-5064/5065.\nALEXANDRE BALDY DE SANT’ANNA BRAGA\nPresidente da Agência Goiana de Habitação S.A\n<#ABC#426184#7#494574/>\nProtocolo 426184\nDIARIO OFICIAL DO ESTADO DE GOIAS Assinado digitalmente pela ABC - AGENCIA BRASIL CENTRAL CODIGO DE AUTENTICACAO: 8f6aace1",
+          "hash_texto": "3b9a5715e75abe9df0825a65e078a2b8aaaaab826c64a49770d6acacac742134",
+          "status_vigencia": "vigente",
+          "origem_alteracao": null
+        }
+      ],
+      "filhos": [],
+      "ancoras": null
+    }
+  ],
+  "auditoria": {
+    "run_id": "e352879c-38fd-4693-8fe4-d92adc51e7fb",
+    "parser_versao": "2.0",
+    "gerado_em": "2025-10-13T23:44:44.363523Z"
+  }
+}

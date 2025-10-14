@@ -109,3 +109,21 @@ Este documento continua o registro de tarefas após a ocorrência de erros de AP
 4.  **Execução e Validação:** O crawler foi executado com sucesso. A fase `--populate` inseriu **86 fontes** no catálogo. A fase `--process` baixou com sucesso **39 PDFs** e atualizou seus status, ignorando os itens que não possuíam link para download.
 
 **Conclusão da Tarefa:** O sistema de ingestão foi significativamente aprimorado com a criação de um catálogo de fontes persistente e um crawler robusto. O projeto agora tem a capacidade de descobrir e coletar novas fontes de forma sistemática e auditável.
+
+---
+
+### Data: 2025-10-13
+
+**Tarefa:** Criar e Depurar Orquestrador de Pipeline (`run_pipeline.py`)
+
+**Detalhes:**
+
+1.  **Criação do Orquestrador:** Foi criado o script `run_pipeline.py` na raiz do projeto. Seu objetivo é consultar a tabela `fonte_documento` por itens com status `COLETADO` e executar a sequência completa de processamento (`parser`, `normalizer`, `loader`, `integrity_checker`) para cada um.
+2.  **Depuração Extensiva:** A execução do orquestrador revelou uma série de problemas que foram corrigidos iterativamente:
+    *   **Caminhos de Arquivo:** A reorganização de pastas para o diretório `src/` invalidou os caminhos de output padrão nos scripts. O `run_pipeline.py` foi ajustado para passar os caminhos corretos como argumentos.
+    *   **Erros de Importação e Variáveis:** Múltiplos `NameError`s foram corrigidos nos scripts (`argparse`, `setup_logger`, `TRIGGER_WORDS`, `hashlib`) devido a importações e definições de variáveis ausentes após as refatorações.
+    *   **Formato de Data:** O `loader` falhava ao inserir datas no PostgreSQL. O script foi corrigido para converter as datas do formato `DD/MM/YYYY` para o padrão `YYYY-MM-DD` antes da inserção.
+    *   **Idempotência do Neo4j:** O `integrity_checker` revelou que o `loader` estava duplicando nós no Neo4j em re-execuções. A lógica de `CREATE` foi substituída por `MERGE` para garantir a idempotência.
+3.  **Execução Final:** Após todas as correções, o `run_pipeline.py` foi executado com sucesso para todas as fontes pendentes, processando-as e atualizando seus status para `PROCESSADO`.
+
+**Conclusão da Tarefa:** O pipeline de ingestão agora é totalmente automatizado e robusto. O orquestrador `run_pipeline.py` é capaz de processar em lote novas fontes adicionadas pelo `crawler`, representando um marco de maturidade para a arquitetura do projeto.

@@ -1,0 +1,8 @@
+{"timestamp": "2025-10-14T00:30:49.600970Z", "level": "INFO", "event": "START_PARSE", "config": {"urn_lexml": "br;go;estadual;emenda.constitucional;2018-04-25;56", "source_file_path": "/Users/tomazetti/Projetos/ceigep-atlas-data/tmp_analise/ato_br_go_estadual_emenda.constitucional_2018-04-25_56.pdf", "tipo_ato": "Emenda Constitucional", "titulo": "Altera o art. 87 da Constituição Estadual.", "entidade_federativa": "Estadual", "orgao_publicador": "", "data_publicacao": "25/04/2018"}, "run_id": "b65d4c37-836e-486f-97a2-98bdee19b744"}
+{"timestamp": "2025-10-14T00:30:49.601481Z", "level": "INFO", "event": "SOURCE_RESOLVED", "type": "local", "path": "/Users/tomazetti/Projetos/ceigep-atlas-data/tmp_analise/ato_br_go_estadual_emenda.constitucional_2018-04-25_56.pdf"}
+{"timestamp": "2025-10-14T00:30:49.788415Z", "level": "DEBUG", "event": "FOUND_PARAGRAFO", "path": "art-2/par-1"}
+{"timestamp": "2025-10-14T00:30:49.789365Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-5/item-1"}
+{"timestamp": "2025-10-14T00:30:49.790808Z", "level": "DEBUG", "event": "FOUND_ITEM", "path": "art-8/item-1"}
+{"timestamp": "2025-10-14T00:30:49.791979Z", "level": "INFO", "event": "PDF_PARSE_SUCCESS", "article_count": 8}
+{"timestamp": "2025-10-14T00:30:49.795083Z", "level": "INFO", "event": "WRITE_OUTPUT", "path": "src/parser/output/br_go_estadual_emenda.constitucional_2018-04-25_56_recursivo.json", "device_count": 8}
+{"timestamp": "2025-10-14T00:30:49.795250Z", "level": "INFO", "event": "DONE"}

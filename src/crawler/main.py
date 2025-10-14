@@ -12,7 +12,9 @@ from dotenv import load_dotenv
 
 # --- Configuração ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
+# Carrega o .env da raiz do projeto
+load_dotenv(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '.env')))
+
 
 API_ENDPOINT = "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/dados_abertos.json?tipo_legislacao=13"
 DOWNLOAD_DIR = "tmp_analise"
