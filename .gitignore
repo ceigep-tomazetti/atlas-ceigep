@@ -1,20 +1,3 @@
-# Arquivos de ambiente
-.env
-integrity_checker/.env
-
-# Arquivos de sistema operacional
-.DS_Store
-
-# Pastas de output e logs gerados
-parser/output/
-parser/logs/
-normalizer/output/
-normalizer/logs/
-integrity_checker/output/
-
-# Arquivos temporários e de análise
-tmp_analise/
-
-# Cache do Python
 __pycache__/
 *.pyc
+.env

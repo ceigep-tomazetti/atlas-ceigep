@@ -1,0 +1,24 @@
+{
+  "documento": {
+    "id": "br;go;estadual;lei.ordinaria;2025-01-06;23190",
+    "rotulo": "Institui o Dia Estadual do Guia de Turismo.",
+    "cabecalho": {
+      "ementa": "LEI Nº 23.190, DE 6 DE JANEIRO DE 2025 Institui o Dia Estadual do Guia de Turismo. A ASSEMBLEIA LEGISLATIVA DO ESTADO DE GOIÁS, nos termos do art. 10 da Constituição Estadual, decreta e eu sanciono a seguinte Lei: Art. 1º Fica instituído o Dia Estadual do Guia de Turismo, a ser comemorado, anualmente, no dia 10 de maio. Art. 2º Esta Lei entra em vigor na data de sua publicação. Goiânia, 6 de janeiro de 2025; 137º da República. RONALDO CAIADO Governador do Estado DR. GEORGE MORAIS Deputado Estadual",
+      "preambulo": null
+    },
+    "corpo": [],
+    "disposicoes_finais": null,
+    "assinaturas": null,
+    "revogacoes": null
+  },
+  "anexos": [],
+  "metadados": {
+    "timestamps": {
+      "inicio_ms": 1760541456.542432,
+      "fim_ms": 1760541460.7310662
+    },
+    "versao_parser": "1.0.0-fsm",
+    "heuristicas": [],
+    "erros": []
+  }
+}

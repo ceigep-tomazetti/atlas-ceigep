@@ -1,0 +1,68 @@
+{
+  "ato_normativo": {
+    "urn_lexml": "br;go;estadual;portaria.orcamentaria;2025-01-31;7",
+    "tipo_ato": "Portaria Orçamentária",
+    "titulo": "Fica aberto ao FUNDO DE MODERNIZAÇÃO E APRIMORAMENTO FUNCIONAL DO MINISTÉRIO PÚBLICO DO ESTADO DE GOIÁS, crédito suplementar no valor de R$ 184.803.926,04 (cento e oitenta e quatro milhões oitocentos e três mil novecentos e vinte e seis reais e quatro centavos), para reforço de dotação consignada no vigente Orçamento-Geral do Estado, conforme quadro 1, que acompanha esta Portaria.",
+    "ementa": "Fica aberto ao FUNDO DE MODERNIZAÇÃO E APRIMORAMENTO FUNCIONAL DO MINISTÉRIO PÚBLICO DO ESTADO DE GOIÁS, crédito suplementar no valor de R$ 184.803.926,04 (cento e oitenta e quatro milhões oitocentos e três mil novecentos e vinte e seis reais e quatro centavos), para reforço de dotação consignada no vigente Orçamento-Geral do Estado, conforme quadro 1, que acompanha esta Portaria.",
+    "entidade_federativa": "Estadual",
+    "orgao_publicador": "Secretaria de Estado da Economia",
+    "data_publicacao": "31/01/2025",
+    "fonte_oficial": "https://diariooficial.abc.go.gov.br/portal/edicoes/download/6679",
+    "situacao_vigencia": "vigente"
+  },
+  "dispositivos": [
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-1",
+      "ordem": 1,
+      "versoes": [
+        {
+          "vigencia_inicio": "31/01/2025",
+          "texto_original_parser": "Art. 1º Fica aberto ao FUNDO DE MODERNIZAÇÃO E APRIMORAMENTO FUNCIONAL DO MINISTÉRIO PÚBLICO DO ESTADO DE GOIÁS, crédito suplementar no valor de R$ 184.803.926,04 (cento e oitenta e quatro milhões oitocentos e três mil novecentos e vinte e seis reais e quatro centavos), para reforço de dotação consignada no vigente Orçamento-Geral do Estado, conforme quadro 1, que acompanha esta Portaria. Parágrafo único. O recurso necessário à execução do disposto neste artigo é o caracterizado no inciso I do §1º do art. 43 da Lei Federal nº 4.320, de 17 de março de 1964, proveniente de superávit financeiro apurado em balanço patrimonial do exercício anterior.",
+          "texto_normalizado": "Art. 1º Fica aberto ao FUNDO DE MODERNIZAÇÃO E APRIMORAMENTO FUNCIONAL DO MINISTÉRIO PÚBLICO DO ESTADO DE GOIÁS, crédito suplementar no valor de R$ 184.803.926,04 (cento e oitenta e quatro milhões oitocentos e três mil novecentos e vinte e seis reais e quatro centavos), para reforço de dotação consignada no vigente Orçamento-Geral do Estado, conforme quadro 1, que acompanha esta Portaria. Parágrafo único. O recurso necessário à execução do disposto neste artigo é o caracterizado no inciso I do §1º do art. 43 da Lei Federal nº 4.320, de 17 de março de 1964, proveniente de superávit financeiro apurado em balanço patrimonial do exercício anterior.",
+          "hash_texto_normalizado": "1c1fe54910ec8323c480a52153c7b7c7ce40a8242a94b0aeec592d62303291c5",
+          "status_vigencia": "vigente",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": []
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-2",
+      "ordem": 2,
+      "versoes": [
+        {
+          "vigencia_inicio": "31/01/2025",
+          "texto_original_parser": "Art. 2º Esta portaria entra em vigor nesta data.",
+          "texto_normalizado": "Art. 2º Esta portaria entra em vigor nesta data.",
+          "hash_texto_normalizado": "9b762c8a2ce3e3a2cbe69471c107afab74094599ea65114f667a030f84febd70",
+          "status_vigencia": "vigente",
+          "normalizacao": {
+            "regras_aplicadas": [],
+            "removido_total_chars": 0
+          }
+        }
+      ],
+      "filhos": []
+    }
+  ],
+  "anexos": [
+    {
+      "titulo": "QUADRO 1",
+      "texto_bruto": "QUADRO 1 SUPLEMENTAÇÃO 750-FUNDO DE MODERNIZAÇÃO E APRIMORAMENTO FUNCIONAL DO MINISTÉRIO PÚBLICO DO ESTADO DE GOIÁS ESPECIFICAÇÃO AÇÃO FONTE MODALIDADE GRUPO SALDO ORÇAMENTÁRIO VALOR A SUPLEMENTAR SALDO ATUALIZADO GESTÃO E MANUTENÇÃO DAS ATIVIDADES DO MINISTÉRIO PÚBLICO 03 091 4200 4241 25000100 90 3 - OUTRAS DESPESAS CORRENTES R$ 0,00 R$ 117.984.669,75 R$ 117.984.669,75 CONSTRUÇÃO / AQUISIÇÃO / AMPLIAÇÃO DA SEDE DO MINISTÉRIO PÚBLICO 03 091 1007 3151 25000100 90 4 - INVESTIMENTOS R$ 0,00 R$ 56.702.284,38 R$ 56.702.284,38 CONSTRUÇÃO / AQUISIÇÃO / AMPLIAÇÃO DA SEDE DO MINISTÉRIO PÚBLICO 03 091 1007 3151 27530138 90 4 - INVESTIMENTOS R$ 0,00 R$ 10.116.971,91 R$ 10.116.971,91 TOTAL A SUPLEMENTAR POR FONTE: R$ 184.803.926,04 25000100 - RECURSOS NÃO VINCULADOS DE IMPOSTOS- RECEITAS ORDINÁRIAS - EXERCÍCIOS ANTERIORES R$ 174.686.954,13 27530138 - RECURSOS PROVENIENTES DE TAXAS, CONTRIBUIÇÕES E PREÇOS PÚBLICOS - EMOLUMENTOS E CUSTAS EXTRAJUDICIAIS - EXERCÍCIOS ANTERIORES R$ 10.116.971,91",
+      "ordem": 1
+    }
+  ],
+  "auditoria": {
+    "run_id": "488a4a61-8395-44c1-8219-a17fd5cc2e3a",
+    "parser_versao": "6.0",
+    "gerado_em": "2025-10-14T19:35:41.766024Z",
+    "estrategia": "goias_api_json"
+  }
+}

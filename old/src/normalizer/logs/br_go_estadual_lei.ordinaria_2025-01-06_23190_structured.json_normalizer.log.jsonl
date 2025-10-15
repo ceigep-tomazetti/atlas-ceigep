@@ -1,0 +1,3 @@
+{"timestamp": "2025-10-15T15:17:43.064288Z", "level": "INFO", "event": "START_NORMALIZATION", "input_file": "src/parser/output/br_go_estadual_lei.ordinaria_2025-01-06_23190_structured.json"}
+{"timestamp": "2025-10-15T15:17:43.065920Z", "level": "INFO", "event": "NORMALIZED_FILE_SAVED", "path": "src/normalizer/output/br_go_estadual_lei.ordinaria_2025-01-06_23190_structured.json_normalizado.json"}
+{"timestamp": "2025-10-15T15:17:43.066166Z", "level": "INFO", "event": "END_NORMALIZATION"}

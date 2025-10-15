@@ -1,0 +1,3 @@
+{"timestamp": "2025-10-14T21:53:39.322065Z", "level": "INFO", "event": "START_NORMALIZATION", "input_file": "src/parser/output/br_go_estadual_portaria.orcamentaria_2025-03-21_45_recursivo.json"}
+{"timestamp": "2025-10-14T21:53:39.325569Z", "level": "INFO", "event": "NORMALIZED_FILE_SAVED", "path": "src/normalizer/output/br_go_estadual_portaria.orcamentaria_2025-03-21_45_normalizado.json"}
+{"timestamp": "2025-10-14T21:53:39.325734Z", "level": "INFO", "event": "END_NORMALIZATION"}

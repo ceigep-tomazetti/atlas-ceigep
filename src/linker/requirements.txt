@@ -1,5 +1,0 @@
-psycopg2-binary
-neo4j
-python-dotenv
-spacy
-# Para baixar o modelo em português: python -m spacy download pt_core_news_sm

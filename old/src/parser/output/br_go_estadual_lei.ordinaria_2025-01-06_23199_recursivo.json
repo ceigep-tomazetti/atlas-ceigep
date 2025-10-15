@@ -1,0 +1,103 @@
+{
+  "ato_normativo": {
+    "urn_lexml": "br;go;estadual;lei.ordinaria;2025-01-06;23199",
+    "tipo_ato": "Lei Ordinária",
+    "titulo": "Assegura assistência psicológica e atendimento prioritário à gestante na forma e na situação que especifica.",
+    "ementa": "Assegura assistência psicológica e atendimento prioritário à gestante na forma e na situação que especifica.",
+    "entidade_federativa": "Estadual",
+    "orgao_publicador": "Deputado Paulo Cezar Martins",
+    "data_publicacao": "06/01/2025",
+    "fonte_oficial": "https://diariooficial.abc.go.gov.br/portal/edicoes/download/6469",
+    "situacao_vigencia": "vigente"
+  },
+  "dispositivos": [
+    {
+      "rotulo": "Art. 1º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-1",
+      "ordem": 1,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/01/2025",
+          "texto_original_parser": "Art. 1º Ficam assegurados à gestante cujo feto, durante exames realizados na fase pré-natal, for diagnosticado com alguma má-formação:\nI – assistência psicológica;\nII – atendimento prioritário na rede pública estadual de saúde.\nParágrafo único. Fica assegurada a assistência psicológica de que trata o inciso I do caput deste artigo aos familiares da gestante.",
+          "texto_normalizado": "Art. 1º Ficam assegurados à gestante cujo feto, durante exames realizados na fase pré-natal, for diagnosticado com alguma má-formação: I – assistência psicológica; II – atendimento prioritário na rede pública estadual de saúde. Parágrafo único. Fica assegurada a assistência psicológica de que trata o inciso I do caput deste artigo aos familiares da gestante.",
+          "status_vigencia": "vigente",
+          "hash_texto_normalizado": "a6ac7ad4c57d41386093091deb5f988b6e257460afecc61ed570335880712537"
+        }
+      ],
+      "filhos": [
+        {
+          "rotulo": "I",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-1/inc-I",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/01/2025",
+              "texto_original_parser": "I – assistência psicológica;",
+              "texto_normalizado": "I – assistência psicológica;",
+              "status_vigencia": "vigente",
+              "hash_texto_normalizado": "03a1ab5be43688edc62cc6deacc7f95c16525ef4960f7dd92226a3b7df71ab40"
+            }
+          ],
+          "filhos": []
+        },
+        {
+          "rotulo": "II",
+          "tipo_dispositivo": "inciso",
+          "caminho_estrutural": "art-1/inc-II",
+          "ordem": 2,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/01/2025",
+              "texto_original_parser": "II – atendimento prioritário na rede pública estadual de saúde.",
+              "texto_normalizado": "II – atendimento prioritário na rede pública estadual de saúde.",
+              "status_vigencia": "vigente",
+              "hash_texto_normalizado": "d16e8be714cd7e75cab78843626d37cb9aa304a8d257d0706ac7b0c05e8de248"
+            }
+          ],
+          "filhos": []
+        },
+        {
+          "rotulo": "Parágrafo único",
+          "tipo_dispositivo": "paragrafo",
+          "caminho_estrutural": "art-1/par-unico",
+          "ordem": 1,
+          "versoes": [
+            {
+              "vigencia_inicio": "06/01/2025",
+              "texto_original_parser": "Parágrafo único. Fica assegurada a assistência psicológica de que trata o inciso I do caput deste artigo aos familiares da gestante.",
+              "texto_normalizado": "Parágrafo único. Fica assegurada a assistência psicológica de que trata o inciso I do caput deste artigo aos familiares da gestante.",
+              "status_vigencia": "vigente",
+              "hash_texto_normalizado": "30656d866ddeee572bea38ec8bdcfb49e66fe87c926cb78ecf0efbae6ef6cbac"
+            }
+          ],
+          "filhos": []
+        }
+      ]
+    },
+    {
+      "rotulo": "Art. 2º",
+      "tipo_dispositivo": "artigo",
+      "caminho_estrutural": "art-2",
+      "ordem": 2,
+      "versoes": [
+        {
+          "vigencia_inicio": "06/01/2025",
+          "texto_original_parser": "Art. 2º Esta Lei entra em vigor na data de sua publicação.",
+          "texto_normalizado": "Art. 2º Esta Lei entra em vigor na data de sua publicação.",
+          "status_vigencia": "vigente",
+          "hash_texto_normalizado": "f29f8ed2d8f2530a17681cdccb9618ba84678252710950146c113ad18af81302"
+        }
+      ],
+      "filhos": []
+    }
+  ],
+  "anexos": [],
+  "auditoria": {
+    "run_id": "985d5ece-3bec-44bc-bc88-8a0da6021dc1",
+    "parser_versao": "7.0",
+    "gerado_em": "2025-10-14T21:17:08.024303Z",
+    "estrategia": "goias_api_json"
+  }
+}
