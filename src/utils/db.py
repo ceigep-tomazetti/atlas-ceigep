@@ -80,3 +80,71 @@ def fetch_descobertos(fonte_origem_id: str, limit: Optional[int] = None) -> List
         query = query.limit(limit)
     response = query.execute()
     return response.data or []
+
+
+def registrar_sugestao_llm(
+    *,
+    fonte_documento_id: Optional[str],
+    fonte_origem_id: Optional[str],
+    urn_lexml: str,
+    heuristicas: str,
+    json_deterministico: dict,
+    json_llm: dict,
+    sugestao: str,
+) -> None:
+    client = get_supabase_client()
+    payload = {
+        "fonte_documento_id": fonte_documento_id,
+        "fonte_origem_id": fonte_origem_id,
+        "urn_lexml": urn_lexml,
+        "heuristicas": heuristicas,
+        "json_deterministico": json_deterministico,
+        "json_llm": json_llm,
+        "sugestao": sugestao,
+    }
+    client.table("llm_parser_sugestao").insert(payload).execute()
+
+
+def fetch_para_parsing(fonte_origem_id: str, limit: Optional[int] = None) -> List[dict]:
+    client = get_supabase_client()
+    query = (
+        client.table("fonte_documento")
+        .select("*")
+        .eq("fonte_origem_id", fonte_origem_id)
+        .eq("status", "processado")
+        .eq("status_parsing", "pendente")
+        .order("parsing_executado_em", desc=True)
+    )
+    if limit:
+        query = query.limit(limit)
+    response = query.execute()
+    return response.data or []
+
+
+def atualizar_parsing_sucesso(
+    fonte_origem_id: str,
+    urn_lexml: str,
+    *,
+    caminho: str,
+    hash_json: str,
+    timestamp_iso: str,
+) -> None:
+    client = get_supabase_client()
+    client.table("fonte_documento").update(
+        {
+            "status_parsing": "processado",
+            "parsing_executado_em": timestamp_iso,
+            "caminho_parser_json": caminho,
+            "hash_parser_json": hash_json,
+        }
+    ).eq("fonte_origem_id", fonte_origem_id).eq("urn_lexml", urn_lexml).execute()
+
+
+def atualizar_parsing_falha(fonte_origem_id: str, urn_lexml: str, *, timestamp_iso: str) -> None:
+    client = get_supabase_client()
+    client.table("fonte_documento").update(
+        {
+            "status_parsing": "falha",
+            "parsing_executado_em": timestamp_iso,
+        }
+    ).eq("fonte_origem_id", fonte_origem_id).eq("urn_lexml", urn_lexml).execute()

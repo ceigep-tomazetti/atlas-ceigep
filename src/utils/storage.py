@@ -13,6 +13,7 @@ from supabase import Client, create_client
 load_dotenv()
 
 BUCKET_TEXTOS_BRUTOS = "textos_brutos"
+BUCKET_PARSER_JSON = "textos_estruturados"
 
 
 def _get_client() -> Client:
@@ -45,5 +46,39 @@ def upload_text(urn: str, content: str) -> str:
         relative_path,
         content.encode("utf-8"),
         file_options={"content-type": "text/plain", "upsert": "true"},
+    )
+    return path
+
+
+def _split_bucket_path(path: str):
+    if "/" not in path:
+        raise ValueError(f"Caminho inválido para storage: {path}")
+    bucket, key = path.split("/", 1)
+    return bucket, key
+
+
+def download_text(path: str) -> str:
+    client = _get_client()
+    bucket, key = _split_bucket_path(path)
+    data = client.storage.from_(bucket).download(key)
+    return data.decode("utf-8")
+
+
+def build_parser_json_path(urn: str) -> str:
+    parts = urn.split(";")
+    sanitized = [_slugify(part) for part in parts]
+    chave = PurePosixPath(*sanitized)
+    return f"{BUCKET_PARSER_JSON}/{chave}.json"
+
+
+def upload_parser_json(urn: str, content: str) -> str:
+    client = _get_client()
+    path = build_parser_json_path(urn)
+    relative_path = path[len(BUCKET_PARSER_JSON) + 1 :]
+    bucket = client.storage.from_(BUCKET_PARSER_JSON)
+    bucket.upload(
+        relative_path,
+        content.encode("utf-8"),
+        file_options={"content-type": "application/json", "upsert": "true"},
     )
     return path
