@@ -147,6 +147,7 @@ Regras importantes:
 - Utilize valores como "vigente", "revogado" ou "desconhecido" para "situacao_vigencia".
 - Quando não for possível identificar algum campo, retorne explicitamente o valor JSON `null`.
 - Inclua, em cada dispositivo, o array "relacoes" com objetos que descrevam `tipo`, `alvo` (urn, tipo_ato, numero, data e dispositivo quando houver) e `descricao` do vínculo normativo.
+- O campo `tipo` das relações DEVE ser exatamente um destes valores: ["altera", "revoga", "regulamenta", "consolida", "remete_a", "cita"].
 - Para dispositivos cuja redação tenha sofrido alterações, preencha o array "versoes" com objetos contendo `texto`, `vigencia_inicio`, `vigencia_fim`, `origem_alteracao` e `status_vigencia`.
 - Utilize o array "relacoes" no nível raiz para referências gerais (ex.: preâmbulo), indicando `dispositivo_origem_rotulo` quando aplicável.
 - Não inclua comentários adicionais. Responda apenas com JSON válido.

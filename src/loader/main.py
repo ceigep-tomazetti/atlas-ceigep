@@ -6,6 +6,7 @@ import argparse
 import hashlib
 import json
 import logging
+import unicodedata
 from datetime import datetime
 from typing import Dict, Iterable, List, Optional, Tuple
 
@@ -31,6 +32,46 @@ TIPOS_VALIDOS = {
     "item",
     "dispositivo_auxiliar",
 }
+
+TIPOS_RELACAO_ENUM = {
+    "altera",
+    "revoga",
+    "regulamenta",
+    "consolida",
+    "remete_a",
+    "cita",
+}
+
+TIPOS_RELACAO_ALIAS = {
+    "alteracao": "altera",
+    "altera": "altera",
+    "revogacao": "revoga",
+    "revoga": "revoga",
+    "regulamentacao": "regulamenta",
+    "regulamenta": "regulamenta",
+    "consolidacao": "consolida",
+    "consolida": "consolida",
+    "remissao": "remete_a",
+    "remete": "remete_a",
+    "remete_a": "remete_a",
+    "remetea": "remete_a",
+    "citacao": "cita",
+    "citacao_normativa": "cita",
+    "cita": "cita",
+    "menciona": "cita",
+    "referencia": "cita",
+    "referencia_normativa": "cita",
+}
+
+
+def _normalizar_tipo_relacao(tipo: Optional[str]) -> Optional[str]:
+    if not isinstance(tipo, str):
+        return None
+    bruto = unicodedata.normalize("NFKD", tipo).encode("ascii", "ignore").decode("ascii")
+    bruto = bruto.strip().lower().replace("-", "_").replace(" ", "_")
+    if bruto in TIPOS_RELACAO_ENUM:
+        return bruto
+    return TIPOS_RELACAO_ALIAS.get(bruto)
 
 
 def _inferir_tipo(dispositivo: Dict) -> str:
@@ -73,8 +114,10 @@ def _hash_texto(texto: Optional[str]) -> Optional[str]:
 
 
 def _build_relacao_payload(relacao: Dict, dispositivo_id: Optional[str]) -> Optional[Dict]:
-    tipo = relacao.get("tipo")
-    if not tipo:
+    tipo_normalizado = _normalizar_tipo_relacao(relacao.get("tipo"))
+    if not tipo_normalizado:
+        tipo_original = relacao.get("tipo")
+        logging.warning("Ignorando relação com tipo desconhecido: %r", tipo_original)
         return None
 
     alvo = relacao.get("alvo") or {}
@@ -102,7 +145,7 @@ def _build_relacao_payload(relacao: Dict, dispositivo_id: Optional[str]) -> Opti
         "dispositivo_origem_id": dispositivo_id,
         "dispositivo_alvo_id": relacao.get("dispositivo_alvo_id"),
         "urn_alvo": urn_alvo,
-        "tipo": tipo,
+        "tipo": tipo_normalizado,
         "descricao": descricao,
     }
     return payload
