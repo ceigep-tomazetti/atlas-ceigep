@@ -62,6 +62,28 @@ Você é um parser jurídico. Analise o texto bruto de um ato normativo e produz
     {{
       "rotulo": "Art. 1º",
       "texto": "... texto completo ...",
+      "relacoes": [
+        {{
+          "tipo": "altera",
+          "alvo": {{
+            "urn": "urn:lex:br;go;estadual;lei;2018-12-20;21500",
+            "tipo_ato": "lei",
+            "numero": "21500",
+            "data": "2018-12-20",
+            "dispositivo": "Art. 2º"
+          }},
+          "descricao": "Altera o art. 2º da Lei nº 21.500/2018."
+        }}
+      ],
+      "versoes": [
+        {{
+          "vigencia_inicio": "2025-10-15",
+          "vigencia_fim": null,
+          "texto": "... nova redação ...",
+          "origem_alteracao": "Lei nº 23.752/2025",
+          "status_vigencia": "vigente"
+        }}
+      ],
       "filhos": [
         {{
           "rotulo": "§ 1º",
@@ -79,17 +101,33 @@ Você é um parser jurídico. Analise o texto bruto de um ato normativo e produz
   "anexos": [
     {{ "titulo": "Anexo I", "texto": "... texto completo ..." }},
     ...
+  ],
+  "relacoes": [
+    {{
+      "tipo": "cita",
+      "alvo": {{
+        "urn": "urn:lex:br;federal;lei;1990-07-11;8069",
+        "tipo_ato": "lei",
+        "numero": "8069",
+        "data": "1990-07-11"
+      }},
+      "descricao": "Cita o Estatuto da Criança e do Adolescente.",
+      "dispositivo_origem_rotulo": "Art. 1º"
+    }}
   ]
 }}
 
 Regras importantes:
 - Preserve o texto integral de cada dispositivo exatamente como aparece.
-- Identifique artigos, parágrafos, incisos e alíneas.
+- Identifique artigos, parágrafos, incisos, alíneas, Partes, Livros, Títulos, Capítulos, Seções e Subseções.
 - Se o texto contiver anexos, quadros ou tabelas, mova-os para o array "anexos".
 - Se o ato alterar outro texto (ex.: citações entre aspas), inclua o conteúdo na posição correspondente e inclua a chave opcional "tipo": "alteracao".
 - Preencha o objeto "fonte" com os metadados disponíveis (título conforme cabeçalho, ementa, situação de vigência, datas, órgão, URL).
 - Utilize valores como "vigente", "revogado" ou "desconhecido" para "situacao_vigencia".
 - Quando não for possível identificar algum campo, retorne explicitamente o valor JSON `null`.
+- Inclua, em cada dispositivo, o array "relacoes" com objetos que descrevam `tipo`, `alvo` (urn, tipo_ato, numero, data e dispositivo quando houver) e `descricao` do vínculo normativo.
+- Para dispositivos cuja redação tenha sofrido alterações, preencha o array "versoes" com objetos contendo `texto`, `vigencia_inicio`, `vigencia_fim`, `origem_alteracao` e `status_vigencia`.
+- Utilize o array "relacoes" no nível raiz para referências gerais (ex.: preâmbulo), indicando `dispositivo_origem_rotulo` quando aplicável.
 - Não inclua comentários adicionais. Responda apenas com JSON válido.
 
 Heurísticas atuais do parser determinístico:

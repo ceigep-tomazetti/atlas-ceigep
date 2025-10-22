@@ -67,6 +67,9 @@ def _normalizar_llm_result(bruto: Dict, registro: Dict, texto_bruto: str) -> Dic
     if isinstance(dispositivos, list) and dispositivos:
         _atribuir_ids_lexml(dispositivos)
 
+    if not isinstance(resultado.get("relacoes"), list):
+        resultado["relacoes"] = []
+
     return resultado
 
 

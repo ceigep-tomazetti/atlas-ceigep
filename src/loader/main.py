@@ -72,6 +72,42 @@ def _hash_texto(texto: Optional[str]) -> Optional[str]:
     return hashlib.sha256(texto.encode("utf-8")).hexdigest()
 
 
+def _build_relacao_payload(relacao: Dict, dispositivo_id: Optional[str]) -> Optional[Dict]:
+    tipo = relacao.get("tipo")
+    if not tipo:
+        return None
+
+    alvo = relacao.get("alvo") or {}
+    urn_alvo = alvo.get("urn") or relacao.get("urn") or relacao.get("urn_alvo")
+
+    descricao = relacao.get("descricao") or relacao.get("texto")
+    if not descricao:
+        partes = []
+        for chave, rotulo in [
+            ("tipo_ato", "tipo"),
+            ("numero", "nº"),
+            ("data", "data"),
+            ("dispositivo", "dispositivo"),
+        ]:
+            valor = alvo.get(chave)
+            if valor:
+                if rotulo == "nº":
+                    partes.append(f"{rotulo} {valor}")
+                else:
+                    partes.append(f"{rotulo}: {valor}")
+        if partes:
+            descricao = ", ".join(partes)
+
+    payload = {
+        "dispositivo_origem_id": dispositivo_id,
+        "dispositivo_alvo_id": relacao.get("dispositivo_alvo_id"),
+        "urn_alvo": urn_alvo,
+        "tipo": tipo,
+        "descricao": descricao,
+    }
+    return payload
+
+
 def _registrar_dispositivos(
     repo: NormativeRepository,
     ato_id: str,
@@ -80,6 +116,7 @@ def _registrar_dispositivos(
     parent_id: Optional[str] = None,
     sequencia: List[int],
     ids_em_uso: Dict[str, int],
+    rotulo_index: Dict[str, List[str]],
 ) -> None:
     for ordem, dispositivo in enumerate(dispositivos, start=1):
         sequencia[0] += 1
@@ -113,6 +150,10 @@ def _registrar_dispositivos(
             hash_texto=_hash_texto(texto),
         )
 
+        rotulo_chave = (dispositivo.get("rotulo") or "").strip().lower()
+        if rotulo_chave:
+            rotulo_index.setdefault(rotulo_chave, []).append(dispositivo_id)
+
         for versao in dispositivo.get("versoes", []) or []:
             texto_versao = versao.get("texto", texto)
             versao_payload = {
@@ -127,16 +168,9 @@ def _registrar_dispositivos(
             repo.inserir_versao_textual(dispositivo_id, versao_payload)
 
         for relacao in dispositivo.get("relacoes", []) or []:
-            if not relacao.get("tipo"):
-                continue
-            relacao_payload = {
-                "dispositivo_origem_id": dispositivo_id,
-                "dispositivo_alvo_id": relacao.get("dispositivo_alvo_id"),
-                "urn_alvo": relacao.get("urn") or relacao.get("urn_alvo"),
-                "tipo": relacao.get("tipo"),
-                "descricao": relacao.get("descricao"),
-            }
-            repo.inserir_relacao(ato_id, relacao_payload)
+            relacao_payload = _build_relacao_payload(relacao, dispositivo_id)
+            if relacao_payload:
+                repo.inserir_relacao(ato_id, relacao_payload)
 
         filhos = dispositivo.get("filhos")
         if isinstance(filhos, list) and filhos:
@@ -147,6 +181,7 @@ def _registrar_dispositivos(
                 parent_id=dispositivo_id,
                 sequencia=sequencia,
                 ids_em_uso=ids_em_uso,
+                rotulo_index=rotulo_index,
             )
 
 
@@ -204,6 +239,7 @@ def carregar_ato(
     ato_id = repo.upsert_ato(registro, estrutura, hash_json)
     repo.limpar_componentes(ato_id)
 
+    rotulo_index: Dict[str, List[str]] = {}
     _registrar_dispositivos(
         repo,
         ato_id,
@@ -211,13 +247,20 @@ def carregar_ato(
         parent_id=None,
         sequencia=[0],
         ids_em_uso={},
+        rotulo_index=rotulo_index,
     )
     _registrar_anexos(repo, ato_id, estrutura.get("anexos", []) or [])
 
     for relacao in estrutura.get("relacoes", []) or []:
-        if not relacao.get("tipo"):
-            continue
-        repo.inserir_relacao(ato_id, relacao)
+        rotulo_origem = (relacao.get("dispositivo_origem_rotulo") or "").strip().lower()
+        dispositivo_id = None
+        if rotulo_origem:
+            ids = rotulo_index.get(rotulo_origem)
+            if ids:
+                dispositivo_id = ids[0]
+        relacao_payload = _build_relacao_payload(relacao, dispositivo_id)
+        if relacao_payload:
+            repo.inserir_relacao(ato_id, relacao_payload)
 
     return True, hash_json
 
