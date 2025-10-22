@@ -14,7 +14,6 @@ from .types import FonteDescoberta
 
 import calendar
 import hashlib
-import json
 
 logging.basicConfig(
     level=logging.INFO,
@@ -69,17 +68,6 @@ def inserir_descoberta(descoberta: FonteDescoberta) -> bool:
     """Insere ou atualiza um registro de descoberta. Retorna True se for novo."""
     params = descoberta.as_db_params()
     exists = db_utils.find_fonte_documento(params["fonte_origem_id"], params["urn_lexml"])
-    payload = {
-        **params,
-        "status": "descoberto",
-        "atualizado_em": datetime.utcnow().isoformat(),
-    }
-    if exists:
-        db_utils.update_fonte_documento(params["fonte_origem_id"], params["urn_lexml"], payload)
-        return False
-    db_utils.insert_fonte_documento(payload)
-    return True
-
     payload = {
         **params,
         "status": "descoberto",

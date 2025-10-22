@@ -34,6 +34,20 @@ Mesmo quem não tem familiaridade com programação consegue seguir as instruç�
      export GEMINI_MODEL="gemini-1.5-pro"
      ```
 
+---
+
+## 1.1. Instruções Básicas do Fluxo de Trabalho
+
+Sempre que evoluir o parser, crawler ou demais componentes do Atlas, siga o ciclo abaixo:
+
+1. **Documentar o plano** no `docs/diario_de_bordo.md` antes de alterar código.
+2. **Implementar** as mudanças selecionadas (ex.: sugestão da `llm_parser_sugestao`).
+3. **Testar** localmente (scripts, `unittest`, CLI em modo `--dry-run`, etc.) e registrar o que foi executado.
+4. **Documentar a conclusão** no diário, incluindo resultados dos testes e decisões tomadas.
+5. **Preparar o commit** imediatamente após a documentação, mantendo o repositório consistente.
+
+Esse fluxo garante rastreabilidade desde a decisão até a entrega.
+
 Se essas variáveis não estiverem configuradas, os CLIs exibem mensagens de erro informando o que falta.
 
 ---
@@ -41,9 +55,9 @@ Se essas variáveis não estiverem configuradas, os CLIs exibem mensagens de err
 ## 2. Convenções Gerais
 
 - Todos os comandos devem ser executados a partir da pasta raiz do projeto `/Users/tomazetti/Projetos/ceigep-atlas-data`.
-- Use `python -m` para executar os módulos:
-  - Crawler: `python -m src.crawler.main`
-  - Parser: `python -m src.parser.main`
+- Use `python3 -m` para executar os módulos:
+  - Crawler: `python3 -m src.crawler.main`
+  - Parser: `python3 -m src.parser.main`
 - Inclua `--help` em qualquer comando para ver um resumo rápido das opções.
 
 ---
@@ -114,9 +128,8 @@ Por padrão, o crawler realiza descoberta e, na sequência, extração.
 ### 4.1. O que ele faz
 
 1. Baixa o texto bruto do Supabase Storage, usando o caminho salvo em `fonte_documento`.
-2. Gera JSON estruturado com a hierarquia de dispositivos (Artigos, §§, incisos, etc.).
-3. Opcionalmente consulta o Gemini para comparar resultados e registrar sugestões.
-4. Salva o JSON em `textos_estruturados/` e atualiza o status `status_parsing`.
+2. Envia o texto para o Gemini e recebe o JSON estruturado (Artigos, §§, incisos, anexos).
+3. Salva o JSON em `textos_estruturados/` e atualiza o status `status_parsing`.
 
 ### 4.2. Parâmetros disponíveis
 
@@ -125,21 +138,11 @@ Por padrão, o crawler realiza descoberta e, na sequência, extração.
 | `--origin-id UUID` | Restringe a origem processada. Pode repetir para várias. |
 | `--limit N` | Processa somente N atos por origem. |
 | `--dry-run` | Não salva nada; imprime resumos no terminal para inspeção manual. |
-| `--mode {deterministic,llm,both,review}` | Define o modo de operação (veja abaixo). |
 | `--llm-model NOME` | Escolhe o modelo Gemini (se `GEMINI_API_KEY` estiver configurada). |
-| `--review-sample-ratio 0-1` | No modo `review`, percentual de itens verificados pelo LLM. |
-| `--review-sample-seed NUM` | Seed opcional para tornar a amostragem reprodutível. |
-
-**Modos de operação**
-
-- `deterministic` (padrão): usa apenas as heurísticas internas (sem LLM).
-- `llm`: ignora o determinístico e salva somente a saída do Gemini.
-- `both`: executa ambos e salva a versão determinística; usa o LLM apenas para comparação.
-- `review`: executa o determinístico sempre; compara com o LLM em uma amostra e marca divergências para revisão manual (registrando sugestões).
 
 ### 4.3. Exemplos práticos
 
-1. **Processar todos os itens pendentes usando apenas o parser determinístico**  
+1. **Processar todos os itens pendentes (LLM padrão)**  
    ```bash
    python -m src.parser.main
    ```
@@ -151,30 +154,16 @@ Por padrão, o crawler realiza descoberta e, na sequência, extração.
       --limit 10
    ```
 
-3. **Executar em modo “review” com amostragem de 20% (necessita GEMINI_API_KEY)**  
-   ```bash
-   python -m src.parser.main \
-      --mode review \
-      --review-sample-ratio 0.2 \
-      --review-sample-seed 42
-   ```
-
-4. **Rodar em dry-run para inspecionar a saída sem salvar nada**  
+3. **Rodar em dry-run para inspecionar a saída sem salvar nada**  
    ```bash
    python -m src.parser.main --dry-run --limit 3
    ```
    O comando imprime o texto normalizado e a lista de dispositivos detectados.
 
-5. **Gerar JSON usando exclusivamente o LLM (experimental)**  
-   ```bash
-   python -m src.parser.main --mode llm --limit 2
-   ```
-   Útil para comparar com o resultado heurístico em ambiente de testes.
-
 ### 4.4. O que esperar nos resultados
 
 - Sucesso: os registros ganham `status_parsing = processado`, hash e caminho do JSON.
-- Divergência no modo `review`: o ato recebe `status_parsing = falha` e uma sugestão é registrada na tabela `llm_parser_sugestao`.
+- Divergência ou ajustes desejados: anote manualmente e registre posteriormente na `llm_parser_sugestao` se necessário (o comparativo automático foi suspenso).
 - Falha ao baixar texto ou ao gerar JSON: o status também passa para `falha`. Basta corrigir a causa e reexecutar.
 
 ---
@@ -182,7 +171,7 @@ Por padrão, o crawler realiza descoberta e, na sequência, extração.
 ## 5. Dúvidas e Problemas Comuns
 
 - **“Supabase URL/Key não configurados”** – verifique as variáveis de ambiente `SUPABASE_URL` e `SUPABASE_SERVICE_ROLE_KEY`.
-- **“LLM não configurado”** – o aviso aparece quando `GEMINI_API_KEY` não está definido. Os modos `deterministic` e `dry-run` funcionam sem o LLM.
+- **“LLM não configurado”** – o aviso aparece quando `GEMINI_API_KEY` não está definido. Configure a chave antes de rodar o parser, pois toda a geração depende do Gemini.
 - **Teste seguro** – use sempre `--dry-run` antes de execuções grandes em produção.
 - **Interromper execuções longas** – pressione `CTRL+C`. O processo atual será interrompido com segurança; basta reiniciar quando desejar.
 

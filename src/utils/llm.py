@@ -49,8 +49,15 @@ def _build_prompt(texto_bruto: str, registro: Dict[str, Any], heuristicas: Optio
         "orgao_publicador": registro.get("orgao_publicador"),
     }
     prompt = f"""
-Você é um parser jurídico. Analyse o texto bruto de um ato normativo e produza um JSON com o seguinte formato:
+Você é um parser jurídico. Analise o texto bruto de um ato normativo e produza um JSON com o seguinte formato:
 {{
+  "fonte": {{
+    "urn_lexml": "...",
+    "tipo_ato": "...",
+    "titulo": "Lei nº ...",
+    "ementa": "...",
+    "situacao_vigencia": "vigente"
+  }},
   "dispositivos": [
     {{
       "rotulo": "Art. 1º",
@@ -80,6 +87,9 @@ Regras importantes:
 - Identifique artigos, parágrafos, incisos e alíneas.
 - Se o texto contiver anexos, quadros ou tabelas, mova-os para o array "anexos".
 - Se o ato alterar outro texto (ex.: citações entre aspas), inclua o conteúdo na posição correspondente e inclua a chave opcional "tipo": "alteracao".
+- Preencha o objeto "fonte" com os metadados disponíveis (título conforme cabeçalho, ementa, situação de vigência, datas, órgão, URL).
+- Utilize valores como "vigente", "revogado" ou "desconhecido" para "situacao_vigencia".
+- Quando não for possível identificar algum campo, retorne explicitamente o valor JSON `null`.
 - Não inclua comentários adicionais. Responda apenas com JSON válido.
 
 Heurísticas atuais do parser determinístico:
@@ -97,7 +107,9 @@ def _extract_first_json_block(text: str) -> str:
     match = JSON_BLOCK_REGEX.search(text)
     if not match:
         raise ValueError("Não foi possível localizar um bloco JSON na resposta do LLM.")
-    return match.group(0)
+    bloco = match.group(0)
+    bloco_limpo = "".join(ch for ch in bloco if ord(ch) >= 32 or ch in "\n\r\t")
+    return bloco_limpo
 
 
 def gerar_estrutura_llm(

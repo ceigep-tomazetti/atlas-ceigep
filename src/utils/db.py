@@ -9,6 +9,8 @@ from typing import List, Optional
 from dotenv import load_dotenv
 from supabase import Client, create_client
 
+from .status import resolve_status
+
 load_dotenv()
 
 
@@ -130,21 +132,55 @@ def atualizar_parsing_sucesso(
     timestamp_iso: str,
 ) -> None:
     client = get_supabase_client()
+    row = (
+        client.table("fonte_documento")
+        .select("id,status_normalizacao,caminho_texto_bruto")
+        .eq("fonte_origem_id", fonte_origem_id)
+        .eq("urn_lexml", urn_lexml)
+        .limit(1)
+        .execute()
+    ).data
+    if not row:
+        return
+    registro = row[0]
+    novo_status = resolve_status(
+        caminho_texto_bruto=registro.get("caminho_texto_bruto"),
+        status_parsing="processado",
+        status_normalizacao=registro.get("status_normalizacao"),
+    )
     client.table("fonte_documento").update(
         {
             "status_parsing": "processado",
             "parsing_executado_em": timestamp_iso,
             "caminho_parser_json": caminho,
             "hash_parser_json": hash_json,
+            "status": novo_status,
         }
-    ).eq("fonte_origem_id", fonte_origem_id).eq("urn_lexml", urn_lexml).execute()
+    ).eq("id", registro["id"]).execute()
 
 
 def atualizar_parsing_falha(fonte_origem_id: str, urn_lexml: str, *, timestamp_iso: str) -> None:
     client = get_supabase_client()
+    row = (
+        client.table("fonte_documento")
+        .select("id,status_normalizacao,caminho_texto_bruto")
+        .eq("fonte_origem_id", fonte_origem_id)
+        .eq("urn_lexml", urn_lexml)
+        .limit(1)
+        .execute()
+    ).data
+    if not row:
+        return
+    registro = row[0]
+    novo_status = resolve_status(
+        caminho_texto_bruto=registro.get("caminho_texto_bruto"),
+        status_parsing="falha",
+        status_normalizacao=registro.get("status_normalizacao"),
+    )
     client.table("fonte_documento").update(
         {
             "status_parsing": "falha",
             "parsing_executado_em": timestamp_iso,
+            "status": novo_status,
         }
-    ).eq("fonte_origem_id", fonte_origem_id).eq("urn_lexml", urn_lexml).execute()
+    ).eq("id", registro["id"]).execute()

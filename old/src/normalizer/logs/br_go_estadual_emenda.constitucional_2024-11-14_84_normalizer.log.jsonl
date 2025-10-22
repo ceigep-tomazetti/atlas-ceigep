@@ -1,3 +1,0 @@
-{"timestamp": "2025-10-14T00:45:21.776906Z", "level": "INFO", "event": "START_NORMALIZATION", "input_file": "src/parser/output/br_go_estadual_emenda.constitucional_2024-11-14_84_recursivo.json"}
-{"timestamp": "2025-10-14T00:45:21.792153Z", "level": "INFO", "event": "NORMALIZED_FILE_SAVED", "path": "src/normalizer/output/br_go_estadual_emenda.constitucional_2024-11-14_84_normalizado.json"}
-{"timestamp": "2025-10-14T00:45:21.792405Z", "level": "INFO", "event": "END_NORMALIZATION"}

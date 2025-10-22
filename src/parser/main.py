@@ -1,4 +1,4 @@
-"""CLI do parser determinístico do Atlas."""
+"""CLI para parsing de atos usando exclusivamente o LLM."""
 
 from __future__ import annotations
 
@@ -6,137 +6,250 @@ import argparse
 import hashlib
 import json
 import logging
-import random
+import re
+import unicodedata
 from datetime import datetime
-from typing import Dict, Iterable, Optional
+from typing import Dict, Iterable, List, Optional, Tuple
 
 from ..utils import db as db_utils
-from ..utils import storage as storage_utils
 from ..utils import llm as llm_utils
-from .deterministic import describe_heuristics, parse_ato, resumir_dispositivos
+from ..utils import storage as storage_utils
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+
+LLM_HEURISTICS_INFO = (
+    "Parser heurístico desativado por ora. Gere a estrutura LexML completa apenas com o LLM."
+)
 
 
 def _now_iso() -> str:
     return datetime.utcnow().isoformat()
 
 
-def _normalizar_llm_result(bruto: Dict, fallback: Dict, texto_bruto: str) -> Dict:
+def _normalizar_llm_result(bruto: Dict, registro: Dict, texto_bruto: str) -> Dict:
+    """Garante campos mínimos (fonte, anexos, metadados) na saída do LLM."""
     resultado = dict(bruto)
     resultado.setdefault("gerado_em", _now_iso())
     resultado["texto_bruto"] = texto_bruto
 
     dispositivos = resultado.get("dispositivos")
-    if not isinstance(dispositivos, list) or not dispositivos:
-        resultado["dispositivos"] = fallback.get("dispositivos", [])
+    if not isinstance(dispositivos, list):
+        resultado["dispositivos"] = []
 
     anexos = resultado.get("anexos")
     if not isinstance(anexos, list):
         resultado["anexos"] = []
 
-    fonte = resultado.get("fonte") or {}
-    fonte_fallback = fallback.get("fonte", {})
-    for chave, valor in fonte_fallback.items():
-        fonte.setdefault(chave, valor)
-    resultado["fonte"] = fonte
+    fonte_padrao = {
+        "urn_lexml": registro.get("urn_lexml"),
+        "tipo_ato": registro.get("tipo_ato"),
+        "titulo": registro.get("titulo"),
+        "ementa": registro.get("ementa"),
+        "data_legislacao": registro.get("data_legislacao"),
+        "data_publicacao_diario": registro.get("data_publicacao_diario"),
+        "orgao_publicador": registro.get("orgao_publicador"),
+        "url_fonte": registro.get("url_fonte"),
+    }
+    fonte_atual = resultado.get("fonte") or {}
+    for chave, valor in fonte_padrao.items():
+        fonte_atual.setdefault(chave, valor)
+    resultado["fonte"] = fonte_atual
+
+    metadados = registro.get("metadados_brutos")
+    if isinstance(metadados, str):
+        try:
+            metadados = json.loads(metadados)
+        except json.JSONDecodeError:
+            pass
+    resultado.setdefault("metadados_origem", metadados)
+
+    dispositivos = resultado.get("dispositivos")
+    if isinstance(dispositivos, list) and dispositivos:
+        _atribuir_ids_lexml(dispositivos)
+
     return resultado
 
 
-def _comparar_resultados(det: Dict, llm: Dict, urn: str) -> None:
-    det_disps = len(det.get("dispositivos", []) or [])
-    llm_disps = len(llm.get("dispositivos", []) or [])
-    det_anexos = len(det.get("anexos", []) or [])
-    llm_anexos = len(llm.get("anexos", []) or [])
-    logging.info(
-        "Comparativo %s: determinístico %s dispositivos/%s anexos vs LLM %s dispositivos/%s anexos.",
-        urn,
-        det_disps,
-        det_anexos,
-        llm_disps,
-        llm_anexos,
+def _resumir_dispositivos(dispositivos: List[Dict], *, max_itens: Optional[int] = 5) -> List[str]:
+    """Gera linhas curtas para inspeção no modo --dry-run."""
+    linhas: List[str] = []
+    dispositivos_iter = dispositivos if max_itens is None else dispositivos[:max_itens]
+    for dispositivo in dispositivos_iter:
+        rotulo = dispositivo.get("rotulo", "(sem rótulo)")
+        texto = dispositivo.get("texto", "").replace("\n", " ")
+        linhas.append(f"{rotulo}: {texto}")
+        filhos = dispositivo.get("filhos", [])
+        filhos_iter = filhos if max_itens is None else filhos[:max_itens]
+        for filho in filhos_iter:
+            rotulo_filho = filho.get("rotulo", "(filho)")
+            texto_filho = filho.get("texto", "").replace("\n", " ")
+            linhas.append(f"  * {rotulo_filho}: {texto_filho}")
+    return linhas
+
+
+def _normalizar_rotulo(rotulo: str) -> str:
+    texto = (rotulo or "").replace("º", "").replace("°", "")
+    texto = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("ascii")
+    return texto.strip()
+
+
+ROMAN_NUMERAL_RE = re.compile(r"^(M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3}))$", re.IGNORECASE)
+
+
+def _classificar_dispositivo(rotulo: str) -> Tuple[str, Optional[str]]:
+    texto = _normalizar_rotulo(rotulo)
+    upper = texto.upper()
+
+    if not texto:
+        return "dispositivo_auxiliar", None
+
+    padrao_valor = None
+
+    mapa_topo = (
+        ("titulo", re.compile(r"^TITULO\s+([IVXLCDM]+)", re.IGNORECASE)),
+        ("livro", re.compile(r"^LIVRO\s+([IVXLCDM]+)", re.IGNORECASE)),
+        ("parte", re.compile(r"^PARTE\s+([IVXLCDM]+)", re.IGNORECASE)),
+        ("capitulo", re.compile(r"^CAPITULO\s+(UNICO|[IVXLCDM]+)", re.IGNORECASE)),
+        ("secao", re.compile(r"^SECAO\s+(UNICA|[IVXLCDM]+)", re.IGNORECASE)),
+        ("subsecao", re.compile(r"^SUBSECAO\s+(UNICA|[IVXLCDM]+)", re.IGNORECASE)),
     )
+    for tipo, padrao in mapa_topo:
+        match = padrao.match(texto)
+        if match:
+            valor = match.group(1).lower()
+            valor = valor.replace("º", "").replace("°", "")
+            valor = valor.replace("unica", "unica")
+            return tipo, valor
+
+    artigo = re.search(r"ART\.?\s*(\d+[A-Z]?)", upper)
+    if artigo:
+        valor = artigo.group(1).lower().replace("º", "")
+        return "artigo", valor
+
+    if upper.startswith("PARAGRAFO"):
+        if "UNICO" in upper:
+            return "paragrafo_unico", None
+        match = re.search(r"PARAGRAFO\s+(\d+)", upper)
+        if match:
+            return "paragrafo", match.group(1)
+
+    if texto.startswith("§"):
+        match = re.search(r"§\s*(\d+)", texto)
+        if match:
+            return "paragrafo", match.group(1)
+        if "UNICO" in upper:
+            return "paragrafo_unico", None
+
+    if upper.startswith("INCISO"):
+        match = re.search(r"INCISO\s+([IVXLCDM]+)", upper)
+        if match:
+            return "inciso", match.group(1).lower()
+
+    inciso_romano = re.match(r"^([IVXLCDM]+)", upper)
+    if inciso_romano and ROMAN_NUMERAL_RE.match(inciso_romano.group(1)):
+        return "inciso", inciso_romano.group(1).lower()
+
+    if upper.startswith("ALINEA"):
+        match = re.search(r"ALINEA\s+([A-Z])", upper)
+        if match:
+            return "alinea", match.group(1).lower()
+
+    alinea_letra = re.match(r"^([a-z])\)", texto)
+    if alinea_letra:
+        return "alinea", alinea_letra.group(1).lower()
+
+    if upper.startswith("ITEM"):
+        match = re.search(r"ITEM\s+(\d+)", upper)
+        if match:
+            return "item", match.group(1)
+
+    item_numerico = re.match(r"^(\d+)\)", texto)
+    if item_numerico:
+        return "item", item_numerico.group(1)
+
+    return "dispositivo_auxiliar", None
 
 
-def _sanear_para_comparacao(payload: Dict) -> Dict:
-    def limpar(valor):
-        if isinstance(valor, dict):
-            return {chave: limpar(item) for chave, item in valor.items() if chave != "ordem"}
-        if isinstance(valor, list):
-            return [limpar(item) for item in valor]
-        return valor
-
-    estrutura_limpa = limpar(payload)
-    dispositivos = estrutura_limpa.get("dispositivos")
-    if isinstance(dispositivos, list):
-        dispositivos_filtrados = [
-            dispositivo
-            for dispositivo in dispositivos
-            if dispositivo.get("rotulo") not in {"preambulo", "disposicao_final"}
-        ]
-    else:
-        dispositivos_filtrados = []
-
-    anexos = estrutura_limpa.get("anexos")
-    anexos_lista = anexos if isinstance(anexos, list) else []
-
-    return {
-        "dispositivos": dispositivos_filtrados,
-        "anexos": anexos_lista,
-    }
+PREFIXOS = {
+    "titulo": "tit",
+    "livro": "liv",
+    "parte": "par",
+    "capitulo": "cap",
+    "secao": "sec",
+    "subsecao": "subsec",
+    "artigo": "art",
+    "paragrafo": "p",
+    "paragrafo_unico": "pu",
+    "inciso": "inc",
+    "alinea": "ali",
+    "item": "item",
+}
 
 
-def _json_equivalentes(det: Dict, llm: Dict) -> bool:
-    det_limpo = _sanear_para_comparacao(det)
-    llm_limpo = _sanear_para_comparacao(llm)
-    det_dump = json.dumps(det_limpo, sort_keys=True, ensure_ascii=False)
-    llm_dump = json.dumps(llm_limpo, sort_keys=True, ensure_ascii=False)
-    return det_dump == llm_dump
+def _atribuir_ids_lexml(dispositivos: List[Dict]) -> None:
+    def rec(nodes: List[Dict], parent_id: Optional[str] = None) -> None:
+        nivel_contadores: Dict[str, int] = {}
+        for idx, node in enumerate(nodes, start=1):
+            rotulo = node.get("rotulo", "")
+            tipo, valor = _classificar_dispositivo(rotulo)
+            nivel_contadores[tipo] = nivel_contadores.get(tipo, 0) + 1
+
+            if tipo == "artigo":
+                sufixo = valor or str(nivel_contadores[tipo])
+                current_id = f"art{sufixo}"
+            elif tipo == "paragrafo":
+                sufixo = valor or str(nivel_contadores[tipo])
+                base = parent_id or f"disp{idx}"
+                current_id = f"{base}p{sufixo}"
+            elif tipo == "paragrafo_unico":
+                base = parent_id or f"disp{idx}"
+                current_id = f"{base}pu"
+            elif tipo == "inciso":
+                sufixo = (valor or str(nivel_contadores[tipo])).lower()
+                base = parent_id or f"disp{idx}"
+                current_id = f"{base}inc{sufixo}"
+            elif tipo == "alinea":
+                sufixo = (valor or str(nivel_contadores[tipo])).lower()
+                base = parent_id or f"disp{idx}"
+                current_id = f"{base}ali{sufixo}"
+            elif tipo == "item":
+                sufixo = valor or str(nivel_contadores[tipo])
+                base = parent_id or f"disp{idx}"
+                current_id = f"{base}item{sufixo}"
+            elif tipo in PREFIXOS and parent_id is None:
+                sufixo = (valor or str(nivel_contadores[tipo])).lower()
+                current_id = f"{PREFIXOS[tipo]}{sufixo}"
+            elif tipo in PREFIXOS:
+                sufixo = (valor or str(nivel_contadores[tipo])).lower()
+                base = parent_id or f"disp{idx}"
+                current_id = f"{base}{PREFIXOS[tipo]}{sufixo}"
+            else:
+                base = parent_id or "disp"
+                current_id = f"{base}_{idx}"
+
+            node["id_lexml"] = current_id
+            node["tipo"] = tipo
+
+            filhos = node.get("filhos")
+            if isinstance(filhos, list) and filhos:
+                rec(filhos, current_id)
+
+    rec(dispositivos)
 
 
 def main(argv: Optional[Iterable[str]] = None) -> None:
-    parser = argparse.ArgumentParser(description="Parser determinístico para textos brutos do Atlas")
+    parser = argparse.ArgumentParser(description="Parser LLM para textos brutos do Atlas")
     parser.add_argument("--origin-id", action="append", help="UUID da fonte_origem a processar (pode repetir).")
     parser.add_argument("--limit", type=int, help="Limite de itens por origem.")
     parser.add_argument("--dry-run", action="store_true", help="Executa sem salvar JSON nem atualizar o banco.")
-    parser.add_argument(
-        "--mode",
-        choices=["deterministic", "llm", "both", "review"],
-        default="deterministic",
-        help="Modo de execução: heurístico, LLM, ambos (debug) ou revisão (comparar e bloquear divergências).",
-    )
     parser.add_argument("--llm-model", help="Modelo Gemini a ser utilizado (opcional).")
-    parser.add_argument(
-        "--review-sample-ratio",
-        type=float,
-        default=1.0,
-        help="Proporção (0-1) de itens verificados por LLM no modo review. 1.0 = 100%%.",
-    )
-    parser.add_argument(
-        "--review-sample-seed",
-        type=int,
-        help="Seed opcional para tornar determinística a amostragem do modo review.",
-    )
 
     args = parser.parse_args(argv)
-
-    if not 0.0 <= args.review_sample_ratio <= 1.0:
-        parser.error("--review-sample-ratio deve estar entre 0 e 1.")
 
     origens = db_utils.fetch_origens(args.origin_id)
     if not origens:
         logging.warning("Nenhuma origem ativa encontrada para os critérios fornecidos.")
         return
-
-    heuristicas_texto = describe_heuristics()
-    rng = random.Random(args.review_sample_seed) if args.review_sample_seed is not None else random.Random()
-
-    if args.mode == "review" and args.review_sample_ratio < 1.0:
-        logging.info(
-            "Modo review com amostragem de %.1f%% (seed=%s).",
-            args.review_sample_ratio * 100,
-            args.review_sample_seed if args.review_sample_seed is not None else "aleatória",
-        )
 
     for origem in origens:
         origem_id = str(origem["id"])
@@ -163,122 +276,42 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
                     db_utils.atualizar_parsing_falha(origem_id, urn, timestamp_iso=_now_iso())
                 continue
 
-            resultado_det = parse_ato(registro, texto)
-            resultado_det.setdefault("anexos", [])
-            resultado_final = resultado_det
-            resumo_det = resumir_dispositivos(resultado_det["dispositivos"], max_itens=None)
+            try:
+                bruto_llm = llm_utils.gerar_estrutura_llm(
+                    texto,
+                    registro,
+                    heuristicas=LLM_HEURISTICS_INFO,
+                    model=args.llm_model,
+                )
+            except llm_utils.LLMNotConfigured as exc:
+                logging.error("LLM não configurado (%s). Interrompendo execução.", exc)
+                if not args.dry_run:
+                    db_utils.atualizar_parsing_falha(origem_id, urn, timestamp_iso=_now_iso())
+                return
+            except Exception as exc:  # noqa: BLE001
+                logging.exception("Falha ao executar o LLM para %s.", urn)
+                if not args.dry_run:
+                    db_utils.atualizar_parsing_falha(origem_id, urn, timestamp_iso=_now_iso())
+                continue
 
-            logging.info("URN %s – resultado determinístico: %s dispositivos.", urn, len(resultado_det["dispositivos"]))
+            resultado_llm = _normalizar_llm_result(bruto_llm, registro, texto)
+            logging.info(
+                "URN %s – LLM retornou %s dispositivos e %s anexos.",
+                urn,
+                len(resultado_llm.get("dispositivos", [])),
+                len(resultado_llm.get("anexos", [])),
+            )
 
-            resultado_llm = None
-            review_mode = args.mode == "review"
-            selecionado_para_review = False
-            if review_mode and args.review_sample_ratio > 0:
-                selecionado_para_review = rng.random() <= args.review_sample_ratio
-                if not selecionado_para_review:
-                    logging.info("URN %s – revisão por LLM pulada (amostragem).", urn)
-
-            precisa_llm = False
-            if args.mode in {"llm", "both"}:
-                precisa_llm = True
-            elif review_mode and selecionado_para_review:
-                precisa_llm = True
-
-            if precisa_llm:
-                try:
-                    bruto_llm = llm_utils.gerar_estrutura_llm(
-                        texto,
-                        registro,
-                        heuristicas=heuristicas_texto,
-                        model=args.llm_model,
-                    )
-                    resultado_llm = _normalizar_llm_result(bruto_llm, resultado_det, texto)
-                    logging.info(
-                        "URN %s – resultado LLM: %s dispositivos, %s anexos.",
-                        urn,
-                        len(resultado_llm.get("dispositivos", [])),
-                        len(resultado_llm.get("anexos", [])),
-                    )
-                    if args.mode in {"both", "review"}:
-                        _comparar_resultados(resultado_det, resultado_llm, urn)
-                    if args.mode == "llm":
-                        resultado_final = resultado_llm
-                except llm_utils.LLMNotConfigured as exc:
-                    logging.warning("LLM não configurado (%s). Mantendo saída determinística.", exc)
-                    resultado_llm = None
-                except Exception as exc:  # noqa: BLE001
-                    logging.exception("Falha no LLM para %s. Mantendo saída determinística.", urn)
-                    resultado_llm = None
-
-            if review_mode:
-                if not selecionado_para_review:
-                    logging.debug("URN %s – validação determinística concluída (sem revisão por amostragem).", urn)
-                    # segue fluxo normal com resultado determinístico
-                    pass
-                else:
-                    if resultado_llm is None:
-                        logging.warning("URN %s – LLM indisponível no modo review. Marcando para reprocessar.", urn)
-                        if not args.dry_run:
-                            db_utils.atualizar_parsing_falha(origem_id, urn, timestamp_iso=_now_iso())
-                        continue
-                    if _json_equivalentes(resultado_det, resultado_llm):
-                        logging.info("URN %s – Fit 100%% entre parser determinístico e LLM.", urn)
-                        resultado_final = resultado_det
-                    else:
-                        logging.warning("URN %s – Divergência detectada entre parser determinístico e LLM.", urn)
-                        sugestao_texto = None
-                        try:
-                            sugestao_texto = llm_utils.gerar_revisao_regex(
-                                texto,
-                                resultado_det,
-                                resultado_llm,
-                                heuristicas=heuristicas_texto,
-                                model=args.llm_model,
-                            )
-                            logging.info("Sugestões LLM para %s:\n%s", urn, sugestao_texto)
-                        except llm_utils.LLMNotConfigured:
-                            logging.warning("LLM não configurado para revisão detalhada.")
-                        except Exception as exc:  # noqa: BLE001
-                            logging.exception("Falha ao gerar sugestões de regex para %s: %s", urn, exc)
-                        if args.dry_run:
-                            if sugestao_texto:
-                                print(sugestao_texto)
-                            print("--- Divergência detectada; registro marcado como falha (dry-run).\n")
-                            continue
-                        if sugestao_texto:
-                            try:
-                                db_utils.registrar_sugestao_llm(
-                                    fonte_documento_id=registro.get("id"),
-                                    fonte_origem_id=origem_id,
-                                    urn_lexml=urn,
-                                    heuristicas=heuristicas_texto,
-                                    json_deterministico=resultado_det,
-                                    json_llm=resultado_llm,
-                                    sugestao=sugestao_texto,
-                                )
-                            except Exception as exc:  # noqa: BLE001
-                                logging.exception("Falha ao registrar sugestão LLM para %s: %s", urn, exc)
-                        db_utils.atualizar_parsing_falha(origem_id, urn, timestamp_iso=_now_iso())
-                        continue
-
-            if review_mode and not selecionado_para_review:
-                resultado_llm = None  # garante que bloco dry-run não imprime estrutura LLM inexistente
-
-            # Logs e saída para debug
             if args.dry_run:
-                print(f"\n=== Texto bruto normalizado ({urn}) ===\n{resultado_det['texto_bruto']}\n")
-                print(f"--- Dispositivos determinísticos ({urn}) ---")
-                for linha in resumo_det:
+                print(f"\n=== Texto bruto ({urn}) ===\n{texto}\n")
+                print(f"--- Dispositivos LLM ({urn}) ---")
+                for linha in _resumir_dispositivos(resultado_llm.get("dispositivos", []), max_itens=None):
                     print(linha)
-                if resultado_llm is not None:
-                    print(f"\n--- Dispositivos LLM ({urn}) ---")
-                    for linha in resumir_dispositivos(resultado_llm.get("dispositivos", []), max_itens=None):
-                        print(linha)
                 print("--- fim ---\n")
                 processados += 1
                 continue
 
-            json_str = json.dumps(resultado_final, ensure_ascii=False, indent=2)
+            json_str = json.dumps(resultado_llm, ensure_ascii=False, indent=2)
             hash_json = hashlib.sha256(json_str.encode("utf-8")).hexdigest()
 
             try:

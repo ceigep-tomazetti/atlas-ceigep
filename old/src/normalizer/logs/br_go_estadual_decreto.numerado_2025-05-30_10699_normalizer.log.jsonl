@@ -1,3 +1,0 @@
-{"timestamp": "2025-10-14T21:54:30.302479Z", "level": "INFO", "event": "START_NORMALIZATION", "input_file": "src/parser/output/br_go_estadual_decreto.numerado_2025-05-30_10699_recursivo.json"}
-{"timestamp": "2025-10-14T21:54:30.305999Z", "level": "INFO", "event": "NORMALIZED_FILE_SAVED", "path": "src/normalizer/output/br_go_estadual_decreto.numerado_2025-05-30_10699_normalizado.json"}
-{"timestamp": "2025-10-14T21:54:30.306647Z", "level": "INFO", "event": "END_NORMALIZATION"}

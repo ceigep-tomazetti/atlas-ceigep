@@ -1,3 +1,0 @@
-{"timestamp": "2025-10-13T23:43:59.644061Z", "level": "INFO", "event": "START_NORMALIZATION", "input_file": "src/parser/output/br_go_estadual_emenda.constitucional_2012-12-11_49_recursivo.json"}
-{"timestamp": "2025-10-13T23:43:59.666565Z", "level": "INFO", "event": "NORMALIZED_FILE_SAVED", "path": "src/normalizer/output/br_go_estadual_emenda.constitucional_2012-12-11_49_normalizado.json"}
-{"timestamp": "2025-10-13T23:43:59.666879Z", "level": "INFO", "event": "END_NORMALIZATION"}

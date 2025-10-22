@@ -1,7 +1,0 @@
-{"timestamp": "2025-10-13T21:31:56.285734Z", "level": "INFO", "event": "START_PARSE", "config": {"urn_lexml": "br;go;estadual;lei;2025-10-10;23728", "source_file_path": "/Users/tomazetti/Projetos/ceigep-atlas-data/tmp_analise/lei_ordinaria_23728.pdf", "tipo_ato": "lei", "titulo": "Reconhece como Patrimônio Cultural Imaterial do Estado de Goiás a Festa de Folia de Reis, realizada no Povoado de Nova Fátima, no Município de Hidrolândia/GO, e a inclui no Calendário Cívico, Cultural e Turístico do Estado de Goiás.", "entidade_federativa": "Estadual", "orgao_publicador": "Assembleia Legislativa de Goiás", "data_publicacao": "2025-10-10"}, "run_id": "8d3af4a2-24e1-496a-98c4-219ad3d9befc"}
-{"timestamp": "2025-10-13T21:31:56.286503Z", "level": "INFO", "event": "SOURCE_RESOLVED", "type": "local", "path": "/Users/tomazetti/Projetos/ceigep-atlas-data/tmp_analise/lei_ordinaria_23728.pdf"}
-{"timestamp": "2025-10-13T21:31:56.358499Z", "level": "DEBUG", "event": "FOUND_INCISO", "path": "art-1/inc-1"}
-{"timestamp": "2025-10-13T21:31:56.358940Z", "level": "DEBUG", "event": "FOUND_INCISO", "path": "art-1/inc-2"}
-{"timestamp": "2025-10-13T21:31:56.360149Z", "level": "INFO", "event": "PDF_PARSE_SUCCESS", "article_count": 2}
-{"timestamp": "2025-10-13T21:31:56.362814Z", "level": "INFO", "event": "WRITE_OUTPUT", "path": "parser/output/br_go_estadual_lei_2025-10-10_23728_recursivo.json", "device_count": 2}
-{"timestamp": "2025-10-13T21:31:56.362994Z", "level": "INFO", "event": "DONE"}
