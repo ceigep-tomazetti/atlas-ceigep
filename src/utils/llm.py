@@ -60,47 +60,67 @@ Você é um parser jurídico. Analise o texto bruto de um ato normativo e produz
   }},
   "dispositivos": [
     {{
-      "rotulo": "Art. 1º",
-      "texto": "... texto completo ...",
-      "relacoes": [
-        {{
-          "tipo": "altera",
-          "alvo": {{
-            "urn": "urn:lex:br;go;estadual;lei;2018-12-20;21500",
-            "tipo_ato": "lei",
-            "numero": "21500",
-            "data": "2018-12-20",
-            "dispositivo": "Art. 2º"
-          }},
-          "descricao": "Altera o art. 2º da Lei nº 21.500/2018."
-        }}
-      ],
-      "versoes": [
-        {{
-          "vigencia_inicio": "2025-10-15",
-          "vigencia_fim": null,
-          "texto": "... nova redação ...",
-          "origem_alteracao": "Lei nº 23.752/2025",
-          "status_vigencia": "vigente"
-        }}
-      ],
+      "rotulo": "TÍTULO I",
+      "texto": "Das Disposições Preliminares",
       "filhos": [
         {{
-          "rotulo": "§ 1º",
-          "texto": "...",
+          "rotulo": "CAPÍTULO I",
+          "texto": "Do Objeto",
           "filhos": [
-            {{ "rotulo": "I", "texto": "..." }},
-            ...
+            {{
+              "rotulo": "Art. 1º",
+              "texto": "... texto completo ...",
+              "relacoes": [
+                {{
+                  "tipo": "altera",
+                  "alvo": {{
+                    "urn": "urn:lex:br;go;estadual;lei;2018-12-20;21500",
+                    "tipo_ato": "lei",
+                    "numero": "21500",
+                    "data": "2018-12-20",
+                    "dispositivo": "Art. 2º"
+                  }},
+                  "descricao": "Altera o art. 2º da Lei nº 21.500/2018."
+                }}
+              ],
+              "versoes": [
+                {{
+                  "vigencia_inicio": "2025-10-15",
+                  "vigencia_fim": null,
+                  "texto": "... nova redação ...",
+                  "origem_alteracao": "Lei nº 23.752/2025",
+                  "status_vigencia": "vigente"
+                }}
+              ],
+              "filhos": [
+                {{
+                  "rotulo": "§ 1º",
+                  "texto": "...",
+                  "filhos": [
+                    {{ "rotulo": "I", "texto": "..." }},
+                    {{ "rotulo": "a)", "texto": "..." }}
+                  ]
+                }}
+              ]
+            }}
           ]
-        }},
-        ...
+        }}
       ]
     }},
-    ...
+    {{
+      "rotulo": "Art. 2º",
+      "texto": "... texto completo ...",
+      "filhos": [
+        {{
+          "rotulo": "Parágrafo único",
+          "texto": "...",
+          "filhos": []
+        }}
+      ]
+    }}
   ],
   "anexos": [
-    {{ "titulo": "Anexo I", "texto": "... texto completo ..." }},
-    ...
+    {{ "titulo": "Anexo I", "texto": "... texto completo ..." }}
   ],
   "relacoes": [
     {{
@@ -119,7 +139,8 @@ Você é um parser jurídico. Analise o texto bruto de um ato normativo e produz
 
 Regras importantes:
 - Preserve o texto integral de cada dispositivo exatamente como aparece.
-- Identifique artigos, parágrafos, incisos, alíneas, Partes, Livros, Títulos, Capítulos, Seções e Subseções.
+- Identifique artigos, parágrafos, incisos, alíneas, itens, parágrafo único, Partes, Livros, Títulos, Capítulos, Seções e Subseções.
+- Represente a hierarquia desses elementos aninhando-os no array "filhos" com a mesma ordem do texto original.
 - Se o texto contiver anexos, quadros ou tabelas, mova-os para o array "anexos".
 - Se o ato alterar outro texto (ex.: citações entre aspas), inclua o conteúdo na posição correspondente e inclua a chave opcional "tipo": "alteracao".
 - Preencha o objeto "fonte" com os metadados disponíveis (título conforme cabeçalho, ementa, situação de vigência, datas, órgão, URL).
