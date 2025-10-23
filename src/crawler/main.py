@@ -95,6 +95,7 @@ def processar_origem(
     *,
     dry_run: bool,
     append_only: bool,
+    ano: Optional[int] = None,
 ) -> tuple[int, int, int, list[str]]:
     logging.info(
         "Iniciando descoberta para origem %s (%s) período %s → %s",
@@ -106,7 +107,12 @@ def processar_origem(
     novos = duplicados = falhas = 0
     novos_urns: list[str] = []
     try:
-        descobertas = estrategia.discover(periodo_inicio, periodo_fim, limite=limite)
+        descobertas = estrategia.discover(
+            periodo_inicio,
+            periodo_fim,
+            limite=limite,
+            ano=ano,
+        )
         for descoberta in descobertas:
             if dry_run:
                 logging.info("Encontrado (dry-run): %s", descoberta.urn_lexml)
@@ -145,6 +151,11 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
     parser.add_argument("--since", help="Data inicial (YYYY-MM-DD).")
     parser.add_argument("--until", help="Data final (YYYY-MM-DD).")
     parser.add_argument("--limit", type=int, help="Limite de itens por origem.")
+    parser.add_argument(
+        "--year",
+        type=int,
+        help="Executa descoberta para todos os itens de um ano específico (substitui since/until).",
+    )
     parser.add_argument("--dry-run", action="store_true", help="Executa sem gravar dados no banco.")
     parser.add_argument(
         "--append-only",
@@ -185,15 +196,26 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
         run_backfill(origens, registry, args.limit, dry_run=args.dry_run, append_only=args.append_only)
         return
 
-    periodo_inicio, periodo_fim = _default_periodo()
-    parsed_since = _parse_date(args.since)
-    parsed_until = _parse_date(args.until)
-    if parsed_since:
-        periodo_inicio = parsed_since
-    if parsed_until:
-        periodo_fim = parsed_until
-    if periodo_inicio > periodo_fim:
-        raise SystemExit("Período inválido: data inicial maior que data final.")
+    if args.year is not None:
+        if args.since or args.until:
+            raise SystemExit("Não é permitido combinar --year com --since/--until.")
+        try:
+            periodo_inicio = date(args.year, 1, 1)
+            periodo_fim = date(args.year, 12, 31)
+        except ValueError as exc:  # noqa: BLE001
+            raise SystemExit(f"Ano inválido: {exc}") from exc
+        ano_execucao = args.year
+    else:
+        ano_execucao = None
+        periodo_inicio, periodo_fim = _default_periodo()
+        parsed_since = _parse_date(args.since)
+        parsed_until = _parse_date(args.until)
+        if parsed_since:
+            periodo_inicio = parsed_since
+        if parsed_until:
+            periodo_fim = parsed_until
+        if periodo_inicio > periodo_fim:
+            raise SystemExit("Período inválido: data inicial maior que data final.")
 
     novas_descobertas: dict[str, list[str]] = {}
 
@@ -212,6 +234,7 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
             args.limit,
             dry_run=args.dry_run,
             append_only=args.append_only,
+            ano=ano_execucao,
         )
         if urns_novos:
             novas_descobertas[origem_id] = urns_novos
@@ -261,6 +284,7 @@ def run_backfill(origens, registry, limite: Optional[int], *, dry_run: bool, app
                 limite,
                 dry_run=dry_run,
                 append_only=append_only,
+                ano=None,
             )
             if urns_novos:
                 novas_descobertas[origem_id] = urns_novos

@@ -10,6 +10,8 @@ from dataclasses import dataclass
 from datetime import date, datetime
 from typing import Generator, Iterable, Optional
 
+from urllib.parse import quote
+
 import requests
 
 from ..types import FonteDescoberta
@@ -97,92 +99,33 @@ class GoiasApiDiscovery:
         periodo_fim: date,
         *,
         limite: Optional[int] = None,
+        ano: Optional[int] = None,
     ) -> Generator[FonteDescoberta, None, None]:
-        """Percorre a API retornando metadados de atos dentro do período."""
+        """Percorre a API retornando metadados de atos dentro do período informado."""
         total_emitidos = 0
-        for inicio, fim in _iterate_months(periodo_inicio, periodo_fim):
-            params = {
-                "numero": "",
-                "conteudo": "",
-                "tipo_legislacao": "",
-                "estado_legislacao": "",
-                "categoria_legislacao": "",
-                "ementa": "",
-                "autor": "",
-                "ano": "",
-                "periodo_inicial_legislacao": inicio.strftime("%Y-%m-%d"),
-                "periodo_final_legislacao": fim.strftime("%Y-%m-%d"),
-                "periodo_inicial_diario": "",
-                "periodo_final_diario": "",
-                "termo": "",
-                "semantico": "",
-            }
-            try:
-                response = self.session.get(self.BASE_URL, params=params, timeout=60)
-                response.raise_for_status()
-            except requests.RequestException as exc:
-                logging.warning(
-                    "Erro ao consultar API de Goiás (%s a %s): %s",
-                    inicio,
-                    fim,
-                    exc,
-                )
-                continue
 
-            try:
-                payload = response.json()
-            except ValueError as exc:
-                logging.warning("Resposta JSON inválida para período %s-%s: %s", inicio, fim, exc)
-                continue
-
-            if isinstance(payload, dict):
-                # a API deve devolver lista, mas em caso de erro documental mantemos referência
-                items = payload.get("resultados", [])
-            else:
-                items = payload
-
-            if len(items) >= self.MAX_ITEMS_PER_REQUEST:
-                logging.info(
-                    "Limite da API alcançado (%s itens) para %s-%s; considerar janela menor.",
-                    len(items),
-                    inicio,
-                    fim,
-                )
-
-            for raw_item in items:
+        if ano is not None:
+            params = self._default_params()
+            params["ano"] = str(ano)
+            params["periodo_inicial_legislacao"] = ""
+            params["periodo_final_legislacao"] = ""
+            items = self._fetch_items(params, contexto=f"ano {ano}")
+            for descoberta in self._descobertas_from_items(items):
                 if limite is not None and total_emitidos >= limite:
                     return
+                total_emitidos += 1
+                yield descoberta
+            return
 
-                try:
-                    item = json.loads(raw_item) if isinstance(raw_item, str) else raw_item
-                except json.JSONDecodeError:
-                    logging.debug("Item ignorado: JSON inválido")
-                    continue
+        for inicio, fim in _iterate_months(periodo_inicio, periodo_fim):
+            params = self._default_params()
+            params["periodo_inicial_legislacao"] = inicio.strftime("%Y-%m-%d")
+            params["periodo_final_legislacao"] = fim.strftime("%Y-%m-%d")
+            items = self._fetch_items(params, contexto=f"{inicio} → {fim}")
 
-                urn = _build_urn(item)
-                diarios = item.get("diarios") or []
-                url_fonte = diarios[0].get("link_download") if diarios else None
-                if not urn or not url_fonte:
-                    continue
-
-                data_legislacao = self._parse_date(item.get("data_legislacao"))
-                diarios = item.get("diarios") or []
-                data_publicacao = None
-                if diarios:
-                    data_publicacao = self._parse_date(diarios[0].get("data_diario"))
-
-                descoberta = FonteDescoberta(
-                    fonte_origem_id=str(self.origem["id"]),
-                    urn_lexml=urn,
-                    url_fonte=url_fonte,
-                    tipo_ato=_slug_tipo(item.get("tipo_legislacao")),
-                    titulo=item.get("titulo"),
-                    ementa=item.get("ementa"),
-                    data_legislacao=data_legislacao,
-                    data_publicacao_diario=data_publicacao,
-                    orgao_publicador=item.get("autor"),
-                    metadados_brutos=item,
-                )
+            for descoberta in self._descobertas_from_items(items):
+                if limite is not None and total_emitidos >= limite:
+                    return
                 total_emitidos += 1
                 yield descoberta
 
@@ -193,6 +136,114 @@ class GoiasApiDiscovery:
         texto = metadados.get("conteudo_sem_formatacao") or ""
         texto = self._sanitize_text(texto)
         return texto
+
+    def _default_params(self) -> dict:
+        return {
+            "numero": "",
+            "conteudo": "",
+            "tipo_legislacao": "",
+            "estado_legislacao": "",
+            "categoria_legislacao": "",
+            "ementa": "",
+            "autor": "",
+            "ano": "",
+            "periodo_inicial_legislacao": "",
+            "periodo_final_legislacao": "",
+            "periodo_inicial_diario": "",
+            "periodo_final_diario": "",
+            "termo": "",
+            "semantico": "",
+        }
+
+    def _resolve_url_fonte(self, item: dict, urn: str) -> str:
+        diarios = item.get("diarios") or []
+        for diario in diarios:
+            url = diario.get("link_download") or diario.get("link")
+            if url:
+                return url
+
+        candidatos = [
+            item.get("url_documento"),
+            item.get("url_visualizacao"),
+            item.get("url"),
+            item.get("link"),
+        ]
+        for url in candidatos:
+            if url:
+                return url
+
+        arquivos = item.get("arquivos") or []
+        for arquivo in arquivos:
+            url = arquivo.get("link") or arquivo.get("url")
+            if url:
+                return url
+
+        identificador = item.get("nid") or item.get("id")
+        if identificador:
+            return f"https://legisla.casacivil.go.gov.br/api/v2/legislacoes/{identificador}.json"
+
+        return f"https://legisla.casacivil.go.gov.br/busca?urn={quote(urn)}"
+
+    def _fetch_items(self, params: dict, *, contexto: str) -> list:
+        try:
+            response = self.session.get(self.BASE_URL, params=params, timeout=60)
+            response.raise_for_status()
+        except requests.RequestException as exc:
+            logging.warning("Erro ao consultar API de Goiás (%s): %s", contexto, exc)
+            return []
+
+        try:
+            payload = response.json()
+        except ValueError as exc:
+            logging.warning("Resposta JSON inválida para %s: %s", contexto, exc)
+            return []
+
+        if isinstance(payload, dict):
+            # a API deve devolver lista, mas em caso de erro documental mantemos referência
+            items = payload.get("resultados", [])
+        else:
+            items = payload
+
+        if items and len(items) >= self.MAX_ITEMS_PER_REQUEST:
+            logging.info(
+                "Limite da API alcançado (%s itens) para %s; considerar janela menor.",
+                len(items),
+                contexto,
+            )
+
+        return items or []
+
+    def _descobertas_from_items(self, items: Iterable[dict]) -> Generator[FonteDescoberta, None, None]:
+        for raw_item in items:
+            try:
+                item = json.loads(raw_item) if isinstance(raw_item, str) else raw_item
+            except json.JSONDecodeError:
+                logging.debug("Item ignorado: JSON inválido")
+                continue
+
+            urn = _build_urn(item)
+            if not urn:
+                continue
+
+            url_fonte = self._resolve_url_fonte(item, urn)
+            diarios = item.get("diarios") or []
+            data_legislacao = self._parse_date(item.get("data_legislacao"))
+            data_publicacao = None
+            if diarios:
+                data_publicacao = self._parse_date(diarios[0].get("data_diario"))
+
+            yield FonteDescoberta(
+                fonte_origem_id=str(self.origem["id"]),
+                urn_lexml=urn,
+                url_fonte=url_fonte,
+                tipo_ato=_slug_tipo(item.get("tipo_legislacao")),
+                titulo=item.get("titulo"),
+                ementa=item.get("ementa"),
+                data_legislacao=data_legislacao,
+                data_publicacao_diario=data_publicacao,
+                orgao_publicador=item.get("autor"),
+                metadados_brutos=item,
+            )
 
     @staticmethod
     def _sanitize_text(texto: str) -> str:
