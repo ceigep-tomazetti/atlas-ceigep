@@ -64,7 +64,7 @@ def registrar_execucao(origem_id: str, periodo_inicio: date, periodo_fim: date, 
     )
 
 
-def inserir_descoberta(descoberta: FonteDescoberta) -> bool:
+def inserir_descoberta(descoberta: FonteDescoberta, *, append_only: bool = False) -> bool:
     """Insere ou atualiza um registro de descoberta. Retorna True se for novo."""
     params = descoberta.as_db_params()
     exists = db_utils.find_fonte_documento(params["fonte_origem_id"], params["urn_lexml"])
@@ -74,6 +74,12 @@ def inserir_descoberta(descoberta: FonteDescoberta) -> bool:
         "atualizado_em": datetime.utcnow().isoformat(),
     }
     if exists:
+        if append_only:
+            logging.debug(
+                "Registro %s já existe e append_only ativo. Mantendo dados atuais.",
+                params["urn_lexml"],
+            )
+            return False
         db_utils.update_fonte_documento(params["fonte_origem_id"], params["urn_lexml"], payload)
         return False
     db_utils.insert_fonte_documento(payload)
@@ -88,6 +94,7 @@ def processar_origem(
     limite: Optional[int],
     *,
     dry_run: bool,
+    append_only: bool,
 ) -> tuple[int, int, int]:
     logging.info(
         "Iniciando descoberta para origem %s (%s) período %s → %s",
@@ -104,7 +111,7 @@ def processar_origem(
                 logging.info("Encontrado (dry-run): %s", descoberta.urn_lexml)
                 continue
             try:
-                is_new = inserir_descoberta(descoberta)
+                is_new = inserir_descoberta(descoberta, append_only=append_only)
                 if is_new:
                     novos += 1
                 else:
@@ -138,6 +145,11 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
     parser.add_argument("--limit", type=int, help="Limite de itens por origem.")
     parser.add_argument("--dry-run", action="store_true", help="Executa sem gravar dados no banco.")
     parser.add_argument(
+        "--append-only",
+        action="store_true",
+        help="Não atualiza registros existentes; apenas insere novos (útil para backfill).",
+    )
+    parser.add_argument(
         "--backfill",
         action="store_true",
         help="Percorre indefinidamente meses anteriores (controlar via interrupção manual).",
@@ -168,7 +180,7 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
         return
 
     if args.backfill:
-        run_backfill(origens, registry, args.limit, dry_run=args.dry_run)
+        run_backfill(origens, registry, args.limit, dry_run=args.dry_run, append_only=args.append_only)
         return
 
     periodo_inicio, periodo_fim = _default_periodo()
@@ -195,6 +207,7 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
             periodo_fim,
             args.limit,
             dry_run=args.dry_run,
+            append_only=args.append_only,
         )
         if not args.dry_run:
             registrar_execucao(
@@ -210,7 +223,7 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
         run_extract(origens, registry, args.limit, dry_run=args.dry_run)
 
 
-def run_backfill(origens, registry, limite: Optional[int], *, dry_run: bool) -> None:
+def run_backfill(origens, registry, limite: Optional[int], *, dry_run: bool, append_only: bool) -> None:
     logging.info("Backfill indefinido iniciado. Pressione CTRL+C para interromper.")
     current_month = _month_start(date.today())
     while True:
@@ -230,6 +243,7 @@ def run_backfill(origens, registry, limite: Optional[int], *, dry_run: bool) -> 
                 periodo_fim,
                 limite,
                 dry_run=dry_run,
+                append_only=append_only,
             )
             if not dry_run:
                 registrar_execucao(

@@ -3,10 +3,12 @@
 from __future__ import annotations
 
 import json
+import logging
 import os
 import re
 from dataclasses import dataclass
 from typing import Any, Dict, Optional
+import logging
 
 from dotenv import load_dotenv
 
@@ -39,7 +41,13 @@ def _get_config(model: Optional[str] = None) -> LLMConfig:
     return LLMConfig(api_key=api_key, model=resolved_model)
 
 
-def _build_prompt(texto_bruto: str, registro: Dict[str, Any], heuristicas: Optional[str]) -> str:
+def _build_prompt(
+    texto_bruto: str,
+    registro: Dict[str, Any],
+    heuristicas: Optional[str],
+    *,
+    chunk_info: Optional[Dict[str, Any]] = None,
+) -> str:
     fonte = {
         "urn_lexml": registro.get("urn_lexml"),
         "tipo_ato": registro.get("tipo_ato"),
@@ -48,6 +56,15 @@ def _build_prompt(texto_bruto: str, registro: Dict[str, Any], heuristicas: Optio
         "data_publicacao_diario": registro.get("data_publicacao_diario"),
         "orgao_publicador": registro.get("orgao_publicador"),
     }
+    chunk_context = ""
+    if chunk_info:
+        chunk_context = f"""
+Informações sobre o trecho:
+- Este é o chunk {chunk_info.get("indice", 0) + 1} de {chunk_info.get("total", 1)}.
+- O trecho cobre os caracteres de índice {chunk_info.get("offset_inicio", 0)} até {chunk_info.get("offset_fim", 0)} do texto original.
+- Retorne apenas os dispositivos completamente contidos neste trecho. Não reproduza dispositivos parcialmente iniciados em um chunk anterior ou posterior.
+"""
+
     prompt = f"""
 Você é um parser jurídico. Analise o texto bruto de um ato normativo e produza um JSON com o seguinte formato:
 {{
@@ -138,6 +155,7 @@ Você é um parser jurídico. Analise o texto bruto de um ato normativo e produz
 }}
 
 Regras importantes:
+{chunk_context}
 - Preserve o texto integral de cada dispositivo exatamente como aparece.
 - Identifique artigos, parágrafos, incisos, alíneas, itens, parágrafo único, Partes, Livros, Títulos, Capítulos, Seções e Subseções.
 - Represente a hierarquia desses elementos aninhando-os no array "filhos" com a mesma ordem do texto original.
@@ -178,6 +196,8 @@ def gerar_estrutura_llm(
     *,
     heuristicas: Optional[str] = None,
     model: Optional[str] = None,
+    chunk_info: Optional[Dict[str, Any]] = None,
+    max_attempts: int = 2,
 ) -> Dict[str, Any]:
     """Gera JSON estruturado usando Gemini. Levanta LLMNotConfigured se indisponível."""
     if genai is None:
@@ -185,17 +205,105 @@ def gerar_estrutura_llm(
 
     config = _get_config(model)
     genai.configure(api_key=config.api_key)
-    prompt = _build_prompt(texto_bruto, registro, heuristicas)
+    prompt = _build_prompt(texto_bruto, registro, heuristicas, chunk_info=chunk_info)
 
     modelo = genai.GenerativeModel(config.model)
-    resposta = modelo.generate_content(prompt)  # type: ignore[no-untyped-call]
-    if resposta.candidates:
-        texto_resposta = resposta.candidates[0].content.parts[0].text  # type: ignore[attr-defined]
-    else:
-        raise RuntimeError("Resposta vazia do LLM.")
+    last_error: Optional[Exception] = None
+    last_output: Optional[str] = None
 
-    json_str = _extract_first_json_block(texto_resposta)
-    return json.loads(json_str)
+    for attempt in range(1, max_attempts + 1):
+        resposta = modelo.generate_content(prompt)  # type: ignore[no-untyped-call]
+        if not resposta.candidates:
+            last_error = RuntimeError("Resposta vazia do LLM.")
+            continue
+
+        texto_resposta = resposta.candidates[0].content.parts[0].text  # type: ignore[attr-defined]
+        try:
+            json_str = _extract_first_json_block(texto_resposta)
+            last_output = json_str
+            return json.loads(json_str)
+        except (ValueError, json.JSONDecodeError) as exc:
+            last_error = exc
+            logging.warning(
+                "LLM retornou JSON inválido (tentativa %s/%s) para URN %s: %s",
+                attempt,
+                max_attempts,
+                registro.get("urn_lexml"),
+                exc,
+            )
+            if attempt == max_attempts:
+                break
+
+    if last_error is None:
+        raise RuntimeError("Falha desconhecida ao gerar estrutura com o LLM.")
+
+    if isinstance(last_error, json.JSONDecodeError) and last_output:
+        logging.debug("Resposta bruta do LLM com erro:\n%s", last_output)
+
+    raise last_error
+
+
+def detectar_limite_dispositivo(
+    trecho: str,
+    registro: Dict[str, Any],
+    *,
+    offset_inicial: int = 0,
+    model: Optional[str] = None,
+    max_attempts: int = 2,
+) -> Optional[int]:
+    """Retorna o índice (0-based, relativo ao trecho) do fim do último dispositivo completo."""
+    if genai is None:
+        raise LLMNotConfigured("Pacote google-generativeai não disponível. Instale para usar o LLM.")
+
+    config = _get_config(model)
+    genai.configure(api_key=config.api_key)
+
+    prompt = f"""
+Analise o trecho abaixo, extraído de um ato normativo goiano. O trecho inicia na posição {offset_inicial} do texto integral.
+
+Retorne um JSON no formato:
+{{"status": "ok", "indice_final": <número inteiro>}}
+
+- `indice_final` deve ser o índice (0-based, relativo somente a este trecho) do caractere imediatamente posterior ao fim do último dispositivo completo, incluindo eventuais parágrafos/filhos.
+- Se o trecho não contiver nenhum dispositivo plenamente encerrado, retorne {{"status": "sem_limite"}}.
+- Não adicione comentários, textos adicionais ou outras chaves.
+
+Trecho:
+\"\"\"{trecho}\"\"\"
+"""
+
+    modelo = genai.GenerativeModel(config.model)
+    ultima_mensagem: Optional[str] = None
+
+    for attempt in range(1, max_attempts + 1):
+        resposta = modelo.generate_content(prompt)  # type: ignore[no-untyped-call]
+        if not resposta.candidates:
+            continue
+
+        texto_resposta = resposta.candidates[0].content.parts[0].text  # type: ignore[attr-defined]
+        ultima_mensagem = texto_resposta
+        try:
+            bloco = _extract_first_json_block(texto_resposta)
+            payload = json.loads(bloco)
+        except json.JSONDecodeError:
+            continue
+
+        status = payload.get("status")
+        if status == "ok":
+            indice = payload.get("indice_final")
+            if isinstance(indice, int):
+                return indice
+        elif status == "sem_limite":
+            return None
+
+    if ultima_mensagem:
+        logging.debug(
+            "Detecção de limite falhou para URN %s (offset %s). Última resposta: %s",
+            registro.get("urn_lexml"),
+            offset_inicial,
+            ultima_mensagem,
+        )
+    return None
 
 
 def gerar_revisao_regex(

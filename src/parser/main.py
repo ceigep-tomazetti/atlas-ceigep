@@ -14,6 +14,7 @@ from typing import Dict, Iterable, List, Optional, Tuple
 from ..utils import db as db_utils
 from ..utils import llm as llm_utils
 from ..utils import storage as storage_utils
+from . import chunking
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
@@ -280,29 +281,62 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
                 continue
 
             try:
-                bruto_llm = llm_utils.gerar_estrutura_llm(
+                chunks = chunking.gerar_chunks(
                     texto,
                     registro,
-                    heuristicas=LLM_HEURISTICS_INFO,
-                    model=args.llm_model,
+                    aux_model=args.llm_model,
                 )
-            except llm_utils.LLMNotConfigured as exc:
-                logging.error("LLM não configurado (%s). Interrompendo execução.", exc)
-                if not args.dry_run:
-                    db_utils.atualizar_parsing_falha(origem_id, urn, timestamp_iso=_now_iso())
-                return
             except Exception as exc:  # noqa: BLE001
-                logging.exception("Falha ao executar o LLM para %s.", urn)
+                logging.exception("Falha ao planejar chunking para %s.", urn)
                 if not args.dry_run:
                     db_utils.atualizar_parsing_falha(origem_id, urn, timestamp_iso=_now_iso())
                 continue
 
-            resultado_llm = _normalizar_llm_result(bruto_llm, registro, texto)
+            chunk_total = len(chunks)
+            chunk_resultados: List[Dict] = []
+            falha_chunk = False
+
+            for chunk in chunks:
+                chunk_info = chunking.montar_chunk_info(chunk, chunk_total)
+                try:
+                    bruto_llm = llm_utils.gerar_estrutura_llm(
+                        chunk.texto,
+                        registro,
+                        heuristicas=LLM_HEURISTICS_INFO,
+                        model=args.llm_model,
+                        chunk_info=chunk_info,
+                    )
+                except llm_utils.LLMNotConfigured as exc:
+                    logging.error("LLM não configurado (%s). Interrompendo execução.", exc)
+                    if not args.dry_run:
+                        db_utils.atualizar_parsing_falha(origem_id, urn, timestamp_iso=_now_iso())
+                    return
+                except Exception as exc:  # noqa: BLE001
+                    logging.exception(
+                        "Falha ao executar o LLM para %s (chunk %s/%s).",
+                        urn,
+                        chunk.indice + 1,
+                        chunk_total,
+                    )
+                    if not args.dry_run:
+                        db_utils.atualizar_parsing_falha(origem_id, urn, timestamp_iso=_now_iso())
+                    falha_chunk = True
+                    break
+
+                chunk_resultados.append(bruto_llm)
+
+            if falha_chunk:
+                continue
+
+            bruto_combined = chunking.combinar_resultados(chunk_resultados)
+            resultado_llm = _normalizar_llm_result(bruto_combined, registro, texto)
             logging.info(
-                "URN %s – LLM retornou %s dispositivos e %s anexos.",
+                "URN %s – LLM retornou %s dispositivos e %s anexos (%s chunk%s).",
                 urn,
                 len(resultado_llm.get("dispositivos", [])),
                 len(resultado_llm.get("anexos", [])),
+                chunk_total,
+                "" if chunk_total == 1 else "s",
             )
 
             if args.dry_run:

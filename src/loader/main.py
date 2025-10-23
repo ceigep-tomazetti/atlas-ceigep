@@ -177,7 +177,7 @@ def _registrar_dispositivos(
         else:
             id_lexml = base_id
         ids_em_uso[base_id] = duplicidade + 1
-        texto = dispositivo.get("texto", "")
+        texto = dispositivo.get("texto") or ""
         tipo = _inferir_tipo(dispositivo)
         atributos = dispositivo.get("atributos", {})
 
@@ -230,7 +230,7 @@ def _registrar_dispositivos(
 
 def _registrar_anexos(repo: NormativeRepository, ato_id: str, anexos: List[Dict]) -> None:
     for ordem, anexo in enumerate(anexos, start=1):
-        texto = anexo.get("texto", "")
+        texto = anexo.get("texto") or ""
         repo.inserir_anexo(
             ato_id=ato_id,
             id_lexml=anexo.get("id_lexml"),

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import os
+import time
 from pathlib import PurePosixPath
 import unicodedata
 from typing import Optional
@@ -42,11 +43,23 @@ def upload_text(urn: str, content: str) -> str:
     path = build_storage_path(urn)
     bucket = client.storage.from_(BUCKET_TEXTOS_BRUTOS)
     relative_path = path[len(BUCKET_TEXTOS_BRUTOS) + 1 :]
-    bucket.upload(
-        relative_path,
-        content.encode("utf-8"),
-        file_options={"content-type": "text/plain", "upsert": "true"},
-    )
+    attempts = 0
+    backoff = 0.5
+
+    while True:
+        try:
+            bucket.upload(
+                relative_path,
+                content.encode("utf-8"),
+                file_options={"content-type": "text/plain", "upsert": "true"},
+            )
+            break
+        except Exception as exc:  # noqa: BLE001
+            attempts += 1
+            if attempts >= 3:
+                raise
+            time.sleep(backoff)
+            backoff *= 2
     return path
 
 

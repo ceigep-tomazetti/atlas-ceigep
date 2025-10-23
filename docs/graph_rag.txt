@@ -1,0 +1,2 @@
+This plain-text companion mirrors the contents of docs/graph_rag.pdf.
+Refer to the PDF for the full article formatting.***

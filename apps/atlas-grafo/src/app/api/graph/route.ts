@@ -19,10 +19,12 @@ type RawRelation = {
   dispositivo_origem: {
     id: string;
     rotulo: string | null;
+    texto: string | null;
   } | null;
   dispositivo_alvo: {
     id: string;
     rotulo: string | null;
+    texto: string | null;
     ato: {
       id: string;
       urn_lexml: string | null;
@@ -52,6 +54,8 @@ type GraphLink = {
   descricao?: string | null;
   criadoEm?: string | null;
   origemRotulo?: string | null;
+  origemTexto?: string | null;
+  alvoTexto?: string | null;
 };
 
 function upsertNode(map: Map<string, GraphNode>, payload: GraphNode): GraphNode {
@@ -84,11 +88,9 @@ export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const limitParam = Number(searchParams.get("limit") ?? "400");
   const limit = Number.isFinite(limitParam) ? Math.min(Math.max(limitParam, 1), 2000) : 400;
+  const urnFilter = searchParams.get("urn");
 
-  const { data, error } = await supabase
-    .from("dispositivo_relacao")
-    .select(
-      `
+  const relationSelect = `
         id,
         tipo,
         descricao,
@@ -104,11 +106,13 @@ export async function GET(request: Request) {
         ),
         dispositivo_origem:dispositivo_origem_id (
           id,
-          rotulo
+          rotulo,
+          texto
         ),
         dispositivo_alvo:dispositivo_alvo_id (
           id,
           rotulo,
+          texto,
           ato:ato_id (
             id,
             urn_lexml,
@@ -118,22 +122,83 @@ export async function GET(request: Request) {
             data_legislacao
           )
         )
-      `,
-    )
-    .order("criado_em", { ascending: false })
-    .limit(limit);
+      `;
 
-  if (error) {
-    return NextResponse.json(
-      { error: "Falha ao consultar relações no Supabase.", details: error.message },
-      { status: 500 },
-    );
+  let rows: RawRelation[] = [];
+
+  if (urnFilter) {
+    const { data: ato, error: atoError } = await supabase
+      .from("ato_normativo")
+      .select("id")
+      .eq("urn_lexml", urnFilter)
+      .maybeSingle();
+
+    if (atoError) {
+      return NextResponse.json(
+        { error: "Falha ao consultar ato_normativo.", details: atoError.message },
+        { status: 500 },
+      );
+    }
+
+    if (!ato) {
+      return NextResponse.json({ error: "Ato não encontrado para URN informada." }, { status: 404 });
+    }
+
+    const dispositivoIds: string[] = [];
+    const { data: dispositivos, error: dispositivoError } = await supabase
+      .from("dispositivo")
+      .select("id")
+      .eq("ato_id", ato.id);
+    if (!dispositivoError && dispositivos) {
+      dispositivoIds.push(...dispositivos.map((item: { id: string }) => item.id));
+    }
+
+    const relationMap = new Map<string, RawRelation>();
+
+    const queries = [
+      supabase.from("dispositivo_relacao").select(relationSelect).eq("ato_id", ato.id),
+      supabase.from("dispositivo_relacao").select(relationSelect).eq("urn_alvo", urnFilter),
+    ];
+
+    if (dispositivoIds.length) {
+      const chunkSize = 99;
+      for (let i = 0; i < dispositivoIds.length; i += chunkSize) {
+        const chunk = dispositivoIds.slice(i, i + chunkSize);
+        queries.push(
+          supabase.from("dispositivo_relacao").select(relationSelect).in("dispositivo_alvo_id", chunk),
+        );
+      }
+    }
+
+    for await (const query of queries) {
+      const { data: result, error: relationError } = await query;
+      if (relationError) {
+        console.warn("Erro ao consultar relações específicas:", relationError.message);
+        continue;
+      }
+      ((result ?? []) as unknown as RawRelation[]).forEach((row) => relationMap.set(row.id, row));
+    }
+
+    rows = Array.from(relationMap.values());
+  } else {
+    const { data: relations, error } = await supabase
+      .from("dispositivo_relacao")
+      .select(relationSelect)
+      .order("criado_em", { ascending: false })
+      .limit(limit);
+
+    if (error) {
+      return NextResponse.json(
+        { error: "Falha ao consultar relações no Supabase.", details: error.message },
+        { status: 500 },
+      );
+    }
+
+    rows = (relations ?? []) as unknown as RawRelation[];
   }
 
   const nodes = new Map<string, GraphNode>();
   const links: GraphLink[] = [];
-
-  const rows = (data ?? []) as unknown as RawRelation[];
 
   rows.forEach((row) => {
     const origemAto = row.ato;
@@ -175,6 +240,8 @@ export async function GET(request: Request) {
       descricao: row.descricao,
       criadoEm: row.criado_em ?? undefined,
       origemRotulo: row.dispositivo_origem?.rotulo ?? undefined,
+      origemTexto: row.dispositivo_origem?.texto ?? undefined,
+      alvoTexto: row.dispositivo_alvo?.texto ?? undefined,
     });
   });
 

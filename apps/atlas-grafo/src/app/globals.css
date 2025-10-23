@@ -1,13 +1,10 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #0f172a;
+  --foreground: #e2e8f0;
+  --accent: #38bdf8;
+  --muted: #94a3b8;
+  --panel: rgba(15, 23, 42, 0.85);
+  --panel-border: rgba(148, 163, 184, 0.25);
 }
 
 html,
@@ -18,7 +15,9 @@ body {
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: radial-gradient(circle at 20% 20%, rgba(56, 189, 248, 0.15), transparent 45%),
+    radial-gradient(circle at 80% 10%, rgba(129, 140, 248, 0.15), transparent 40%),
+    var(--background);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -28,17 +27,6 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }
 
 .graph-wrapper {
@@ -66,11 +54,13 @@ a {
 .graph-header h1 {
   font-size: 1.75rem;
   margin-bottom: 0.25rem;
+  letter-spacing: -0.01em;
 }
 
 .graph-header p {
   max-width: 720px;
   line-height: 1.4;
+  color: var(--muted);
 }
 
 .controls {
@@ -90,9 +80,9 @@ a {
   min-width: 200px;
   padding: 0.35rem 0.5rem;
   border-radius: 6px;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  background: rgba(255, 255, 255, 0.7);
-  color: inherit;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  background: rgba(15, 23, 42, 0.6);
+  color: var(--foreground);
 }
 
 .action {
@@ -101,26 +91,33 @@ a {
   border: none;
   cursor: pointer;
   font-weight: 600;
-  background: #2563eb;
-  color: #fff;
+  background: var(--accent);
+  color: #0f172a;
+  transition: transform 0.1s ease, filter 0.1s ease;
 }
 
 .action.ghost {
-  background: transparent;
-  border: 1px solid rgba(37, 99, 235, 0.5);
-  color: #2563eb;
+  background: rgba(56, 189, 248, 0.08);
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  color: var(--accent);
 }
 
 .muted {
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--muted);
+}
+
+.error {
+  color: #f87171;
+  font-size: 0.9rem;
 }
 
 .graph-canvas {
   position: relative;
   min-height: 60vh;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
+  border: 1px solid var(--panel-border);
+  border-radius: 16px;
   overflow: hidden;
+  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.45);
 }
 
 .graph-canvas canvas {
@@ -134,23 +131,32 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.8);
-  color: rgba(0, 0, 0, 0.65);
+  background: rgba(15, 23, 42, 0.85);
+  color: var(--muted);
   font-weight: 600;
   z-index: 10;
 }
 
 .graph-details {
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
-  padding: 1rem 1.25rem;
-  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid var(--panel-border);
+  border-radius: 16px;
+  padding: 1.1rem 1.35rem;
+  background: var(--panel);
   display: grid;
   gap: 0.75rem;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.4);
+  max-height: 420px;
+}
+
+.graph-details > div {
+  overflow-y: auto;
+  max-height: inherit;
+  padding-right: 0.35rem;
 }
 
 .graph-details h2 {
   font-size: 1.25rem;
+  color: var(--foreground);
 }
 
 .graph-details dl {
@@ -162,12 +168,38 @@ a {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: rgba(0, 0, 0, 0.55);
+  color: var(--muted);
 }
 
 .graph-details dd {
   margin-left: 0;
   font-size: 0.95rem;
+  color: var(--foreground);
+}
+
+.graph-details .full-text {
+  margin-top: 0.75rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.25);
+  padding-top: 0.75rem;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.graph-details .full-text h3 {
+  font-size: 0.95rem;
+  color: var(--accent);
+}
+
+.graph-details .full-text pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 0.9rem;
+  line-height: 1.35;
+  background: rgba(15, 23, 42, 0.75);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 12px;
+  padding: 0.75rem;
+  color: var(--foreground);
 }
 
 @media (max-width: 768px) {

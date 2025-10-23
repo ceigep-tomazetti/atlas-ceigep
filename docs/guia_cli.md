@@ -82,6 +82,7 @@ Por padrão, o crawler realiza descoberta e, na sequência, extração.
 | `--limit N` | Limita a quantidade de atos por origem. Útil para testes. |
 | `--dry-run` | Faz tudo, exceto gravar dados no banco/Storage. Apenas exibe logs. |
 | `--backfill` | Executa descoberta mês a mês para trás (loop infinito até CTRL+C). |
+| `--append-only` | Quando combinado com descoberta/backfill, não atualiza registros existentes; apenas insere inéditos. |
 | `--extract` | Pule a descoberta e execute somente a extração de textos pendentes. |
 | `--discover-only` | Executa somente descoberta; não chama a extração ao final. |
 
@@ -112,6 +113,11 @@ Por padrão, o crawler realiza descoberta e, na sequência, extração.
 5. **Rodar backfill contínuo (aperta CTRL+C para parar)**  
    ```bash
    python -m src.crawler.main --backfill --limit 50
+   ```
+
+6. **Rodar backfill somente acrescentando novos itens (sem atualizar os existentes)**  
+   ```bash
+   python -m src.crawler.main --backfill --append-only
    ```
 
 ### 3.4. O que esperar nos resultados
@@ -176,6 +182,21 @@ Por padrão, o crawler realiza descoberta e, na sequência, extração.
 - **Interromper execuções longas** – pressione `CTRL+C`. O processo atual será interrompido com segurança; basta reiniciar quando desejar.
 
 Se ainda restarem dúvidas, consulte o diário de bordo (`docs/diario_de_bordo.md`) para entender o histórico das decisões ou abra uma issue descrevendo o problema.
+
+---
+
+## 6. Script auxiliar para depurar respostas do LLM
+
+Quando o parser acusar JSON inválido retornado pelo Gemini, utilize:
+
+```bash
+python3 scripts/debug_llm_response.py \
+  --origin-id fd64e393-159f-4484-9ea4-e9437753791d \
+  --urn br;go;estadual;decreto.numerado;2020-03-13;9635 \
+  --output debug.json
+```
+
+O script baixa o texto bruto, executa o LLM e imprime a resposta completa, além de salvar o bloco JSON extraído (se `--output` for informado). Assim fica mais simples encontrar o ponto de falha e ajustar o prompt ou aplicar sanitização antes de retornar ao parser oficial.
 
 ---
 

@@ -95,7 +95,7 @@ class NormativeRepository:
             "parent_id": parent_id,
             "id_lexml": id_lexml,
             "tipo": tipo,
-            "rotulo": rotulo,
+            "rotulo": (rotulo or "")[:160],
             "texto": texto,
             "ordem": ordem,
             "atributos": atributos or {},
@@ -137,7 +137,7 @@ class NormativeRepository:
             "status_vigencia": versao.get("status_vigencia"),
             "anotacoes": versao.get("anotacoes", {}),
         }
-        self.client.table("versao_textual").insert(payload).execute()
+        self.client.table("versao_textual").upsert(payload, on_conflict="dispositivo_id,hash_texto").execute()
 
     def inserir_relacao(self, ato_id: str, relacao: Dict) -> None:
         payload = {
