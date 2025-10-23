@@ -128,7 +128,13 @@ def registrar_sugestao_llm(
     client.table("llm_parser_sugestao").insert(payload).execute()
 
 
-def fetch_para_parsing(fonte_origem_id: str, limit: Optional[int] = None) -> List[dict]:
+def fetch_para_parsing(
+    fonte_origem_id: str,
+    limit: Optional[int] = None,
+    *,
+    urns: Optional[List[str]] = None,
+    year: Optional[int] = None,
+) -> List[dict]:
     client = get_supabase_client()
     query = (
         client.table("fonte_documento")
@@ -138,7 +144,13 @@ def fetch_para_parsing(fonte_origem_id: str, limit: Optional[int] = None) -> Lis
         .eq("status_parsing", "pendente")
         .order("parsing_executado_em", desc=True)
     )
-    if limit:
+    if urns:
+        query = query.in_("urn_lexml", urns)
+    if year:
+        inicio = f"{year:04d}-01-01"
+        fim = f"{year:04d}-12-31"
+        query = query.gte("data_legislacao", inicio).lte("data_legislacao", fim)
+    if limit and not urns:
         query = query.limit(limit)
     response = query.execute()
     return response.data or []

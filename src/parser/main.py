@@ -245,6 +245,12 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
     parser = argparse.ArgumentParser(description="Parser LLM para textos brutos do Atlas")
     parser.add_argument("--origin-id", action="append", help="UUID da fonte_origem a processar (pode repetir).")
     parser.add_argument("--limit", type=int, help="Limite de itens por origem.")
+    parser.add_argument(
+        "--urn",
+        action="append",
+        help="URN LexML específica a processar (pode informar múltiplas vezes). Ignora --limit.",
+    )
+    parser.add_argument("--year", type=int, help="Ano (YYYY) para filtrar `data_legislacao`.")
     parser.add_argument("--dry-run", action="store_true", help="Executa sem salvar JSON nem atualizar o banco.")
     parser.add_argument("--llm-model", help="Modelo Gemini a ser utilizado (opcional).")
 
@@ -257,10 +263,38 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
 
     for origem in origens:
         origem_id = str(origem["id"])
-        registros = db_utils.fetch_para_parsing(origem_id, args.limit)
+        urns_filtradas = list(dict.fromkeys(args.urn)) if args.urn else None
+        registros = db_utils.fetch_para_parsing(
+            origem_id,
+            args.limit,
+            urns=urns_filtradas,
+            year=args.year,
+        )
         if not registros:
-            logging.info("Nenhum item pendente de parsing na origem %s.", origem_id)
+            if urns_filtradas:
+                logging.info(
+                    "Nenhum item encontrado para as URNs fornecidas na origem %s.",
+                    origem_id,
+                )
+            elif args.year:
+                logging.info(
+                    "Nenhum item pendente de parsing na origem %s para o ano %s.",
+                    origem_id,
+                    args.year,
+                )
+            else:
+                logging.info("Nenhum item pendente de parsing na origem %s.", origem_id)
             continue
+
+        if urns_filtradas:
+            logging.info("Processando %s URN(s) específicas.", len(registros))
+        elif args.year:
+            logging.info(
+                "Processando até %s item(ns) da origem %s filtrados por ano %s.",
+                len(registros) if args.limit else "todos",
+                origem_id,
+                args.year,
+            )
 
         processados = 0
         for registro in registros:

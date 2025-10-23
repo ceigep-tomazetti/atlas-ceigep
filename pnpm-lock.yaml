@@ -6,7 +6,9 @@ settings:
 
 importers:
 
-  .:
+  .: {}
+
+  apps/atlas-grafo:
     dependencies:
       '@supabase/supabase-js':
         specifier: ^2.76.1
