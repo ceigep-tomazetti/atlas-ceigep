@@ -198,9 +198,11 @@ def _registrar_dispositivos(
             rotulo_index.setdefault(rotulo_chave, []).append(dispositivo_id)
 
         for versao in dispositivo.get("versoes", []) or []:
-            texto_versao = versao.get("texto", texto)
+            texto_versao = versao.get("texto")
+            if texto_versao is None:
+                texto_versao = texto
             versao_payload = {
-                "hash_texto": versao.get("hash_texto") or _hash_texto(texto_versao),
+                "hash_texto": versao.get("hash_texto") or _hash_texto(texto_versao or ""),
                 "texto": texto_versao,
                 "vigencia_inicio": versao.get("vigencia_inicio"),
                 "vigencia_fim": versao.get("vigencia_fim"),
@@ -208,6 +210,13 @@ def _registrar_dispositivos(
                 "status_vigencia": versao.get("status_vigencia"),
                 "anotacoes": versao.get("anotacoes", {}),
             }
+            if versao_payload["hash_texto"] is None and versao_payload["texto"] is None:
+                logging.warning(
+                    "Ignorando versao textual sem texto nem hash no dispositivo %s (ato %s).",
+                    dispositivo_id,
+                    ato_id,
+                )
+                continue
             repo.inserir_versao_textual(dispositivo_id, versao_payload)
 
         for relacao in dispositivo.get("relacoes", []) or []:
