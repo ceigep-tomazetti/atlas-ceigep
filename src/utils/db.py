@@ -88,15 +88,21 @@ def fetch_descobertos_por_urns(fonte_origem_id: str, urns: List[str]) -> List[di
     if not urns:
         return []
     client = get_supabase_client()
-    query = (
-        client.table("fonte_documento")
-        .select("*")
-        .eq("fonte_origem_id", fonte_origem_id)
-        .eq("status", "descoberto")
-        .in_("urn_lexml", urns)
-    )
-    response = query.execute()
-    return response.data or []
+    resultados: List[dict] = []
+    chunk_size = 50
+    for offset in range(0, len(urns), chunk_size):
+        chunk = urns[offset : offset + chunk_size]
+        query = (
+            client.table("fonte_documento")
+            .select("*")
+            .eq("fonte_origem_id", fonte_origem_id)
+            .eq("status", "descoberto")
+            .in_("urn_lexml", chunk)
+        )
+        response = query.execute()
+        if response.data:
+            resultados.extend(response.data)
+    return resultados
 
 
 def registrar_sugestao_llm(
