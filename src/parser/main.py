@@ -314,6 +314,7 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
                     db_utils.atualizar_parsing_falha(origem_id, urn, timestamp_iso=_now_iso())
                 continue
 
+            logging.info("Preparando chunking para %s.", urn)
             try:
                 chunks = chunking.gerar_chunks(
                     texto,
@@ -330,8 +331,17 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
             chunk_resultados: List[Dict] = []
             falha_chunk = False
 
+            logging.info("URN %s – processará %s chunk%s.", urn, chunk_total, "" if chunk_total == 1 else "s")
+
             for chunk in chunks:
                 chunk_info = chunking.montar_chunk_info(chunk, chunk_total)
+                logging.info(
+                    "URN %s – enviando chunk %s/%s ao LLM (tamanho %s caracteres).",
+                    urn,
+                    chunk.indice + 1,
+                    chunk_total,
+                    len(chunk.texto),
+                )
                 try:
                     bruto_llm = llm_utils.gerar_estrutura_llm(
                         chunk.texto,
