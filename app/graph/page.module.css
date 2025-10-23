@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2.5rem;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.toolbar fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  border: none;
+  padding: 0;
+  min-width: 160px;
+}
+
+.toolbar label {
+  font-size: 0.85rem;
+  opacity: 0.75;
+}
+
+.toolbar input,
+.toolbar select {
+  padding: 0.55rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  background: rgba(15, 23, 42, 0.6);
+  color: #f8fafc;
+}
+
+.toolbar button {
+  padding: 0.65rem 1.1rem;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(135deg, #0ea5e9, #6366f1);
+  color: #f8fafc;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.graphSection {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 1.5rem;
+  min-height: 70vh;
+}
+
+.graphCanvas {
+  background: rgba(15, 23, 42, 0.7);
+  border-radius: 18px;
+  position: relative;
+  overflow: hidden;
+}
+
+.detailsPanel {
+  background: rgba(15, 23, 42, 0.85);
+  border-radius: 18px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.detailsPanel h2 {
+  margin: 0;
+}
+
+.detailsPanel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.detailsPanel li {
+  padding: 0.75rem 0.9rem;
+  border-radius: 12px;
+  background: rgba(148, 163, 184, 0.1);
+}
+
+.legend {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+
+.legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.legendColor {
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  .graphSection {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

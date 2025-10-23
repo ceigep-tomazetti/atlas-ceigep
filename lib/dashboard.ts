@@ -84,6 +84,7 @@ export async function fetchDashboardData(): Promise<DashboardData> {
       parsingPorStatus: [],
       normalizacaoPorStatus: [],
       dispositivosPorTipo: [],
+      atosPorTipo: [],
       execucoesRecentes: []
     };
   }
@@ -98,6 +99,7 @@ export async function fetchDashboardData(): Promise<DashboardData> {
       parsingPorStatus: [],
       normalizacaoPorStatus: [],
       dispositivosPorTipo: [],
+      atosPorTipo: [],
       execucoesRecentes: []
     };
   }
