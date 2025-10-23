@@ -82,3 +82,7 @@
 - 2025-10-23 09:05 BRT — Parser agora realiza até duas tentativas ao chamar o Gemini. Em caso de `JSONDecodeError` ou falha na extração do bloco JSON, a função loga o erro (`logging.warning`) e repete a solicitação antes de desistir. Isso reduz quedas causadas por respostas malformadas sem necessidade de intervenção manual.
 
 - 2025-10-23 09:10 BRT — Loader atualizado para usar upsert em `versao_textual`, evitando erro 409 quando a combinação (dispositivo_id, hash_texto) já está presente.
+
+- 2025-10-23 10:55 BRT — Implementado chunking no parser LLM (`src/parser/chunking.py`): textos extensos agora são divididos em trechos seguros com auxílio do Gemini auxiliar, processados em sequência e recombinados antes da normalização. Loader ajustado para `versao_textual` usar upsert e truncar `rotulo`, evitando conflitos; crawler passou a extrair apenas os itens descobertos no período atual. Visualizador Next.js ganhou endpoint `/api/act`, filtro por ato específico e exibição do texto integral dos dispositivos.
+
+- 2025-10-23 11:02 BRT — Crawler ajustado para pular a etapa de extração quando nenhuma descoberta nova ocorre no intervalo, evitando baixar textos pendentes de outros períodos (anterior a refinamento do filtro por URNs).

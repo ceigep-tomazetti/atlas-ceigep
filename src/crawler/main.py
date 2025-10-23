@@ -95,7 +95,7 @@ def processar_origem(
     *,
     dry_run: bool,
     append_only: bool,
-) -> tuple[int, int, int]:
+) -> tuple[int, int, int, list[str]]:
     logging.info(
         "Iniciando descoberta para origem %s (%s) período %s → %s",
         origem["nome"],
@@ -104,6 +104,7 @@ def processar_origem(
         periodo_fim,
     )
     novos = duplicados = falhas = 0
+    novos_urns: list[str] = []
     try:
         descobertas = estrategia.discover(periodo_inicio, periodo_fim, limite=limite)
         for descoberta in descobertas:
@@ -114,6 +115,7 @@ def processar_origem(
                 is_new = inserir_descoberta(descoberta, append_only=append_only)
                 if is_new:
                     novos += 1
+                    novos_urns.append(descoberta.urn_lexml)
                 else:
                     duplicados += 1
             except Exception as exc:  # noqa: BLE001
@@ -134,7 +136,7 @@ def processar_origem(
         duplicados,
         falhas,
     )
-    return novos, duplicados, falhas
+    return novos, duplicados, falhas, novos_urns
 
 
 def main(argv: Optional[Iterable[str]] = None) -> None:
@@ -193,6 +195,8 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
     if periodo_inicio > periodo_fim:
         raise SystemExit("Período inválido: data inicial maior que data final.")
 
+    novas_descobertas: dict[str, list[str]] = {}
+
     for origem in origens:
         origem_id = str(origem["id"])
         estrategia = registry.get(origem_id)
@@ -200,7 +204,7 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
             logging.info("Nenhuma estratégia suportando origem %s (%s). Ignorando.", origem["nome"], origem_id)
             continue
 
-        novos, duplicados, falhas = processar_origem(
+        novos, duplicados, falhas, urns_novos = processar_origem(
             origem,
             estrategia,
             periodo_inicio,
@@ -209,6 +213,8 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
             dry_run=args.dry_run,
             append_only=args.append_only,
         )
+        if urns_novos:
+            novas_descobertas[origem_id] = urns_novos
         if not args.dry_run:
             registrar_execucao(
                 origem_id,
@@ -220,7 +226,17 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
             )
 
     if not args.discover_only:
-        run_extract(origens, registry, args.limit, dry_run=args.dry_run)
+        mapping = novas_descobertas or None
+        if mapping:
+            run_extract(
+                origens,
+                registry,
+                args.limit,
+                dry_run=args.dry_run,
+                urns_por_origem=mapping if not args.dry_run else None,
+            )
+        else:
+            logging.info("Nenhuma descoberta nova no período informado – extração ignorada.")
 
 
 def run_backfill(origens, registry, limite: Optional[int], *, dry_run: bool, append_only: bool) -> None:
@@ -230,13 +246,14 @@ def run_backfill(origens, registry, limite: Optional[int], *, dry_run: bool, app
         periodo_inicio = current_month
         periodo_fim = _month_end(current_month)
         logging.info("Processando período %s → %s", periodo_inicio, periodo_fim)
+        novas_descobertas: dict[str, list[str]] = {}
         for origem in origens:
             origem_id = str(origem["id"])
             estrategia = registry.get(origem_id)
             if not estrategia:
                 logging.info("Nenhuma estratégia suportando origem %s (%s). Ignorando.", origem["nome"], origem_id)
                 continue
-            novos, duplicados, falhas = processar_origem(
+            novos, duplicados, falhas, urns_novos = processar_origem(
                 origem,
                 estrategia,
                 periodo_inicio,
@@ -245,6 +262,8 @@ def run_backfill(origens, registry, limite: Optional[int], *, dry_run: bool, app
                 dry_run=dry_run,
                 append_only=append_only,
             )
+            if urns_novos:
+                novas_descobertas[origem_id] = urns_novos
             if not dry_run:
                 registrar_execucao(
                     origem_id,
@@ -256,11 +275,21 @@ def run_backfill(origens, registry, limite: Optional[int], *, dry_run: bool, app
                     observacoes="backfill",
                 )
         if not dry_run:
-            run_extract(origens, registry, limite, dry_run=False)
+            mapping = novas_descobertas or None
+            if mapping:
+                run_extract(
+                    origens,
+                    registry,
+                    limite,
+                    dry_run=False,
+                    urns_por_origem=mapping,
+                )
+            else:
+                logging.info("Backfill não gerou novas descobertas neste ciclo – etapa de extração ignorada.")
         current_month = _previous_month(current_month)
 
 
-def run_extract(origens, registry, limite: Optional[int], *, dry_run: bool) -> None:
+def run_extract(origens, registry, limite: Optional[int], *, dry_run: bool, urns_por_origem: Optional[dict[str, list[str]]] = None) -> None:
     logging.info("Iniciando fase de extração de textos brutos.")
     for origem in origens:
         origem_id = str(origem["id"])
@@ -270,7 +299,11 @@ def run_extract(origens, registry, limite: Optional[int], *, dry_run: bool) -> N
         if not hasattr(estrategia, "extract_text"):
             logging.info("Estratégia da origem %s não implementa extração. Pulando.", origem_id)
             continue
-        registros = db_utils.fetch_descobertos(origem_id, limite)
+        registros = []
+        if urns_por_origem and origem_id in urns_por_origem:
+            registros = db_utils.fetch_descobertos_por_urns(origem_id, urns_por_origem[origem_id])
+        else:
+            registros = db_utils.fetch_descobertos(origem_id, limite)
         if not registros:
             logging.info("Nenhum item 'descoberto' para extrair na origem %s.", origem_id)
             continue
