@@ -15,7 +15,13 @@ class NormativeRepository:
     def __init__(self) -> None:
         self.client = get_supabase_client()
 
-    def fetch_para_normalizacao(self, origem_id: str, limit: Optional[int]) -> List[dict]:
+    def fetch_para_normalizacao(
+        self,
+        origem_id: str,
+        limit: Optional[int],
+        *,
+        urns: Optional[List[str]] = None,
+    ) -> List[dict]:
         query = (
             self.client.table("fonte_documento")
             .select("*")
@@ -24,7 +30,9 @@ class NormativeRepository:
             .eq("status_normalizacao", "pendente")
             .order("normalizacao_executado_em", desc=True)
         )
-        if limit:
+        if urns:
+            query = query.in_("urn_lexml", urns)
+        if limit and not urns:
             query = query.limit(limit)
         response = query.execute()
         return response.data or []

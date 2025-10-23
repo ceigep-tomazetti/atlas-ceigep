@@ -312,6 +312,11 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
     parser = argparse.ArgumentParser(description="Loader relacional para atos normativos")
     parser.add_argument("--origin-id", action="append", help="UUID da fonte_origem (pode repetir)")
     parser.add_argument("--limit", type=int, help="Limite de itens por origem")
+    parser.add_argument(
+        "--urn",
+        action="append",
+        help="URN LexML específica a normalizar (pode repetir). Ignora --limit para esses itens.",
+    )
     parser.add_argument("--dry-run", action="store_true", help="Simula execução sem gravar")
 
     args = parser.parse_args(argv)
@@ -322,14 +327,24 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
         return
 
     repo = NormativeRepository()
+    urns_param = list(dict.fromkeys(args.urn)) if args.urn else None
     processados = 0
 
     for origem in origens:
         origem_id = str(origem["id"])
-        registros = repo.fetch_para_normalizacao(origem_id, args.limit)
+        registros = repo.fetch_para_normalizacao(origem_id, args.limit, urns=urns_param)
         if not registros:
-            logging.info("Nenhum item pendente de normalização na origem %s.", origem_id)
+            if urns_param:
+                logging.info(
+                    "Nenhum item corresponde às URNs fornecidas para normalização na origem %s.",
+                    origem_id,
+                )
+            else:
+                logging.info("Nenhum item pendente de normalização na origem %s.", origem_id)
             continue
+
+        if urns_param:
+            logging.info("Processando %s URN(s) específicas na origem %s.", len(registros), origem_id)
 
         for registro in registros:
             urn = registro["urn_lexml"]
