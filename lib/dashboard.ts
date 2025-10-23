@@ -1,4 +1,4 @@
-import { supabaseAdmin, supabaseServiceRoleKey, supabaseUrl } from "./supabaseAdmin";
+import { supabaseAdmin } from "./supabaseAdmin";
 
 export type CountEntry = {
   label: string;
@@ -37,35 +37,34 @@ async function countAll(table: string, column = "*") {
 }
 
 async function countGrouped(table: string, column: string): Promise<CountEntry[]> {
-  const url = new URL(`${supabaseUrl}/rest/v1/${table}`);
-  url.searchParams.set("select", `${column},count:count()`);
-  url.searchParams.set("group", column);
+  const pageSize = 2000;
+  let start = 0;
+  const counts = new Map<string, number>();
 
-  if (!supabaseServiceRoleKey) {
-    throw new Error("SUPABASE_SERVICE_ROLE_KEY não definido");
+  while (true) {
+    const { data, error } = await supabaseAdmin
+      .from(table)
+      .select(column)
+      .range(start, start + pageSize - 1);
+
+    if (error) throw error;
+    const rows: Array<Record<string, any>> = data ?? [];
+
+    for (const row of rows) {
+      const rawValue = row[column] as string | null | undefined;
+      const key = rawValue ?? "(sem valor)";
+      counts.set(key, (counts.get(key) ?? 0) + 1);
+    }
+
+    if (rows.length < pageSize) {
+      break;
+    }
+    start += pageSize;
   }
 
-  const headers = new Headers({
-    apikey: supabaseServiceRoleKey,
-    Authorization: `Bearer ${supabaseServiceRoleKey}`,
-    Accept: "application/json"
-  });
-
-  const response = await fetch(url.toString(), {
-    headers,
-    cache: "no-store"
-  });
-
-  if (!response.ok) {
-    throw new Error(`Falha ao agrupar ${table}: ${response.status}`);
-  }
-
-  const data = (await response.json()) as Array<Record<string, any>>;
-
-  return data.map((row) => ({
-    label: row[column] ?? "(sem valor)",
-    count: Number(row.count ?? 0)
-  }));
+  return Array.from(counts.entries())
+    .map(([label, count]) => ({ label, count }))
+    .sort((a, b) => b.count - a.count);
 }
 
 export async function fetchDashboardData(): Promise<DashboardData> {
