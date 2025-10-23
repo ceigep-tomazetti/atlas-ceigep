@@ -1,0 +1,10 @@
+{
+  "name": "ceigep-atlas",
+  "private": true,
+  "packageManager": "pnpm@9.12.1",
+  "scripts": {
+    "dev": "pnpm --filter atlas-grafo dev",
+    "build": "pnpm --filter atlas-grafo build",
+    "vercel-build": "pnpm --filter atlas-grafo build"
+  }
+}
