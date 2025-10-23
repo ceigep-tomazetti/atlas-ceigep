@@ -76,14 +76,20 @@ def gerar_chunks(
         )
 
         if limite_relativo is None:
-            # Não foi possível determinar um limite seguro – anexar o restante e encerrar.
-            chunks.append(TextoChunk(indice=indice, inicio=inicio, fim=total_len, texto=texto_bruto[inicio:]))
-            break
+            # Fallback: tenta quebrar em um limite "natural" (dupla quebra de linha ou espaço).
+            for marcador in ("\n\n", "\n", " "):
+                pos = trecho.rfind(marcador, 0, max_chars)
+                if pos > max_chars // 4:
+                    limite_relativo = pos + len(marcador)
+                    break
+            if limite_relativo is None or limite_relativo <= 0:
+                limite_relativo = len(trecho)
 
         fim = inicio + limite_relativo
         if fim <= inicio:
-            chunks.append(TextoChunk(indice=indice, inicio=inicio, fim=total_len, texto=texto_bruto[inicio:]))
-            break
+            fim = min(inicio + max_chars, total_len)
+            if fim <= inicio:
+                break
 
         chunks.append(TextoChunk(indice=indice, inicio=inicio, fim=fim, texto=texto_bruto[inicio:fim]))
         inicio = fim
