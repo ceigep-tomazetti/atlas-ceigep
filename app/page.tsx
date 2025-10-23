@@ -22,20 +22,34 @@ export default async function Home() {
         <Card title="Dispositivos normalizados" value={data.totalDispositivos} />
       </section>
 
-      <section className={styles.gridWide}>
-        <StatsCard
-          title="Documentos por status"
+     <section className={styles.gridWide}>
+       <StatsCard
+          title="Descoberta (status)"
           items={data.documentosPorStatus}
         />
-        <StatsCard
-          title="Parsing (status_parsing)"
-          items={data.parsingPorStatus}
-        />
-        <StatsCard
-          title="Normalização"
-          items={data.normalizacaoPorStatus}
-        />
         <StatsCard title="Dispositivos por tipo" items={data.dispositivosPorTipo} />
+        <StatsCard title="Atos por tipo" items={data.atosPorTipo} />
+      </section>
+
+      <section className={styles.pipeline}>
+        <h2>Fluxo de processamento</h2>
+        <div className={styles.pipelineSteps}>
+          <PipelineStep
+            title="1. Descoberta"
+            description="Documentos coletados via crawler"
+            items={data.documentosPorStatus}
+          />
+          <PipelineStep
+            title="2. Parsing"
+            description="Textos estruturados pelo LLM"
+            items={data.parsingPorStatus}
+          />
+          <PipelineStep
+            title="3. Normalização"
+            description="Inserção na base relacional"
+            items={data.normalizacaoPorStatus}
+          />
+        </div>
       </section>
 
       <section className={styles.execucoes}>
@@ -85,6 +99,36 @@ function StatsCard({
   return (
     <article className={styles.cardList}>
       <h3>{title}</h3>
+      <ul>
+        {items.length === 0 && (
+          <li className={styles.empty}>Sem registros disponíveis.</li>
+        )}
+        {items.map((item) => (
+          <li key={item.label}>
+            <span>{item.label}</span>
+            <strong>{item.count.toLocaleString("pt-BR")}</strong>
+          </li>
+        ))}
+      </ul>
+    </article>
+  );
+}
+
+function PipelineStep({
+  title,
+  description,
+  items
+}: {
+  title: string;
+  description: string;
+  items: { label: string; count: number }[];
+}) {
+  return (
+    <article className={styles.pipelineStep}>
+      <header>
+        <h3>{title}</h3>
+        <p>{description}</p>
+      </header>
       <ul>
         {items.length === 0 && (
           <li className={styles.empty}>Sem registros disponíveis.</li>

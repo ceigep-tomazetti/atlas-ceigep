@@ -25,6 +25,7 @@ export type DashboardData = {
   parsingPorStatus: CountEntry[];
   normalizacaoPorStatus: CountEntry[];
   dispositivosPorTipo: CountEntry[];
+  atosPorTipo: CountEntry[];
   execucoesRecentes: RecentExecucao[];
 };
 
@@ -109,6 +110,7 @@ export async function fetchDashboardData(): Promise<DashboardData> {
     parsingPorStatus,
     normalizacaoPorStatus,
     dispositivosPorTipo,
+    atosPorTipo,
     execucoesRecentes,
     origemLookup
   ] = await Promise.all([
@@ -119,6 +121,7 @@ export async function fetchDashboardData(): Promise<DashboardData> {
     countGrouped("fonte_documento", "status_parsing"),
     countGrouped("fonte_documento", "status_normalizacao"),
     countGrouped("dispositivo", "tipo"),
+    countGrouped("ato_normativo", "tipo_ato"),
     client
       .from("fonte_origem_execucao")
       .select(
@@ -163,6 +166,7 @@ export async function fetchDashboardData(): Promise<DashboardData> {
     parsingPorStatus: normalize(parsingPorStatus),
     normalizacaoPorStatus: normalize(normalizacaoPorStatus),
     dispositivosPorTipo: normalize(dispositivosPorTipo),
+    atosPorTipo: normalize(atosPorTipo),
     execucoesRecentes: execucoes
   };
 }
