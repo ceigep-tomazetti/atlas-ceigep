@@ -152,6 +152,11 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
     parser.add_argument("--until", help="Data final (YYYY-MM-DD).")
     parser.add_argument("--limit", type=int, help="Limite de itens por origem.")
     parser.add_argument(
+        "--urn",
+        action="append",
+        help="URN LexML específica para forçar extração (pode repetir). Ignora --limit para esses itens.",
+    )
+    parser.add_argument(
         "--year",
         type=int,
         help="Executa descoberta para todos os itens de um ano específico (substitui since/until).",
@@ -188,8 +193,10 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
 
     registry = build_strategy_registry(origens)
 
+    urns_param = list(dict.fromkeys(args.urn)) if args.urn else None
+
     if args.extract:
-        run_extract(origens, registry, args.limit, dry_run=args.dry_run)
+        run_extract(origens, registry, args.limit, dry_run=args.dry_run, urns=urns_param)
         return
 
     if args.backfill:
@@ -257,9 +264,13 @@ def main(argv: Optional[Iterable[str]] = None) -> None:
                 args.limit,
                 dry_run=args.dry_run,
                 urns_por_origem=mapping if not args.dry_run else None,
+                urns=urns_param,
             )
         else:
-            logging.info("Nenhuma descoberta nova no período informado – extração ignorada.")
+            if urns_param:
+                run_extract(origens, registry, args.limit, dry_run=args.dry_run, urns=urns_param)
+            else:
+                logging.info("Nenhuma descoberta nova no período informado – extração ignorada.")
 
 
 def run_backfill(origens, registry, limite: Optional[int], *, dry_run: bool, append_only: bool) -> None:
@@ -313,8 +324,17 @@ def run_backfill(origens, registry, limite: Optional[int], *, dry_run: bool, app
         current_month = _previous_month(current_month)
 
 
-def run_extract(origens, registry, limite: Optional[int], *, dry_run: bool, urns_por_origem: Optional[dict[str, list[str]]] = None) -> None:
+def run_extract(
+    origens,
+    registry,
+    limite: Optional[int],
+    *,
+    dry_run: bool,
+    urns_por_origem: Optional[dict[str, list[str]]] = None,
+    urns: Optional[list[str]] = None,
+) -> None:
     logging.info("Iniciando fase de extração de textos brutos.")
+    urns_global = list(dict.fromkeys(urns or []))
     for origem in origens:
         origem_id = str(origem["id"])
         estrategia = registry.get(origem_id)
@@ -324,12 +344,23 @@ def run_extract(origens, registry, limite: Optional[int], *, dry_run: bool, urns
             logging.info("Estratégia da origem %s não implementa extração. Pulando.", origem_id)
             continue
         registros = []
+        urns_alvo: list[str] = []
         if urns_por_origem and origem_id in urns_por_origem:
-            registros = db_utils.fetch_descobertos_por_urns(origem_id, urns_por_origem[origem_id])
+            urns_alvo.extend(urns_por_origem[origem_id])
+        if urns_global:
+            urns_alvo.extend(urns_global)
+        if urns_alvo:
+            registros = db_utils.fetch_descobertos_por_urns(origem_id, list(dict.fromkeys(urns_alvo)))
         else:
             registros = db_utils.fetch_descobertos(origem_id, limite)
         if not registros:
-            logging.info("Nenhum item 'descoberto' para extrair na origem %s.", origem_id)
+            if urns_alvo:
+                logging.info(
+                    "Nenhum item 'descoberto' correspondente às URNs fornecidas na origem %s.",
+                    origem_id,
+                )
+            else:
+                logging.info("Nenhum item 'descoberto' para extrair na origem %s.", origem_id)
             continue
 
         extraidos = 0
