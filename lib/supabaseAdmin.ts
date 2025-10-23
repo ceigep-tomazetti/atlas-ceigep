@@ -1,17 +1,23 @@
-import { createClient } from "@supabase/supabase-js";
+import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 
-export const supabaseUrl = process.env.SUPABASE_URL;
-export const supabaseServiceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+const supabaseUrl = process.env.SUPABASE_URL;
+const supabaseServiceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
-if (!supabaseUrl || !supabaseServiceRoleKey) {
-  throw new Error(
-    "SUPABASE_URL e SUPABASE_SERVICE_ROLE_KEY devem estar definidos no ambiente."
-  );
-}
+let cachedClient: SupabaseClient | null = null;
 
-export const supabaseAdmin = createClient(supabaseUrl, supabaseServiceRoleKey, {
-  auth: {
-    autoRefreshToken: false,
-    persistSession: false
+export const hasSupabaseAdmin = Boolean(supabaseUrl && supabaseServiceRoleKey);
+
+export function getSupabaseAdmin(): SupabaseClient | null {
+  if (!hasSupabaseAdmin) {
+    return null;
   }
-});
+  if (!cachedClient) {
+    cachedClient = createClient(supabaseUrl!, supabaseServiceRoleKey!, {
+      auth: {
+        autoRefreshToken: false,
+        persistSession: false
+      }
+    });
+  }
+  return cachedClient;
+}

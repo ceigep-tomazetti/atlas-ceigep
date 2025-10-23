@@ -1,4 +1,4 @@
-import { supabaseAdmin } from "./supabaseAdmin";
+import { getSupabaseAdmin, hasSupabaseAdmin } from "./supabaseAdmin";
 
 export type CountEntry = {
   label: string;
@@ -29,7 +29,10 @@ export type DashboardData = {
 };
 
 async function countAll(table: string, column = "*") {
-  const { count, error } = await supabaseAdmin
+  const client = getSupabaseAdmin();
+  if (!client) return 0;
+
+  const { count, error } = await client
     .from(table)
     .select(column, { count: "exact", head: true });
   if (error) throw error;
@@ -37,12 +40,15 @@ async function countAll(table: string, column = "*") {
 }
 
 async function countGrouped(table: string, column: string): Promise<CountEntry[]> {
+  const client = getSupabaseAdmin();
+  if (!client) return [];
+
   const pageSize = 2000;
   let start = 0;
   const counts = new Map<string, number>();
 
   while (true) {
-    const { data, error } = await supabaseAdmin
+    const { data, error } = await client
       .from(table)
       .select(column)
       .range(start, start + pageSize - 1);
@@ -68,6 +74,33 @@ async function countGrouped(table: string, column: string): Promise<CountEntry[]
 }
 
 export async function fetchDashboardData(): Promise<DashboardData> {
+  if (!hasSupabaseAdmin) {
+    return {
+      totalOrigens: 0,
+      totalDocumentos: 0,
+      totalDispositivos: 0,
+      documentosPorStatus: [],
+      parsingPorStatus: [],
+      normalizacaoPorStatus: [],
+      dispositivosPorTipo: [],
+      execucoesRecentes: []
+    };
+  }
+
+  const client = getSupabaseAdmin();
+  if (!client) {
+    return {
+      totalOrigens: 0,
+      totalDocumentos: 0,
+      totalDispositivos: 0,
+      documentosPorStatus: [],
+      parsingPorStatus: [],
+      normalizacaoPorStatus: [],
+      dispositivosPorTipo: [],
+      execucoesRecentes: []
+    };
+  }
+
   const [
     totalOrigens,
     totalDocumentos,
@@ -86,14 +119,14 @@ export async function fetchDashboardData(): Promise<DashboardData> {
     countGrouped("fonte_documento", "status_parsing"),
     countGrouped("fonte_documento", "status_normalizacao"),
     countGrouped("dispositivo", "tipo"),
-    supabaseAdmin
+    client
       .from("fonte_origem_execucao")
       .select(
         "id, fonte_origem_id, periodo_inicio, periodo_fim, finalizado_em, total_descobertos, total_duplicados, total_falhas"
       )
       .order("finalizado_em", { ascending: false })
       .limit(6),
-    supabaseAdmin.from("fonte_origem").select("id, nome")
+    client.from("fonte_origem").select("id, nome")
   ]);
 
   const origemNomeMap = new Map<string, string>(
